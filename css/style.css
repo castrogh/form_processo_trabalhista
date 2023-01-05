@@ -1,0 +1,237 @@
+/* Estilos Gerais */
+
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #353535;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.subtitulo {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.subtitulo:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #000;
+	margin: 8px auto;
+}
+
+/* Estilos Menu */
+
+.menu{
+	background-color: rgb(58, 58, 58);
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    background-color: rgb(58, 58, 58);
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    font-weight: bold;
+	text-transform: uppercase;;
+	padding: 15px;
+    color:rgb(112, 152, 182);
+    display: inline-block;
+    text-decoration: none
+}
+
+.menu ul li a:hover {
+    background-color: white;
+    transition: background .5s;
+}
+
+/* Estilos Formulário */
+
+.perguntas {
+    /*background-color: #4a1e7c;*/
+    color: #CBCBCB;
+	width: 100%;
+	height: fit-content;
+	margin: 0 0;
+	padding: 15px;
+	position: relative;
+}
+
+.container_form {
+	width: 960px;
+	margin: 400 auto;
+	padding: 40px;
+	position: relative;
+    margin-left: 0px;
+}
+
+.dados_pessoais {
+	/*background-color: rgb(184, 72, 72);*/
+	font-size: 15px;
+	line-height: auto;
+	font-weight: bold;
+	letter-spacing: .1em;
+	color: #CBCBCB;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 20px;
+}
+
+.entrevista {
+	/*background-color: rgb(255, 4, 201);*/
+	font-size: 15px;
+	line-height: auto;
+	font-weight: bold;
+	letter-spacing: .1em;
+	color: #CBCBCB;
+	text-align: left;
+	display: grid;
+	width: 100%;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.textarea {
+	background-color: #3C3C3C;
+	border-color: #CBCBCB;
+	color: #CBCBCB;
+	border-radius: 10px;
+	margin-bottom: 15px;
+	width: 100%;
+	height: 300px;
+}
+
+.button{
+	background-color: #CBCBCB;
+	color: #3C3C3C;
+	border: 1px solid #3C3C3C;
+	border-radius: 7px;
+	padding: 10px;
+	margin-left: 700px;
+	width: fit-content;
+}
+
+.button:hover{
+	background-color: green;
+	cursor: pointer;
+}
+
+.input{
+	border: 3px solid #3C3C3C;
+	width: 200px;
+}
+
+.input:focus, textarea:focus {
+	border-color: #000 !important;
+}
+
+.input:invalid, textarea:invalid {
+	border-color: red;
+}
+
+.input:valid, textarea:valid {
+	border-color: green;
+}
+
+.input:invalid + span::before, textarea:invalid + span::before {
+	content: '✖';
+	color: red;
+}
+
+.input:valid + span::before, textarea:valid + span::before {
+	content: '✓';
+	color: green;
+}
+
+.span{
+	position: relative;
+}
+
+.input + span::before {
+	position: absolute;
+	top: 269px;
+}
+
+.label { 
+	padding-right: 10px;
+}
+
+.labelseguinte { 
+	padding-right: 10px;
+	padding-left: 27px;
+}
+
+
+.titulo {
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	color: #CBCBCB;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 120px;
+}
+
+.subtitulo {
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	color: #CBCBCB;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.subtitulo:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #CBCBCB;
+	margin: 8px auto;
+}
+
+
+/*Resposividade*/
+
+@media screen and (max-width: 768px) {
+	.header_menu {
+		width: 100%;
+		padding: auto;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	form {
+		display: grid;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	label, input {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	button {
+		width: 100%;
+	}
+}
