@@ -64,7 +64,7 @@ p {
 /* Estilos Formulário */
 
 .perguntas {
-    /*background-color: #4a1e7c;*/
+    background-color: #4a1e7c;
     color: #CBCBCB;
 	width: 100%;
 	height: fit-content;
@@ -105,6 +105,7 @@ p {
 	width: 100%;
 	margin-top: 2em;
 	margin-bottom: 2em;
+	position: relative;
 }
 
 .textarea {
@@ -118,18 +119,24 @@ p {
 }
 
 .button{
-	background-color: #CBCBCB;
+	background-color: #9e9e9e;
 	color: #3C3C3C;
 	border: 1px solid #3C3C3C;
 	border-radius: 7px;
 	padding: 10px;
 	margin-left: 700px;
 	width: fit-content;
+	height: fit-content;
 }
 
 .button:hover{
 	background-color: green;
 	cursor: pointer;
+}
+
+.button_pos{
+	position: absolute;
+	transform: translate(8%, -50%);
 }
 
 .input{
@@ -209,29 +216,67 @@ p {
 }
 
 
-/*Resposividade*/
+/* Rodapé */
 
+.footer{
+    background-color: rgb(42, 37, 58);
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_divs{
+    width: 33,33%;
+    border: 1px solid transparent;
+}
+
+.footer_img{
+    width: 70px;
+}
+
+/* Media Query */
 @media screen and (max-width: 768px) {
-	.header_menu {
+    body {
+        background-color: blueviolet;
+    }
+
+    .menu ul li a{
+        width: 100%;
+        display: grid;
+        text-align: center;
+    }
+
+    .footer{
+		align-items: center;
+        display: grid;
+    }
+
+	section {
 		width: 100%;
-		padding: auto;
+	}
+
+	.textarea{
+		width: 90%;
+		height: 100%;
 	}
 }
 
-@media screen and (max-width: 768px) {
-	form {
-		display: grid;
-	}
-}
+@media screen and (max-width:600px){
+    body {
+        background-color: brown;
+    }
+    
+    .menu ul li a {
+        width: 100%;
+        display: grid;
+    }
 
-@media screen and (max-width: 760px) {
-	label, input {
-		width: 100%;
-	}
-}
+    .footer{
+        display: grid;
+    }
 
-@media screen and (max-width: 600px) {
-	button {
-		width: 100%;
-	}
+    .footer img {
+        display: none;
+    }
 }
