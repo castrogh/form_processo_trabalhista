@@ -64,7 +64,7 @@ p {
 /* Estilos Formulário */
 
 .perguntas {
-    background-color: #4a1e7c;
+    /*background-color: #4a1e7c;*/
     color: #CBCBCB;
 	width: 100%;
 	height: fit-content;
@@ -94,7 +94,7 @@ p {
 }
 
 .entrevista {
-	background-color: rgb(255, 4, 201);
+	/*background-color: rgb(255, 4, 201);*/
 	font-size: 15px;
 	line-height: auto;
 	font-weight: bold;
