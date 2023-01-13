@@ -2,7 +2,7 @@
 
 .body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #353535;
+    background-color: #c1c0c0;
 }
 
 p {
@@ -34,13 +34,14 @@ p {
 /* Estilos Menu */
 
 .menu{
-	background-color: rgb(58, 58, 58);
+	background-color: rgb(130, 130, 130);
 }
 
 .menu ul {
     list-style: none;
-    padding: 0;
-    background-color: rgb(58, 58, 58);
+    padding: 0px;
+    background-color: rgb(135, 135, 135);
+	text-align: right;
 }
 
 .menu ul li {
@@ -51,14 +52,19 @@ p {
     font-weight: bold;
 	text-transform: uppercase;;
 	padding: 15px;
-    color:rgb(112, 152, 182);
+    color:rgb(0, 0, 0);
     display: inline-block;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .menu ul li a:hover {
-    background-color: white;
+    background-color: rgb(91, 90, 90);
     transition: background .5s;
+}
+
+.menu_img{
+	width: 75px;
+	float: left;
 }
 
 /* Estilos Formulário */
@@ -82,15 +88,19 @@ p {
 }
 
 .dados_pessoais {
-	/*background-color: rgb(184, 72, 72);*/
+	/*background-color: rgb(209, 203, 203);*/
 	font-size: 15px;
 	line-height: auto;
 	font-weight: bold;
 	letter-spacing: .1em;
-	color: #CBCBCB;
+	color: #000000;
 	text-transform: uppercase;
 	text-align: center;
 	padding: 20px;
+	/*border-radius: 20px;
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;*/
 }
 
 .entrevista {
@@ -99,7 +109,7 @@ p {
 	line-height: auto;
 	font-weight: bold;
 	letter-spacing: .1em;
-	color: #CBCBCB;
+	color: black;
 	text-align: left;
 	display: grid;
 	width: 100%;
@@ -109,7 +119,7 @@ p {
 }
 
 .textarea {
-	background-color: #3C3C3C;
+	background-color: #9d9d9d;
 	border-color: #CBCBCB;
 	color: #CBCBCB;
 	border-radius: 10px;
@@ -140,6 +150,7 @@ p {
 .input{
 	border: 3px solid #3C3C3C;
 	width: 200px;
+	border-radius: 20px;
 }
 
 .input:focus, textarea:focus {
@@ -188,7 +199,7 @@ p {
 	line-height: 30px;
 	font-weight: bold;
 	letter-spacing: .1em;
-	color: #CBCBCB;
+	color: black;
 	text-transform: uppercase;
 	text-align: center;
 	margin-top: 120px;
@@ -199,7 +210,7 @@ p {
 	line-height: 30px;
 	font-weight: bold;
 	letter-spacing: .1em;
-	color: #CBCBCB;
+	color: black;
 	text-transform: uppercase;
 	text-align: center;
 }
@@ -209,7 +220,7 @@ p {
 	display: block;
 	width: 60px;
 	height: 3px;
-	background: #CBCBCB;
+	background: black;
 	margin: 8px auto;
 }
 
@@ -217,20 +228,22 @@ p {
 /* Rodapé */
 
 .footer{
-    background-color: rgb(42, 37, 58);
-    color: white;
+    background-color: rgb(135, 135, 135);
+    color: black;
     font-size: 20px;
     display: flex;
     justify-content: space-around;
+	height: 70px;
 }
 
 .footer_divs{
     width: 33,33%;
     border: 1px solid transparent;
+	margin-top: 24px;
 }
 
 .footer_img{
-    width: 70px;
+    width: 100px;
 }
 
 /* Media Query */
