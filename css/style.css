@@ -2,7 +2,7 @@
 
 .body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #c1c0c0;
+    background-color: white;
 }
 
 p {
@@ -57,8 +57,29 @@ p {
 	top: 31px;
 }
 
-.subtitulo{
+.subtitulo_partes{
+	position: absolute;
+	width: 345px;
+	height: 84px;
+	left: 173px;
+	top: 250px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 78px;
+	
+	color: #454242;
+}
 
+.subtitulo_partes:after{
+	content: "";
+	display: block;
+	width: 1680px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;	
 }
 
 
