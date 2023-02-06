@@ -82,31 +82,184 @@ p {
 	margin: 8px auto;	
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Estilos Formulário */
+
+.label_nome{
+	position: absolute;
+	width: 125px;
+	height: 109px;
+	left: 73px;
+	top: 1192px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 550;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;	
+}
+
+.label_nome:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.input_nome{
+	position: absolute;
+	width: 1474px;
+	height: 65px;
+	left: 225px;
+	top: 1214px;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_data_nasc{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 73px;
+	top: 1303px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 550;
+	font-size: 40px;
+	line-height: 109px;
+	color: #454242;
+}
+
+.label_data_nasc:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.input_data_nasc{
+	position: absolute;
+	width: 300px;
+	height: 65px;
+	left: 520px;
+	top: 1325px;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_nacionalidade{
+	position: absolute;
+	width: 185px;
+	height: 109px;
+	left: 73px;
+	top: 1414px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 550;
+	font-size: 40px;
+	line-height: 109px;
+
+	color: #454242;
+}
+
+.label_nacionalidade_sim{
+	
+	position: absolute;
+	width: 78px;
+	height: 109px;
+	left: 350px;
+	top: 1414px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+
+	color: #000000;
+}
+
+.input_nacionalidade_sim{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 300px;
+	top: 1446px;
+	
+	background: #F0F0F0;	
+}
+
+.label_nacionalidade_nao{
+	position: absolute;
+	width: 82px;
+	height: 109px;
+	left: 530px;
+	top: 1414px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #000000;	
+}
+
+.input_nacionalidade_nao{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 480px;
+	top: 1446px;
+	
+	background: #F0F0F0;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Media Query */

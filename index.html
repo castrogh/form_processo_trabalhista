@@ -22,6 +22,28 @@
             <h1 class="subtitulo_partes">Polo Ativo</h1>
         </div>
 
+        <form action="https://api.staticforms.xyz/submit" method="POST" id="form_entrevista">
+            <input type="hidden" name="accessKey" value="9ac369a4-9f2b-42a1-bcff-613d07ce6157">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/index.html">
+            <input type="text" name="honeypot" style="display: none;">
+
+            <div class = "dados_pessoais">
+                <label class="label_nome" for="input_nome">Nome</label>
+                <input class="input_nome" type="text" id="input_nome" name="$nome" required maxlength="40" minlength="2"></input>
+
+                <label class="label_data_nasc" for="input_data_nasc">Data de Nascimento</label>
+                <input class="input_data_nasc" type="date" id="input_data_nasc" name="$data_nasc" required maxlength="8"></input>
+
+                <label class="label_nacionalidade">Brasileiro</label>
+
+                <input class="input_nacionalidade_sim" type="radio" id="input_nacionalidade_sim" name="$input_nacionalidade" required value="sim">
+                <label class="label_nacionalidade_sim" for="input_nacionalidade_sim">Sim</label>
+
+                <input class="input_nacionalidade_nao" type="radio" id="input_nacionalidade_nao" name="$input_nacionalidade" required value="nao">
+                <label class="label_nacionalidade_nao" for="input_nacionalidade_nao">Não</label>
+                
+            </div>
+
     </body>
 
 </html>
