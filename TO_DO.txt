@@ -1,4 +1,4 @@
 TO DO:
 
 - Aumentar espaço do texto em relação a borda esquerda dos inputs
-- Verificar por que o checked não está funcionando (manter checkbox pré selecionado)
+- Configurar dropdown do estado civil
