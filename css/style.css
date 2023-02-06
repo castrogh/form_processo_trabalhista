@@ -11,240 +11,82 @@ p {
 	line-height: 20px;
 }
 
-.subtitulo {
-	font-size: 24px;
-	line-height: 30px;
-	font-weight: bold;
-	letter-spacing: .1em;
-	color: #000;
-	text-transform: uppercase;
-	text-align: center;
-	margin-bottom: 40px;
+/* Estilos Header */
+
+.img_header{
+	position: absolute;
+	width: 1920px;
+	height: 720px;
 }
 
-.subtitulo:after {
-	content: "";
-	display: block;
-	width: 60px;
-	height: 3px;
-	background: #000;
-	margin: 8px auto;
+/* Estilos Títulos */
+.titulo_partes{
+	position: absolute;
+	width: 912px;
+	height: 162px;
+	left: -105px;
+	top: 806px;
+	
+	background: rgba(239, 239, 239, 0.79);
+	
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 90px;
 }
 
-/* Estilos Menu */
+.titulo_partes_txt{
+	position: absolute;
+	width: 311px;
+	height: 95px;
+	left: 420px;
+	top: 35px;
 
-.menu{
-	background-color: rgb(130, 130, 130);
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 80px;
+	line-height: 98px;
+
+	color: #454242;
 }
 
-.menu ul {
-    list-style: none;
-    padding: 0px;
-    background-color: rgb(135, 135, 135);
-	text-align: right;
+.titulo_partes_img{
+	position: absolute;
+	width: 186px;
+	height: 108px;
+	left: 173px;
+	top: 31px;
 }
 
-.menu ul li {
-    display: inline;
+.subtitulo{
+
 }
 
-.menu ul li a {
-    font-weight: bold;
-	text-transform: uppercase;;
-	padding: 15px;
-    color:rgb(0, 0, 0);
-    display: inline-block;
-    text-decoration: none;
-}
 
-.menu ul li a:hover {
-    background-color: rgb(91, 90, 90);
-    transition: background .5s;
-}
 
-.menu_img{
-	width: 75px;
-	float: left;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Estilos Formulário */
 
-.perguntas {
-    /*background-color: #4a1e7c;*/
-    color: #CBCBCB;
-	width: 100%;
-	height: fit-content;
-	margin: 0 0;
-	padding: 15px;
-	position: relative;
-}
-
-.container_form {
-	width: 960px;
-	margin: 400 auto;
-	padding: 40px;
-	position: relative;
-    margin-left: 0px;
-}
-
-.dados_pessoais {
-	/*background-color: rgb(209, 203, 203);*/
-	font-size: 15px;
-	line-height: auto;
-	font-weight: bold;
-	letter-spacing: .1em;
-	color: #000000;
-	text-transform: uppercase;
-	text-align: center;
-	padding: 20px;
-	/*border-radius: 20px;
-	width: fit-content;
-	margin-left: auto;
-	margin-right: auto;*/
-}
-
-.entrevista {
-	/*background-color: rgb(255, 4, 201);*/
-	font-size: 15px;
-	line-height: auto;
-	font-weight: bold;
-	letter-spacing: .1em;
-	color: black;
-	text-align: left;
-	display: grid;
-	width: 100%;
-	margin-top: 2em;
-	margin-bottom: 2em;
-	position: relative;
-}
-
-.textarea {
-	background-color: #9d9d9d;
-	border-color: #CBCBCB;
-	color: #CBCBCB;
-	border-radius: 10px;
-	margin-bottom: 15px;
-	width: 100%;
-	height: 300px;
-}
-
-.button{
-	background-color: #9e9e9e;
-	color: #3C3C3C;
-	border: 1px solid #3C3C3C;
-	border-radius: 7px;
-	width: fit-content;
-	height: fit-content;
-	padding: 10px;
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-}
-
-.button:hover{
-	background-color: green;
-	cursor: pointer;
-}
-
-.input{
-	border: 3px solid #3C3C3C;
-	width: 200px;
-	border-radius: 20px;
-}
-
-.input:focus, textarea:focus {
-	border-color: #000 !important;
-}
-
-.input:invalid, textarea:invalid {
-	border-color: red;
-}
-
-.input:valid, textarea:valid {
-	border-color: green;
-}
-
-.input:invalid + span::before, textarea:invalid + span::before {
-	content: '✖';
-	color: red;
-}
-
-.input:valid + span::before, textarea:valid + span::before {
-	content: '✓';
-	color: green;
-}
-
-.span{
-	position: relative;
-}
-
-.input + span::before {
-	position: absolute;
-	top: 269px;
-}
-
-.label { 
-	padding-right: 10px;
-}
-
-.labelseguinte { 
-	padding-right: 10px;
-	padding-left: 27px;
-}
-
-
-.titulo {
-	font-size: 30px;
-	line-height: 30px;
-	font-weight: bold;
-	letter-spacing: .1em;
-	color: black;
-	text-transform: uppercase;
-	text-align: center;
-	margin-top: 120px;
-}
-
-.subtitulo {
-	font-size: 15px;
-	line-height: 30px;
-	font-weight: bold;
-	letter-spacing: .1em;
-	color: black;
-	text-transform: uppercase;
-	text-align: center;
-}
-
-.subtitulo:after {
-	content: "";
-	display: block;
-	width: 60px;
-	height: 3px;
-	background: black;
-	margin: 8px auto;
-}
-
-
-/* Rodapé */
-
-.footer{
-    background-color: rgb(135, 135, 135);
-    color: black;
-    font-size: 20px;
-    display: flex;
-    justify-content: space-around;
-	height: 70px;
-}
-
-.footer_divs{
-    width: 33,33%;
-    border: 1px solid transparent;
-	margin-top: 24px;
-}
-
-.footer_img{
-    width: 100px;
-}
 
 /* Media Query */
 @media screen and (max-width: 768px) {
@@ -272,6 +114,18 @@ p {
 		height: 100%;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:600px){
     body {
