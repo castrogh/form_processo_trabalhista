@@ -237,6 +237,40 @@ p {
 	background: #F0F0F0;	
 }
 
+.input_nacionalidade_outra{
+	position: absolute;
+	width: 500px;
+	height: 65px;
+	left: 1200px;
+	top: 1440px;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;	
+}
+
+.label_nacionalidade_outra{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 700px;
+	top: 1414px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 109px;
+	
+	color: #000000;	
+}
+
 
 
 

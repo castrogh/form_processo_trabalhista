@@ -23,6 +23,7 @@
         </div>
 
         <form action="https://api.staticforms.xyz/submit" method="POST" id="form_entrevista">
+            <script src="js/script.js"></script>
             <input type="hidden" name="accessKey" value="9ac369a4-9f2b-42a1-bcff-613d07ce6157">
             <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/index.html">
             <input type="text" name="honeypot" style="display: none;">
@@ -36,11 +37,18 @@
 
                 <label class="label_nacionalidade">Brasileiro</label>
 
-                <input class="input_nacionalidade_sim" type="radio" id="input_nacionalidade_sim" name="$input_nacionalidade" required value="sim">
-                <label class="label_nacionalidade_sim" for="input_nacionalidade_sim">Sim</label>
+                <input class="input_nacionalidade_sim" type="radio" id="input_nacionalidade_sim" name="$input_nacionalidade" required value="sim" onClick="habilitacao()">
+                <label class="label_nacionalidade_sim" for="input_nacionalidade_sim" >Sim</label>
 
-                <input class="input_nacionalidade_nao" type="radio" id="input_nacionalidade_nao" name="$input_nacionalidade" required value="nao">
+                <input class="input_nacionalidade_nao" type="radio" id="input_nacionalidade_nao" name="$input_nacionalidade" required value="nao" onClick="habilitacao()">
                 <label class="label_nacionalidade_nao" for="input_nacionalidade_nao">Não</label>
+
+                <label class="label_nacionalidade_outra" for="input_nome">Informe sua nacionalidade</label>
+                <input class="input_nacionalidade_outra" type="text" id="input_nacionalidade_outra" name="$nacionalidade_outra" required maxlength="40" minlength="2"></input>
+
+                
+
+                
                 
             </div>
 
