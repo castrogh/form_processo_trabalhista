@@ -44,11 +44,12 @@
                 <input class="input_nacionalidade_nao" type="radio" id="input_nacionalidade_nao" name="$input_nacionalidade" required value="nao" onClick="habilitacao()">
                 <label class="label_nacionalidade_nao" for="input_nacionalidade_nao">Não</label>
 
-                <label class="label_nacionalidade_outra" for="input_nome">Informe sua nacionalidade</label>
+                <label class="label_nacionalidade_outra" for="input_nacionalidade_outra">Informe sua nacionalidade</label>
                 <input class="input_nacionalidade_outra" type="text" id="input_nacionalidade_outra" name="$nacionalidade_outra" required maxlength="40" minlength="2" disabled></input>
 
+                <label class="label_estado_civil" for="input_estado_civil">Estado Civil</label>
                 <div class="container">
-                    <input type="text" id="input_estado_civil" name="estado_civil" class="input_dropdown" placeholder="Selecione o Estado Civil" onFocus="dropdown(0)" onBlur="dropdown(1)"/>
+                    <input class="input_dropdown" type="text" id="input_estado_civil" name="$estado_civil" placeholder="Selecione o Estado Civil" onFocus="dropdown(0)" onBlur="dropdown(1)"/>
                         <div class="dropdown">        
                                 <div class="item" id="item-1" onMouseDown="category(1)">Casado(a)</div>
                                 <div class="item" id="item-2" onMouseDown="category(2)">Solteiro(a)</div>
@@ -56,6 +57,24 @@
                                 <div class="item" id="item-4" onMouseDown="category(4)">Viúvo(a)</div>
                         </div>
                 </div>
+
+                <label class="label_profissao" for="input_profissao">Profissão</label>
+                <input class="input_profissao" type="text" id="input_profissao" name="$input_profissao" required maxlength="40" minlength="2"></input>
+
+                <label class="label_cpf" for="input_cpf">CPF</label>
+                <input class="input_cpf" type="text" id="input_cpf" name="$input_cpf" required maxlength="11" minlength="11"></input>
+
+                <label class="label_rg" for="input_rg">RG</label>
+                <input class="input_rg" type="text" id="input_rg" name="$input_rg" required maxlength="9" minlength="9"></input>
+
+                <label class="label_ctps" for="input_ctps">CTPS</label>
+                <input class="input_ctps" type="text" id="input_ctps" name="$input_ctps" required maxlength="8" minlength="8"></input>
+
+                <label class="label_pis" for="input_pis">PIS/PASEP</label>
+                <input class="input_pis" type="text" id="input_pis" name="$input_pis" required maxlength="8" minlength="8"></input>
+
+                <label class="label_email" for="input_email">E-mail</label>
+                <input class="input_email" type="email" id="input_email" name="$input_email" required maxlength="40" minlength="8"></input>
 
             </div>
         

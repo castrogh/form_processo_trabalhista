@@ -254,7 +254,10 @@ p {
 	font-weight: 400;
 	font-size: 40px;
 	line-height: 109px;
-	color: #000000;	
+	color: #000000;
+	
+	padding: 0px 20px;
+	box-sizing: border-box;
 }
 
 .label_nacionalidade_outra{
@@ -282,9 +285,11 @@ p {
 	margin: 8px auto;
 }
 
+
+/* Estilos Dropdown */
 .container{
-	left: 500px;
-	top: 1547px;
+	left: 330px;
+	top: 1569px;
 	position: absolute;
 }
 
@@ -326,14 +331,302 @@ p {
 	transition: .3s;
   }
 
+.label_estado_civil{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 73px;
+	top: 1550px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 550;
+	font-size: 40px;
+	line-height: 109px;
+
+	color: #454242;
+}
+
+.label_estado_civil:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+/*FINAL - Estilos Dropdown*/
 
 
+.label_profissao{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 73px;
+	top: 1700px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 550;
+	font-size: 40px;
+	line-height: 109px;
 
+	color: #454242;	
+}
 
+.label_profissao:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
 
+.input_profissao{
+	position: absolute;
+	width: 1400px;
+	height: 65px;
+	left: 296px;
+	top: 1720px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;	
+}
 
+.label_cpf{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 73px;
+	top: 1855px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 550;
+	font-size: 40px;
+	line-height: 109px;
 
+	color: #454242;	
+}
 
+.label_cpf:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.input_cpf{
+	position: absolute;
+	width: 500px;
+	height: 65px;
+	left: 180px;
+	top: 1875px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;	
+}
+
+.label_rg{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 73px;
+	top: 2000px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 550;
+	font-size: 40px;
+	line-height: 109px;
+
+	color: #454242;	
+}
+
+.label_rg:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.input_rg{
+	position: absolute;
+	width: 500px;
+	height: 65px;
+	left: 180px;
+	top: 2018px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;	
+}
+
+.label_ctps{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 73px;
+	top: 2149px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 550;
+	font-size: 40px;
+	line-height: 109px;
+
+	color: #454242;	
+}
+
+.label_ctps:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.input_ctps{
+	position: absolute;
+	width: 500px;
+	height: 65px;
+	left: 200px;
+	top: 2167px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;	
+}
+
+.label_pis{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 73px;
+	top: 2299px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 550;
+	font-size: 40px;
+	line-height: 109px;
+
+	color: #454242;	
+}
+
+.label_pis:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.input_pis{
+	position: absolute;
+	width: 500px;
+	height: 65px;
+	left: 315px;
+	top: 2320px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;	
+}
+
+.label_email{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 73px;
+	top: 2450px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 550;
+	font-size: 40px;
+	line-height: 109px;
+
+	color: #454242;	
+}
+
+.label_email:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.input_email{
+	position: absolute;
+	width: 500px;
+	height: 65px;
+	left: 315px;
+	top: 2470px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;	
+}
 
 
 
