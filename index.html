@@ -23,7 +23,8 @@
         </div>
 
         <form action="https://api.staticforms.xyz/submit" method="POST" id="form_entrevista">
-            <script src="js/script.js"></script>
+            <script src="js/script_radio.js"></script>
+            <script src="js/script_dropdown.js"></script>
             <input type="hidden" name="accessKey" value="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX">
             <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/index.html">
             <input type="text" name="honeypot" style="display: none;">
@@ -46,18 +47,19 @@
                 <label class="label_nacionalidade_outra" for="input_nome">Informe sua nacionalidade</label>
                 <input class="input_nacionalidade_outra" type="text" id="input_nacionalidade_outra" name="$nacionalidade_outra" required maxlength="40" minlength="2" disabled></input>
 
-                <div class="dropdown">
-                    <button class="btn_dropdown">Estado Civil</button>
-                    <div class="dropdown-content">
-                      <a>Casado(a)</a>
-                      <a>Solteiro(a)</a>
-                      <a>Divorciado(a)</a>
-                      <a>Viúvo(a)</a>
-                    </div>
-                  </div>
-                
-            </div>
+                <div class="container">
+                    <input type="text" id="input_estado_civil" name="estado_civil" class="input_dropdown" placeholder="Selecione o Estado Civil" onFocus="dropdown(0)" onBlur="dropdown(1)"/>
+                        <div class="dropdown">        
+                                <div class="item" id="item-1" onMouseDown="category(1)">Casado(a)</div>
+                                <div class="item" id="item-2" onMouseDown="category(2)">Solteiro(a)</div>
+                                <div class="item" id="item-3" onMouseDown="category(3)">Divorciado(a)</div>
+                                <div class="item" id="item-4" onMouseDown="category(4)">Viúvo(a)</div>
+                        </div>
+                </div>
 
+            </div>
+        
+        </form>
     </body>
 
 </html>

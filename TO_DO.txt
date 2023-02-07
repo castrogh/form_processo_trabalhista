@@ -1,4 +1,0 @@
-TO DO:
-
-- Aumentar espaço do texto em relação a borda esquerda dos inputs
-- Configurar dropdown do estado civil
