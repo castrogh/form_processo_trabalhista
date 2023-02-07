@@ -19,7 +19,7 @@
             <img src="img/img_partes.png" class="titulo_partes_img"></img>
             <h1 class="titulo_partes_txt">Partes</h1>
 
-            <h1 class="subtitulo_partes">Polo Ativo</h1>
+            <h1 class="polo_ativo_txt">Polo Ativo</h1>
         </div>
 
         <form action="https://api.staticforms.xyz/submit" method="POST" id="form_entrevista">
@@ -29,7 +29,7 @@
             <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/index.html">
             <input type="text" name="honeypot" style="display: none;">
 
-            <div class = "dados_pessoais">
+            <div class = "polo_ativo">
                 <label class="label_nome" for="input_nome">Nome</label>
                 <input class="input_nome" type="text" id="input_nome" name="$nome" required maxlength="40" minlength="2"></input>
 
@@ -93,7 +93,21 @@
                 <input class="input_nome_filho" type="text" id="input_nome_filho" name="$input_nome_filho" maxlength="300" minlength="5"></input>
 
             </div>
-        
+
+            <div class="polo_passivo">
+                <h1 class="polo_passivo_txt">Polo Passivo</h1>
+                <div class="ret_1a_pessoa_juridica">1ª Pessoa Jurídica</div>
+
+                <label class="label_razao_social" for="input_razao_social">Razão Social Completa</label>
+                <input class="input_razao_social" type="text" id="input_razao_social" name="$input_razao_social" required maxlength="90" minlength="5"></input>
+
+                <label class="label_cnpj" for="input_cnpj">CNPJ</label>
+                <input class="input_cnpj" type="text" id="input_cnpj" name="$input_cnpj" required maxlength="90" minlength="5"></input>
+
+                <label class="label_nome_fantasia" for="input_nome_fantasia">Nome Fantasia</label>
+                <input class="input_nome_fantasia" type="text" id="input_nome_fantasia" name="$input_nome_fantasia" required maxlength="90" minlength="5"></input>
+
+            </div>
         </form>
     </body>
 
