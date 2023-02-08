@@ -11,8 +11,7 @@
 
     <body class="body">
         <header>
-            <img src="img/img_header.png" class="img_header"></img>
-            <div class="perguntas">
+            <!--<img src="img/img_header.png" class="img_header"></img>-->
         </header>
 
         <div class="titulo_partes">
@@ -39,7 +38,7 @@
                 <label class="label_nacionalidade">Brasileiro</label>
 
                 <input class="input_nacionalidade_sim" type="radio" id="input_nacionalidade_sim" name="$input_nacionalidade" required value="sim" onClick="habilitacao()">
-                <label class="label_nacionalidade_sim" for="input_nacionalidade_sim" >Sim</label>
+                <label class="label_nacionalidade_sim" for="input_nacionalidade_sim">Sim</label>
 
                 <input class="input_nacionalidade_nao" type="radio" id="input_nacionalidade_nao" name="$input_nacionalidade" required value="nao" onClick="habilitacao()">
                 <label class="label_nacionalidade_nao" for="input_nacionalidade_nao">Não</label>
@@ -107,8 +106,43 @@
                 <label class="label_nome_fantasia" for="input_nome_fantasia">Nome Fantasia</label>
                 <input class="input_nome_fantasia" type="text" id="input_nome_fantasia" name="$input_nome_fantasia" required maxlength="90" minlength="5"></input>
 
+                <label class="label_endereco_razao_social" for="input_endereco_razao_social">Endereço</label>
+                <input class="input_endereco_razao_social" type="text" id="input_endereco_razao_social" name="$input_endereco_razao_social" required maxlength="90" minlength="5"></input>
+
+                <label class="label_empresas_mesmo_grupo">Empresas do mesmo grupo econômico?</label>
+
+                <input class="input_empresas_mesmo_grupo_sim" type="radio" id="input_empresas_mesmo_grupo_sim" name="$input_empresas_mesmo_grupo" required value="sim">
+                <label class="label_empresas_mesmo_grupo_sim" for="input_empresas_mesmo_grupo_sim" >Sim</label>
+
+                <input class="input_empresas_mesmo_grupo_nao" type="radio" id="input_empresas_mesmo_grupo_nao" name="$input_empresas_mesmo_grupo" required value="nao">
+                <label class="label_empresas_mesmo_grupo_nao" for="input_empresas_mesmo_grupo_nao">Não</label>
+
+                <label class="label_empresas_tomadoras_servico">Empresas tomadoras de serviços? </label>
+
+                <input class="input_empresas_tomadoras_servico_sim" type="radio" id="input_empresas_tomadoras_servico_sim" name="$input_empresas_tomadoras_servico" required value="sim">
+                <label class="label_empresas_tomadoras_servico_sim" for="input_empresas_tomadoras_servico_sim" >Sim</label>
+
+                <input class="input_empresas_tomadoras_servico_nao" type="radio" id="input_empresas_tomadoras_servico_nao" name="$input_empresas_tomadoras_servico" required value="nao">
+                <label class="label_empresas_tomadoras_servico_nao" for="input_empresas_tomadoras_servico_nao">Não</label>
+
+                <h1 class="polo_passivo_txt_2">Polo Passivo</h1>
+                <div class="ret_2a_pessoa_juridica">2ª Pessoa Jurídica</div>
+
+                <label class="label_nome_2a_pessoa_fisica" for="input_nome_2a_pessoa_fisica">Nome</label>
+                <input class="input_nome_2a_pessoa_fisica" type="text" id="input_nome_2a_pessoa_fisica" name="$input_nome_2a_pessoa_fisica" required maxlength="90" minlength="5"></input>
+
+                <label class="label_nacionalidade_2a_pessoa_fisica">Brasileiro</label>
+
+                <input class="input_nacionalidade_2a_pessoa_fisica_sim" type="radio" id="input_nacionalidade_2a_pessoa_fisica_sim" name="$input_nacionalidade_2a_pessoa_fisica" required value="sim" onClick="habilitacao2()">
+                <label class="label_nacionalidade_2a_pessoa_fisica_sim" for="input_nacionalidade_2a_pessoa_fisica_sim">Sim</label>
+
+                <input class="input_nacionalidade_2a_pessoa_fisica_nao" type="radio" id="input_nacionalidade_2a_pessoa_fisica_nao" name="$input_nacionalidade_2a_pessoa_fisica" required value="nao" onClick="habilitacao2()">
+                <label class="label_nacionalidade_2a_pessoa_fisica_nao" for="input_nacionalidade_2a_pessoa_fisica_nao">Não</label>
+
+                <label class="label_nacionalidade_2a_pessoa_fisica_outra" for="input_nacionalidade_2a_pessoa_fisica_outra">Informe sua nacionalidade</label>
+                <input class="input_nacionalidade_2a_pessoa_fisica_outra" type="text" id="input_nacionalidade_2a_pessoa_fisica_outra" name="$nacionalidade_2a_pessoa_fisica_outra" required maxlength="40" minlength="2" disabled></input>
+
             </div>
         </form>
     </body>
-
 </html>

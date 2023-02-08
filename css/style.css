@@ -82,7 +82,7 @@ p {
 	margin: 8px auto;	
 }
 
-/* Estilos Formulário */
+/* Estilos - POLO ATIVO */
 
 .label_nome{
 	position: absolute;
@@ -869,6 +869,8 @@ p {
 	color: #000000;	
 }
 
+/*Estilos - POLO PASSIVO*/
+
 .polo_passivo_txt{
 	position: absolute;
 	width: fit-content;
@@ -898,7 +900,7 @@ p {
 	position: absolute;
 	width: 401px;
 	height: 89px;
-	left: 660px;
+	left: 570px;
 	top: 3387px;
 	background: #454242;
 	border-radius: 15px 15px 0px 0px;
@@ -1049,6 +1051,438 @@ p {
 	line-height: 109px;
 	color: #000000;	
 }
+
+.label_endereco_razao_social{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 73px;
+	top: 3950px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 550;
+	font-size: 40px;
+	line-height: 109px;
+
+	color: #454242;	
+}
+
+.label_endereco_razao_social:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.input_endereco_razao_social{
+	position: absolute;
+	width: 780px;
+	height: 65px;
+	left: 290px;
+	top: 3970px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;	
+}
+
+.label_empresas_mesmo_grupo{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 73px;
+	top: 4100px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 550;
+	font-size: 40px;
+	line-height: 109px;
+
+	color: #454242;
+}
+
+.label_empresas_mesmo_grupo_sim{
+	position: absolute;
+	width: 78px;
+	height: 109px;
+	left: 990px;
+	top: 4100px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+
+	color: #000000;
+}
+
+.label_empresas_mesmo_grupo:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.input_empresas_mesmo_grupo_sim{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 939px;
+	top: 4132px;
+	
+	background: #F0F0F0;	
+}
+
+.label_empresas_mesmo_grupo_nao{
+	position: absolute;
+	width: 82px;
+	height: 109px;
+	left: 1180px;
+	top: 4100px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #000000;	
+}
+
+.input_empresas_mesmo_grupo_nao{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 1129px;
+	top: 4132px;
+	
+	background: #F0F0F0;	
+}
+
+.label_empresas_tomadoras_servico{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 73px;
+	top: 4250px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 550;
+	font-size: 40px;
+	line-height: 109px;
+
+	color: #454242;
+}
+
+.label_empresas_tomadoras_servico:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.label_empresas_tomadoras_servico_sim{
+	position: absolute;
+	width: 78px;
+	height: 109px;
+	left: 860px;
+	top: 4250px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+
+	color: #000000;
+}
+
+.input_empresas_tomadoras_servico_sim{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 810px;
+	top: 4279px;
+	
+	background: #F0F0F0;	
+}
+
+.label_empresas_tomadoras_servico_nao{
+	position: absolute;
+	width: 82px;
+	height: 109px;
+	left: 1050px;
+	top: 4250px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #000000;	
+}
+
+.input_empresas_tomadoras_servico_nao{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 1000px;
+	top: 4279px;
+	
+	background: #F0F0F0;	
+}
+
+.polo_passivo_txt_2{
+	position: absolute;
+	width: fit-content;
+	height: 84px;
+	left: 73px;
+	top: 4430px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 78px;
+	
+	color: #454242;
+}
+
+.polo_passivo_txt_2:after{
+	content: "";
+	display: block;
+	width: 1680px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.ret_2a_pessoa_juridica{
+	position: absolute;
+	width: 401px;
+	height: 89px;
+	left: 570px;
+	top: 4427px;
+	background: #454242;
+	border-radius: 15px 15px 0px 0px;
+	padding: 23px 0px;
+	box-sizing: border-box;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 49px;
+	color: #FFFFFF;
+
+	text-align: center;
+}
+
+.label_nome_2a_pessoa_fisica{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 73px;
+	top: 4540px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 550;
+	font-size: 40px;
+	line-height: 109px;
+
+	color: #454242;	
+}
+
+.label_nome_2a_pessoa_fisica:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.input_nome_2a_pessoa_fisica{
+	position: absolute;
+	width: 780px;
+	height: 65px;
+	left: 225px;
+	top: 4560px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;	
+}
+
+.label_nacionalidade_2a_pessoa_fisica{
+	position: absolute;
+	width: 185px;
+	height: 109px;
+	left: 73px;
+	top: 4640px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 550;
+	font-size: 40px;
+	line-height: 109px;
+
+	color: #454242;
+}
+
+.label_nacionalidade_2a_pessoa_fisica_sim{
+	
+	position: absolute;
+	width: 78px;
+	height: 109px;
+	left: 350px;
+	top: 4640px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+
+	color: #000000;
+}
+
+.input_nacionalidade_2a_pessoa_fisica_sim{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 300px;
+	top: 4670px;
+	
+	background: #F0F0F0;	
+}
+
+.label_nacionalidade_2a_pessoa_fisica_nao{
+	position: absolute;
+	width: 82px;
+	height: 109px;
+	left: 530px;
+	top: 4640px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #000000;	
+}
+
+.input_nacionalidade_2a_pessoa_fisica_nao{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 480px;
+	top: 4670px;
+	
+	background: #F0F0F0;	
+}
+
+.input_nacionalidade_2a_pessoa_fisica_outra{
+	position: absolute;
+	width: 500px;
+	height: 65px;
+	left: 1200px;
+	top: 4670px;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+	
+	padding: 0px 20px;
+	box-sizing: border-box;
+}
+
+.label_nacionalidade_2a_pessoa_fisica_outra{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 700px;
+	top: 4640px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 109px;
+	
+	color: #000000;	
+}
+
+.label_2a_pessoa_fisica_nacionalidade:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
