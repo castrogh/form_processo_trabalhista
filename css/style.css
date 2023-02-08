@@ -19,6 +19,8 @@ p {
 	height: 720px;
 }
 
+/* Estilos PARTES */
+
 /* Estilos Títulos */
 .titulo_partes{
 	position: absolute;
@@ -110,7 +112,7 @@ p {
 
 .input_nome{
 	position: absolute;
-	width: 1474px;
+	width: 1000px;
 	height: 65px;
 	left: 225px;
 	top: 1214px;
@@ -243,7 +245,7 @@ p {
 	position: absolute;
 	width: 500px;
 	height: 65px;
-	left: 1200px;
+	left: 930px;
 	top: 1440px;
 	
 	background: #F0F0F0;
@@ -264,13 +266,13 @@ p {
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 700px;
+	left: 650px;
 	top: 1414px;
 	
 	font-family: 'Montserrat';
 	font-style: normal;
-	font-weight: 400;
-	font-size: 35px;
+	font-weight: 600;
+	font-size: 20px;
 	line-height: 109px;
 	
 	color: #000000;	
@@ -385,7 +387,7 @@ p {
 
 .input_profissao{
 	position: absolute;
-	width: 1400px;
+	width: 800px;
 	height: 65px;
 	left: 296px;
 	top: 1720px;
@@ -700,7 +702,7 @@ p {
 
 .input_endereco{
 	position: absolute;
-	width: 500px;
+	width: 800px;
 	height: 65px;
 	left: 315px;
 	top: 2770px;
@@ -1079,7 +1081,7 @@ p {
 
 .input_endereco_razao_social{
 	position: absolute;
-	width: 780px;
+	width: 800px;
 	height: 65px;
 	left: 290px;
 	top: 3970px;
@@ -1415,7 +1417,7 @@ p {
 	position: absolute;
 	width: 500px;
 	height: 65px;
-	left: 1200px;
+	left: 930px;
 	top: 4685px;
 	
 	background: #F0F0F0;
@@ -1436,13 +1438,13 @@ p {
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 700px;
+	left: 650px;
 	top: 4665px;
 	
 	font-family: 'Montserrat';
 	font-style: normal;
-	font-weight: 400;
-	font-size: 35px;
+	font-weight: 600;
+	font-size: 20px;
 	line-height: 109px;
 	
 	color: #000000;	
@@ -1528,15 +1530,187 @@ p {
 }
 /* FINAL - Estilos Dropdown 2 */
 
+.label_rg_2{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 73px;
+	top: 4950px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 550;
+	font-size: 40px;
+	line-height: 109px;
 
+	color: #454242;	
+}
 
+.label_rg_2:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
 
+.input_rg_2{
+	position: absolute;
+	width: 500px;
+	height: 65px;
+	left: 180px;
+	top: 4970px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;	
+}
 
+.label_cpf_2{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 73px;
+	top: 5100px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 550;
+	font-size: 40px;
+	line-height: 109px;
 
+	color: #454242;	
+}
 
+.label_cpf_2:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
 
+.input_cpf_2{
+	position: absolute;
+	width: 500px;
+	height: 65px;
+	left: 180px;
+	top: 5120px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;	
+}
 
+.label_profissao_2{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 73px;
+	top: 5250px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 550;
+	font-size: 40px;
+	line-height: 109px;
 
+	color: #454242;	
+}
+
+.label_profissao_2:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.input_profissao_2{
+	position: absolute;
+	width: 800px;
+	height: 65px;
+	left: 296px;
+	top: 5270px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;	
+}
+
+.label_endereco_2{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 73px;
+	top: 5400px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 550;
+	font-size: 40px;
+	line-height: 109px;
+
+	color: #454242;	
+}
+
+.label_endereco_2:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.input_endereco_2{
+	position: absolute;
+	width: 800px;
+	height: 65px;
+	left: 315px;
+	top: 5420px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;	
+}
+
+/* FINAL - Estilos PARTES */
 
 
 
