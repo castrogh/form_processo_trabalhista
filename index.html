@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/grid.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style2.css">
     </head>
 
     <body class="body">
@@ -14,158 +15,168 @@
             <!--<img src="img/img_header.png" class="img_header"></img>-->
         </header>
 
-        <div class="titulo_partes">
-            <img src="img/img_partes.png" class="titulo_partes_img"></img>
-            <h1 class="titulo_partes_txt">Partes</h1>
+        <div class="partes">
+            <div class="titulo_partes">
+                <img src="img/img_partes.png" class="titulo_partes_img"></img>
+                <h1 class="titulo_partes_txt">Partes</h1>
 
-            <h1 class="polo_ativo_txt">Polo Ativo</h1>
+                <h1 class="polo_ativo_txt">Polo Ativo</h1>
+            </div>
+
+            <form action="https://api.staticforms.xyz/submit" method="POST" id="form_entrevista">
+                <script src="js/script_radio.js"></script>
+                <script src="js/script_dropdown.js"></script>
+                <input type="hidden" name="accessKey" value="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX">
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/index.html">
+                <input type="text" name="honeypot" style="display: none;"></input>
+                
+                    <div class = "polo_ativo">
+                        <label class="label_nome" for="input_nome">Nome</label>
+                        <input class="input_nome" type="text" id="input_nome" name="$nome" required maxlength="40" minlength="2"></input>
+
+                        <label class="label_data_nasc" for="input_data_nasc">Data de Nascimento</label>
+                        <input class="input_data_nasc" type="date" id="input_data_nasc" name="$data_nasc" required maxlength="8"></input>
+
+                        <label class="label_nacionalidade">Brasileiro</label>
+
+                        <input class="input_nacionalidade_sim" type="radio" id="input_nacionalidade_sim" name="$input_nacionalidade" required value="sim" onClick="habilitacao()">
+                        <label class="label_nacionalidade_sim" for="input_nacionalidade_sim">Sim</label>
+
+                        <input class="input_nacionalidade_nao" type="radio" id="input_nacionalidade_nao" name="$input_nacionalidade" required value="nao" onClick="habilitacao()">
+                        <label class="label_nacionalidade_nao" for="input_nacionalidade_nao">Não</label>
+
+                        <label class="label_nacionalidade_outra" for="input_nacionalidade_outra">Informe sua nacionalidade</label>
+                        <input class="input_nacionalidade_outra" type="text" id="input_nacionalidade_outra" name="$nacionalidade_outra" required maxlength="40" minlength="2" disabled></input>
+
+                        <label class="label_estado_civil" for="input_estado_civil">Estado Civil</label>
+                        <div class="container_estado_civil">
+                            <input class="input_dropdown" type="text" id="input_estado_civil" name="$estado_civil" placeholder="Selecione o Estado Civil" onFocus="dropdown(0)" onBlur="dropdown(1)"/>
+                                <div class="dropdown">        
+                                        <div class="item" id="item-1" onMouseDown="category(1)">Casado(a)</div>
+                                        <div class="item" id="item-2" onMouseDown="category(2)">Solteiro(a)</div>
+                                        <div class="item" id="item-3" onMouseDown="category(3)">Divorciado(a)</div>
+                                        <div class="item" id="item-4" onMouseDown="category(4)">Viúvo(a)</div>
+                                </div>
+                        </div>
+
+                        <label class="label_profissao" for="input_profissao">Profissão</label>
+                        <input class="input_profissao" type="text" id="input_profissao" name="$input_profissao" required maxlength="40" minlength="2"></input>
+
+                        <label class="label_cpf" for="input_cpf">CPF</label>
+                        <input class="input_cpf" type="text" id="input_cpf" name="$input_cpf" required maxlength="11" minlength="11"></input>
+
+                        <label class="label_rg" for="input_rg">RG</label>
+                        <input class="input_rg" type="text" id="input_rg" name="$input_rg" required maxlength="9" minlength="5"></input>
+
+                        <label class="label_ctps" for="input_ctps">CTPS</label>
+                        <input class="input_ctps" type="text" id="input_ctps" name="$input_ctps" required maxlength="8" minlength="8"></input>
+
+                        <label class="label_pis" for="input_pis">PIS/PASEP</label>
+                        <input class="input_pis" type="text" id="input_pis" name="$input_pis" required maxlength="8" minlength="8"></input>
+
+                        <label class="label_email" for="input_email">E-mail</label>
+                        <input class="input_email" type="email" id="input_email" name="$input_email" required maxlength="40" minlength="8"></input>
+
+                        <label class="label_telefone" for="input_telefone">Telefone</label>
+                        <input class="input_telefone" type="tel" id="input_telefone" name="$input_telefone" required maxlength="40" minlength="8"></input>
+
+                        <label class="label_endereco" for="input_endereco">Endereço</label>
+                        <input class="input_endereco" type="text" id="input_endereco" name="$input_endereco" required maxlength="40" minlength="5"></input>
+
+                        <label class="label_nome_mae" for="input_nome_mae">Nome da Mãe</label>
+                        <input class="input_nome_mae" type="text" id="input_nome_mae" name="$input_nome_mae" required maxlength="40" minlength="5"></input>
+
+                        <label class="label_nome_pai" for="input_nome_mae">Nome do Pai</label>
+                        <input class="input_nome_pai" type="text" id="input_nome_pai" name="$input_nome_pai" required maxlength="40" minlength="5"></input>
+
+                        <label class="label_nome_filho" for="input_nome_filho">Nome(s) do(s) Filho(s)</label>
+                        <label class="label_nome_filho_obs" for="input_nome_filho">Separe os nomes com vírgula, caso tenha mais de um filho</label>
+                        <input class="input_nome_filho" type="text" id="input_nome_filho" name="$input_nome_filho" maxlength="300" minlength="5"></input>
+
+                    </div>
+
+                    <div class="polo_passivo">
+                        <h1 class="polo_passivo_txt">Polo Passivo</h1>
+                        <div class="ret_1a_pessoa_juridica">1ª Pessoa Jurídica</div>
+
+                        <label class="label_razao_social" for="input_razao_social">Razão Social Completa</label>
+                        <input class="input_razao_social" type="text" id="input_razao_social" name="$input_razao_social" required maxlength="90" minlength="5"></input>
+
+                        <label class="label_cnpj" for="input_cnpj">CNPJ</label>
+                        <input class="input_cnpj" type="text" id="input_cnpj" name="$input_cnpj" required maxlength="90" minlength="5"></input>
+
+                        <label class="label_nome_fantasia" for="input_nome_fantasia">Nome Fantasia</label>
+                        <input class="input_nome_fantasia" type="text" id="input_nome_fantasia" name="$input_nome_fantasia" required maxlength="90" minlength="5"></input>
+
+                        <label class="label_endereco_razao_social" for="input_endereco_razao_social">Endereço</label>
+                        <input class="input_endereco_razao_social" type="text" id="input_endereco_razao_social" name="$input_endereco_razao_social" required maxlength="90" minlength="5"></input>
+
+                        <label class="label_empresas_mesmo_grupo">Empresas do mesmo grupo econômico?</label>
+
+                        <input class="input_empresas_mesmo_grupo_sim" type="radio" id="input_empresas_mesmo_grupo_sim" name="$input_empresas_mesmo_grupo" required value="sim">
+                        <label class="label_empresas_mesmo_grupo_sim" for="input_empresas_mesmo_grupo_sim" >Sim</label>
+
+                        <input class="input_empresas_mesmo_grupo_nao" type="radio" id="input_empresas_mesmo_grupo_nao" name="$input_empresas_mesmo_grupo" required value="nao">
+                        <label class="label_empresas_mesmo_grupo_nao" for="input_empresas_mesmo_grupo_nao">Não</label>
+
+                        <label class="label_empresas_tomadoras_servico">Empresas tomadoras de serviços? </label>
+
+                        <input class="input_empresas_tomadoras_servico_sim" type="radio" id="input_empresas_tomadoras_servico_sim" name="$input_empresas_tomadoras_servico" required value="sim">
+                        <label class="label_empresas_tomadoras_servico_sim" for="input_empresas_tomadoras_servico_sim" >Sim</label>
+
+                        <input class="input_empresas_tomadoras_servico_nao" type="radio" id="input_empresas_tomadoras_servico_nao" name="$input_empresas_tomadoras_servico" required value="nao">
+                        <label class="label_empresas_tomadoras_servico_nao" for="input_empresas_tomadoras_servico_nao">Não</label>
+
+                        <h1 class="polo_passivo_txt_2">Polo Passivo</h1>
+                        <div class="ret_2a_pessoa_juridica">2ª Pessoa Jurídica</div>
+
+                        <label class="label_nome_2a_pessoa_fisica" for="input_nome_2a_pessoa_fisica">Nome</label>
+                        <input class="input_nome_2a_pessoa_fisica" type="text" id="input_nome_2a_pessoa_fisica" name="$input_nome_2a_pessoa_fisica" required maxlength="90" minlength="5"></input>
+
+                        <label class="label_nacionalidade_2a_pessoa_fisica">Brasileiro</label>
+
+                        <input class="input_nacionalidade_2a_pessoa_fisica_sim" type="radio" id="input_nacionalidade_2a_pessoa_fisica_sim" name="$input_nacionalidade_2a_pessoa_fisica" required value="sim" onClick="habilitacao2()">
+                        <label class="label_nacionalidade_2a_pessoa_fisica_sim" for="input_nacionalidade_2a_pessoa_fisica_sim">Sim</label>
+
+                        <input class="input_nacionalidade_2a_pessoa_fisica_nao" type="radio" id="input_nacionalidade_2a_pessoa_fisica_nao" name="$input_nacionalidade_2a_pessoa_fisica" required value="nao" onClick="habilitacao2()">
+                        <label class="label_nacionalidade_2a_pessoa_fisica_nao" for="input_nacionalidade_2a_pessoa_fisica_nao">Não</label>
+
+                        <label class="label_nacionalidade_2a_pessoa_fisica_outra" for="input_nacionalidade_2a_pessoa_fisica_outra">Informe sua nacionalidade</label>
+                        <input class="input_nacionalidade_2a_pessoa_fisica_outra" type="text" id="input_nacionalidade_2a_pessoa_fisica_outra" name="$nacionalidade_2a_pessoa_fisica_outra" required maxlength="40" minlength="2" disabled></input>
+
+                        <label class="label_estado_civil_2" for="input_estado_civil_2">Estado Civil</label>
+                        <div class="container_estado_civil_2">
+                            <input class="input_dropdown_2" type="text" id="input_estado_civil_2" name="$estado_civil_2" placeholder="Selecione o Estado Civil" onFocus="dropdown_2(0)" onBlur="dropdown_2(1)"/>
+                                <div class="dropdown_2">        
+                                        <div class="item_2" id="item_dp2-1" onMouseDown="category_2(1)">Casado(a)</div>
+                                        <div class="item_2" id="item_dp2-2" onMouseDown="category_2(2)">Solteiro(a)</div>
+                                        <div class="item_2" id="item_dp2-3" onMouseDown="category_2(3)">Divorciado(a)</div>
+                                        <div class="item_2" id="item_dp2-4" onMouseDown="category_2(4)">Viúvo(a)</div>
+                                </div>
+                        </div>
+
+                        <label class="label_rg_2" for="input_rg_2">RG</label>
+                        <input class="input_rg_2" type="text" id="input_rg_2" name="$input_rg_2" required maxlength="9" minlength="5"></input>
+
+                        <label class="label_cpf_2" for="input_cpf_2">CPF</label>
+                        <input class="input_cpf_2" type="text" id="input_cpf_2" name="$input_cpf_2" required maxlength="11" minlength="11"></input>
+
+                        <label class="label_profissao_2" for="input_profissao_2">Profissão</label>
+                        <input class="input_profissao_2" type="text" id="input_profissao_2" name="$input_profissao_2" required maxlength="40" minlength="2"></input>
+
+                        <label class="label_endereco_2" for="input_endereco_2">Endereço</label>
+                        <input class="input_endereco_2" type="text" id="input_endereco_2" name="$input_endereco_2" required maxlength="40" minlength="5"></input>
+
+                    </div>
         </div>
 
-        <form action="https://api.staticforms.xyz/submit" method="POST" id="form_entrevista">
-            <script src="js/script_radio.js"></script>
-            <script src="js/script_dropdown.js"></script>
-            <input type="hidden" name="accessKey" value="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX">
-            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/index.html">
-            <input type="text" name="honeypot" style="display: none;">
-
-            <div class = "polo_ativo">
-                <label class="label_nome" for="input_nome">Nome</label>
-                <input class="input_nome" type="text" id="input_nome" name="$nome" required maxlength="40" minlength="2"></input>
-
-                <label class="label_data_nasc" for="input_data_nasc">Data de Nascimento</label>
-                <input class="input_data_nasc" type="date" id="input_data_nasc" name="$data_nasc" required maxlength="8"></input>
-
-                <label class="label_nacionalidade">Brasileiro</label>
-
-                <input class="input_nacionalidade_sim" type="radio" id="input_nacionalidade_sim" name="$input_nacionalidade" required value="sim" onClick="habilitacao()">
-                <label class="label_nacionalidade_sim" for="input_nacionalidade_sim">Sim</label>
-
-                <input class="input_nacionalidade_nao" type="radio" id="input_nacionalidade_nao" name="$input_nacionalidade" required value="nao" onClick="habilitacao()">
-                <label class="label_nacionalidade_nao" for="input_nacionalidade_nao">Não</label>
-
-                <label class="label_nacionalidade_outra" for="input_nacionalidade_outra">Informe sua nacionalidade</label>
-                <input class="input_nacionalidade_outra" type="text" id="input_nacionalidade_outra" name="$nacionalidade_outra" required maxlength="40" minlength="2" disabled></input>
-
-                <label class="label_estado_civil" for="input_estado_civil">Estado Civil</label>
-                <div class="container_estado_civil">
-                    <input class="input_dropdown" type="text" id="input_estado_civil" name="$estado_civil" placeholder="Selecione o Estado Civil" onFocus="dropdown(0)" onBlur="dropdown(1)"/>
-                        <div class="dropdown">        
-                                <div class="item" id="item-1" onMouseDown="category(1)">Casado(a)</div>
-                                <div class="item" id="item-2" onMouseDown="category(2)">Solteiro(a)</div>
-                                <div class="item" id="item-3" onMouseDown="category(3)">Divorciado(a)</div>
-                                <div class="item" id="item-4" onMouseDown="category(4)">Viúvo(a)</div>
-                        </div>
-                </div>
-
-                <label class="label_profissao" for="input_profissao">Profissão</label>
-                <input class="input_profissao" type="text" id="input_profissao" name="$input_profissao" required maxlength="40" minlength="2"></input>
-
-                <label class="label_cpf" for="input_cpf">CPF</label>
-                <input class="input_cpf" type="text" id="input_cpf" name="$input_cpf" required maxlength="11" minlength="11"></input>
-
-                <label class="label_rg" for="input_rg">RG</label>
-                <input class="input_rg" type="text" id="input_rg" name="$input_rg" required maxlength="9" minlength="5"></input>
-
-                <label class="label_ctps" for="input_ctps">CTPS</label>
-                <input class="input_ctps" type="text" id="input_ctps" name="$input_ctps" required maxlength="8" minlength="8"></input>
-
-                <label class="label_pis" for="input_pis">PIS/PASEP</label>
-                <input class="input_pis" type="text" id="input_pis" name="$input_pis" required maxlength="8" minlength="8"></input>
-
-                <label class="label_email" for="input_email">E-mail</label>
-                <input class="input_email" type="email" id="input_email" name="$input_email" required maxlength="40" minlength="8"></input>
-
-                <label class="label_telefone" for="input_telefone">Telefone</label>
-                <input class="input_telefone" type="tel" id="input_telefone" name="$input_telefone" required maxlength="40" minlength="8"></input>
-
-                <label class="label_endereco" for="input_endereco">Endereço</label>
-                <input class="input_endereco" type="text" id="input_endereco" name="$input_endereco" required maxlength="40" minlength="5"></input>
-
-                <label class="label_nome_mae" for="input_nome_mae">Nome da Mãe</label>
-                <input class="input_nome_mae" type="text" id="input_nome_mae" name="$input_nome_mae" required maxlength="40" minlength="5"></input>
-
-                <label class="label_nome_pai" for="input_nome_mae">Nome do Pai</label>
-                <input class="input_nome_pai" type="text" id="input_nome_pai" name="$input_nome_pai" required maxlength="40" minlength="5"></input>
-
-                <label class="label_nome_filho" for="input_nome_filho">Nome(s) do(s) Filho(s)</label>
-                <label class="label_nome_filho_obs" for="input_nome_filho">Separe os nomes com vírgula, caso tenha mais de um filho</label>
-                <input class="input_nome_filho" type="text" id="input_nome_filho" name="$input_nome_filho" maxlength="300" minlength="5"></input>
-
+        <div class="infos_preliminares">
+            <div class="titulo_infos_preliminares">
+                <img src="img/img_infos_preliminares.png" class="titulo_infos_preliminares_img">
+                <h1 class="titulo_infos_preliminares_txt">Informações Preliminares</h1>
             </div>
+        </div>
 
-            <div class="polo_passivo">
-                <h1 class="polo_passivo_txt">Polo Passivo</h1>
-                <div class="ret_1a_pessoa_juridica">1ª Pessoa Jurídica</div>
-
-                <label class="label_razao_social" for="input_razao_social">Razão Social Completa</label>
-                <input class="input_razao_social" type="text" id="input_razao_social" name="$input_razao_social" required maxlength="90" minlength="5"></input>
-
-                <label class="label_cnpj" for="input_cnpj">CNPJ</label>
-                <input class="input_cnpj" type="text" id="input_cnpj" name="$input_cnpj" required maxlength="90" minlength="5"></input>
-
-                <label class="label_nome_fantasia" for="input_nome_fantasia">Nome Fantasia</label>
-                <input class="input_nome_fantasia" type="text" id="input_nome_fantasia" name="$input_nome_fantasia" required maxlength="90" minlength="5"></input>
-
-                <label class="label_endereco_razao_social" for="input_endereco_razao_social">Endereço</label>
-                <input class="input_endereco_razao_social" type="text" id="input_endereco_razao_social" name="$input_endereco_razao_social" required maxlength="90" minlength="5"></input>
-
-                <label class="label_empresas_mesmo_grupo">Empresas do mesmo grupo econômico?</label>
-
-                <input class="input_empresas_mesmo_grupo_sim" type="radio" id="input_empresas_mesmo_grupo_sim" name="$input_empresas_mesmo_grupo" required value="sim">
-                <label class="label_empresas_mesmo_grupo_sim" for="input_empresas_mesmo_grupo_sim" >Sim</label>
-
-                <input class="input_empresas_mesmo_grupo_nao" type="radio" id="input_empresas_mesmo_grupo_nao" name="$input_empresas_mesmo_grupo" required value="nao">
-                <label class="label_empresas_mesmo_grupo_nao" for="input_empresas_mesmo_grupo_nao">Não</label>
-
-                <label class="label_empresas_tomadoras_servico">Empresas tomadoras de serviços? </label>
-
-                <input class="input_empresas_tomadoras_servico_sim" type="radio" id="input_empresas_tomadoras_servico_sim" name="$input_empresas_tomadoras_servico" required value="sim">
-                <label class="label_empresas_tomadoras_servico_sim" for="input_empresas_tomadoras_servico_sim" >Sim</label>
-
-                <input class="input_empresas_tomadoras_servico_nao" type="radio" id="input_empresas_tomadoras_servico_nao" name="$input_empresas_tomadoras_servico" required value="nao">
-                <label class="label_empresas_tomadoras_servico_nao" for="input_empresas_tomadoras_servico_nao">Não</label>
-
-                <h1 class="polo_passivo_txt_2">Polo Passivo</h1>
-                <div class="ret_2a_pessoa_juridica">2ª Pessoa Jurídica</div>
-
-                <label class="label_nome_2a_pessoa_fisica" for="input_nome_2a_pessoa_fisica">Nome</label>
-                <input class="input_nome_2a_pessoa_fisica" type="text" id="input_nome_2a_pessoa_fisica" name="$input_nome_2a_pessoa_fisica" required maxlength="90" minlength="5"></input>
-
-                <label class="label_nacionalidade_2a_pessoa_fisica">Brasileiro</label>
-
-                <input class="input_nacionalidade_2a_pessoa_fisica_sim" type="radio" id="input_nacionalidade_2a_pessoa_fisica_sim" name="$input_nacionalidade_2a_pessoa_fisica" required value="sim" onClick="habilitacao2()">
-                <label class="label_nacionalidade_2a_pessoa_fisica_sim" for="input_nacionalidade_2a_pessoa_fisica_sim">Sim</label>
-
-                <input class="input_nacionalidade_2a_pessoa_fisica_nao" type="radio" id="input_nacionalidade_2a_pessoa_fisica_nao" name="$input_nacionalidade_2a_pessoa_fisica" required value="nao" onClick="habilitacao2()">
-                <label class="label_nacionalidade_2a_pessoa_fisica_nao" for="input_nacionalidade_2a_pessoa_fisica_nao">Não</label>
-
-                <label class="label_nacionalidade_2a_pessoa_fisica_outra" for="input_nacionalidade_2a_pessoa_fisica_outra">Informe sua nacionalidade</label>
-                <input class="input_nacionalidade_2a_pessoa_fisica_outra" type="text" id="input_nacionalidade_2a_pessoa_fisica_outra" name="$nacionalidade_2a_pessoa_fisica_outra" required maxlength="40" minlength="2" disabled></input>
-
-                <label class="label_estado_civil_2" for="input_estado_civil_2">Estado Civil</label>
-                <div class="container_estado_civil_2">
-                    <input class="input_dropdown_2" type="text" id="input_estado_civil_2" name="$estado_civil_2" placeholder="Selecione o Estado Civil" onFocus="dropdown_2(0)" onBlur="dropdown_2(1)"/>
-                        <div class="dropdown_2">        
-                                <div class="item_2" id="item_dp2-1" onMouseDown="category_2(1)">Casado(a)</div>
-                                <div class="item_2" id="item_dp2-2" onMouseDown="category_2(2)">Solteiro(a)</div>
-                                <div class="item_2" id="item_dp2-3" onMouseDown="category_2(3)">Divorciado(a)</div>
-                                <div class="item_2" id="item_dp2-4" onMouseDown="category_2(4)">Viúvo(a)</div>
-                        </div>
-                </div>
-
-                <label class="label_rg_2" for="input_rg_2">RG</label>
-                <input class="input_rg_2" type="text" id="input_rg_2" name="$input_rg_2" required maxlength="9" minlength="5"></input>
-
-                <label class="label_cpf_2" for="input_cpf_2">CPF</label>
-                <input class="input_cpf_2" type="text" id="input_cpf_2" name="$input_cpf_2" required maxlength="11" minlength="11"></input>
-
-                <label class="label_profissao_2" for="input_profissao_2">Profissão</label>
-                <input class="input_profissao_2" type="text" id="input_profissao_2" name="$input_profissao_2" required maxlength="40" minlength="2"></input>
-
-                <label class="label_endereco_2" for="input_endereco_2">Endereço</label>
-                <input class="input_endereco_2" type="text" id="input_endereco_2" name="$input_endereco_2" required maxlength="40" minlength="5"></input>
-                
-            </div>
         </form>
     </body>
 </html>
