@@ -47,7 +47,7 @@
                 <input class="input_nacionalidade_outra" type="text" id="input_nacionalidade_outra" name="$nacionalidade_outra" required maxlength="40" minlength="2" disabled></input>
 
                 <label class="label_estado_civil" for="input_estado_civil">Estado Civil</label>
-                <div class="container">
+                <div class="container_estado_civil">
                     <input class="input_dropdown" type="text" id="input_estado_civil" name="$estado_civil" placeholder="Selecione o Estado Civil" onFocus="dropdown(0)" onBlur="dropdown(1)"/>
                         <div class="dropdown">        
                                 <div class="item" id="item-1" onMouseDown="category(1)">Casado(a)</div>
@@ -141,6 +141,17 @@
 
                 <label class="label_nacionalidade_2a_pessoa_fisica_outra" for="input_nacionalidade_2a_pessoa_fisica_outra">Informe sua nacionalidade</label>
                 <input class="input_nacionalidade_2a_pessoa_fisica_outra" type="text" id="input_nacionalidade_2a_pessoa_fisica_outra" name="$nacionalidade_2a_pessoa_fisica_outra" required maxlength="40" minlength="2" disabled></input>
+
+                <label class="label_estado_civil_2" for="input_estado_civil_2">Estado Civil</label>
+                <div class="container_estado_civil_2">
+                    <input class="input_dropdown_2" type="text" id="input_estado_civil_2" name="$estado_civil_2" placeholder="Selecione o Estado Civil" onFocus="dropdown_2(0)" onBlur="dropdown_2(1)"/>
+                        <div class="dropdown_2">        
+                                <div class="item_2" id="item_dp2-1" onMouseDown="category_2(1)">Casado(a)</div>
+                                <div class="item_2" id="item_dp2-2" onMouseDown="category_2(2)">Solteiro(a)</div>
+                                <div class="item_2" id="item_dp2-3" onMouseDown="category_2(3)">Divorciado(a)</div>
+                                <div class="item_2" id="item_dp2-4" onMouseDown="category_2(4)">Viúvo(a)</div>
+                        </div>
+                </div>
 
             </div>
         </form>

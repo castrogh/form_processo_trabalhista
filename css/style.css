@@ -287,7 +287,7 @@ p {
 
 
 /* Estilos Dropdown */
-.container{
+.container_estado_civil{
 	left: 330px;
 	top: 1569px;
 	position: absolute;
@@ -1347,7 +1347,7 @@ p {
 	width: 185px;
 	height: 109px;
 	left: 73px;
-	top: 4640px;
+	top: 4665px;
 	
 	font-family: 'Montserrat';
 	font-style: normal;
@@ -1364,7 +1364,7 @@ p {
 	width: 78px;
 	height: 109px;
 	left: 350px;
-	top: 4640px;
+	top: 4665px;
 
 	font-family: 'Montserrat';
 	font-style: normal;
@@ -1380,7 +1380,7 @@ p {
 	width: 45px;
 	height: 45px;
 	left: 300px;
-	top: 4670px;
+	top: 4695px;
 	
 	background: #F0F0F0;	
 }
@@ -1390,7 +1390,7 @@ p {
 	width: 82px;
 	height: 109px;
 	left: 530px;
-	top: 4640px;
+	top: 4665px;
 	
 	font-family: 'Montserrat';
 	font-style: normal;
@@ -1406,7 +1406,7 @@ p {
 	width: 45px;
 	height: 45px;
 	left: 480px;
-	top: 4670px;
+	top: 4695px;
 	
 	background: #F0F0F0;	
 }
@@ -1416,7 +1416,7 @@ p {
 	width: 500px;
 	height: 65px;
 	left: 1200px;
-	top: 4670px;
+	top: 4685px;
 	
 	background: #F0F0F0;
 	border-radius: 40px;
@@ -1437,7 +1437,7 @@ p {
 	width: fit-content;
 	height: 109px;
 	left: 700px;
-	top: 4640px;
+	top: 4665px;
 	
 	font-family: 'Montserrat';
 	font-style: normal;
@@ -1448,7 +1448,7 @@ p {
 	color: #000000;	
 }
 
-.label_2a_pessoa_fisica_nacionalidade:after{
+.label_nacionalidade_2a_pessoa_fisica:after{
 	content: "";
 	display: block;
 	width: 1630px;
@@ -1456,6 +1456,77 @@ p {
 	background: #BEA469;
 	margin: 8px auto;
 }
+
+/* Estilos Dropdown 2 */
+.container_estado_civil_2{
+	left: 330px;
+	top: 4825px;
+	position: absolute;
+}
+
+.input_dropdown_2{
+	background-color:rgba(239, 239, 239, 0.79);
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	width: fit-content;
+	height: 65px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 550;
+	color: #000000;
+	border-radius: 40px;
+	text-align: center;
+}
+.dropdown_2{
+	display: none;
+	overflow: auto;
+	position: relative;
+	background-color: #f9f9f9;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	height: 90px;
+	width: 150px;
+	left: 35px;
+}
+
+.item_2 {
+	height: 30px;
+	padding: 0px 5px;
+	box-sizing: border-box;
+	cursor: pointer;
+  }
+
+  .item_2:hover{
+	background-color: #f2f1f1;
+	padding-left: 7px;
+	transition: .3s;
+  }
+
+.label_estado_civil_2{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 73px;
+	top: 4800px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 550;
+	font-size: 40px;
+	line-height: 109px;
+
+	color: #454242;
+}
+
+.label_estado_civil_2:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+/* FINAL - Estilos Dropdown 2 */
 
 
 
