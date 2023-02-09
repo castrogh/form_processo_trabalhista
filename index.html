@@ -12,7 +12,7 @@
 
     <body class="body">
         <header>
-            <!--<img src="img/img_header.png" class="img_header"></img>-->
+            <img src="img/img_header.png" class="img_header"></img>
         </header>
 
         <div class="partes">
@@ -24,12 +24,12 @@
             </div>
 
             <form action="https://api.staticforms.xyz/submit" method="POST" id="form_entrevista">
-                <script src="js/script_radio.js"></script>
-                <script src="js/script_dropdown.js"></script>
-                <input type="hidden" name="accessKey" value="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX">
+                <input type="hidden" name="accessKey" value="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX">
                 <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/index.html">
                 <input type="text" name="honeypot" style="display: none;"></input>
-                
+                <script src="js/script_radio.js"></script>
+                <script src="js/script_dropdown.js"></script>
+
                     <div class = "polo_ativo">
                         <label class="label_nome" for="input_nome">Nome</label>
                         <input class="input_nome" type="text" id="input_nome" name="$nome" required maxlength="40" minlength="2"></input>
@@ -63,10 +63,10 @@
                         <input class="input_profissao" type="text" id="input_profissao" name="$input_profissao" required maxlength="40" minlength="2"></input>
 
                         <label class="label_cpf" for="input_cpf">CPF</label>
-                        <input class="input_cpf" type="text" id="input_cpf" name="$input_cpf" required maxlength="11" minlength="11"></input>
+                        <input class="input_cpf" type="text" id="input_cpf" name="$input_cpf" required maxlength="11" minlength="5"></input>
 
                         <label class="label_rg" for="input_rg">RG</label>
-                        <input class="input_rg" type="text" id="input_rg" name="$input_rg" required maxlength="9" minlength="5"></input>
+                        <input class="input_rg" type="text" id="input_rg" name="$input_rg" required maxlength="20" minlength="5"></input>
 
                         <label class="label_ctps" for="input_ctps">CTPS</label>
                         <input class="input_ctps" type="text" id="input_ctps" name="$input_ctps" required maxlength="8" minlength="8"></input>
@@ -159,7 +159,7 @@
                         <input class="input_rg_2" type="text" id="input_rg_2" name="$input_rg_2" required maxlength="9" minlength="5"></input>
 
                         <label class="label_cpf_2" for="input_cpf_2">CPF</label>
-                        <input class="input_cpf_2" type="text" id="input_cpf_2" name="$input_cpf_2" required maxlength="11" minlength="11"></input>
+                        <input class="input_cpf_2" type="text" id="input_cpf_2" name="$input_cpf_2" required maxlength="11" minlength="5"></input>
 
                         <label class="label_profissao_2" for="input_profissao_2">Profissão</label>
                         <input class="input_profissao_2" type="text" id="input_profissao_2" name="$input_profissao_2" required maxlength="40" minlength="2"></input>
@@ -168,61 +168,93 @@
                         <input class="input_endereco_2" type="text" id="input_endereco_2" name="$input_endereco_2" required maxlength="40" minlength="5"></input>
 
                     </div>
-        </div>
 
-        <div class="infos_preliminares">
-            <div class="titulo_infos_preliminares">
-                <img src="img/img_infos_preliminares.png" class="titulo_infos_preliminares_img">
-                <h1 class="titulo_infos_preliminares_txt">Informações Preliminares</h1>
-                <h2 class="subtitulo_infos_preliminares_txt">Selecione as opções que forem verdadeiras</h2>
+            <div class="infos_preliminares">
+                <div class="titulo_infos_preliminares">
+                    <img src="img/img_infos_preliminares.png" class="titulo_infos_preliminares_img">
+                    <h1 class="titulo_infos_preliminares_txt">Informações Preliminares</h1>
+                    <h2 class="subtitulo_infos_preliminares_txt">Selecione as opções que forem verdadeiras</h2>
+                </div>
+
+                <label class="label_checkbox_1" for="input_checkbox_1">O seu cliente já promoveu ou promove ação contra o empregador</label>
+                <input class="input_checkbox_1" type="checkbox" id="input_checkbox_1" name="$input_checkbox_1" value="sim"></input>
+
+                <label class="label_checkbox_2" for="input_checkbox_2">O seu cliente já foi ou é testemunha em outros processos envolvendo o empregador</label>
+                <input class="input_checkbox_2" type="checkbox" id="input_checkbox_2" name="$input_checkbox_2"value="sim"></input>
+
+                <label class="label_checkbox_3" for="input_checkbox_3">O seu cliente já contratou ou assinou procuração para outro advogado</label>
+                <input class="input_checkbox_3" type="checkbox" id="input_checkbox_3" name="$input_checkbox_3"value="sim"></input>
+
+                
+                <label class="label_checkbox_4" for="input_checkbox_4">A empresa reclamada ainda está ativa</label>
+                <input class="input_checkbox_4" type="checkbox" id="input_checkbox_4" name="$input_checkbox_4"value="sim"></input>
             </div>
 
-            <label class="label_checkbox_1" for="input_checkbox_1">O seu cliente já promoveu ou promove ação contra o empregador</label>
-            <input class="input_checkbox_1" type="checkbox" id="input_checkbox_1" name="$input_checkbox_1" value="sim"></input>
+            <div class="entrevista">
+                <div class="titulo_entrevista">
+                    <img src="img/img_entrevista.png" class="titulo_entrevista_img">
+                    <h1 class="titulo_entrevista_txt">Entrevista</h1>
+                </div>
 
-            <label class="label_checkbox_2" for="input_checkbox_2">O seu cliente já foi ou é testemunha em outros processos envolvendo o empregador</label>
-            <input class="input_checkbox_2" type="checkbox" id="input_checkbox_2" name="$input_checkbox_2"value="sim"></input>
+                <div class="dados_contratuais">
+                    <h1 class="titulo_dados_contratuais">1. Dados Contratuais</h1>
 
-            <label class="label_checkbox_3" for="input_checkbox_3">O seu cliente já contratou ou assinou procuração para outro advogado</label>
-            <input class="input_checkbox_3" type="checkbox" id="input_checkbox_3" name="$input_checkbox_3"value="sim"></input>
+                    <label class="label_data_admissao" for="input_data_admissao">Data de admissão</label>
+                    <input class="input_data_admissao" type="date" id="input_data_admissao" name="$input_data_admissao"></input>
 
-            
-            <label class="label_checkbox_4" for="input_checkbox_4">A empresa reclamada ainda está ativa</label>
-            <input class="input_checkbox_4" type="checkbox" id="input_checkbox_4" name="$input_checkbox_4"value="sim"></input>
-        </div>
+                    <label class="label_data_aviso_previo" for="input_data_aviso_previo">Data do aviso prévio</label>
+                    <input class="input_data_aviso_previo" type="date" id="input_data_aviso_previo" name="$input_data_aviso_previo"></input>
 
-        <div class="entrevista">
-            <div class="titulo_entrevista">
-                <img src="img/img_entrevista.png" class="titulo_entrevista_img">
-                <h1 class="titulo_entrevista_txt">Entrevista</h1>
+                    <label class="label_data_demissao" for="input_data_demissao">Data de demissão</label>
+                    <input class="input_data_demissao" type="date" id="input_data_demissao" name="$input_data_demissao"></input>
+
+                    <label class="label_aviso_previo" for="input_aviso_previo">Aviso prévio</label>
+                    <label class="label_aviso_previo_trabalhado" for="input_aviso_previo_trabalhado">Trabalhado</label>
+                    <input class="input_aviso_previo_trabalhado" type="radio" id="input_aviso_previo_trabalhado" name="$input_aviso_previo" required value="trabalhado"></input>
+
+                    <label class="label_aviso_previo_indenizado" for="input_aviso_previo_indenizado">Indenizado</label>
+                    <input class="input_aviso_previo_indenizado" type="radio" id="input_aviso_previo_indenizado" name="$input_aviso_previo" required value="indenizado"></input>
+
+                    <label class="label_cumpriu_aviso">Cumpriu o aviso?</label>
+                    <label class="label_cumpriu_aviso_sim" for="input_cumpriu_aviso_sim">Sim</label>
+                    <input class="input_cumpriu_aviso_sim" type="radio" id="input_cumpriu_aviso_sim" name="$input_cumpriu_aviso" required value="sim"></input>
+
+                    <label class="label_cumpriu_aviso_nao" for="input_cumpriu_aviso_nao">Não</label>
+                    <input class="input_cumpriu_aviso_nao" type="radio" id="input_cumpriu_aviso_nao" name="$input_cumpriu_aviso" required value="nao"></input>
+
+                    <label class="label_cumpriu_aviso_parcialmente" for="input_cumpriu_aviso_parcialmente_radio">Parcialmente</label>
+                    <input class="input_cumpriu_aviso_parcialmente_radio" type="radio" id="input_cumpriu_aviso_parcialmente_radio" name="$input_cumpriu_aviso" required value="parcialmente" onClick="habilitacao3()"></input>
+                    <input class="input_cumpriu_aviso_parcialmente" type="text" id="input_cumpriu_aviso_parcialmente" name="$input_cumpriu_aviso" required disabled></input>
+
+                    <label class="label_ctps_assinada">CTPS Assinada?</label>
+                    <label class="label_ctps_assinada_sim" for="input_ctps_assinada_sim">Sim</label>
+                    <input class="input_ctps_assinada_sim" type="radio" id="input_ctps_assinada_sim" name="$input_ctps_assinada" required value="sim" onClick="habilitacao4()"></input>
+
+                    <label class="label_ctps_assinada_nao" for="input_ctps_assinada_nao">Não</label>
+                    <input class="input_ctps_assinada_nao" type="radio" id="input_ctps_assinada_nao" name="$input_ctps_assinada" required value="nao" onClick="habilitacao4()"></input>
+                    
+                    <label class="label_data_registro" for="input_data_registro">Data do Registro</label>
+                    <input class="input_data_registro" type="date" id="input_data_registro" name="$input_data_registro" required disabled></input>
+
+                    <label class="label_funcao" for="input_funcao">Função</label>
+                    <input class="input_funcao" type="text" id="input_funcao" name="$input_funcao" required></input>
+
+                    <label class="label_tipo_contrato">Tipo de Contrato</label>
+                    <label class="label_radio_contrato_1" for="input_radio_contrato_1">Indeterminado</label>
+                    <input class="input_radio_contrato_1" type="radio" id="input_radio_contrato_1" name="$input_radio_contrato" value="Indeterminado"></input>
+
+                    <label class="label_radio_contrato_2" for="input_radio_contrato_2">Determinado (ART. 443, §2º CLT: a , b ou c)</label>
+                    <input class="input_radio_contrato_2" type="radio" id="input_radio_contrato_2" name="$input_radio_contrato" value="Determinado (ART. 443, §2º CLT: a , b ou c)"></input>
+
+                    <label class="label_radio_contrato_3" for="input_radio_contrato_3">Intermitente</label>
+                    <input class="input_radio_contrato_3" type="radio" id="input_radio_contrato_3" name="$input_radio_contrato" value="Intermitente"></input>
+
+
+                    <button class="button">Enviar Respostas</button>
+
+                    
+                </div>
             </div>
-
-            <h1 class="titulo_dados_contratuais">1. Dados Contratuais</h1>
-
-            <label class="label_data_admissao" for="input_data_admissao">Data de admissão</label>
-            <input class="input_data_admissao" type="date" id="input_data_admissao" name="$input_data_admissao"></input>
-
-            <label class="label_data_aviso_previo" for="input_data_aviso_previo">Data do aviso prévio</label>
-            <input class="input_data_aviso_previo" type="date" id="input_data_aviso_previo" name="$input_data_aviso_previo"></input>
-
-            <label class="label_data_demissao" for="input_data_demissao">Data de demissão</label>
-            <input class="input_data_demissao" type="date" id="input_data_demissao" name="$input_data_demissao"></input>
-
-            <label class="label_aviso_previo" for="input_aviso_previo">Aviso prévio</label>
-            <label class="label_aviso_previo_trabalhado" for="input_aviso_previo_trabalhado">Trabalhado</label>
-            <input class="input_aviso_previo_trabalhado" type="radio" id="input_aviso_previo_trabalhado" name="$input_aviso_previo" required value="trabalhado"></input>
-
-            <label class="label_aviso_previo_indenizado" for="input_aviso_previo_indenizado">Indenizado</label>
-            <input class="input_aviso_previo_indenizado" type="radio" id="input_aviso_previo_indenizado" name="$input_aviso_previo" required value="indenizado"></input>
-
-            <label class="label_cumpriu_aviso">Cumpriu o aviso?</label>
-            <label class="label_cumpriu_aviso_sim" for="input_cumpriu_aviso_sim">Sim</label>
-            <input class="input_cumpriu_aviso_sim" type="radio" id="input_cumpriu_aviso_sim" name="$input_cumpriu_aviso" required value="sim"></input>
-
-            <label class="label_cumpriu_aviso_nao" for="input_cumpriu_aviso_nao">Indenizado</label>
-            <input class="input_cumpriu_aviso_nao" type="radio" id="input_cumpriu_aviso_nao" name="$input_cumpriu_aviso" required value="nao"></input>
-
-        </div>
 
         </form>
     </body>
