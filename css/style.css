@@ -26,8 +26,9 @@ p {
 	font-weight: 400;
 	font-size: 40px;
 	line-height: 109px;
-	
 	color: #000000;
+
+	cursor: pointer;
 }
 
 /* Estilos Header */

@@ -771,3 +771,275 @@
 	
 	background: #F0F0F0;	
 }
+
+.titulo_salario_remuneracao{
+	position: absolute;
+	width: 1242px;
+	height: 84px;
+	left: 110px;
+	top: 7900px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 78px;
+
+	color: #454242;
+}
+
+.titulo_salario_remuneracao:before{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.titulo_salario_remuneracao:after{
+	content: "";
+	display: block;
+	width: 1530px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.salario{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 110px;
+	top: 8030px;
+	padding: 0px 10px;
+	box-sizing: border-box;
+	
+	background: #BEA469;
+	border-radius: 40px;
+
+	text-align: center;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 109px;
+	color: #FFFFFF;
+}
+
+.label_salario_fixo{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 123px;
+	top: 8180px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_salario_fixo:after{
+	content: "";
+	display: block;
+	width: 1530px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.input_salario_fixo{
+	position: absolute;
+	width: 700px;
+	height: 65px;
+	left: 530px;
+	top: 8200px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_periodicidade{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 123px;
+	top: 8320px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_periodicidade_mensal{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 175px;
+	top: 8385px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_periodicidade_mensal{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 130px;
+	top: 8415px;
+	
+	background: #F0F0F0;
+}
+
+.label_periodicidade_semanal{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 400px;
+	top: 8385px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_periodicidade_semanal{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 350px;
+	top: 8415px;
+	
+	background: #F0F0F0;
+}
+
+.label_periodicidade_quinzenal{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 660px;
+	top: 8385px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_periodicidade_quinzenal{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 610px;
+	top: 8415px;
+	
+	background: #F0F0F0;
+}
+
+.label_periodicidade_dia{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 946px;
+	top: 8385px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_periodicidade_dia{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 900px;
+	top: 8415px;
+	
+	background: #F0F0F0;
+}
+
+.label_periodicidade_hora{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1100px;
+	top: 8385px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_periodicidade_hora{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 1050px;
+	top: 8415px;
+	
+	background: #F0F0F0;
+}
+
+.label_periodicidade_peca_tarefa{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1285px;
+	top: 8385px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_periodicidade_peca_tarefa{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 1235px;
+	top: 8415px;
+	
+	background: #F0F0F0;
+}
