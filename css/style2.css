@@ -73,7 +73,7 @@
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 40px;
+	font-size: 30px;
 	line-height: 109px;
 
 	color: #000000;
@@ -99,7 +99,7 @@
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 40px;
+	font-size: 30px;
 	line-height: 109px;
 
 	color: #000000;
@@ -125,7 +125,7 @@
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 40px;
+	font-size: 30px;
 	line-height: 109px;
 
 	color: #000000;
@@ -151,8 +151,243 @@
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 40px;
+	font-size: 30px;
 	line-height: 109px;
 
 	color: #000000;
+}
+/* FINAL - Estilos Informações Preliminares */
+
+
+/* Estilos Entrevista */
+
+.titulo_entrevista{
+	position: absolute;
+	width: 900px;
+	height: 162px;
+	left: -105px;
+	top: 6400px;
+	
+	background: rgba(239, 239, 239, 0.79);
+	
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 90px;
+}
+
+.titulo_entrevista_txt{
+	position: relative;
+	width: fit-content;
+	height: 95px;
+	left: 400px;
+	top: 35px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 80px;
+	line-height: 98px;
+
+	color: #454242;
+}
+
+.titulo_entrevista_img{
+	position: absolute;
+	width: 186px;
+	height: 108px;
+	left: 173px;
+	top: 33px;
+}
+
+.titulo_dados_contratuais{
+	position: absolute;
+	width: 1242px;
+	height: 84px;
+	left: 110px;
+	top: 6600px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 78px;
+	
+	color: #454242;
+}
+
+.titulo_dados_contratuais:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.label_data_admissao{
+	position: absolute;
+	width: 361px;
+	height: 109px;
+	left: 123px;
+	top: 6690px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #000000;	
+}
+
+.input_data_admissao{
+	position: absolute;
+	width: 250px;
+	height: 65px;
+	left: 500px;
+	top: 6710px;
+	
+	background: #F0F0F0;
+	border-radius: 40px;	
+}
+
+.label_data_aviso_previo{
+	position: absolute;
+	width: 410px;
+	height: 109px;
+	left: 800px;
+	top: 6690px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+
+	color: #000000;	
+}
+
+.input_data_aviso_previo{
+	position: absolute;
+	width: 250px;
+	height: 65px;
+	left: 1220px;
+	top: 6710px;
+	
+	background: #F0F0F0;
+	border-radius: 40px;	
+}
+
+.label_data_demissao{
+	position: absolute;
+	width: 361px;
+	height: 109px;
+	left: 123px;
+	top: 6790px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;	
+}
+
+.label_data_demissao:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.input_data_demissao{
+	position: absolute;
+	width: 250px;
+	height: 65px;
+	left: 500px;
+	top: 6810px;
+	
+	background: #F0F0F0;
+	border-radius: 40px;	
+}
+
+.label_aviso_previo{
+	position: absolute;
+	width: 361px;
+	height: 109px;
+	left: 123px;
+	top: 6930px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;	
+}
+
+.label_aviso_previo:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.input_aviso_previo_trabalhado{
+	position: absolute;
+	width: 250px;
+	height: 65px;
+	left: 310px;
+	top: 6950px;
+	
+	background: #F0F0F0;
+	border-radius: 40px;	
+}
+
+.label_aviso_previo_trabalhado{
+	position: absolute;
+	width: 225px;
+	height: 109px;
+	left: 490px;
+	top: 6930px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #000000;	
+}
+
+.input_aviso_previo_indenizado{
+	position: absolute;
+	width: 250px;
+	height: 65px;
+	left: 700px;
+	top: 6950px;
+	
+	background: #F0F0F0;
+	border-radius: 40px;	
+}
+
+.label_aviso_previo_indenizado{
+	position: absolute;
+	width: 225px;
+	height: 109px;
+	left: 880px;
+	top: 6930px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #000000;	
 }
