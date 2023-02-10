@@ -1,0 +1,321 @@
+.comissoes_porcentagens{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 130px;
+	top: 9330px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_comissoes_porcentagens_sim{
+    position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 720px;
+	top: 9360px;
+	
+	background: #F0F0F0;
+}
+
+.label_comissoes_porcentagens_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 770px;
+	top: 9330px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_comissoes_porcentagens_nao{
+    position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 880px;
+	top: 9360px;
+	
+	background: #F0F0F0;
+}
+
+.label_comissoes_porcentagens_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 930px;
+	top: 9330px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_comissoes_comissionista_puro{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 9400px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_comissoes_comissionista_puro_sim{
+    position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 1210px;
+	top: 9435px;
+	
+	background: #F0F0F0;
+}
+
+.label_comissoes_comissionista_puro_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1260px;
+	top: 9400px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_comissoes_comissionista_puro_nao{
+    position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 1350px;
+	top: 9435px;
+	
+	background: #F0F0F0;
+}
+
+.label_comissoes_comissionista_puro_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1400px;
+	top: 9400px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_percentual{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 9470px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_percentual{
+	position: absolute;
+	width: 700px;
+	height: 65px;
+	left: 710px;
+	top: 9490px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_percentual:after{
+	content: "";
+	display: block;
+	width: 1530px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.label_periodicidade_pagamento{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 9620px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_periodicidade_pagamento{
+	position: absolute;
+	width: 600px;
+	height: 65px;
+	left: 1025px;
+	top: 9645px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_periodicidade_pagamento:after{
+	content: "";
+	display: block;
+	width: 1530px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.label_valor_comissoes{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 9770px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_valor_comissoes{
+	position: absolute;
+	width: 600px;
+	height: 65px;
+	left: 935px;
+	top: 9790px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_valor_comissoes:after{
+	content: "";
+	display: block;
+	width: 1530px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.label_piso_salarial{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 9920px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_piso_salarial:after{
+	content: "";
+	display: block;
+	width: 1530px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.input_piso_salarial_sim{
+    position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 825px;
+	top: 9955px;
+	
+	background: #F0F0F0;  
+}
+
+.label_piso_salarial_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 875px;
+	top: 9920px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}

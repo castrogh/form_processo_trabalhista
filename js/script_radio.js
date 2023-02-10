@@ -36,3 +36,59 @@ function habilitacao(){
       document.getElementById('input_data_registro').disabled = true;
     }
   }
+
+  function habilitacao5(){
+    if(document.getElementById('input_salario_pago_fora_sim').checked == true){
+      document.getElementById('input_salario_pago_fora_valor').disabled = false;
+    }
+    if(document.getElementById('input_salario_pago_fora_sim').checked == false){
+      document.getElementById('input_salario_pago_fora_valor').disabled = true;
+    }
+
+    if(document.getElementById('input_salario_pago_fora_nao').checked == true){
+      document.getElementById('input_salario_pago_fora_valor').value = '';
+    }
+  }
+
+  function habilitacao6(){
+    if(document.getElementById('input_comissoes_porcentagens_sim').checked == true){
+      document.getElementById('input_comissoes_comissionista_puro_sim').disabled = false;
+      document.getElementById('input_comissoes_comissionista_puro_nao').disabled = false;
+    }
+    if(document.getElementById('input_comissoes_comissionista_puro_nao').checked == true){
+      document.getElementById('input_comissoes_comissionista_puro_sim').disabled = true;
+    }
+  }
+
+  function habilitacao7(){
+    if(document.getElementById('input_comissoes_comissionista_puro_sim').checked == true){
+      document.getElementById('input_percentual').disabled = false;
+      document.getElementById('input_periodicidade_pagamento').disabled = false;
+      document.getElementById('input_valor_comissoes').disabled = false;
+      document.getElementById('input_piso_salarial_sim').disabled = false;
+      document.getElementById('input_piso_salarial_quanto').disabled = false;
+      document.getElementById('input_piso_salarial_nao').disabled = false;
+    }
+    if(document.getElementById('input_comissoes_comissionista_puro_nao').checked == true){
+      document.getElementById('input_percentual').disabled = true;
+      document.getElementById('input_periodicidade_pagamento').disabled = true;
+      document.getElementById('input_valor_comissoes').disabled = true;
+      document.getElementById('input_piso_salarial_sim').disabled = true;
+      document.getElementById('input_piso_salarial_quanto').disabled = true;
+      document.getElementById('input_piso_salarial_nao').disabled = true;
+    }
+  }
+
+
+  function habilitacao8(){
+    if(document.getElementById('input_piso_salarial_sim').checked == true){
+      document.getElementById('input_piso_salarial_quanto').disabled = false;
+    }
+    if(document.getElementById('input_piso_salarial_sim').checked == false){
+      document.getElementById('input_piso_salarial_quanto').disabled = true;
+    }
+
+    if(document.getElementById('input_piso_salarial_nao').checked == true){
+      document.getElementById('input_piso_salarial_quanto').value = '';
+    }
+  }

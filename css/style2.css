@@ -808,12 +808,11 @@
 
 .salario{
 	position: absolute;
-	width: fit-content;
-	height: fit-content;
+	width: 1565px;
+	height: 94px;
 	left: 110px;
 	top: 8030px;
-	padding: 0px 10px;
-	box-sizing: border-box;
+
 	
 	background: #BEA469;
 	border-radius: 40px;
@@ -822,7 +821,7 @@
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 600;
-	font-size: 40px;
+	font-size: 30px;
 	line-height: 109px;
 	color: #FFFFFF;
 }
@@ -1042,4 +1041,585 @@
 	top: 8415px;
 	
 	background: #F0F0F0;
+}
+
+.label_salario_pago_fora{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 123px;
+	top: 8490px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_salario_pago_fora:before{
+	content: "";
+	display: block;
+	width: 1530px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.label_salario_pago_fora:after{
+	content: "";
+	display: block;
+	width: 1530px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.input_salario_pago_fora_sim{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 590px;
+	top: 8540px;
+	
+	background: #F0F0F0;
+}
+
+.label_salario_pago_fora_sim{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 640px;
+	top: 8510px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_salario_pago_fora_valor{
+	position: absolute;
+	width: 350px;
+	height: 65px;
+	left: 870px;
+	top: 8535px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_salario_pago_fora_valor{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 750px;
+	top: 8510px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_salario_pago_fora_nao{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1300px;
+	top: 8510px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_salario_pago_fora_nao{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 1250px;
+	top: 8540px;
+	
+	background: #F0F0F0;
+}
+
+.label_forma_pagamento{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 123px;
+	top: 8640px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_forma_pagamento_transf_bancaria{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 130px;
+	top: 8740px;
+	
+	background: #F0F0F0;
+}
+
+.label_forma_pagamento_transf_bancaria{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 180px;
+	top: 8710px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_forma_pagamento_dinheiro{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 665px;
+	top: 8740px;
+	
+	background: #F0F0F0;
+}
+
+.label_forma_pagamento_dinheiro{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 715px;
+	top: 8710px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_forma_pagamento_cheque{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 915px;
+	top: 8740px;
+	
+	background: #F0F0F0;
+}
+
+.label_forma_pagamento_cheque{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 965px;
+	top: 8710px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_forma_pagamento_deposito{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 1150px;
+	top: 8740px;
+	
+	background: #F0F0F0;
+}
+
+.label_forma_pagamento_deposito{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1200px;
+	top: 8710px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_forma_pagamento_em_maos{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 1400px;
+	top: 8740px;
+	
+	background: #F0F0F0;
+}
+
+.label_forma_pagamento_em_maos{
+	position: absolute;
+	width: 240px;
+	height: 109px;
+	left: 1450px;
+	top: 8710px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_gratificacoes_legais{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 123px;
+	top: 8800px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_gratificacoes_legais:before{
+	content: "";
+	display: block;
+	width: 1530px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.input_gratificacoes_tempo_servico{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 130px;
+	top: 8910px;
+	
+	background: #F0F0F0;
+}
+
+.label_gratificacoes_tempo_servico{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 180px;
+	top: 8880px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_gratificacoes_semestral{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 560px;
+	top: 8910px;
+	
+	background: #F0F0F0;
+}
+
+.label_gratificacoes_semestral{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 610px;
+	top: 8880px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_gratificacoes_funcao{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 850px;
+	top: 8910px;
+	
+	background: #F0F0F0;
+}
+
+.label_gratificacoes_funcao{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 900px;
+	top: 8880px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_gratificacoes_outros{
+	position: absolute;
+	width: 380px;
+	height: 65px;
+	left: 1250px;
+	top: 8900px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_gratificacoes_outros{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1100px;
+	top: 8880px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_adicionais{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 123px;
+	top: 9000px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_adicionais:before{
+	content: "";
+	display: block;
+	width: 1530px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.input_adicionais_noturno{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 130px;
+	top: 9110px;
+	
+	background: #F0F0F0;	
+}
+
+.label_adicionais_noturno{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 180px;
+	top: 9080px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_adicionais_hora_extra{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 410px;
+	top: 9110px;
+	
+	background: #F0F0F0;	
+}
+
+.label_adicionais_hora_extra{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 460px;
+	top: 9080px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_adicionais_periculosidade{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 730px;
+	top: 9110px;
+	
+	background: #F0F0F0;	
+}
+
+.label_adicionais_periculosidade{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 780px;
+	top: 9080px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_adicionais_insalubridade{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 1150px;
+	top: 9110px;
+	
+	background: #F0F0F0;	
+}
+
+.label_adicionais_insalubridade{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1200px;
+	top: 9080px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_adicionais_outros{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 130px;
+	top: 9180px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_adicionais_outros{
+	position: absolute;
+	width: 700px;
+	height: 65px;
+	left: 300px;
+	top: 9205px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_adicionais_outros:after{
+	content: "";
+	display: block;
+	width: 1530px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
 }
