@@ -319,3 +319,296 @@
 	
 	color: #454242;
 }
+
+.input_piso_salarial_quanto{
+	position: absolute;
+	width: 200px;
+	height: 65px;
+	left: 1175px;
+	top: 9938px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000; 
+}
+
+.label_piso_salarial_quanto{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 990px;
+	top: 9920px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_piso_salarial_nao{
+    position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 1400px;
+	top: 9955px;
+	
+	background: #F0F0F0;  
+}
+
+.label_piso_salarial_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1450px;
+	top: 9920px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_salario_minimo{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 10070px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_salario_minimo:after{
+	content: "";
+	display: block;
+	width: 1530px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.input_salario_minimo_sim{
+    position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 1020px;
+	top: 10210px;
+	
+	background: #F0F0F0;  
+}
+
+.label_salario_minimo_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1070px;
+	top: 10180px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_salario_minimo_nao{
+    position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 1220px;
+	top: 10210px;
+	
+	background: #F0F0F0;  
+}
+
+.label_salario_minimo_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1270px;
+	top: 10180px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_dsr{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 10300px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_dsr:after{
+	content: "";
+	display: block;
+	width: 1530px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.input_dsr_sim{
+    position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 950px;
+	top: 10330px;
+	
+	background: #F0F0F0;  
+}
+
+.label_dsr_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1000px;
+	top: 10300px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_dsr_nao{
+    position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 1120px;
+	top: 10330px;
+	
+	background: #F0F0F0;  
+}
+
+.label_dsr_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1170px;
+	top: 10300px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_acordo{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 10450px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_acordo:after{
+	content: "";
+	display: block;
+	width: 1530px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.input_acordo_sim{
+    position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 1230px;
+	top: 10480px;
+	
+	background: #F0F0F0;  
+}
+
+.label_acordo_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1280px;
+	top: 10450px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_acordo_nao{
+    position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 1400px;
+	top: 10480px;
+	
+	background: #F0F0F0;  
+}
+
+.label_acordo_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1450px;
+	top: 10450px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}

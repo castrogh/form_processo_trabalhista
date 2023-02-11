@@ -68,6 +68,12 @@ function habilitacao(){
       document.getElementById('input_piso_salarial_sim').disabled = false;
       document.getElementById('input_piso_salarial_quanto').disabled = false;
       document.getElementById('input_piso_salarial_nao').disabled = false;
+      document.getElementById('input_salario_minimo_sim').disabled = false;
+      document.getElementById('input_salario_minimo_nao').disabled = false;
+      document.getElementById('input_dsr_sim').disabled = false;
+      document.getElementById('input_dsr_nao').disabled = false;
+      document.getElementById('input_acordo_sim').disabled = false;
+      document.getElementById('input_acordo_nao').disabled = false;
     }
     if(document.getElementById('input_comissoes_comissionista_puro_nao').checked == true){
       document.getElementById('input_percentual').disabled = true;
@@ -76,6 +82,12 @@ function habilitacao(){
       document.getElementById('input_piso_salarial_sim').disabled = true;
       document.getElementById('input_piso_salarial_quanto').disabled = true;
       document.getElementById('input_piso_salarial_nao').disabled = true;
+      document.getElementById('input_salario_minimo_sim').disabled = true;
+      document.getElementById('input_salario_minimo_nao').disabled = true;
+      document.getElementById('input_dsr_sim').disabled = true;
+      document.getElementById('input_dsr_nao').disabled = true;
+      document.getElementById('input_acordo_sim').disabled = true;
+      document.getElementById('input_acordo_nao').disabled = true;
     }
   }
 
