@@ -255,192 +255,221 @@
 
                 <div class="salario_remuneracao">
                     <h1 class="titulo_salario_remuneracao">2. Salário e Remuneração</h1>
+
+                    <label class="salario">SALÁRIO (quantia fixa + gratificações legais + adicionais + comissões)</label>
+                    <label class="label_salario_fixo" for="input_salario_fixo">Valor do salário fixo</label>
+                    <input type="text" class="input_salario_fixo" id="input_salario_fixo" name="$input_salario_fixo"></input>
+
+                    <label class="label_periodicidade">Qual era a periodicidade do pagamento?</label>
+                    <label class="label_periodicidade_mensal" for="input_periodicidade_mensal">Mensal</label>
+                    <input type="radio" class="input_periodicidade_mensal" id="input_periodicidade_mensal" name="$input_periodicidade" value="Mensal"></input>
+
+                    <label class="label_periodicidade_semanal" for="input_periodicidade_semanal">Semanal</label>
+                    <input type="radio" class="input_periodicidade_semanal" id="input_periodicidade_semanal" name="$input_periodicidade" value="Semanal"></input>
+
+                    <label class="label_periodicidade_quinzenal" for="input_periodicidade_semanal">Quinzenal</label>
+                    <input type="radio" class="input_periodicidade_quinzenal" id="input_periodicidade_quinzenal" name="$input_periodicidade" value="Quinzenal"></input>
+
+                    <label class="label_periodicidade_dia" for="input_periodicidade_dia">Dia</label>
+                    <input type="radio" class="input_periodicidade_dia" id="input_periodicidade_dia" name="$input_periodicidade" value="Dia"></input>
+
+                    <label class="label_periodicidade_hora" for="input_periodicidade_hora">Hora</label>
+                    <input type="radio" class="input_periodicidade_hora" id="input_periodicidade_hora" name="$input_periodicidade" value="Hora"></input>
+
+                    <label class="label_periodicidade_peca_tarefa" for="input_periodicidade_peca_tarefa">Peça/Tarefa</label>
+                    <input type="radio" class="input_periodicidade_peca_tarefa" id="input_periodicidade_peca_tarefa" name="$input_periodicidade" value="Peça/Tarefa"></input>
+
+                    <label class="label_salario_pago_fora">Salário pago por fora?</label>
+                    <label class="label_salario_pago_fora_sim" for="input_salario_pago_fora_sim">Sim</label>
+                    <input type="radio" class="input_salario_pago_fora_sim" id="input_salario_pago_fora_sim" name="$Salário pago por fora?" value="Sim" onclick="habilitacao5()"></input>
+                    
+                    <label class="label_salario_pago_fora_valor" for="input_salario_pago_fora_valor">Valor</label>
+                    <input type="text" class="input_salario_pago_fora_valor" id="input_salario_pago_fora_valor" name="$Valor" disabled><input>
+
+                    <label class="label_salario_pago_fora_nao" for="input_label_salario_pago_fora_nao">Não</label>
+                    <input type="radio" class="input_salario_pago_fora_nao" id="input_salario_pago_fora_nao" name="$Salário pago por fora?" value="Não" onclick="habilitacao5()"></input>
+
+                    <label class="label_forma_pagamento">Forma de Pgamento</label>
+                    <label class="label_forma_pagamento_transf_bancaria" for="input_forma_pagamento_transf_bancaria">Transferência Bancária</label>
+                    <input type="radio" class="input_forma_pagamento_transf_bancaria" id="input_forma_pagamento_transf_bancaria" name="$Forma de Pagamento" value="Transferência Bancária"></input>
+
+                    <label class="label_forma_pagamento_dinheiro" for="input_forma_pagamento_dinheiro">Dinheiro</label>
+                    <input type="radio" class="input_forma_pagamento_dinheiro" id="input_forma_pagamento_dinheiro" name="$Forma de Pagamento" value="Dinheiro"></input>
+
+                    <label class="label_forma_pagamento_cheque" for="input_forma_pagamento_cheque">Cheque</label>
+                    <input type="radio" class="input_forma_pagamento_cheque" id="input_forma_pagamento_cheque" name="$Forma de Pagamento" value="Cheque"></input>
+
+                    <label class="label_forma_pagamento_deposito" for="input_forma_pagamento_deposito">Depósito</label>
+                    <input type="radio" class="input_forma_pagamento_deposito" id="input_forma_pagamento_deposito" name="$Forma de Pagamento" value="Depósito"></input>
+
+                    <label class="label_forma_pagamento_em_maos" for="input_forma_pagamento_em_maos">Em Mãos</label>
+                    <input type="radio" class="input_forma_pagamento_em_maos" id="input_forma_pagamento_em_maos" name="$Forma de Pagamento" value="Em Mãos"></input>
+
+                    <label class="label_gratificacoes_legais">Gratificações Legais</label>
+                    <label class="label_gratificacoes_tempo_servico" for="input_gratificacoes_tempo_servico">Tempo de serviço</label>
+                    <input type="radio" class="input_gratificacoes_tempo_servico" id="input_gratificacoes_tempo_servico" name="$Gratificações Legais" value="Tempo de serviço"></input>
+
+                    <label class="label_gratificacoes_semestral" for="input_gratificacoes_semestral">Semestral</label>
+                    <input type="radio" class="input_gratificacoes_semestral" id="input_gratificacoes_semestral" name="$Gratificações Legais" value="Semestral"></input>
+
+                    <label class="label_gratificacoes_funcao" for="input_gratificacoes_funcao">Função</label>
+                    <input type="radio" class="input_gratificacoes_funcao" id="input_gratificacoes_funcao" name="$Gratificações Legais" value="Função"></input>
+
+                    <label class="label_gratificacoes_outros" for="input_gratificacoes_outros">Outros</label>
+                    <input type="text" class="input_gratificacoes_outros" id="input_gratificacoes_outros" name="$Gratificações Legais"></input>
+
+                    <label class="label_adicionais">Adicionais</label>
+                    <label class="label_adicionais_noturno" for="input_adicionais_noturno">Noturno</label>
+                    <input type="radio" class="input_adicionais_noturno" id="input_adicionais_noturno" name="$Adicionais" value="Noturno"></input>
+
+                    <label class="label_adicionais_hora_extra" for="input_adicionais_hora_extra">Hora Extra</label>
+                    <input type="radio" class="input_adicionais_hora_extra" id="input_adicionais_hora_extra" name="$Adicionais" value="Hora Extra"></input>
+
+                    <label class="label_adicionais_periculosidade" for="input_adicionais_periculosidade">Periculosidade</label>
+                    <input type="radio" class="input_adicionais_periculosidade" id="input_adicionais_periculosidade" name="$Adicionais" value="Periculosidade"></input>
+
+                    <label class="label_adicionais_insalubridade" for="input_adicionais_insalubridade">Insalubridade</label>
+                    <input type="radio" class="input_adicionais_insalubridade" id="input_adicionais_insalubridade" name="$Adicionais" value="Insalubridade"></input>
+
+                    <label class="label_adicionais_outros" for="input_adicionais_outros">Outros</label>
+                    <input type="text" class="input_adicionais_outros" id="input_adicionais_outros" name="$Adicionais"><input>
+
+                    <label class="comissoes_porcentagens">Comissões e Porcentagens?</label>
+                    <label class="label_comissoes_porcentagens_sim" for="input_comissoes_porcentagens_sim">Sim</label>
+                    <input type="radio" class="input_comissoes_porcentagens_sim" id="input_comissoes_porcentagens_sim" name="$Comissões e Porcentagens?" value="Sim" onclick="habilitacao6()"></input>
+
+                    <label class="label_comissoes_porcentagens_nao" for="input_comissoes_porcentagens_nao">Não</label>
+                    <input type="radio" class="input_comissoes_porcentagens_nao" id="input_comissoes_porcentagens_nao" name="$Comissões e Porcentagens?" value="Não" onclick="habilitacao6()"></input>
+
+                    <label class="label_comissoes_comissionista_puro">Comissionista Puro <b>(exclusivamente comissões)?</b></label>
+                    <label class="label_comissoes_comissionista_puro_sim" for="input_comissionista_puro_sim">Sim</label>
+                    <input type="radio" class="input_comissoes_comissionista_puro_sim" id="input_comissoes_comissionista_puro_sim" name="$Comissionista Puro (exclusivamente comissões)?" value="Sim" disabled onclick="habilitacao7()"></input>
+
+                    <label class="label_comissoes_comissionista_puro_nao" for="input_comissoes_comissionista_puro_nao">Não</label>
+                    <input type="radio" class="input_comissoes_comissionista_puro_nao" id="input_comissoes_comissionista_puro_nao" name="$Comissionista Puro (exclusivamente comissões)?" value="Não" disabled onclick="habilitacao7()"></input>
+
+                    <label class="label_percentual" for="input_percentual">Percentual % de quanto?</label>
+                    <input type="text" class="input_percentual" id="input_percentual" name="$Percentual % de quanto?" disabled><input>
+
+                    <label class="label_periodicidade_pagamento" for="input_periodicidade_pagamento">Qual era a periodicidade de pagamento?</label>
+                    <input type="text" class="input_periodicidade_pagamento" id="input_periodicidade_pagamento" name="$Qual era a periodicidade de pagamento?" disabled></input>
+
+                    <label class="label_valor_comissoes" for="input_valor_comissoes">Valor médio das comissões por mês</label>
+                    <input type="text" class="input_valor_comissoes" id="input_valor_comissoes" name="$Valor médio das comissões por mês" disabled></input>
+
+                    <label class="label_piso_salarial">A categoria tinha piso salarial?</label>
+                    <label class="label_piso_salarial_sim" for="input_piso_salarial_sim">Sim</label>
+                    <input type="radio" class="input_piso_salarial_sim" id="input_piso_salarial_sim" name="$A categoria tinha piso salarial?" disabled value="Sim" onclick="habilitacao8()"></input>
+                    
+                    <label class="label_piso_salarial_quanto" for="input_piso_salarial_quanto">Quanto?</label>
+                    <input type="text" class="input_piso_salarial_quanto" id="input_piso_salarial_quanto" name="$Quanto?" disabled><input>
+
+                    <label class="label_piso_salarial_nao" for="input_piso_salarial_nao">Não</label>
+                    <input type="radio" class="input_piso_salarial_nao" id="input_piso_salarial_nao" name="$A categoria tinha piso salarial?" disabled value="Não" onclick="habilitacao8()"></input>
+
+                    <label class="label_salario_minimo">Era assegurado o salário mínimo legal ou piso salarial quando a meta das vendas não ultrapassam esse patamar?</label>
+                    <label class="label_salario_minimo_sim" for="input_salario_minimo_sim">Sim</label>
+                    <input type="radio" class="input_salario_minimo_sim" id="input_salario_minimo_sim" name="$Era assegurado o salário mínimo legal ou piso salarial quando a meta das vendas não ultrapassam esse patamar?" disabled value="Sim"></input>
+                    <label class="label_salario_minimo_nao" for="input_salario_minimo_nao">Não</label>
+                    <input type="radio" class="input_salario_minimo_nao" id="input_salario_minimo_nao" name="$Era assegurado o salário mínimo legal ou piso salarial quando a meta das vendas não ultrapassam esse patamar?" disabled value="Não"></input>
+
+                    <label class="label_dsr">DSRs pagos em rubricas apartadas?</label>
+                    <label class="label_dsr_sim" for="input_dsr_sim">Sim</label>
+                    <input type="radio" class="input_dsr_sim" id="input_dsr_sim" name="$DSRs pagos em rubricas apartadas?" disabled value="Sim"><input>
+                    <label class="label_dsr_nao" for="input_salario_minimo_nao">Não</label>
+                    <input type="radio" class="input_dsr_nao" id="input_dsr_nao" name="$DSRs pagos em rubricas apartadas?" disabled value="Não"><input>
+
+                    <label class="label_acordo">Havia previsão em acordo ou convenção coletiva?</label>
+                    <label class="label_acordo_sim" for="input_acordo_sim">Sim</label>
+                    <input type="radio" class="input_acordo_sim" id="input_acordo_sim" name="$Havia previsão em acordo ou convenção coletiva?" disabled value="Sim"><input>
+                    <label class="label_acordo_nao" for="input_acordo_nao">Não</label>
+                    <input type="radio" class="input_acordo_nao" id="input_acordo_nao" name="$Havia previsão em acordo ou convenção coletiva?" disabled value="Não"><input>
+
+                    <container class="barra_lateral"></container>
+
+                    <label class="label_comissionista_misto">Comissionista Misto <b>(salário fixo + comissões)?</b></label>
+                    <label class="label_comissionista_misto_sim" for="input_comissionista_misto_sim">Sim</label>
+                    <input type="radio" class="input_comissionista_misto_sim" id="input_comissionista_misto_sim" name="$Comissionista Misto (salário fixo + comissões)?" value="Sim" onclick="habilitacao9()"></input>
+
+                    <label class="label_comissionista_misto_nao" for="input_comissionista_misto_nao">Não</label>
+                    <input type="radio" class="input_comissionista_misto_nao" id="input_comissionista_misto_nao" name="$Comissionista Misto (salário fixo + comissões)?" value="Não" onclick="habilitacao9()"></input>
+
+                    <label class="label_comissionista_salario_fixo" for="input_comissionista_salario_fixo">Valor do salário fixo</label>
+                    <input type="text" class="input_comissionista_salario_fixo" id="input_comissionista_salario_fixo" name="$Valor do salário fixo" disabled ><input>
+
+                    <label class="label_comissionista_misto_salario_minimo">Era assegurado o salário mínimo legal ou piso salarial quando a soma da parte variável e parte fixa, fossem inferiores a esses patamares?</label>
+                    <label class="label_comissionista_misto_salario_minimo_sim" for="input_comissionista_misto_salario_minimo_sim">Sim</label>
+                    <input type="radio" class="input_comissionista_misto_salario_minimo_sim" id="input_comissionista_misto_salario_minimo_sim" name="$Era assegurado o salário mínimo legal ou piso salarial quando a soma da parte variável e parte fixa, fossem inferiores a esses patamares?" disabled value="Sim"></input>
+                    
+                    <label class="label_comissionista_misto_salario_minimo_nao" for="input_comissionista_misto_salario_minimo_nao">Não</label>
+                    <input type="radio" class="input_comissionista_misto_salario_minimo_nao" id="input_comissionista_misto_salario_minimo_nao" name="$Era assegurado o salário mínimo legal ou piso salarial quando a soma da parte variável e parte fixa, fossem inferiores a esses patamares?" disabled value="Não"></input>
+
+                    <label class="label_comissionista_misto_dsr">DSRs pagos sobre as comissões e em rubricas apartadas?</label>
+                    <label class="label_comissionista_misto_dsr_sim" for="input_comissionista_misto_dsr_sim">Sim</label>
+                    <input type="radio" class="input_comissionista_misto_dsr_sim" id="input_comissionista_misto_dsr_sim" name="$DSRs pagos sobre as comissões e em rubricas apartadas?" disabled value="Sim"></input>
+                    
+                    <label class="label_comissionista_misto_dsr_nao" for="input_comissionista_misto_dsr_nao">Não</label>
+                    <input type="radio" class="input_comissionista_misto_dsr_nao" id="input_comissionista_misto_dsr_nao" name="$DSRs pagos sobre as comissões e em rubricas apartadas?" disabled value="Não"></input>
+
+                    <label class="label_comissionista_misto_acordo">Havia previsão em acordo ou convenção coletiva?</label>
+                    <label class="label_comissionista_misto_acordo_sim" for="input_comissionista_misto_acordo_sim">Sim</label>
+                    <input type="radio" class="input_comissionista_misto_acordo_sim" id="input_comissionista_misto_acordo_sim" name="$Havia previsão em acordo ou convenção coletiva?" disabled value="Sim"></input>
+                    
+                    <label class="label_comissionista_misto_acordo_nao" for="input_comissionista_misto_acordo_nao">Não</label>
+                    <input type="radio" class="input_comissionista_misto_acordo_nao" id="input_comissionista_misto_acordo_nao" name="$Havia previsão em acordo ou convenção coletiva?" disabled value="Não"></input>
+
+                    <div class="barra_lateral_2"></div>
+
+                    <label class="remuneracao">REMUNERAÇÃO (salário + gorjetas)</label>
+
+                    <label class="label_gorjetas">Gorjetas</label>
+                    <label class="label_gorjetas_sim" for="input_gorjetas_sim">Sim</label>
+                    <input type="radio" class="input_gorjetas_sim" id="input_gorjetas_sim" name="$Gorjetas" value="Sim" onclick="habilitacao10()"></input>
+                    
+                    <label class="label_gorjetas_nao" for="input_gorjetas_nao">Não</label>
+                    <input type="radio" class="input_gorjetas_nao" id="input_gorjetas_nao" name="$Gorjetas" value="Não" onclick="habilitacao10()"></input>
+
+                    <label class="label_supressao">Houve supressão por mais de 12 meses?</label>
+                    <label class="label_supressao_sim" for="input_supressao_sim">Sim</label>
+                    <input type="radio" class="input_supressao_sim" id="input_supressao_sim" name="$Houve supressão por mais de 12 meses?" value="Sim" disabled onclick="habilitacao11()"></input>
+                    
+                    <label class="label_supressao_nao" for="input_supressao_nao">Não</label>
+                    <input type="radio" class="input_supressao_nao" id="input_supressao_nao" name="$Houve supressão por mais de 12 meses?" value="Não" disabled onclick="habilitacao11()"></input>
+
+                    <label class="label_periodo" for="input_periodo">Em que período?</label>
+                    <input type="text" class="input_periodo" id="input_periodo" name="$Em que período?" disabled></input>
+
                 </div>
 
-                <label class="salario">SALÁRIO (quantia fixa + gratificações legais + adicionais + comissões)</label>
-                <label class="label_salario_fixo" for="input_salario_fixo">Valor do salário fixo</label>
-                <input type="text" class="input_salario_fixo" id="input_salario_fixo" name="$input_salario_fixo"></input>
+                <div class="extincao_contrato">
+                    <h1 class="titulo_extincao_contrato">3. Motivo da extinção do Contrato de Trabalho</h1>
 
-                <label class="label_periodicidade">Qual era a periodicidade do pagamento?</label>
-                <label class="label_periodicidade_mensal" for="input_periodicidade_mensal">Mensal</label>
-                <input type="radio" class="input_periodicidade_mensal" id="input_periodicidade_mensal" name="$input_periodicidade" value="Mensal"></input>
+                    <label class="label_demissao" for="input_demissao">Demissão</label>
+                    <input type="text" class="input_demissao" id="input_demissao" name="$Demissão"></input>
 
-                <label class="label_periodicidade_semanal" for="input_periodicidade_semanal">Semanal</label>
-                <input type="radio" class="input_periodicidade_semanal" id="input_periodicidade_semanal" name="$input_periodicidade" value="Semanal"></input>
-
-                <label class="label_periodicidade_quinzenal" for="input_periodicidade_semanal">Quinzenal</label>
-                <input type="radio" class="input_periodicidade_quinzenal" id="input_periodicidade_quinzenal" name="$input_periodicidade" value="Quinzenal"></input>
-
-                <label class="label_periodicidade_dia" for="input_periodicidade_dia">Dia</label>
-                <input type="radio" class="input_periodicidade_dia" id="input_periodicidade_dia" name="$input_periodicidade" value="Dia"></input>
-
-                <label class="label_periodicidade_hora" for="input_periodicidade_hora">Hora</label>
-                <input type="radio" class="input_periodicidade_hora" id="input_periodicidade_hora" name="$input_periodicidade" value="Hora"></input>
-
-                <label class="label_periodicidade_peca_tarefa" for="input_periodicidade_peca_tarefa">Peça/Tarefa</label>
-                <input type="radio" class="input_periodicidade_peca_tarefa" id="input_periodicidade_peca_tarefa" name="$input_periodicidade" value="Peça/Tarefa"></input>
-
-                <label class="label_salario_pago_fora">Salário pago por fora?</label>
-                <label class="label_salario_pago_fora_sim" for="input_salario_pago_fora_sim">Sim</label>
-                <input type="radio" class="input_salario_pago_fora_sim" id="input_salario_pago_fora_sim" name="$Salário pago por fora?" value="Sim" onclick="habilitacao5()"></input>
+                    <label class="label_pedido_demissao" for="input_pedido_demissao">Pedido de Demisão</label>
+                    <input type="radio" class="input_pedido_demissao" id="input_pedido_demissao" name="$Demissão" value="Pedido de Demissão"></input>
                 
-                <label class="label_salario_pago_fora_valor" for="input_salario_pago_fora_valor">Valor</label>
-                <input type="text" class="input_salario_pago_fora_valor" id="input_salario_pago_fora_valor" name="$Valor" disabled><input>
-
-                <label class="label_salario_pago_fora_nao" for="input_label_salario_pago_fora_nao">Não</label>
-                <input type="radio" class="input_salario_pago_fora_nao" id="input_salario_pago_fora_nao" name="$Salário pago por fora?" value="Não" onclick="habilitacao5()"></input>
-
-                <label class="label_forma_pagamento">Forma de Pgamento</label>
-                <label class="label_forma_pagamento_transf_bancaria" for="input_forma_pagamento_transf_bancaria">Transferência Bancária</label>
-                <input type="radio" class="input_forma_pagamento_transf_bancaria" id="input_forma_pagamento_transf_bancaria" name="$Forma de Pagamento" value="Transferência Bancária"></input>
-
-                <label class="label_forma_pagamento_dinheiro" for="input_forma_pagamento_dinheiro">Dinheiro</label>
-                <input type="radio" class="input_forma_pagamento_dinheiro" id="input_forma_pagamento_dinheiro" name="$Forma de Pagamento" value="Dinheiro"></input>
-
-                <label class="label_forma_pagamento_cheque" for="input_forma_pagamento_cheque">Cheque</label>
-                <input type="radio" class="input_forma_pagamento_cheque" id="input_forma_pagamento_cheque" name="$Forma de Pagamento" value="Cheque"></input>
-
-                <label class="label_forma_pagamento_deposito" for="input_forma_pagamento_deposito">Depósito</label>
-                <input type="radio" class="input_forma_pagamento_deposito" id="input_forma_pagamento_deposito" name="$Forma de Pagamento" value="Depósito"></input>
-
-                <label class="label_forma_pagamento_em_maos" for="input_forma_pagamento_em_maos">Em Mãos</label>
-                <input type="radio" class="input_forma_pagamento_em_maos" id="input_forma_pagamento_em_maos" name="$Forma de Pagamento" value="Em Mãos"></input>
-
-                <label class="label_gratificacoes_legais">Gratificações Legais</label>
-                <label class="label_gratificacoes_tempo_servico" for="input_gratificacoes_tempo_servico">Tempo de serviço</label>
-                <input type="radio" class="input_gratificacoes_tempo_servico" id="input_gratificacoes_tempo_servico" name="$Gratificações Legais" value="Tempo de serviço"></input>
-
-                <label class="label_gratificacoes_semestral" for="input_gratificacoes_semestral">Semestral</label>
-                <input type="radio" class="input_gratificacoes_semestral" id="input_gratificacoes_semestral" name="$Gratificações Legais" value="Semestral"></input>
-
-                <label class="label_gratificacoes_funcao" for="input_gratificacoes_funcao">Função</label>
-                <input type="radio" class="input_gratificacoes_funcao" id="input_gratificacoes_funcao" name="$Gratificações Legais" value="Função"></input>
-
-                <label class="label_gratificacoes_outros" for="input_gratificacoes_outros">Outros</label>
-                <input type="text" class="input_gratificacoes_outros" id="input_gratificacoes_outros" name="$Gratificações Legais"></input>
-
-                <label class="label_adicionais">Adicionais</label>
-                <label class="label_adicionais_noturno" for="input_adicionais_noturno">Noturno</label>
-                <input type="radio" class="input_adicionais_noturno" id="input_adicionais_noturno" name="$Adicionais" value="Noturno"></input>
-
-                <label class="label_adicionais_hora_extra" for="input_adicionais_hora_extra">Hora Extra</label>
-                <input type="radio" class="input_adicionais_hora_extra" id="input_adicionais_hora_extra" name="$Adicionais" value="Hora Extra"></input>
-
-                <label class="label_adicionais_periculosidade" for="input_adicionais_periculosidade">Periculosidade</label>
-                <input type="radio" class="input_adicionais_periculosidade" id="input_adicionais_periculosidade" name="$Adicionais" value="Periculosidade"></input>
-
-                <label class="label_adicionais_insalubridade" for="input_adicionais_insalubridade">Insalubridade</label>
-                <input type="radio" class="input_adicionais_insalubridade" id="input_adicionais_insalubridade" name="$Adicionais" value="Insalubridade"></input>
-
-                <label class="label_adicionais_outros" for="input_adicionais_outros">Outros</label>
-                <input type="text" class="input_adicionais_outros" id="input_adicionais_outros" name="$Adicionais"><input>
-
-                <label class="comissoes_porcentagens">Comissões e Porcentagens?</label>
-                <label class="label_comissoes_porcentagens_sim" for="input_comissoes_porcentagens_sim">Sim</label>
-                <input type="radio" class="input_comissoes_porcentagens_sim" id="input_comissoes_porcentagens_sim" name="$Comissões e Porcentagens?" value="Sim" onclick="habilitacao6()"></input>
-
-                <label class="label_comissoes_porcentagens_nao" for="input_comissoes_porcentagens_nao">Não</label>
-                <input type="radio" class="input_comissoes_porcentagens_nao" id="input_comissoes_porcentagens_nao" name="$Comissões e Porcentagens?" value="Não" onclick="habilitacao6()"></input>
-
-                <label class="label_comissoes_comissionista_puro">Comissionista Puro <b>(exclusivamente comissões)?</b></label>
-                <label class="label_comissoes_comissionista_puro_sim" for="input_comissionista_puro_sim">Sim</label>
-                <input type="radio" class="input_comissoes_comissionista_puro_sim" id="input_comissoes_comissionista_puro_sim" name="$Comissionista Puro (exclusivamente comissões)?" value="Sim" disabled onclick="habilitacao7()"></input>
-
-                <label class="label_comissoes_comissionista_puro_nao" for="input_comissoes_comissionista_puro_nao">Não</label>
-                <input type="radio" class="input_comissoes_comissionista_puro_nao" id="input_comissoes_comissionista_puro_nao" name="$Comissionista Puro (exclusivamente comissões)?" value="Não" disabled onclick="habilitacao7()"></input>
-
-                <label class="label_percentual" for="input_percentual">Percentual % de quanto?</label>
-                <input type="text" class="input_percentual" id="input_percentual" name="$Percentual % de quanto?" disabled><input>
-
-                <label class="label_periodicidade_pagamento" for="input_periodicidade_pagamento">Qual era a periodicidade de pagamento?</label>
-                <input type="text" class="input_periodicidade_pagamento" id="input_periodicidade_pagamento" name="$Qual era a periodicidade de pagamento?" disabled></input>
-
-                <label class="label_valor_comissoes" for="input_valor_comissoes">Valor médio das comissões por mês</label>
-                <input type="text" class="input_valor_comissoes" id="input_valor_comissoes" name="$Valor médio das comissões por mês" disabled></input>
-
-                <label class="label_piso_salarial">A categoria tinha piso salarial?</label>
-                <label class="label_piso_salarial_sim" for="input_piso_salarial_sim">Sim</label>
-                <input type="radio" class="input_piso_salarial_sim" id="input_piso_salarial_sim" name="$A categoria tinha piso salarial?" disabled value="Sim" onclick="habilitacao8()"></input>
+                    <label class="label_sem_justa_causa" for="input_sem_justa_causa">Sem Justa Causa</label>
+                    <input type="radio" class="input_sem_justa_causa" id="input_sem_justa_causa" name="$Demissão" value="Sem Justa Causa"></input>
                 
-                <label class="label_piso_salarial_quanto" for="input_piso_salarial_quanto">Quanto?</label>
-                <input type="text" class="input_piso_salarial_quanto" id="input_piso_salarial_quanto" name="$Quanto?" disabled><input>
+                    <label class="label_por_justa_causa" for="input_por_justa_causa">Por Justa Causa</label>
+                    <input type="radio" class="input_por_justa_causa" id="input_por_justa_causa" name="$Demissão" value="Por Justa Causa"></input>
 
-                <label class="label_piso_salarial_nao" for="input_piso_salarial_nao">Não</label>
-                <input type="radio" class="input_piso_salarial_nao" id="input_piso_salarial_nao" name="$A categoria tinha piso salarial?" disabled value="Não" onclick="habilitacao8()"></input>
+                    <label class="label_distrato" for="input_distrato">Distrato (comum acordo)</label>
+                    <input type="radio" class="input_distrato" id="input_distrato" name="$Demissão" value="Distrato (comum acordo)"></input>
 
-                <label class="label_salario_minimo">Era assegurado o salário mínimo legal ou piso salarial quando a meta das vendas não ultrapassam esse patamar?</label>
-                <label class="label_salario_minimo_sim" for="input_salario_minimo_sim">Sim</label>
-                <input type="radio" class="input_salario_minimo_sim" id="input_salario_minimo_sim" name="$Era assegurado o salário mínimo legal ou piso salarial quando a meta das vendas não ultrapassam esse patamar?" disabled value="Sim"></input>
-                <label class="label_salario_minimo_nao" for="input_salario_minimo_nao">Não</label>
-                <input type="radio" class="input_salario_minimo_nao" id="input_salario_minimo_nao" name="$Era assegurado o salário mínimo legal ou piso salarial quando a meta das vendas não ultrapassam esse patamar?" disabled value="Não"></input>
+                    <label class="label_recisao_direta" for="input_recisao_direta">Recisão Indireta</label>
+                    <input type="radio" class="input_recisao_direta" id="input_recisao_direta" name="$Demissão" value="Recisão Indireta"></input>
 
-                <label class="label_dsr">DSRs pagos em rubricas apartadas?</label>
-                <label class="label_dsr_sim" for="input_dsr_sim">Sim</label>
-                <input type="radio" class="input_dsr_sim" id="input_dsr_sim" name="$DSRs pagos em rubricas apartadas?" disabled value="Sim"><input>
-                <label class="label_dsr_nao" for="input_salario_minimo_nao">Não</label>
-                <input type="radio" class="input_dsr_nao" id="input_dsr_nao" name="$DSRs pagos em rubricas apartadas?" disabled value="Não"><input>
+                    <label class="label_demissao_outro" for="input_demissao_outro">Outros</label>
+                    <input type="text" class="input_demissao_outro" id="input_demissao_outro" name="$Demissão"></input>
 
-                <label class="label_acordo">Havia previsão em acordo ou convenção coletiva?</label>
-                <label class="label_acordo_sim" for="input_acordo_sim">Sim</label>
-                <input type="radio" class="input_acordo_sim" id="input_acordo_sim" name="$Havia previsão em acordo ou convenção coletiva?" disabled value="Sim"><input>
-                <label class="label_acordo_nao" for="input_acordo_nao">Não</label>
-                <input type="radio" class="input_acordo_nao" id="input_acordo_nao" name="$Havia previsão em acordo ou convenção coletiva?" disabled value="Não"><input>
+                    <label class="label_descreva_motivo" for="textarea_descreva_motivo">Descreva o motivo do término do contrato de trabalho</label>
+                    <textarea type="text" class="textarea_descreva_motivo" id="textarea_descreva_motivo" wrap="hard" name="$Descreva o motivo do término do contrato de trabalho"></textarea>
 
-                <container class="barra_lateral"></container>
 
-                <label class="label_comissionista_misto">Comissionista Misto <b>(salário fixo + comissões)?</b></label>
-                <label class="label_comissionista_misto_sim" for="input_comissionista_misto_sim">Sim</label>
-                <input type="radio" class="input_comissionista_misto_sim" id="input_comissionista_misto_sim" name="$Comissionista Misto (salário fixo + comissões)?" value="Sim" onclick="habilitacao9()"></input>
-
-                <label class="label_comissionista_misto_nao" for="input_comissionista_misto_nao">Não</label>
-                <input type="radio" class="input_comissionista_misto_nao" id="input_comissionista_misto_nao" name="$Comissionista Misto (salário fixo + comissões)?" value="Não" onclick="habilitacao9()"></input>
-
-                <label class="label_comissionista_salario_fixo" for="input_comissionista_salario_fixo">Valor do salário fixo</label>
-                <input type="text" class="input_comissionista_salario_fixo" id="input_comissionista_salario_fixo" name="$Valor do salário fixo" disabled ><input>
-
-                <label class="label_comissionista_misto_salario_minimo">Era assegurado o salário mínimo legal ou piso salarial quando a soma da parte variável e parte fixa, fossem inferiores a esses patamares?</label>
-                <label class="label_comissionista_misto_salario_minimo_sim" for="input_comissionista_misto_salario_minimo_sim">Sim</label>
-                <input type="radio" class="input_comissionista_misto_salario_minimo_sim" id="input_comissionista_misto_salario_minimo_sim" name="$Era assegurado o salário mínimo legal ou piso salarial quando a soma da parte variável e parte fixa, fossem inferiores a esses patamares?" disabled value="Sim"></input>
-                
-                <label class="label_comissionista_misto_salario_minimo_nao" for="input_comissionista_misto_salario_minimo_nao">Não</label>
-                <input type="radio" class="input_comissionista_misto_salario_minimo_nao" id="input_comissionista_misto_salario_minimo_nao" name="$Era assegurado o salário mínimo legal ou piso salarial quando a soma da parte variável e parte fixa, fossem inferiores a esses patamares?" disabled value="Não"></input>
-
-                <label class="label_comissionista_misto_dsr">DSRs pagos sobre as comissões e em rubricas apartadas?</label>
-                <label class="label_comissionista_misto_dsr_sim" for="input_comissionista_misto_dsr_sim">Sim</label>
-                <input type="radio" class="input_comissionista_misto_dsr_sim" id="input_comissionista_misto_dsr_sim" name="$DSRs pagos sobre as comissões e em rubricas apartadas?" disabled value="Sim"></input>
-                
-                <label class="label_comissionista_misto_dsr_nao" for="input_comissionista_misto_dsr_nao">Não</label>
-                <input type="radio" class="input_comissionista_misto_dsr_nao" id="input_comissionista_misto_dsr_nao" name="$DSRs pagos sobre as comissões e em rubricas apartadas?" disabled value="Não"></input>
-
-                <label class="label_comissionista_misto_acordo">Havia previsão em acordo ou convenção coletiva?</label>
-                <label class="label_comissionista_misto_acordo_sim" for="input_comissionista_misto_acordo_sim">Sim</label>
-                <input type="radio" class="input_comissionista_misto_acordo_sim" id="input_comissionista_misto_acordo_sim" name="$Havia previsão em acordo ou convenção coletiva?" disabled value="Sim"></input>
-                
-                <label class="label_comissionista_misto_acordo_nao" for="input_comissionista_misto_acordo_nao">Não</label>
-                <input type="radio" class="input_comissionista_misto_acordo_nao" id="input_comissionista_misto_acordo_nao" name="$Havia previsão em acordo ou convenção coletiva?" disabled value="Não"></input>
-
-                <div class="barra_lateral_2"></div>
-
-                <label class="remuneracao">REMUNERAÇÃO (salário + gorjetas)</label>
-
-                <label class="label_gorjetas">Gorjetas</label>
-                <label class="label_gorjetas_sim" for="input_gorjetas_sim">Sim</label>
-                <input type="radio" class="input_gorjetas_sim" id="input_gorjetas_sim" name="$Gorjetas" value="Sim" onclick="habilitacao10()"></input>
-                
-                <label class="label_gorjetas_nao" for="input_gorjetas_nao">Não</label>
-                <input type="radio" class="input_gorjetas_nao" id="input_gorjetas_nao" name="$Gorjetas" value="Não" onclick="habilitacao10()"></input>
-
-                <label class="label_supressao">Houve supressão por mais de 12 meses?</label>
-                <label class="label_supressao_sim" for="input_supressao_sim">Sim</label>
-                <input type="radio" class="input_supressao_sim" id="input_supressao_sim" name="$Houve supressão por mais de 12 meses?" value="Sim" disabled onclick="habilitacao11()"></input>
-                
-                <label class="label_supressao_nao" for="input_supressao_nao">Não</label>
-                <input type="radio" class="input_supressao_nao" id="input_supressao_nao" name="$Houve supressão por mais de 12 meses?" value="Não" disabled onclick="habilitacao11()"></input>
-
-                <label class="label_periodo" for="input_periodo">Em que período?</label>
-                <input type="text" class="input_periodo" id="input_periodo" name="$Em que período?" disabled></input>
-
-            </div>
+                </div>
 
             <!--<button class="button">Enviar Respostas</button>-->
 

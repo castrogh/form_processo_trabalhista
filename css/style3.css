@@ -1200,3 +1200,275 @@
 	line-height: 109px;
 	color: #000000;
 }
+
+.titulo_extincao_contrato{
+	position: absolute;
+	width: 1242px;
+	height: 84px;
+	left: 110px;
+	top: 12000px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 50px;
+	line-height: 78px;
+
+	color: #454242;
+}
+
+.titulo_extincao_contrato:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.label_demissao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 12120px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_demissao{
+	position: absolute;
+	width: 700px;
+	height: 65px;
+	left: 330px;
+	top: 12140px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_pedido_demissao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 160px;
+	top: 12200px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_pedido_demissao{
+    position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 110px;
+	top: 12230px;
+	
+	background: #F0F0F0;
+}
+
+.label_sem_justa_causa{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 650px;
+	top: 12200px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_sem_justa_causa{
+    position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 600px;
+	top: 12230px;
+	
+	background: #F0F0F0;
+}
+
+.label_por_justa_causa{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1100px;
+	top: 12200px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_por_justa_causa{
+    position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 1050px;
+	top: 12230px;
+	
+	background: #F0F0F0;
+}
+
+.label_distrato{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 160px;
+	top: 12300px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_distrato{
+    position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 110px;
+	top: 12330px;
+	
+	background: #F0F0F0;
+}
+
+.label_recisao_direta{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 740px;
+	top: 12300px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_recisao_direta{
+    position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 690px;
+	top: 12330px;
+	
+	background: #F0F0F0;
+}
+
+.label_demissao_outro{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1100px;
+	top: 12300px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_demissao_outro{
+	position: absolute;
+	width: 400px;
+	height: 65px;
+	left: 1250px;
+	top: 12320px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_descreva_motivo{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 12450px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_descreva_motivo:before{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.textarea_descreva_motivo{
+	position: absolute;
+	width: 1631px;
+	height: 440px;
+	left: 110px;
+	top: 12550px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	resize: none;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+}
