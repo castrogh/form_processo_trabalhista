@@ -104,3 +104,49 @@ function habilitacao(){
       document.getElementById('input_piso_salarial_quanto').value = '';
     }
   }
+
+  function habilitacao9(){
+    if(document.getElementById('input_comissionista_misto_sim').checked == true){
+      document.getElementById('input_comissionista_salario_fixo').disabled = false;
+      document.getElementById('input_comissionista_salario_fixo').disabled = false;
+      document.getElementById('input_comissionista_misto_salario_minimo_sim').disabled = false;
+      document.getElementById('input_comissionista_misto_salario_minimo_nao').disabled = false;
+      document.getElementById('input_comissionista_misto_dsr_sim').disabled = false;
+      document.getElementById('input_comissionista_misto_dsr_nao').disabled = false;
+      document.getElementById('input_comissionista_misto_acordo_sim').disabled = false;
+      document.getElementById('input_comissionista_misto_acordo_nao').disabled = false;
+    }
+    if(document.getElementById('input_comissionista_misto_sim').checked == false){
+      document.getElementById('input_comissionista_salario_fixo').disabled = true;
+      document.getElementById('input_comissionista_misto_salario_minimo_sim').disabled = true;
+      document.getElementById('input_comissionista_misto_salario_minimo_nao').disabled = true;
+      document.getElementById('input_comissionista_misto_dsr_sim').disabled = true;
+      document.getElementById('input_comissionista_misto_dsr_nao').disabled = true;
+      document.getElementById('input_comissionista_misto_acordo_sim').disabled = true;
+      document.getElementById('input_comissionista_misto_acordo_nao').disabled = true;
+    }
+    if(document.getElementById('input_comissionista_misto_nao').checked == true){
+      document.getElementById('input_comissionista_salario_fixo').value = '';
+    }
+  }
+
+  function habilitacao10(){
+    if(document.getElementById('input_gorjetas_sim').checked == true){
+      document.getElementById('input_supressao_sim').disabled = false;
+      document.getElementById('input_supressao_nao').disabled = false;
+    }
+    if(document.getElementById('input_gorjetas_nao').checked == true){
+      document.getElementById('input_supressao_sim').disabled = true;
+      document.getElementById('input_supressao_nao').disabled = true;
+    }
+  }
+
+  function habilitacao11(){
+    if(document.getElementById('input_supressao_sim').checked == true){
+      document.getElementById('input_periodo').disabled = false;
+    }
+    if(document.getElementById('input_supressao_nao').checked == true){
+      document.getElementById('input_periodo').disabled = true;
+      document.getElementById('input_periodo').value = '';
+    }
+  }
