@@ -150,3 +150,13 @@ function habilitacao(){
       document.getElementById('input_periodo').value = '';
     }
   }
+
+    function habilitacao12(){
+    if(document.getElementById('input_vale_refeicao_sim').checked == true){
+      document.getElementById('input_vale_refeicao_valor').disabled = false;
+    }
+    if(document.getElementById('input_vale_refeicao_nao').checked == true){
+      document.getElementById('input_vale_refeicao_valor').disabled = true;
+      document.getElementById('input_vale_refeicao_valor').value = '';
+    }
+  }

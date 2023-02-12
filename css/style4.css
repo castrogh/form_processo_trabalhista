@@ -1,0 +1,285 @@
+.titulo_beneficios{
+	position: absolute;
+	width: 1242px;
+	height: 84px;
+	left: 110px;
+	top: 13100px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 50px;
+	line-height: 78px;
+
+	color: #454242;
+}
+
+.titulo_beneficios:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.label_salario_natural{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 13200px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_beneficio_alimentacao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 110px;
+    top: 13300px;
+
+    background: #F0F0F0;
+}
+
+.label_beneficio_alimentacao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 160px;
+	top: 13270px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_beneficio_moradia{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 800px;
+    top: 13300px;
+
+    background: #F0F0F0;
+}
+
+.label_beneficio_moradia{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 850px;
+	top: 13270px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_beneficio_vestuario{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1100px;
+    top: 13300px;
+
+    background: #F0F0F0;
+}
+
+.label_beneficio_vestuario{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1150px;
+	top: 13270px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_beneficio_outros{
+	position: absolute;
+	width: 700px;
+	height: 65px;
+	left: 270px;
+	top: 13375px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_beneficio_outros{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 13350px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_beneficio_outros:after{
+	content: "";
+	display: block;
+	width: 1620px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.label_vale_refeicao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 13500px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_vale_refeicao:after{
+	content: "";
+	display: block;
+	width: 1620px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.label_vale_refeicao_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 650px;
+	top: 13500px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_vale_refeicao_sim{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 600px;
+    top: 13530px;
+
+    background: #F0F0F0;
+}
+
+.label_vale_refeicao_valor{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 780px;
+	top: 13500px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_vale_refeicao_valor{
+	position: absolute;
+	width: 200px;
+	height: 65px;
+	left: 1040px;
+	top: 13520px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_vale_refeicao_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1350px;
+	top: 13500px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_vale_refeicao_nao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1300px;
+    top: 13530px;
+
+    background: #F0F0F0;
+}
