@@ -561,6 +561,90 @@
 
                 <div class="local_de_trabalho">
                     <h1 class="titulo_local_de_trabalho">5. Local de Trabalho</h1>
+
+                    <label class="label_teletrabalho">Trabalhava na modalidade de teletrabalho?</label>
+                    <label class="label_teletrabalho_sim" for="input_teletrabalho_sim">Sim</label>
+                    <input type="radio" class="input_teletrabalho_sim" id="input_teletrabalho_sim" name="$Trabalhava na modalidade de teletrabalho?" value="Sim" onclick="habilitacao17()"></input>
+
+                    <label class="label_teletrabalho_nao" for="input_teletrabalho_nao">Não</label>
+                    <input type="radio" class="input_teletrabalho_nao" id="input_teletrabalho_nao" name="$Trabalhava na modalidade de teletrabalho?" value="Não" onclick="habilitacao17()"></input>
+                
+                    <div class="barra_lateral3"></div>
+
+                    <label class="label_contrato_individual" for="input_contrato_individual">Foi expressamente feito um contrato individual?</label>
+                    <textarea type="text" class="textarea_contrato_individual" id="textarea_contrato_individual" name="$Foi expressamente feito um contrato individual?" disabled></textarea>
+
+                    <label class="label_atividades" for="textarea_atividades">As atividades são preponderamente fora das dependências do empregador?</label>
+                    <textarea type="text" class="textarea_atividades" wrap="hard" id="textarea_atividades" name="$As atividades são preponderamente fora das dependências do empregador?" disabled></textarea>
+                
+                    <label class="label_comparecimento" for="textarea_comparecimento">Havia necessidade de comparecimento às dependências do empregador e com que frequência?</label>
+                    <textarea type="text" class="textarea_comparecimento" wrap="hard" id="textarea_comparecimento" name="$Havia necessidade de comparecimento às dependências do empregador e com que frequência?" disabled></textarea>
+
+                    <label class="label_horarios" for="textarea_horarios">Havia controle ou fiscalização dos horários de trabalho e de que forma?</label>
+                    <textarea type="text" class="textarea_horarios" wrap="hard" id="textarea_horarios" name="$Havia controle ou fiscalização dos horários de trabalho e de que forma?" disabled></textarea>
+
+                    <label class="label_regime" for="textarea_regime">Houve alteração do regime de teletrabalho para o presencial com aviso de 15 dias para a modificação? Havia previsão contratual para essa alteração?</label>
+                    <textarea type="text" class="textarea_regime" wrap="hard" id="textarea_regime" name="$Houve alteração do regime de teletrabalho para o presencial com aviso de 15 dias para a modificação? Havia previsão contratual para essa alteração?" disabled></textarea>
+
+                    <label class="label_despesas" for="textarea_despesas">O empregado tinha que arcar com despesas de trabalho sozinho? Quais?</label>
+                    <textarea type="text" class="textarea_despesas" wrap="hard" id="textarea_despesas" name="$O empregado tinha que arcar com despesas de trabalho sozinho? Quais?" disabled></textarea>
+
+                    <label class="label_convencao" for="textarea_convencao">Qual era o acordo ou convenção coletiva aplicados? Todos os direitos estavam garantidos?</label>
+                    <textarea type="text" class="textarea_convencao" wrap="hard" id="textarea_convencao" name="$Qual era o acordo ou convenção coletiva aplicados? Todos os direitos estavam garantidos?" disabled></textarea>
+
+                    <label class="label_local_contratacao" for="textarea_local_contratacao">Local da contratação</label>
+                    <textarea type="text" class="textarea_local_contratacao" wrap="hard" id="textarea_local_contratacao" name="$Local da contratação" disabled></textarea>
+
+                    <label class="label_local_trabalhava" for="textarea_local_trabalhava">Local em que trabalhava</label>
+                    <textarea type="text" class="textarea_local_trabalhava" wrap="hard" id="textarea_local_trabalhava" name="$Local em que trabalhava" disabled></textarea>
+
+                    <label class="label_outra_empresa">Trabalhou para outra empresa do grupo?</label>
+                    <label class="label_outra_empresa_sim" for="input_outra_empresa_sim">Sim</label>
+                    <input type="radio" class="input_outra_empresa_sim" id="input_outra_empresa_sim" name="$Trabalhou para outra empresa do grupo?" value="Sim" onclick="habilitacao18()"></input>
+
+                    <label class="label_outra_empresa_nao" for="input_outra_empresa_nao">Não</label>
+                    <input type="radio" class="input_outra_empresa_nao" id="input_outra_empresa_nao" name="$Trabalhou para outra empresa do grupo?" value="Não" onclick="habilitacao18()"></input>
+
+                    <label class="label_quais_empresas" for="textarea_quais_empresas">Em quais empresas? Cite os nomes</label>
+                    <textarea type="text" class="textarea_quais_empresas" wrap="hard" id="textarea_quais_empresas" name="$Em quais empresas? Cite os nomes" disabled></textarea>
+
+                    <label class="label_atividades_executadas" for="textarea_atividades_executadas">Quais eram as atividades executadas em cada um delas?</label>
+                    <textarea type="text" class="textarea_atividades_executadas" wrap="hard" id="textarea_atividades_executadas" name="$Quais eram as atividades executadas em cada um delas?" disabled></textarea>
+
+                    <label class="label_empresa_terceira" for="textarea_empresa_terceira">A prestação de serviços ocorria para um empresa terceira? (informar nome da empresa e local)</label>
+                    <textarea type="text" class="textarea_empresa_terceira" wrap="hard" id="textarea_empresa_terceira" name="$Quais eram as atividades executadas em cada um delas?" disabled></textarea>
+
+                    <div class="barra_lateral4"></div>
+
+                    <label class="label_transferido">Já foi transferido?</label>
+                    <label class="label_transferido_sim" for="input_transferido_sim">Sim</label>
+                    <input type="radio" class="input_transferido_sim" id="input_transferido_sim" name="$Já foi transferido?" value="Sim" onclick="habilitacao19()"></input>
+                    <label class="label_qual_periodo" for="input_qual_periodo">Qual período?</label>
+                    <input type="text" class="input_qual_periodo" id="input_qual_periodo" name="$Qual período?" disabled></input>
+
+                    <label class="label_transferido_nao" for="input_transferido_nao">Não</label>
+                    <input type="radio" class="input_transferido_nao" id="input_transferido_nao" name="$Já foi transferido?" value="Não" onclick="habilitacao19()"></input>
+
+                    <label class="label_transferencia">A transferência foi</label>
+                    <label class="label_transferencia_provisoria" for="input_transferencia_provisoria">Provisória</label>
+                    <input type="radio" class="input_transferencia_provisoria" id="input_transferencia_provisoria" name="$A transferência foi" disabled value="Provisória"></input>
+
+                    <label class="label_transferencia_definitiva" for="input_transferencia_definitiva">Definitiva</label>
+                    <input type="radio" class="input_transferencia_definitiva" id="input_transferencia_definitiva" name="$A transferência foi" disabled value="Definitiva"></input>
+                    
+                    <label class="label_qual_local" for="textarea_qual_local">Para que local?</label>
+                    <textarea type="text" class="textarea_qual_local" wrap="hard" id="textarea_qual_local" name="$Para que local?" disabled></textarea>
+
+                    <label class="label_mudanca_endereco" for="textarea_mudanca_endereco">Essa transferência acarretou a mudança de endereço?</label>
+                    <textarea type="text" class="textarea_mudanca_endereco" wrap="hard" id="textarea_mudanca_endereco" name="$Essa transferência acarretou a mudança de endereço?" disabled></textarea>
+
+                    <label class="label_adicional_transf">Pagaram o adicional de transferência de 25%?</label>
+                    <label class="label_adicional_transf_sim" for="label_adicional_transf_sim">Sim</label>
+                    <input type="radio" class="input_adicional_transf_sim" id="input_adicional_transf_sim" name="$Pagaram o adicional de transferência de 25%?" value="Sim" disabled></input>
+
+                    <label class="label_adicional_transf_nao" for="input_adicional_transf_nao">Não</label>
+                    <input type="radio" class="input_adicional_transf_nao" id="input_adicional_transf_nao" name="$Pagaram o adicional de transferência de 25%?" value="Não" disabled></input>
+
                 </div>
 
             <!--<button class="button">Enviar Respostas</button>-->

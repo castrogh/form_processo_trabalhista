@@ -206,3 +206,96 @@ function habilitacao(){
       document.getElementById('input_salario_familia_motivo').value = '';
     }
   }
+
+  function habilitacao17(){
+    if(document.getElementById('input_teletrabalho_sim').checked == true){
+      document.getElementById('textarea_contrato_individual').disabled = false;
+      document.getElementById('textarea_atividades').disabled = false;
+      document.getElementById('textarea_comparecimento').disabled = false;
+      document.getElementById('textarea_horarios').disabled = false;
+      document.getElementById('textarea_regime').disabled = false;
+      document.getElementById('textarea_despesas').disabled = false;
+      document.getElementById('textarea_convencao').disabled = false;
+      document.getElementById('textarea_local_contratacao').disabled = false;
+      document.getElementById('textarea_local_trabalhava').disabled = false;
+    }
+    if(document.getElementById('input_teletrabalho_nao').checked == true){
+      document.getElementById('textarea_contrato_individual').disabled = true;
+      document.getElementById('textarea_contrato_individual').value = '';
+
+      document.getElementById('textarea_atividades').disabled = true;
+      document.getElementById('textarea_atividades').value = '';
+
+      document.getElementById('textarea_comparecimento').disabled = true;
+      document.getElementById('textarea_comparecimento').value = '';
+
+      document.getElementById('textarea_horarios').disabled = true;
+      document.getElementById('textarea_horarios').value = '';
+
+      document.getElementById('textarea_regime').disabled = true;
+      document.getElementById('textarea_regime').value = '';
+
+      document.getElementById('textarea_despesas').disabled = true;
+      document.getElementById('textarea_despesas').value = '';
+
+      document.getElementById('textarea_convencao').disabled = true;
+      document.getElementById('textarea_convencao').value = '';
+
+      document.getElementById('textarea_local_contratacao').disabled = true;
+      document.getElementById('textarea_local_contratacao').value = '';
+
+      document.getElementById('textarea_local_trabalhava').disabled = true;
+      document.getElementById('textarea_local_trabalhava').value = '';
+    }
+  }
+
+  function habilitacao18(){
+    if(document.getElementById('input_outra_empresa_sim').checked == true){
+      document.getElementById('textarea_quais_empresas').disabled = false;
+      document.getElementById('textarea_atividades_executadas').disabled = false;
+      document.getElementById('textarea_empresa_terceira').disabled = false;
+    }
+    if(document.getElementById('input_outra_empresa_nao').checked == true){
+      document.getElementById('textarea_quais_empresas').disabled = true;
+      document.getElementById('textarea_quais_empresas').value = '';
+
+      document.getElementById('textarea_atividades_executadas').disabled = true;
+      document.getElementById('textarea_atividades_executadas').value = '';
+
+      document.getElementById('textarea_empresa_terceira').disabled = true;
+      document.getElementById('textarea_empresa_terceira').value = '';
+    }
+  }
+
+  function habilitacao19(){
+    if(document.getElementById('input_transferido_sim').checked == true){
+      document.getElementById('input_qual_periodo').disabled = false;
+      document.getElementById('input_transferencia_provisoria').disabled = false;
+      document.getElementById('input_transferencia_definitiva').disabled = false;
+      document.getElementById('textarea_qual_local').disabled = false;
+      document.getElementById('textarea_mudanca_endereco').disabled = false;
+      document.getElementById('input_adicional_transf_sim').disabled = false;
+      document.getElementById('input_adicional_transf_nao').disabled = false;
+
+    }
+    if(document.getElementById('input_transferido_nao').checked == true){
+      document.getElementById('input_qual_periodo').disabled = true;
+      document.getElementById('input_qual_periodo').value = '';
+
+      document.getElementById('input_transferencia_provisoria').disabled = true;
+      document.getElementById('input_transferencia_provisoria').checked = false;
+      document.getElementById('input_transferencia_definitiva').disabled = true;
+      document.getElementById('input_transferencia_definitiva').checked = false;
+
+      document.getElementById('textarea_qual_local').disabled = true;
+      document.getElementById('textarea_qual_local').value = '';
+
+      document.getElementById('textarea_mudanca_endereco').disabled = true;
+      document.getElementById('textarea_mudanca_endereco').value = '';
+
+      document.getElementById('input_adicional_transf_sim').disabled = true;
+      document.getElementById('input_adicional_transf_sim').checked = false;
+      document.getElementById('input_adicional_transf_nao').disabled = true;
+      document.getElementById('input_adicional_transf_nao').checked = false;
+    }
+  }

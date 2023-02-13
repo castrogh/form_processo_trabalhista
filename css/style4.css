@@ -1007,3 +1007,904 @@
 	background: #BEA469;
 	margin: 8px auto;
 }
+
+.label_teletrabalho{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 15020px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_teletrabalho_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1050px;
+	top: 15020px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_teletrabalho_sim{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1000px;
+    top: 15050px;
+
+    background: #F0F0F0;
+}
+
+.label_teletrabalho_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1250px;
+	top: 15020px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_teletrabalho_nao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1200px;
+    top: 15050px;
+
+    background: #F0F0F0;
+}
+
+.barra_lateral3{
+	position: absolute;
+	width: 2200px;
+	height: 0px;
+	left: -930px;
+	top: 16210px;
+	
+	border: 5px solid #BEA469;
+	transform: rotate(90deg);
+}
+
+.label_contrato_individual{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 15100px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.textarea_contrato_individual{
+	position: absolute;
+	width: 1436px;
+	height: 141px;
+	left: 200px;
+	top: 15180px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	resize: none;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.label_atividades{
+	position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 15370px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.textarea_atividades{
+	position: absolute;
+	width: 1436px;
+	height: 141px;
+	left: 200px;
+	top: 15450px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	resize: none;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.label_comparecimento{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 200px;
+	top: 15640px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.textarea_comparecimento{
+	position: absolute;
+	width: 1436px;
+	height: 141px;
+	left: 200px;
+	top: 15720px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	resize: none;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.label_horarios{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 200px;
+	top: 15920px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.textarea_horarios{
+	position: absolute;
+	width: 1436px;
+	height: 141px;
+	left: 200px;
+	top: 15990px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	resize: none;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.label_regime{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 200px;
+	top: 16150px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.textarea_regime{
+	position: absolute;
+	width: 1436px;
+	height: 141px;
+	left: 200px;
+	top: 16270px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	resize: none;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.label_despesas{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 200px;
+	top: 16450px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.textarea_despesas{
+	position: absolute;
+	width: 1436px;
+	height: 141px;
+	left: 200px;
+	top: 16530px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	resize: none;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.label_convencao{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 200px;
+	top: 16690px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.textarea_convencao{
+	position: absolute;
+	width: 1436px;
+	height: 141px;
+	left: 200px;
+	top: 16770px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	resize: none;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.label_local_contratacao{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 200px;
+	top: 16940px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.textarea_local_contratacao{
+	position: absolute;
+	width: 1436px;
+	height: 141px;
+	left: 200px;
+	top: 16980px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	resize: none;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.label_local_trabalhava{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 200px;
+	top: 17135px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.textarea_local_trabalhava{
+	position: absolute;
+	width: 1436px;
+	height: 141px;
+	left: 200px;
+	top: 17180px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	resize: none;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.label_outra_empresa{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 17400px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_outra_empresa_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1050px;
+	top: 17400px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_outra_empresa_sim{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1000px;
+    top: 17430px;
+
+    background: #F0F0F0;
+}
+
+.label_outra_empresa_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1250px;
+	top: 17400px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_outra_empresa_nao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1200px;
+    top: 17430px;
+
+    background: #F0F0F0;
+}
+
+.label_quais_empresas{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 200px;
+	top: 17530px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.textarea_quais_empresas{
+	position: absolute;
+	width: 1436px;
+	height: 141px;
+	left: 200px;
+	top: 17580px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	resize: none;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.label_atividades_executadas{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 200px;
+	top: 17750px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.textarea_atividades_executadas{
+	position: absolute;
+	width: 1436px;
+	height: 141px;
+	left: 200px;
+	top: 17800px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	resize: none;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.label_empresa_terceira{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 200px;
+	top: 17950px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.textarea_empresa_terceira{
+	position: absolute;
+	width: 1436px;
+	height: 141px;
+	left: 200px;
+	top: 18050px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	resize: none;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.barra_lateral4{
+	position: absolute;
+	width: 650px;
+	height: 0px;
+	left: -150px;
+	top: 17850px;
+	
+	border: 5px solid #BEA469;
+	transform: rotate(90deg);
+}
+
+.label_transferido{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 18200px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_transferido_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 550px;
+	top: 18200px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_transferido_sim{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 500px;
+    top: 18230px;
+
+    background: #F0F0F0;
+}
+
+.label_qual_periodo{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 650px;
+	top: 18200px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_qual_periodo{
+	position: absolute;
+	width: 209px;
+	height: 65px;
+	left: 950px;
+	top: 18220px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.label_transferido_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1250px;
+	top: 18200px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_transferido_nao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1200px;
+    top: 18230px;
+
+    background: #F0F0F0;
+}
+
+.label_transferencia{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 200px;
+	top: 18345px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.label_transferencia_provisoria{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 700px;
+	top: 18310px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_transferencia_provisoria{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 650px;
+    top: 18340px;
+
+    background: #F0F0F0;
+}
+
+.label_transferencia_definitiva{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1000px;
+	top: 18310px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_transferencia_definitiva{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 950px;
+    top: 18340px;
+
+    background: #F0F0F0;
+}
+
+.label_qual_local{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 200px;
+	top: 18450px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.textarea_qual_local{
+	position: absolute;
+	width: 1436px;
+	height: 141px;
+	left: 200px;
+	top: 18500px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	resize: none;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.label_mudanca_endereco{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 200px;
+	top: 18700px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.textarea_mudanca_endereco{
+	position: absolute;
+	width: 1436px;
+	height: 141px;
+	left: 200px;
+	top: 18750px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	resize: none;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.label_adicional_transf{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 18900px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_adicional_transf_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1200px;
+	top: 18900px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_adicional_transf_sim{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1150px;
+    top: 18930px;
+
+    background: #F0F0F0;
+}
+
+.label_adicional_transf_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1400px;
+	top: 18900px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_adicional_transf_nao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1350px;
+    top: 18930px;
+
+    background: #F0F0F0;
+}
