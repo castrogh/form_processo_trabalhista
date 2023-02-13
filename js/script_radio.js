@@ -160,3 +160,49 @@ function habilitacao(){
       document.getElementById('input_vale_refeicao_valor').value = '';
     }
   }
+
+  function habilitacao13(){
+    if(document.getElementById('input_plr_sim').checked == true){
+      document.getElementById('input_plr_valor').disabled = false;
+      document.getElementById('input_plr_periodicidade').disabled = false;
+    }
+    if(document.getElementById('input_plr_nao').checked == true){
+      document.getElementById('input_plr_valor').disabled = true;
+      document.getElementById('input_plr_valor').value = '';
+      document.getElementById('input_plr_periodicidade').disabled = true;
+      document.getElementById('input_plr_periodicidade').value = '';
+    }
+  }
+
+  function habilitacao14(){
+    if(document.getElementById('input_premios_sim').checked == true){
+      document.getElementById('input_habitualmente_sim').disabled = false;
+      document.getElementById('input_habitualmente_nao').disabled = false;
+    }
+    if(document.getElementById('input_premios_nao').checked == true){
+      document.getElementById('input_habitualmente_sim').disabled = true;
+      document.getElementById('input_habitualmente_sim').checked = false;
+      document.getElementById('input_habitualmente_nao').disabled = true;
+      document.getElementById('input_habitualmente_nao').checked = false;
+    }
+  }
+
+  function habilitacao15(){
+    if(document.getElementById('input_vale_transporte_sim').checked == true){
+      document.getElementById('input_vale_transporte_valor').disabled = false;
+    }
+    if(document.getElementById('input_vale_transporte_nao').checked == true){
+      document.getElementById('input_vale_transporte_valor').disabled = true;
+      document.getElementById('input_vale_transporte_valor').value = '';
+    }
+  }
+
+  function habilitacao16(){
+    if(document.getElementById('input_salario_familia_sim').checked == true){
+      document.getElementById('input_salario_familia_motivo').disabled = false;
+    }
+    if(document.getElementById('input_salario_familia_nao').checked == true){
+      document.getElementById('input_salario_familia_motivo').disabled = true;
+      document.getElementById('input_salario_familia_motivo').value = '';
+    }
+  }

@@ -495,10 +495,72 @@
                     <input type="text" class="input_vale_refeicao_valor" id="input_vale_refeicao_valor" name="$Valor por dia"></input>
 
                     <label class="label_vale_refeicao_nao" for="input_vale_refeicao_nao">Não</label>
-                    <input type="radio" class="input_vale_refeicao_nao" id="input_vale_refeicao_nao" name="$Recebia vale refeição?" onclick="habilitacao12()"></input>
+                    <input type="radio" class="input_vale_refeicao_nao" id="input_vale_refeicao_nao" name="$Recebia vale refeição?" value="Não" onclick="habilitacao12()"></input>
 
+                    <label class="label_cesta_basica">Recebia cesta básica?</label>
+                    <label class="label_cesta_basica_sim" for="input_cesta_basica_sim">Sim</label>
+                    <input type="radio" class="input_cesta_basica_sim" id="input_cesta_basica_sim" name="$Recebia cesta básica?" value="Sim"></input>
 
+                    <label class="label_cesta_basica_nao" for="input_cesta_basica_nao">Não</label>
+                    <input type="radio" class="input_cesta_basica_nao" id="input_cesta_basica_nao" name="$Recebia cesta básica?" value="Não"></input>
 
+                    <label class="label_plr">Recebia Participação nos Lucros e Resultados?</label>
+                    <label class="label_plr_sim" for="input_plr_sim">Sim</label>
+                    <input type="radio" class="input_plr_sim" id="input_plr_sim" name="$Recebia Participação nos Lucros e Resultados?" value="Sim" onclick="habilitacao13()"></input>
+
+                    <label class="label_plr_nao" for="input_plr_nao">Não</label>
+                    <input type="radio" class="input_plr_nao" id="input_plr_nao" name="$Recebia Participação nos Lucros e Resultados?" value="Não" onclick="habilitacao13()"></input>
+
+                    <label class="label_plr_valor" for="input_plr_valor">Valor</label>
+                    <input type="text" class="input_plr_valor" id="input_plr_valor" name="$Valor" disabled></input>
+
+                    <label class="label_plr_periodicidade" for="input_plr_periodicidade">Periodicidade</label>
+                    <input type="text" class="input_plr_periodicidade" id="input_plr_periodicidade" name="$Periodicidade" disabled></input>
+
+                    <label class="label_premios">Recebia gratificações/prêmios?</label>
+                    <label class="label_premios_sim" for="input_premios_sim">Sim</label>
+                    <input type="radio" class="input_premios_sim" id="input_premios_sim" name="$Recebia gratificações/prêmios?" value="Sim" onclick="habilitacao14()"></input>
+
+                    <label class="label_premios_nao" for="input_premios_nao">Não</label>
+                    <input type="radio" class="input_premios_nao" id="input_premios_nao" name="$Recebia gratificações/prêmios?" value="Não" onclick="habilitacao14()"></input>
+
+                    <label class="label_habitualmente">Habitualmente?</label>
+                    <label class="label_habitualmente_sim" for="input_habitualmente_sim">Sim</label>
+                    <input type="radio" class="input_habitualmente_sim" id="input_habitualmente_sim" name="$Habitualmente?" disabled value="Sim"></input>
+
+                    <label class="label_habitualmente_nao" for="input_habitualmente_nao">Não</label>
+                    <input type="radio" class="input_habitualmente_nao" id="input_habitualmente_nao" name="$Habitualmente?" disabled value="Não"></input>
+
+                    <label class="label_vale_transporte">Recebia vale-transporte?</label>
+                    <label class="label_vale_transporte_sim" for="input_vale_transporte_sim">Sim</label>
+                    <input type="radio" class="input_vale_transporte_sim" id="input_vale_transporte_sim" name="$Recebia vale-transporte?" value="Sim" onclick="habilitacao15()"></input>
+                    <label class="label_vale_transporte_valor" for="input_vale_transporte_valor">Valor por dia</label>
+                    <input type="text" class="input_vale_transporte_valor" id="input_vale_transporte_valor" name="$Valor por dia"></input>
+
+                    <label class="label_vale_transporte_nao" for="input_vale_transporte_nao">Não</label>
+                    <input type="radio" class="input_vale_transporte_nao" id="input_vale_transporte_nao" name="$Recebia vale-transporte?" value="Não" onclick="habilitacao15()"></input>
+
+                    <label class="label_plano_saude">Recebia plano de saúde?</label>
+                    <label class="label_plano_saude_sim" for="input_plano_saude_sim">Sim</label>
+                    <input type="radio" class="input_plano_saude_sim" id="input_plano_saude_sim" name="$Recebia plano de saúde?" value="Sim"></input>
+
+                    <label class="label_plano_saude_nao" for="input_plano_saude_nao">Não</label>
+                    <input type="radio" class="input_plano_saude_nao" id="input_plano_saude_nao" name="$Recebia plano de saúde?" value="Não"></input>
+
+                    <label class="label_salario_familia">Recebia salário-família?</label>
+                    <label class="label_salario_familia_sim" for="input_salario_familia_sim">Sim</label>
+                    <input type="radio" class="input_salario_familia_sim" id="input_salario_familia_sim" name="$Recebia salário-família?" value="Sim" onclick="habilitacao16()"></input>
+
+                    <label class="label_salario_familia_nao" for="input_salario_familia_nao">Não</label>
+                    <input type="radio" class="input_salario_familia_nao" id="input_salario_familia_nao" name="$Recebia salário-família?" value="Não" onclick="habilitacao16()"></input>
+
+                    <label class="label_salario_familia_motivo" for="input_salario_familia_motivo">Motivo</label>
+                    <input type="text" class="input_salario_familia_motivo" id="input_salario_familia_motivo" name="$Motivo" disabled></input>
+
+                </div>
+
+                <div class="local_de_trabalho">
+                    <h1 class="titulo_local_de_trabalho">5. Local de Trabalho</h1>
                 </div>
 
             <!--<button class="button">Enviar Respostas</button>-->

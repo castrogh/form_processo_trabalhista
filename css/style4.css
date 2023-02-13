@@ -283,3 +283,727 @@
 
     background: #F0F0F0;
 }
+
+.label_cesta_basica{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 13650px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_cesta_basica:after{
+	content: "";
+	display: block;
+	width: 1620px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.label_cesta_basica_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 650px;
+	top: 13650px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_cesta_basica_sim{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 600px;
+    top: 13680px;
+
+    background: #F0F0F0;
+}
+
+.label_cesta_basica_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 850px;
+	top: 13650px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_cesta_basica_nao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 800px;
+    top: 13680px;
+
+    background: #F0F0F0;
+}
+
+.label_plr{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 13800px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_plr_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1150px;
+	top: 13800px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_plr_sim{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1100px;
+    top: 13830px;
+
+    background: #F0F0F0;
+}
+
+.label_plr_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1350px;
+	top: 13800px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_plr_nao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1300px;
+    top: 13830px;
+
+    background: #F0F0F0;
+}
+
+.label_plr_valor{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 13900px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_plr_valor:after{
+	content: "";
+	display: block;
+	width: 1620px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.input_plr_valor{
+	position: absolute;
+	width: 300px;
+	height: 65px;
+	left: 230px;
+	top: 13920px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_plr_periodicidade{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 650px;
+	top: 13900px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_plr_periodicidade{
+	position: absolute;
+	width: 300px;
+	height: 65px;
+	left: 950px;
+	top: 13920px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_premios{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 14050px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_premios_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 850px;
+	top: 14050px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_premios_sim{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 800px;
+    top: 14080px;
+
+    background: #F0F0F0;
+}
+
+.label_premios_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1050px;
+	top: 14050px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_premios_nao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1000px;
+    top: 14080px;
+
+    background: #F0F0F0;
+}
+
+.label_habitualmente{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 14150px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_habitualmente:after{
+	content: "";
+	display: block;
+	width: 1620px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.label_habitualmente_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 550px;
+	top: 14150px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_habitualmente_sim{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 500px;
+    top: 14180px;
+
+    background: #F0F0F0;
+}
+
+.label_habitualmente_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 750px;
+	top: 14150px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_habitualmente_nao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 700px;
+    top: 14180px;
+
+    background: #F0F0F0;
+}
+
+.label_vale_transporte{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 14300px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_vale_transporte:after{
+	content: "";
+	display: block;
+	width: 1620px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.label_vale_transporte_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 720px;
+	top: 14300px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_vale_transporte_sim{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 670px;
+    top: 14330px;
+
+    background: #F0F0F0;
+}
+
+.label_vale_transporte_valor{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 850px;
+	top: 14300px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_vale_transporte_valor{
+	position: absolute;
+	width: 300px;
+	height: 65px;
+	left: 1140px;
+	top: 14320px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_vale_transporte_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1550px;
+	top: 14300px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_vale_transporte_nao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1500px;
+    top: 14330px;
+
+    background: #F0F0F0;
+}
+
+.label_plano_saude{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 14450px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_plano_saude:after{
+	content: "";
+	display: block;
+	width: 1620px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.label_plano_saude_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 720px;
+	top: 14450px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_plano_saude_sim{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 670px;
+    top: 14480px;
+
+    background: #F0F0F0;
+}
+
+.label_plano_saude_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 910px;
+	top: 14450px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_plano_saude_nao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 860px;
+    top: 14480px;
+
+    background: #F0F0F0;
+}
+
+.label_salario_familia{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 14600px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_salario_familia_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 720px;
+	top: 14600px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_salario_familia_sim{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 670px;
+    top: 14630px;
+
+    background: #F0F0F0;
+}
+
+.label_salario_familia_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 910px;
+	top: 14600px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_salario_familia_nao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 860px;
+    top: 14630px;
+
+    background: #F0F0F0;
+}
+
+.label_salario_familia_motivo{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 14700px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_salario_familia_motivo:after{
+	content: "";
+	display: block;
+	width: 1620px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.input_salario_familia_motivo{
+	position: absolute;
+	width: 700px;
+	height: 65px;
+	left: 280px;
+	top: 14720px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.titulo_local_de_trabalho{
+	position: absolute;
+	width: 1242px;
+	height: 84px;
+	left: 110px;
+	top: 14870px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 50px;
+	line-height: 78px;
+
+	color: #454242;
+}
+
+.titulo_local_de_trabalho:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
