@@ -337,9 +337,61 @@ function habilitacao(){
   function habilitacao21(){
     if(document.getElementById('input_colega_sim').checked == true){
       document.getElementById('textarea_equiparando').disabled = false;
+      document.getElementById('textarea_paradigma').disabled = false;
+      document.getElementById('textarea_valor_paradigma').disabled = false;
+      document.getElementById('input_requisitos_sim').disabled = false;
+      document.getElementById('input_requisitos_nao').disabled = false;
+      document.getElementById('textarea_trabalho_prestado').disabled = false;
+      document.getElementById('textarea_mesma_funcao').disabled = false;
+      document.getElementById('textarea_igual_valor').disabled = false;
+      document.getElementById('input_tempo_servico_sim').disabled = false;
+      document.getElementById('input_tempo_servico_nao').disabled = false;
+      document.getElementById('input_tempo_funcao_sim').disabled = false;
+      document.getElementById('input_tempo_funcao_nao').disabled = false;
+      document.getElementById('input_quadro_pessoal_sim').disabled = false;
+      document.getElementById('input_quadro_pessoal_nao').disabled = false;
     }
     if(document.getElementById('input_colega_nao').checked == true){
       document.getElementById('textarea_equiparando').disabled = true;
       document.getElementById('textarea_equiparando').value = '';
+
+      document.getElementById('textarea_paradigma').disabled = true;
+      document.getElementById('textarea_paradigma').value = '';
+
+      document.getElementById('textarea_valor_paradigma').disabled = true;
+      document.getElementById('textarea_valor_paradigma').value = '';
+
+      document.getElementById('input_requisitos_sim').disabled = true;
+      document.getElementById('input_requisitos_sim').checked = false;
+
+      document.getElementById('input_requisitos_nao').disabled = true;
+      document.getElementById('input_requisitos_nao').checked = false;
+
+      document.getElementById('textarea_trabalho_prestado').disabled = true;
+      document.getElementById('textarea_trabalho_prestado').value = '';
+
+      document.getElementById('textarea_mesma_funcao').disabled = true;
+      document.getElementById('textarea_mesma_funcao').value = '';
+
+      document.getElementById('textarea_igual_valor').disabled = true;
+      document.getElementById('textarea_igual_valor').value = '';
+
+      document.getElementById('input_tempo_servico_sim').disabled = true;
+      document.getElementById('input_tempo_servico_sim').checked = false;
+
+      document.getElementById('input_tempo_servico_nao').disabled = true;
+      document.getElementById('input_tempo_servico_nao').checked = false;
+
+      document.getElementById('input_tempo_funcao_sim').disabled = true;
+      document.getElementById('input_tempo_funcao_sim').checked = false;
+
+      document.getElementById('input_tempo_funcao_nao').disabled = true;
+      document.getElementById('input_tempo_funcao_nao').checked = false;
+
+      document.getElementById('input_quadro_pessoal_sim').disabled = true;
+      document.getElementById('input_quadro_pessoal_sim').checked = false;
+
+      document.getElementById('input_quadro_pessoal_nao').disabled = true;
+      document.getElementById('input_quadro_pessoal_nao').checked = false;
     }
   }
