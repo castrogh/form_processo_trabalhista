@@ -1,0 +1,581 @@
+.titulo_equiparacao{
+	position: absolute;
+	width: 1242px;
+	height: 84px;
+	left: 110px;
+	top: 19100px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 50px;
+	line-height: 78px;
+
+	color: #454242;
+}
+
+.titulo_equiparacao:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.label_tarefas_contrato{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 200px;
+	top: 19250px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.textarea_tarefas_contrato{
+    position: absolute;
+    width: 1630px;
+    height: 440px;
+    left: 174px;
+    top: 19300px;
+    padding: 10px 20px;
+	box-sizing: border-box;
+	resize: none;
+    
+    background: #F0F0F0;
+    border-radius: 40px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.label_fora_escopo{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 200px;
+	top: 19800px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.textarea_fora_escopo{
+    position: absolute;
+    width: 1630px;
+    height: 440px;
+    left: 174px;
+    top: 19880px;
+    padding: 10px 20px;
+	box-sizing: border-box;
+	resize: none;
+    
+    background: #F0F0F0;
+    border-radius: 40px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.label_mudanca_funcao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 20400px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_mudanca_funcao_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 850px;
+	top: 20400px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_mudanca_funcao_sim{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 800px;
+    top: 20430px;
+
+    background: #F0F0F0;
+}
+
+.label_mudanca_funcao_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1050px;
+	top: 20400px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_mudanca_funcao_nao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1000px;
+    top: 20430px;
+
+    background: #F0F0F0;
+}
+
+.label_qual_funcao{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 200px;
+	top: 20550px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.textarea_qual_funcao{
+	position: absolute;
+	width: 1436px;
+	height: 141px;
+	left: 200px;
+	top: 20600px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	resize: none;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.label_funcao_exercida{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 200px;
+	top: 20800px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.textarea_funcao_exercida{
+	position: absolute;
+	width: 1436px;
+	height: 141px;
+	left: 200px;
+	top: 20850px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	resize: none;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.label_motivo_alteracao{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 200px;
+	top: 21050px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.textarea_motivo_alteracao{
+	position: absolute;
+	width: 1436px;
+	height: 141px;
+	left: 200px;
+	top: 21100px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	resize: none;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.label_salario_funcao{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 200px;
+	top: 21300px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.textarea_salario_funcao{
+	position: absolute;
+	width: 1436px;
+	height: 141px;
+	left: 200px;
+	top: 21350px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	resize: none;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.label_acumulo_funcao{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 200px;
+	top: 21500px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.textarea_acumulo_funcao{
+	position: absolute;
+	width: 1436px;
+	height: 141px;
+	left: 200px;
+	top: 21550px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	resize: none;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.label_funcao_alterada{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 21750px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_funcao_alterada_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1000px;
+	top: 21750px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_funcao_alterada_sim{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 950px;
+    top: 21780px;
+
+    background: #F0F0F0;
+}
+
+.label_funcao_alterada_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1150px;
+	top: 21750px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_funcao_alterada_nao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1100px;
+    top: 21780px;
+
+    background: #F0F0F0;
+}
+
+.label_funcao_alterada:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.barra_lateral5{
+	position: absolute;
+	width: 1300px;
+	height: 0px;
+	left: -480px;
+	top: 21200px;
+	
+	border: 5px solid #BEA469;
+	transform: rotate(90deg);
+}
+
+.label_prestacao_servicos{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 200px;
+	top: 21950px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.textarea_prestacao_servicos{
+	position: absolute;
+	width: 1436px;
+	height: 141px;
+	left: 200px;
+	top: 22090px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	resize: none;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.label_colega{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 22300px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_colega_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 250px;
+	top: 22400px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_colega_sim{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 200px;
+    top: 22430px;
+
+    background: #F0F0F0;
+}
+
+.label_colega_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 400px;
+	top: 22400px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_colega_nao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 350px;
+    top: 22430px;
+
+    background: #F0F0F0;
+}
+
+.label_colega:before{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.label_equiparando{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 250px;
+	top: 22550px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.textarea_equiparando{
+	position: absolute;
+	width: 1436px;
+	height: 80px;
+	left: 250px;
+	top: 22600px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	resize: none;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+}

@@ -91,7 +91,6 @@ function habilitacao(){
     }
   }
 
-
   function habilitacao8(){
     if(document.getElementById('input_piso_salarial_sim').checked == true){
       document.getElementById('input_piso_salarial_quanto').disabled = false;
@@ -297,5 +296,50 @@ function habilitacao(){
       document.getElementById('input_adicional_transf_sim').checked = false;
       document.getElementById('input_adicional_transf_nao').disabled = true;
       document.getElementById('input_adicional_transf_nao').checked = false;
+    }
+  }
+
+  function habilitacao20(){
+    if(document.getElementById('input_mudanca_funcao_sim').checked == true){
+      document.getElementById('textarea_qual_funcao').disabled = false;
+      document.getElementById('textarea_funcao_exercida').disabled = false;
+      document.getElementById('textarea_motivo_alteracao').disabled = false;
+      document.getElementById('textarea_salario_funcao').disabled = false;
+      document.getElementById('textarea_acumulo_funcao').disabled = false;
+      document.getElementById('input_funcao_alterada_sim').disabled = false;
+      document.getElementById('input_funcao_alterada_nao').disabled = false;
+
+    }
+    if(document.getElementById('input_mudanca_funcao_nao').checked == true){
+      document.getElementById('textarea_qual_funcao').disabled = true;
+      document.getElementById('textarea_qual_funcao').value = '';
+
+      document.getElementById('textarea_funcao_exercida').disabled = true;
+      document.getElementById('textarea_funcao_exercida').value = '';
+
+      document.getElementById('textarea_motivo_alteracao').disabled = true;
+      document.getElementById('textarea_motivo_alteracao').value = '';
+
+      document.getElementById('textarea_salario_funcao').disabled = true;
+      document.getElementById('textarea_salario_funcao').value = '';
+
+      document.getElementById('textarea_acumulo_funcao').disabled = true;
+      document.getElementById('textarea_acumulo_funcao').value = '';
+
+      document.getElementById('input_funcao_alterada_sim').disabled = true;
+      document.getElementById('input_funcao_alterada_sim').checked = false;
+
+      document.getElementById('input_funcao_alterada_nao').disabled = true;
+      document.getElementById('input_funcao_alterada_nao').checked = false;
+    }
+  }
+
+  function habilitacao21(){
+    if(document.getElementById('input_colega_sim').checked == true){
+      document.getElementById('textarea_equiparando').disabled = false;
+    }
+    if(document.getElementById('input_colega_nao').checked == true){
+      document.getElementById('textarea_equiparando').disabled = true;
+      document.getElementById('textarea_equiparando').value = '';
     }
   }

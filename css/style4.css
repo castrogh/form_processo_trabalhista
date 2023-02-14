@@ -1908,3 +1908,12 @@
 
     background: #F0F0F0;
 }
+
+.label_adicional_transf:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
