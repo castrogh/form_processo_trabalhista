@@ -395,3 +395,45 @@ function habilitacao(){
       document.getElementById('input_quadro_pessoal_nao').checked = false;
     }
   }
+
+  function habilitacao22(){
+    if(document.getElementById('input_prontidao_sim').checked == true){
+      document.getElementById('input_23_normal_sim').disabled = false;
+      document.getElementById('input_23_normal_nao').disabled = false;
+    }
+    if(document.getElementById('input_prontidao_nao').checked == true){
+      document.getElementById('input_23_normal_sim').disabled = true;
+      document.getElementById('input_23_normal_sim').checked = false;
+
+      document.getElementById('input_23_normal_nao').disabled = true;
+      document.getElementById('input_23_normal_nao').checked = false;
+    }
+  }
+
+  function habilitacao23(){
+    if(document.getElementById('input_sobreaviso_sim').checked == true){
+      document.getElementById('input_sobreaviso_13_sim').disabled = false;
+      document.getElementById('input_sobreaviso_13_nao').disabled = false;
+    }
+    if(document.getElementById('input_sobreaviso_nao').checked == true){
+      document.getElementById('input_sobreaviso_13_sim').disabled = true;
+      document.getElementById('input_sobreaviso_13_sim').checked = false;
+      
+      document.getElementById('input_sobreaviso_13_nao').disabled = true;
+      document.getElementById('input_sobreaviso_13_nao').checked = false;
+    }
+  }
+
+  function habilitacao24(){
+    if(document.getElementById('input_reforma_sim').checked == true){
+      document.getElementById('input_sumula_sim').disabled = false;
+      document.getElementById('input_sumula_nao').disabled = false;
+    }
+    if(document.getElementById('input_reforma_nao').checked == true){
+      document.getElementById('input_sumula_sim').disabled = true;
+      document.getElementById('input_sumula_sim').checked = false;
+      
+      document.getElementById('input_sumula_nao').disabled = true;
+      document.getElementById('input_sumula_nao').checked = false;
+    }
+  }

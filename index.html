@@ -862,6 +862,103 @@
                         <label class="label_anotacao_intervalo_eletronico" for="input_anotacao_intervalo_eletronico">Eletrônico</label>
                         <input type="radio" class="input_anotacao_intervalo_eletronico" id="input_anotacao_intervalo_eletronico" name="$A anotação do intervalo era:" value="Nenhum"></input>
 
+                        <label class="label_convencao_2" for="input_convencao">Havia acordo ou convenção coletiva para casos em que o intervalo fosse inferior a 1 hora?</label>
+                        <input type="text" class="input_convencao_2" id="input_convencao_2" name="$Havia acordo ou convenção coletiva para casos em que o intervalo fosse inferior a 1 hora?"></input>
+
+                        <div class="barra_lateral9"></div>
+
+                        <label class="label_tempo_disposicao">Sobre tempo à disposição:</label>
+                        <label class="label_prontidao">Ficava de prontidão?</label>
+                        <label class="label_prontidao_sim" for="input_prontidao_sim">Sim</label>
+                        <input type="radio" class="input_prontidao_sim" id="input_prontidao_sim" name="$Ficava de prontidão?" value="Sim" onclick="habilitacao22()"></input>
+
+                        <label class="label_prontidao_nao" for="input_prontidao_nao">Não</label>
+                        <input type="radio" class="input_prontidao_nao" id="input_prontidao_nao" name="$Ficava de prontidão?" value="Não" onclick="habilitacao22()"></input>
+
+                        <label class="label_23_normal">Na prontidão, recebia 2/3 da hora normal?</label>
+                        <label class="label_23_normal_sim" for="input_23_normal_sim">Sim</label>
+                        <input type="radio" class="input_23_normal_sim" id="input_23_normal_sim" name="$Na prontidão, recebia 2/3 da hora normal?" value="Sim" disabled></input>
+
+                        <label class="label_23_normal_nao" for="input_23_normal_nao">Não</label>
+                        <input type="radio" class="input_23_normal_nao" id="input_23_normal_nao" name="$Na prontidão, recebia 2/3 da hora normal?" value="Não" disabled></input>
+
+                        <label class="label_sobreaviso">Ficava de sobreaviso?</label>
+                        <label class="label_sobreaviso_sim" for="input_sobreaviso_sim">Sim</label>
+                        <input type="radio" class="input_sobreaviso_sim" id="input_sobreaviso_sim" name="$Ficava de sobreaviso?" value="Sim" onclick="habilitacao23()"></input>
+
+                        <label class="label_sobreaviso_nao" for="input_sobreaviso_nao">Não</label>
+                        <input type="radio" class="input_sobreaviso_nao" id="input_sobreaviso_nao" name="$Ficava de sobreaviso?" value="Não" onclick="habilitacao23()"></input>
+
+                        <label class="label_sobreaviso_13">No sobreaviso, recebia 1/3 da hora normal?</label>
+                        <label class="label_sobreaviso_13_sim" for="input_sobreaviso_13_sim">Sim</label>
+                        <input type="radio" class="input_sobreaviso_13_sim" id="input_sobreaviso_13_sim" name="$No sobreaviso, recebia 1/3 da hora normal?" value="Sim" disabled></input>
+
+                        <label class="label_sobreaviso_13_nao" for="input_sobreaviso_13_nao">Não</label>
+                        <input type="radio" class="input_sobreaviso_13_nao" id="input_sobreaviso_13_nao" name="$No sobreaviso, recebia 1/3 da hora normal?" value="Não" disabled></input>
+
+                        <label class="label_uniforme">A troca de roupa/uniforme era obrigatória na empresa?</label>
+                        <label class="label_uniforme_sim" for="input_uniforme_sim">Sim</label>
+                        <input type="radio" class="input_uniforme_sim" id="input_uniforme_sim" name="$A troca de roupa/uniforme era obrigatória na empresa?" value="Sim"></input>
+
+                        <label class="label_uniforme_nao" for="input_uniforme_nao">Não</label>
+                        <input type="radio" class="input_uniforme_nao" id="input_uniforme_nao" name="$A troca de roupa/uniforme era obrigatória na empresa?" value="Não"></input>
+
+                        <label class="label_tempo_uniforme" for="input_tempo_uniforme">Em média, qual era o tempo da troca de uniforme?</label>
+                        <input type="text" class="input_tempo_uniforme" id="input_tempo_uniforme" name="$Em média, qual era o tempo da troca de uniforme?"></input>
+
+                        <label class="label_reforma">Antes da Lei da Reforma Trabalhista, havia horas in itinere?</label>
+                        <label class="label_reforma_sim" for="input_reforma_sim">Sim</label>
+                        <input type="radio" class="input_reforma_sim" id="input_reforma_sim" name="$Antes da Lei da Reforma Trabalhista, havia horas in itinere?" value="Sim" onclick="habilitacao24()"></input>
+
+                        <label class="label_reforma_nao" for="input_reforma_nao">Não</label>
+                        <input type="radio" class="input_reforma_nao" id="input_reforma_nao" name="$Antes da Lei da Reforma Trabalhista, havia horas in itinere?" value="Não" onclick="habilitacao24()"></input>
+
+                        <label class="label_sumula">Essas horas de percurso atendiam aos requisito da Súmula 90, TST?</label>
+                        <label class="label_sumula_sim" for="input_sumula_sim">Sim</label>
+                        <input type="radio" class="input_sumula_sim" id="input_sumula_sim" name="$Essas horas de percurso atendiam aos requisito da Súmula 90, TST?" value="Sim" disabled></input>
+
+                        <label class="label_sumula_nao" for="input_sumula_nao">Não</label>
+                        <input type="radio" class="input_sumula_nao" id="input_sumula_nao" name="$Essas horas de percurso atendiam aos requisito da Súmula 90, TST?" value="Não" disabled></input>
+                        
+                        <label class="label_horas_pagas">As horas in itineres eram pagas?</label>
+                        <label class="label_horas_pagas_sim" for="input_horas_pagas_sim">Sim</label>
+                        <input type="radio" class="input_horas_pagas_sim" id="input_horas_pagas_sim" name="$As horas in itineres eram pagas?" value="Sim" disabled></input>
+
+                        <label class="label_horas_pagas_nao" for="input_horas_pagas_nao">Não</label>
+                        <input type="radio" class="input_horas_pagas_nao" id="input_horas_pagas_nao" name="$As horas in itineres eram pagas?" value="Não" disabled></input>
+
+                        <div class="barra_lateral10"></div>
+
+                        <label class="label_duracao_trabalho">Sobre Duração do Trabalho:</label>
+                        <label class="label_poderes_gestao">O empregado exercia função com poderes de gestão ou atividades externas ou teletrabalho?</label>
+                        <label class="label_poderes_gestao_sim" for="input_poderes_gestao_sim">Sim</label>
+                        <input type="radio" class="input_poderes_gestao_sim" id="input_poderes_gestao_sim" name="$O empregado exercia função com poderes de gestão ou atividades externas ou teletrabalho?" value="Sim"></input>
+
+                        <label class="label_poderes_gestao_nao" for="input_poderes_gestao_nao">Não</label>
+                        <input type="radio" class="input_poderes_gestao_nao" id="input_poderes_gestao_nao" name="$O empregado exercia função com poderes de gestão ou atividades externas ou teletrabalho?" value="Não"></input>
+
+                        <label class="label_habitualidade" for="textarea_habitualidade">Realizava horas extras com habitualidade? Registrava ao final?</label>
+                        <textarea type="text" class="textarea_habitualidade" wrap="hard" id="textarea_igual_valor" name="$Realizava horas extras com habitualidade? Registrava ao final?"></textarea>
+
+                        <label class="label_adicional" for="textarea_adicional">Recebia as horas extras realizadas com o respectivo adicional?</label>
+                        <textarea type="text" class="textarea_adicional" wrap="hard" id="textarea_adicional" name="$Recebia as horas extras realizadas com o respectivo adicional?"></textarea>
+
+                        <label class="label_prorrogacao" for="textarea_prorrogacao">Havia acordo, por escrito, de prorrogação de jornada? Respeitava o máximo de 2 horas diárias?</label>
+                        <textarea type="text" class="textarea_prorrogacao" wrap="hard" id="textarea_prorrogacao" name="$Havia acordo, por escrito, de prorrogação de jornada? Respeitava o máximo de 2 horas diárias?"></textarea>
+
+                        <label class="label_compensacao" for="textarea_compensacao">Havia algum regime de compensação da jornada? Os requisitos do art.59,§6º, da CLT foram atendidos? Respeitava o limite de 10 horas diárias?</label>
+                        <textarea type="text" class="textarea_compensacao" wrap="hard" id="textarea_compensacao" name="$Havia algum regime de compensação da jornada? Os requisitos do art.59,§6º, da CLT foram atendidos? Respeitava o limite de 10 horas diárias?"></textarea>
+
+                        <label class="label_banco_horas" for="textarea_banco_horas">Havia banco de horas? Foi feito negociação coletiva ou acordo individual escrito? Respeitava o limite de 10 horas diárias?</label>
+                        <textarea type="text" class="textarea_banco_horas" wrap="hard" id="textarea_banco_horas" name="$Havia banco de horas? Foi feito negociação coletiva ou acordo individual escrito? Respeitava o limite de 10 horas diárias?"></textarea>
+
+                        <label class="label_supressao_he" for="textarea_supressao_he">Houve supressão total ou parcial das HEs habituais, durante pelo menos 1 (um) ano (Súmula 291, TST)?</label>
+                        <textarea type="text" class="textarea_supressao_he" wrap="hard" id="textarea_supressao" name="$Houve supressão total ou parcial das HEs habituais, durante pelo menos 1 (um) ano (Súmula 291, TST)?"></textarea>
+
+                        <label class="label_regime_escala" for="textarea_regime_escala">Trabalhava em regime de escala? Qual?</label>
+                        <textarea type="text" class="textarea_regime_escala" wrap="hard" id="textarea_regime_escala" name="$Trabalhava em regime de escala? Qual?"></textarea>
+
+
                     </div>
                     
                     <!--<button class="button">Enviar Respostas</button>-->
