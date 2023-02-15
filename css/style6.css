@@ -2158,7 +2158,7 @@
 	width: fit-content;
 	height: fit-content;
 	left: 200px;
-	top: 29240px;
+	top: 29250px;
 	
 	font-family: 'Montserrat';
 	font-style: normal;
@@ -2174,7 +2174,7 @@
 	width: 1436px;
 	height: 150px;
 	left: 200px;
-	top: 29280px;
+	top: 29290px;
 	padding: 10px 20px;
 	box-sizing: border-box;
 	resize: none;
@@ -2186,4 +2186,237 @@
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
+}
+
+.barra_lateral11{
+	position: absolute;
+	width: 1930px;
+	height: 0px;
+	left: -810px;
+	top: 28460px;
+	
+	border: 5px solid #BEA469;
+	transform: rotate(90deg);
+}
+
+.label_trabalho_noturno{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 29490px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.label_empregado_era{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 29550px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.label_urbano{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 250px;
+	top: 29600px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_urbano{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 200px;
+    top: 29630px;
+
+    background: #F0F0F0;
+}
+
+.label_rural_pec{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 250px;
+	top: 29670px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_rural_pec{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 200px;
+    top: 29700px;
+
+    background: #F0F0F0;
+}
+
+.label_rural_lav{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 250px;
+	top: 29740px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_rural_lav{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 200px;
+    top: 29770px;
+
+    background: #F0F0F0;
+}
+
+.label_advogado{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 250px;
+	top: 29810px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_advogado{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 200px;
+    top: 29840px;
+
+    background: #F0F0F0;
+}
+
+.label_horario_prestacao{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 200px;
+	top: 29950px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.textarea_horario_prestacao{
+	position: absolute;
+	width: 1436px;
+	height: 80px;
+	left: 200px;
+	top: 30000px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	resize: none;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.label_transf_horario{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 200px;
+	top: 30100px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.textarea_transf_horario{
+	position: absolute;
+	width: 1436px;
+	height: 150px;
+	left: 200px;
+	top: 30190px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	resize: none;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.barra_lateral12{
+	position: absolute;
+	width: 790px;
+	height: 0px;
+	left: -240px;
+	top: 29930px;
+	
+	border: 5px solid #BEA469;
+	transform: rotate(90deg);
 }
