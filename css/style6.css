@@ -1,0 +1,678 @@
+.titulo_jornada{
+	position: absolute;
+	width: 1242px;
+	height: 84px;
+	left: 110px;
+	top: 24380px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 50px;
+	line-height: 78px;
+
+	color: #454242;
+}
+
+.titulo_jornada:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.label_informe_horario{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 110px;
+	top: 24530px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.label_preencher_quadro{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 200px;
+	top: 24630px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.label_quadro_horario{
+	position: absolute;
+	width: 1360px;
+	height: 87px;
+	left: 200px;
+	top: 24730px;
+	
+	background: #BEA469;
+	border-radius: 64px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 90px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.label_seg{
+	position: absolute;
+	width: 63px;
+	height: 109px;
+	left: 395px;
+	top: 24790px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 109px;
+	
+	color: #000000;	
+}
+
+.label_ter{
+	position: absolute;
+	width: 63px;
+	height: 109px;
+	left: 555px;
+	top: 24790px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 109px;
+	
+	color: #000000;	
+}
+
+.label_qua{
+	position: absolute;
+	width: 63px;
+	height: 109px;
+	left: 715px;
+	top: 24790px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 109px;
+	
+	color: #000000;	
+}
+
+.label_qui{
+	position: absolute;
+	width: 63px;
+	height: 109px;
+	left: 875px;
+	top: 24790px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 109px;
+	
+	color: #000000;	
+}
+
+.label_sex{
+	position: absolute;
+	width: 63px;
+	height: 109px;
+	left: 1035px;
+	top: 24790px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 109px;
+	
+	color: #000000;	
+}
+
+.label_sab{
+	position: absolute;
+	width: 63px;
+	height: 109px;
+	left: 1195px;
+	top: 24790px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 109px;
+	
+	color: #000000;	
+}
+
+.label_dom{
+	position: absolute;
+	width: 63px;
+	height: 109px;
+	left: 1345px;
+	top: 24790px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 109px;
+	
+	color: #000000;	
+}
+
+.label_entrada{
+	position: absolute;
+	width: 63px;
+	height: 109px;
+	left: 220px;
+	top: 24840px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 109px;
+	
+	color: #000000;	
+}
+
+.label_entrada_intervalo{
+	position: absolute;
+	width: 63px;
+	height: 109px;
+	left: 220px;
+	top: 24950px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 25px;
+	
+	color: #000000;	
+}
+
+.label_saida_intervalo{
+	position: absolute;
+	width: 63px;
+	height: 109px;
+	left: 220px;
+	top: 25030px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 25px;
+	
+	color: #000000;	
+}
+
+.label_saida{
+	position: absolute;
+	width: 63px;
+	height: 109px;
+	left: 220px;
+	top: 25120px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 25px;
+	
+	color: #000000;	
+}
+
+.input_ent_seg{
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    left: 360px;
+    top: 24870px;
+
+    background: #F0F0F0;
+
+    text-align: center;
+}
+
+.input_ent_ter{
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    left: 520px;
+    top: 24870px;
+
+    background: #F0F0F0;
+
+    text-align: center;
+}
+
+.input_ent_qua{
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    left: 680px;
+    top: 24870px;
+
+    background: #F0F0F0;
+
+    text-align: center;
+}
+
+.input_ent_qui{
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    left: 840px;
+    top: 24870px;
+
+    background: #F0F0F0;
+
+    text-align: center;
+}
+
+.input_ent_sex{
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    left: 1000px;
+    top: 24870px;
+
+    background: #F0F0F0;
+
+    text-align: center;
+}
+
+.input_ent_sab{
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    left: 1160px;
+    top: 24870px;
+
+    background: #F0F0F0;
+
+    text-align: center;
+}
+
+.input_ent_dom{
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    left: 1320px;
+    top: 24870px;
+
+    background: #F0F0F0;
+
+    text-align: center;
+}
+
+.input_ent_int_seg{
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    left: 360px;
+    top: 24950px;
+
+    background: #F0F0F0;
+
+    text-align: center;
+}
+
+.input_ent_int_ter{
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    left: 520px;
+    top: 24950px;
+
+    background: #F0F0F0;
+
+    text-align: center;
+}
+
+.input_ent_int_qua{
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    left: 680px;
+    top: 24950px;
+
+    background: #F0F0F0;
+
+    text-align: center;
+}
+
+.input_ent_int_qui{
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    left: 840px;
+    top: 24950px;
+
+    background: #F0F0F0;
+
+    text-align: center;
+}
+
+.input_ent_int_sex{
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    left: 1000px;
+    top: 24950px;
+
+    background: #F0F0F0;
+
+    text-align: center;
+}
+
+.input_ent_int_sab{
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    left: 1160px;
+    top: 24950px;
+
+    background: #F0F0F0;
+
+    text-align: center;
+}
+
+.input_ent_int_dom{
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    left: 1320px;
+    top: 24950px;
+
+    background: #F0F0F0;
+
+    text-align: center;
+}
+
+.input_sai_int_seg{
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    left: 360px;
+    top: 25030px;
+
+    background: #F0F0F0;
+
+    text-align: center;
+}
+
+.input_sai_int_ter{
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    left: 520px;
+    top: 25030px;
+
+    background: #F0F0F0;
+
+    text-align: center;
+}
+
+.input_sai_int_qua{
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    left: 680px;
+    top: 25030px;
+
+    background: #F0F0F0;
+
+    text-align: center;
+}
+
+.input_sai_int_qui{
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    left: 840px;
+    top: 25030px;
+
+    background: #F0F0F0;
+
+    text-align: center;
+}
+
+.input_sai_int_sex{
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    left: 1000px;
+    top: 25030px;
+
+    background: #F0F0F0;
+
+    text-align: center;
+}
+
+.input_sai_int_sab{
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    left: 1160px;
+    top: 25030px;
+
+    background: #F0F0F0;
+
+    text-align: center;
+}
+
+.input_sai_int_dom{
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    left: 1320px;
+    top: 25030px;
+
+    background: #F0F0F0;
+
+    text-align: center;
+}
+
+.input_saida_seg{
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    left: 360px;
+    top: 25110px;
+
+    background: #F0F0F0;
+
+    text-align: center;
+}
+
+.input_saida_ter{
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    left: 520px;
+    top: 25110px;
+
+    background: #F0F0F0;
+
+    text-align: center;
+}
+
+.input_saida_qua{
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    left: 680px;
+    top: 25110px;
+
+    background: #F0F0F0;
+
+    text-align: center;
+}
+
+.input_saida_qui{
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    left: 840px;
+    top: 25110px;
+
+    background: #F0F0F0;
+
+    text-align: center;
+}
+
+.input_saida_sex{
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    left: 1000px;
+    top: 25110px;
+
+    background: #F0F0F0;
+
+    text-align: center;
+}
+
+.input_saida_sab{
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    left: 1160px;
+    top: 25110px;
+
+    background: #F0F0F0;
+
+    text-align: center;
+}
+
+.input_saida_dom{
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    left: 1320px;
+    top: 25110px;
+
+    background: #F0F0F0;
+
+    text-align: center;
+}
+
+.label_carga_horaria{
+	position: absolute;
+	width: 1360px;
+	height: 87px;
+	left: 200px;
+	top: 25170px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #BEA469;
+	border-radius: 64px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 90px;
+	color: #FFFFFF;
+	text-align: left;
+}
+
+.input_carga_horaria{
+	position: absolute;
+	width: 890px;
+	height: 87px;
+	left: 635px;
+	top: 25170px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #BEA469;
+	border: none;
+	border-radius: 64px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 90px;
+	color: #FFFFFF;
+	text-align: left;
+}
+
+.label_horario_determinado{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 25250px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_horario_determinado{
+	position: absolute;
+	width: 1360px;
+	height: 65px;
+	left: 200px;
+	top: 25325px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.barra_lateral7{
+	position: absolute;
+	width: 750px;
+	height: 0px;
+	left: -220px;
+	top: 25000px;
+	
+	border: 5px solid #BEA469;
+	transform: rotate(90deg);
+}
