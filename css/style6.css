@@ -676,3 +676,517 @@
 	border: 5px solid #BEA469;
 	transform: rotate(90deg);
 }
+
+.label_registro_jornada{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 25450px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.label_jornada_assinada{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 25510px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.label_jornada_manual{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 300px;
+	top: 25530px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_jornada_manual{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 250px;
+    top: 25560px;
+
+    background: #F0F0F0;
+}
+
+.label_jornada_mecanico{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 560px;
+	top: 25530px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_jornada_mecanico{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 510px;
+    top: 25560px;
+
+    background: #F0F0F0;
+}
+
+.label_jornada_eletronico{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 850px;
+	top: 25530px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_jornada_eletronico{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 800px;
+    top: 25560px;
+
+    background: #F0F0F0;
+}
+
+.label_jornada_nenhum{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1150px;
+	top: 25530px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_jornada_nenhum{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1100px;
+    top: 25560px;
+
+    background: #F0F0F0;
+}
+
+.label_quem_assinava{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 25620px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_quem_assinava:before{
+	content: "";
+	display: block;
+	width: 1300px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.input_quem_assinava{
+	position: absolute;
+	width: 1300px;
+	height: 65px;
+	left: 200px;
+	top: 25730px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_horarios_anotados{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 25850px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.label_horarios_anotados_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1150px;
+	top: 25810px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_horarios_anotados_sim{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1100px;
+    top: 25840px;
+
+    background: #F0F0F0;
+}
+
+.label_horarios_anotados_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1300px;
+	top: 25810px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_horarios_anotados_nao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1250px;
+    top: 25840px;
+
+    background: #F0F0F0;
+}
+
+.label_20_fun{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 25950px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.label_20_fun_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 950px;
+	top: 25910px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_20_fun_sim{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 900px;
+    top: 25940px;
+
+    background: #F0F0F0;
+}
+
+.label_20_fun_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1100px;
+	top: 25910px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_20_fun_nao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1050px;
+    top: 25940px;
+
+    background: #F0F0F0;
+}
+
+.barra_lateral8{
+	position: absolute;
+	width: 480px;
+	height: 0px;
+	left: -85px;
+	top: 25750px;
+	
+	border: 5px solid #BEA469;
+	transform: rotate(90deg);
+}
+
+.label_int_intrajornada{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 26100px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.label_havia_horario{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 26160px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.input_havia_horario{
+	position: absolute;
+	width: 350px;
+	height: 65px;
+	left: 1000px;
+	top: 26140px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_anotacao_intervalo{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 26250px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.label_anotacao_intervalo_pre_assinado{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 250px;
+	top: 26270px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_anotacao_intervalo_pre_assinado{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 200px;
+    top: 26300px;
+
+    background: #F0F0F0;
+}
+
+.label_anotacao_intervalo_manual{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 600px;
+	top: 26270px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_anotacao_intervalo_manual{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 550px;
+    top: 26300px;
+
+    background: #F0F0F0;
+}
+
+.label_anotacao_intervalo_mecanico{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 850px;
+	top: 26270px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_anotacao_intervalo_mecanico{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 800px;
+    top: 26300px;
+
+    background: #F0F0F0;
+}
+
+.label_anotacao_intervalo_eletronico{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1150px;
+	top: 26270px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_anotacao_intervalo_eletronico{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1100px;
+    top: 26300px;
+
+    background: #F0F0F0;
+}
