@@ -485,6 +485,7 @@ function habilitacao(){
       document.getElementById('input_epi_qual').disabled = false;
       document.getElementById('input_treinamento').disabled = false;
       document.getElementById('input_epi_subs').disabled = false;
+      document.getElementById('input_epi_fiscalizacao').disabled = false;
     }
     if(document.getElementById('input_epi_nao').checked == true){
       document.getElementById('input_epi_qual').disabled = true;
@@ -495,5 +496,64 @@ function habilitacao(){
 
       document.getElementById('input_epi_subs').disabled = true;
       document.getElementById('input_epi_subs').value = '';
+
+      document.getElementById('input_epi_fiscalizacao').disabled = true;
+      document.getElementById('input_epi_fiscalizacao').value = '';
+    }
+  }
+
+  function habilitacao27(){
+    if(document.getElementById('input_acidente_sim').checked == true){
+      document.getElementById('input_data_acidente').disabled = false;
+      document.getElementById('input_afastamento').disabled = false;
+      document.getElementById('input_tempo_afastamento').disabled = false;
+      document.getElementById('input_data_retorno').disabled = false;
+      document.getElementById('input_comunicacao_acidente').disabled = false;
+      document.getElementById('input_dano_sim').disabled = false;
+      document.getElementById('input_dano_nao').disabled = false;
+      document.getElementById('input_despesas_medicas').disabled = false;
+      document.getElementById('input_supressao_plano_sim').disabled = false;
+      document.getElementById('input_supressao_plano_nao').disabled = false;
+    }
+    if(document.getElementById('input_acidente_nao').checked == true){
+      document.getElementById('input_data_acidente').disabled = true;
+      document.getElementById('input_data_acidente').value = '';
+
+      document.getElementById('input_afastamento').disabled = true;
+      document.getElementById('input_afastamento').value = '';
+
+      document.getElementById('input_tempo_afastamento').disabled = true;
+      document.getElementById('input_tempo_afastamento').value = '';
+
+      document.getElementById('input_data_retorno').disabled = true;
+      document.getElementById('input_data_retorno').value = '';
+
+      document.getElementById('input_comunicacao_acidente').disabled = true;
+      document.getElementById('input_comunicacao_acidente').value = '';
+
+      document.getElementById('input_dano_sim').disabled = true;
+      document.getElementById('input_dano_sim').checked = false;
+
+      document.getElementById('input_dano_nao').disabled = true;
+      document.getElementById('input_dano_nao').checked = false;
+
+      document.getElementById('input_despesas_medicas').disabled = true;
+      document.getElementById('input_despesas_medicas').value = '';
+
+      document.getElementById('input_supressao_plano_sim').disabled = true;
+      document.getElementById('input_supressao_plano_sim').checked = false;
+
+      document.getElementById('input_supressao_plano_nao').disabled = true;
+      document.getElementById('input_supressao_plano_nao').checked = false;
+    }
+  }
+
+  function habilitacao28(){
+    if(document.getElementById('input_dano_sim').checked == true){
+      document.getElementById('input_dano_qual').disabled = false;
+    }
+    if(document.getElementById('input_dano_nao').checked == true){
+      document.getElementById('input_dano_qual').disabled = true;
+      document.getElementById('input_dano_qual').value = '';
     }
   }

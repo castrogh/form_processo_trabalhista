@@ -1060,10 +1060,10 @@
                         <input type="radio" class="input_sempre_recebeu_nao" id="input_sempre_recebeu_nao" name="$Sempre recebeu?" value="Não" disabled></input>
 
                         <label class="label_recebeu_de" for="input_recebeu_de">Recebeu de</label>
-                        <input type="date" class="input_recebeu_de" id="input_recebeu_de" name="$Recebeu desde: " disabled></input>
+                        <input type="date" class="input_recebeu_de" id="input_recebeu_de" name="$Recebeu desde:" disabled></input>
 
                         <label class="label_recebeu_a" for="input_recebeu_a">a</label>
-                        <input type="date" class="input_recebeu_a" id="input_recebeu_a" name="$Recebeu até: " disabled></input>
+                        <input type="date" class="input_recebeu_a" id="input_recebeu_a" name="$Recebeu até:" disabled></input>
 
                         <label class="label_insalubridade_adicional" for="input_insalubridade_adicional">Se era insalubridade recebia adicional de 10, 20 ou 40%? Qual?</label>
                         <input type="text" class="input_insalubridade_adicional" id="input_insalubridade_adicional" name="$Se era insalubridade recebia adicional de 10, 20 ou 40%? Qual?"></input>
@@ -1100,6 +1100,64 @@
                         <label class="label_epi_subs" for="input_epi_subs">Os EPIs eram substituídos? Com qual periodicidade?</label>
                         <input type="text" class="input_epi_subs" id="input_epi_subs" name="$Os EPIs eram substituídos? Com qual periodicidade?" disabled></input>
 
+                        <label class="label_epi_fiscalizacao" for="input_epi_fiscalizacao">Havia fiscalização na utilização dos EPIs?</label>
+                        <input type="text" class="input_epi_fiscalizacao" id="input_epi_fiscalizacao" name="$Havia fiscalização na utilização dos EPIs?" disabled></input>
+
+                        <div class="barra_lateral14"></div>
+
+                        <label class="label_exames">Fez alguns desses exames?</label>
+                        <label class="label_admissional" for="input_admissional">Admissional</label>
+                        <input type="checkbox" class="input_admissional" id="input_admissional" name="$Fez alguns desses exames?" value="Admissional"></input>
+
+                        <label class="label_periodico" for="input_periodico">Periódico</label>
+                        <input type="checkbox" class="input_periodico" id="input_periodico" name="$Fez alguns desses exames?" value="Periódico"></input>
+
+                        <label class="label_demissional" for="input_demissional">Demissional</label>
+                        <input type="checkbox" class="input_demissional" id="input_demissional" name="$Fez alguns desses exames?" value="Periódico"></input>
+
+                        <label class="label_acidente">Durante o contrato de trabalho sofreu algum acidente?</label>
+                        <label class="label_acidente_sim" for="input_acidente_sim">Sim</label>
+                        <input type="radio" class="input_acidente_sim" id="input_acidente_sim" name="$Durante o contrato de trabalho sofreu algum acidente?" value="Sim" onclick="habilitacao27()"></input>
+
+                        <label class="label_acidente_nao" for="input_acidente_nao">Não</label>
+                        <input type="radio" class="input_acidente_nao" id="input_acidente_nao" name="$Durante o contrato de trabalho sofreu algum acidente?" value="Não" onclick="habilitacao27()"></input>
+
+                        <label class="label_data_acidente" for="input_data_acidente">Data do Acidente</label>
+                        <input type="date" class="input_data_acidente" id="input_data_acidente" name="$Data do Acidente:" disabled></input>
+
+                        <label class="label_afastamento" for="input_afastamento">Houve afastamento pelo INSS? Qual o código?</label>
+                        <input type="text" class="input_afastamento" id="input_afastamento" name="$Houve afastamento pelo INSS? Qual o código?" disabled></input>
+
+                        <label class="label_tempo_afastamento" for="input_tempo_afastamento">Quando tempo durou o afastamento?</label>
+                        <input type="text" class="input_tempo_afastamento" id="input_tempo_afastamento" name="$Quando tempo durou o afastamento?" disabled></input>
+
+                        <label class="label_data_retorno" for="input_data_retorno">Data do retorno</label>
+                        <input type="date" class="input_data_retorno" id="input_data_retorno" name="$Data do retorno" disabled></input>
+
+                        <label class="label_comunicacao_acidente" for="input_comunicacao_acidente">A Comunicação de Acidente do Trabalho foi emitida?</label>
+                        <input type="text" class="input_comunicacao_acidente" id="input_comunicacao_acidente" name="$A Comunicação de Acidente do Trabalho foi emitida?" disabled></input>
+
+                        <label class="label_dano">Algum dano estético?</label>
+                        <label class="label_dano_sim" for="input_dano_sim">Sim</label>
+                        <input type="radio" class="input_dano_sim" id="input_dano_sim" name="$Algum dano estético?" value="Sim" disabled onclick="habilitacao28()"></input>
+
+                        <label class="label_dano_qual" for="input_dano_qual">Qual?</label>
+                        <input type="text" class="input_dano_qual" id="input_dano_qual" name="$Qual dano estético?" disabled></input>
+
+                        <label class="label_dano_nao" for="input_dano_nao">Não</label>
+                        <input type="radio" class="input_dano_nao" id="input_dano_nao" name="$Algum dano estético?" value="Não" disabled onclick="habilitacao28()"></input>
+
+                        <label class="label_despesas_medicas" for="input_despesas_medicas">Teve despesas médicas? Tem comprovantes/recibos?</label>
+                        <input type="text" class="input_despesas_medicas" id="input_despesas_medicas" name="$Teve despesas médicas? Tem comprovantes/recibos?" disabled></input>
+
+                        <label class="label_supressao_plano">Houve supressão do plano de saúde durante o contrato de trabalho?</label>
+                        <label class="label_supressao_plano_sim" for="input_supressao_plano_sim">Sim</label>
+                        <input type="radio" class="input_supressao_plano_sim" id="input_supressao_plano_sim" name="$Houve supressão do plano de saúde durante o contrato de trabalho?" value="Sim" disabled></input>
+
+                        <label class="label_supressao_plano_nao" for="input_supressao_plano_nao">Não</label>
+                        <input type="radio" class="input_supressao_plano_nao" id="input_supressao_plano_nao" name="$Houve supressão do plano de saúde durante o contrato de trabalho?" value="Não" disabled></input>
+
+                        <div class="barra_lateral15"></div>
 
                     </div>
                     <!--<button class="button">Enviar Respostas</button>-->

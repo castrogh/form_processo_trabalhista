@@ -1143,3 +1143,628 @@
 	line-height: 109px;
 	color: #000000;
 }
+
+.label_epi_fiscalizacao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 32600px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.input_epi_fiscalizacao{
+	position: absolute;
+	width: 1085px;
+	height: 65px;
+	left: 200px;
+	top: 32650px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.barra_lateral14{
+	position: absolute;
+	width: 600px;
+	height: 0px;
+	left: -145px;
+	top: 32400px;
+	
+	border: 5px solid #BEA469;
+	transform: rotate(90deg);
+}
+
+.label_exames{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 32750px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_admissional{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+    left: 750px;
+	top: 32750px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_admissional{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 700px;
+	top: 32780px;
+
+    background: #F0F0F0;
+}
+
+.label_periodico{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+    left: 1080px;
+	top: 32750px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_periodico{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1030px;
+	top: 32780px;
+
+    background: #F0F0F0;
+}
+
+.label_demissional{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+    left: 1350px;
+	top: 32750px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_demissional{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1300px;
+	top: 32780px;
+
+    background: #F0F0F0;
+}
+
+.label_acidente{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 32850px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_acidente_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+    left: 1300px;
+	top: 32850px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_acidente_sim{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1250px;
+	top: 32880px;
+
+    background: #F0F0F0;
+}
+
+.label_acidente_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+    left: 1450px;
+	top: 32850px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_acidente_nao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1400px;
+	top: 32880px;
+
+    background: #F0F0F0;
+}
+
+.label_data_acidente{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 33000px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.input_data_acidente{
+	position: absolute;
+	width: 300px;
+	height: 65px;
+	left: 580px;
+	top: 32985px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_afastamento{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 33100px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.input_afastamento{
+	position: absolute;
+	width: 300px;
+	height: 65px;
+	left: 1150px;
+	top: 33085px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_tempo_afastamento{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 33200px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.input_tempo_afastamento{
+	position: absolute;
+	width: 170px;
+	height: 65px;
+	left: 980px;
+	top: 33185px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_data_retorno{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1180px;
+	top: 33200px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.input_data_retorno{
+	position: absolute;
+	width: 220px;
+	height: 65px;
+	left: 1500px;
+	top: 33185px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_comunicacao_acidente{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 33300px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.input_comunicacao_acidente{
+	position: absolute;
+	width: 300px;
+	height: 65px;
+	left: 1280px;
+	top: 33285px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_dano{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 33360px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_dano_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+    left: 700px;
+	top: 33360px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_dano_sim{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 650px;
+	top: 33390px;
+
+    background: #F0F0F0;
+}
+
+.label_dano_qual{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+    left: 850px;
+	top: 33360px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_dano_qual{
+	position: absolute;
+	width: 300px;
+	height: 65px;
+	left: 1000px;
+	top: 33385px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_dano_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+    left: 1450px;
+	top: 33360px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_dano_nao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1400px;
+	top: 33390px;
+
+    background: #F0F0F0;
+}
+
+.label_despesas_medicas{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+    left: 200px;
+	top: 33470px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_despesas_medicas{
+	position: absolute;
+	width: 1436px;
+	height: 150px;
+	left: 200px;
+	top: 33550px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_supressao_plano{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 33730px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 39px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.label_supressao_plano_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+    left: 250px;
+	top: 33750px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_supressao_plano_sim{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 200px;
+	top: 33780px;
+
+    background: #F0F0F0;
+}
+
+.label_supressao_plano_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+    left: 450px;
+	top: 33750px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_supressao_plano_nao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 400px;
+	top: 33780px;
+
+    background: #F0F0F0;
+}
+
+.barra_lateral15{
+	position: absolute;
+	width: 900px;
+	height: 0px;
+	left: -296px;
+	top: 33400px;
+	
+	border: 5px solid #BEA469;
+	transform: rotate(90deg);
+}
