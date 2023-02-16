@@ -437,3 +437,63 @@ function habilitacao(){
       document.getElementById('input_sumula_nao').checked = false;
     }
   }
+
+  function habilitacao25(){
+    if(document.getElementById('input_adicional_riscos_sim').checked == true){
+      document.getElementById('input_sempre_recebeu_sim').disabled = false;
+      document.getElementById('input_sempre_recebeu_parcialmente').disabled = false;
+      document.getElementById('input_sempre_recebeu_nao').disabled = false;
+      document.getElementById('input_recebeu_de').disabled = false;
+      document.getElementById('input_recebeu_a').disabled = false;
+      document.getElementById('input_periculosidade_30_sim').disabled = false;
+      document.getElementById('input_periculosidade_30_nao').disabled = false;
+      document.getElementById('input_periculosidade_contato_inter').disabled = false;
+      document.getElementById('input_periculosidade_contato_permanente').disabled = false;
+    }
+    if(document.getElementById('input_adicional_riscos_nao').checked == true){
+      document.getElementById('input_sempre_recebeu_sim').disabled = true;
+      document.getElementById('input_sempre_recebeu_sim').checked = false;
+      
+      document.getElementById('input_sempre_recebeu_parcialmente').disabled = true;
+      document.getElementById('input_sempre_recebeu_parcialmente').checked = false;
+
+      document.getElementById('input_sempre_recebeu_nao').disabled = true;
+      document.getElementById('input_sempre_recebeu_nao').checked = false;
+
+      document.getElementById('input_recebeu_de').disabled = true;
+      document.getElementById('input_recebeu_de').value = '';
+
+      document.getElementById('input_recebeu_a').disabled = true;
+      document.getElementById('input_recebeu_a').value = '';
+
+      document.getElementById('input_periculosidade_30_sim').disabled = true;
+      document.getElementById('input_periculosidade_30_sim').checked = false;
+
+      document.getElementById('input_periculosidade_30_nao').disabled = true;
+      document.getElementById('input_periculosidade_30_nao').checked = false;
+
+      document.getElementById('input_periculosidade_contato_inter').disabled = true;
+      document.getElementById('input_periculosidade_contato_inter').checked = false;
+
+      document.getElementById('input_periculosidade_contato_permanente').disabled = true;
+      document.getElementById('input_periculosidade_contato_permanente').checked = false;
+    }
+  }
+
+  function habilitacao26(){
+    if(document.getElementById('input_epi_sim').checked == true){
+      document.getElementById('input_epi_qual').disabled = false;
+      document.getElementById('input_treinamento').disabled = false;
+      document.getElementById('input_epi_subs').disabled = false;
+    }
+    if(document.getElementById('input_epi_nao').checked == true){
+      document.getElementById('input_epi_qual').disabled = true;
+      document.getElementById('input_epi_qual').value = '';
+
+      document.getElementById('input_treinamento').disabled = true;
+      document.getElementById('input_treinamento').value = '';
+
+      document.getElementById('input_epi_subs').disabled = true;
+      document.getElementById('input_epi_subs').value = '';
+    }
+  }

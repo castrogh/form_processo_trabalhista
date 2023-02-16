@@ -119,3 +119,1027 @@
 
     background: #F0F0F0;
 }
+
+.label_exposicao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 30700px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_agentes_biologicos{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 160px;
+	top: 30780px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_agentes_biologicos{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 110px;
+	top: 30810px;
+
+    background: #F0F0F0;
+}
+
+.label_poeira_amianto{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 160px;
+	top: 30870px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_poeira_amianto{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 110px;
+	top: 30900px;
+
+    background: #F0F0F0;
+}
+
+.label_vibracao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 160px;
+	top: 30960px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_vibracao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 110px;
+	top: 30990px;
+
+    background: #F0F0F0;
+}
+
+.label_agentes_quimicos{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 620px;
+	top: 30780px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_agentes_quimicos{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 570px;
+	top: 30810px;
+
+    background: #F0F0F0;
+}
+
+.label_benzeno{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 620px;
+	top: 30870px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_benzeno{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 570px;
+	top: 30900px;
+
+    background: #F0F0F0;
+}
+
+.label_inflamaveis{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 620px;
+	top: 30960px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_inflamaveis{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 570px;
+	top: 30990px;
+
+    background: #F0F0F0;
+}
+
+.label_ruidos{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1070px;
+	top: 30780px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_ruidos{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1020px;
+	top: 30810px;
+
+    background: #F0F0F0;
+}
+
+.label_umidade{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 900px;
+	top: 30870px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_umidade{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 850px;
+	top: 30900px;
+
+    background: #F0F0F0;
+}
+
+.label_explosivos{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 930px;
+	top: 30960px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_explosivos{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 880px;
+	top: 30990px;
+
+    background: #F0F0F0;
+}
+
+.label_calor{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1280px;
+	top: 30780px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_calor{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1230px;
+	top: 30810px;
+
+    background: #F0F0F0;
+}
+
+.label_radiacao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1370px;
+	top: 30870px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_radiacao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1320px;
+	top: 30900px;
+
+    background: #F0F0F0;
+}
+
+.label_energia_eletrica{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1220px;
+	top: 30960px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 39px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_energia_eletrica{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1170px;
+	top: 30990px;
+
+    background: #F0F0F0;
+}
+
+.label_roubos{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 160px;
+	top: 31080px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.input_roubos{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 110px;
+	top: 31072px;
+
+    background: #F0F0F0;
+}
+
+.label_outros_riscos{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 31200px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.label_outros_riscos:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 40px auto;
+}
+
+.input_outros_riscos{
+	position: absolute;
+	width: 1300px;
+	height: 65px;
+	left: 270px;
+	top: 31185px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_adicional_riscos{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 31300px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.label_adicional_riscos_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+    left: 160px;
+	top: 31390px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.input_adicional_riscos_sim{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 110px;
+	top: 31380px;
+
+    background: #F0F0F0;
+}
+
+.label_adicional_riscos_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+    left: 350px;
+	top: 31390px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.input_adicional_riscos_nao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 300px;
+	top: 31380px;
+
+    background: #F0F0F0;
+}
+
+.label_sempre_recebeu{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 31450px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_sempre_recebeu_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+    left: 650px;
+	top: 31450px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_sempre_recebeu_sim{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 600px;
+	top: 31480px;
+
+    background: #F0F0F0;
+}
+
+.label_sempre_recebeu_parcialmente{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+    left: 850px;
+	top: 31450px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_sempre_recebeu_parcialmente{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 800px;
+	top: 31480px;
+
+    background: #F0F0F0;
+}
+
+.label_sempre_recebeu_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+    left: 1250px;
+	top: 31450px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_sempre_recebeu_nao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1200px;
+	top: 31480px;
+
+    background: #F0F0F0;
+}
+
+.label_recebeu_de{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+    left: 200px;
+	top: 31540px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_recebeu_de{
+	position: absolute;
+	width: 320px;
+	height: 65px;
+	left: 450px;
+	top: 31560px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_recebeu_a{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+    left: 800px;
+	top: 31540px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_recebeu_a{
+	position: absolute;
+	width: 320px;
+	height: 65px;
+	left: 850px;
+	top: 31560px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_insalubridade_adicional{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 31660px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.input_insalubridade_adicional{
+	position: absolute;
+	width: 300px;
+	height: 65px;
+	left: 1450px;
+	top: 31645px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_periculosidade_30{
+    position: absolute;
+	width: fit-content;
+	height: 200px;
+	left: 200px;
+	top: 31710px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_periculosidade_30_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+    left: 1000px;
+	top: 31710px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_periculosidade_30_sim{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 950px;
+	top: 31740px;
+
+    background: #F0F0F0;
+}
+
+.label_periculosidade_30_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+    left: 1200px;
+    top: 31710px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_periculosidade_30_nao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1150px;
+	top: 31740px;
+
+    background: #F0F0F0;
+}
+
+.label_periculosidade_contato{
+    position: absolute;
+	width: fit-content;
+	height: 200px;
+	left: 200px;
+	top: 31800px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_periculosidade_contato_inter{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+    left: 250px;
+	top: 31850px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_periculosidade_contato_inter{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 200px;
+	top: 31880px;
+
+    background: #F0F0F0;
+}
+
+.label_periculosidade_contato_permanente{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+    left: 1000px;
+    top: 31850px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_periculosidade_contato_permanente{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 950px;
+	top: 31880px;
+
+    background: #F0F0F0;
+}
+
+.barra_lateral13{
+	position: absolute;
+	width: 500px;
+	height: 0px;
+	left: -94px;
+	top: 31700px;
+	
+	border: 5px solid #BEA469;
+	transform: rotate(90deg);
+}
+
+.label_epi{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 32000px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_epi_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+    left: 1400px;
+	top: 32000px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_epi_sim{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1350px;
+	top: 32030px;
+
+    background: #F0F0F0;
+}
+
+.label_epi_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+    left: 1600px;
+	top: 32000px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_epi_nao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1550px;
+	top: 32030px;
+
+    background: #F0F0F0;
+}
+
+.label_epi_qual{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 32110px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.input_epi_qual{
+	position: absolute;
+	width: 1300px;
+	height: 150px;
+	left: 200px;
+	top: 32150px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_treinamento{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 32350px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.input_treinamento{
+	position: absolute;
+	width: 1085px;
+	height: 65px;
+	left: 700px;
+	top: 32335px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_epi_subs{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 200px;
+	top: 32450px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.input_epi_subs{
+	position: absolute;
+	width: 1085px;
+	height: 65px;
+	left: 200px;
+	top: 32490px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}

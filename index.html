@@ -999,6 +999,108 @@
                         <label class="label_ambiente_normal" for="input_ambiente_normal">Normal</label>
                         <input type="radio" class="input_ambiente_normal" id="input_ambiente_normal" name="$Como era o ambiente do local de trabalho?" value="Normal"></input>
 
+                        <label class="label_exposicao">Havia exposição a alguns desses riscos?</label>
+                        <label class="label_agentes_biologicos" for="input_agentes_biologicos">Agentes Biológicos</label>
+                        <input type="checkbox" class="input_agentes_biologicos" id="input_agentes_biologicos" name="$Agentes Biológicos" value="Sim"></input>
+
+                        <label class="label_poeira_amianto" for="input_poeira_amianto">Poeira de Amianto</label>
+                        <input type="checkbox" class="input_poeira_amianto" id="input_poeira_amianto" name="$Poeira de Amianto" value="Sim"></input>
+
+                        <label class="label_vibracao" for="input_vibracao">Vibração Excessiva</label>
+                        <input type="checkbox" class="input_vibracao" id="input_vibracao" name="$Vibração Excessiva" value="Sim"></input>
+
+                        <label class="label_agentes_quimicos" for="input_agentes_quimicos">Agentes Químicos</label>
+                        <input type="checkbox" class="input_agentes_quimicos" id="input_agentes_quimicos" name="$Agentes Químicos" value="Sim"></input>
+
+                        <label class="label_benzeno" for="input_benzeno">Benzeno</label>
+                        <input type="checkbox" class="input_benzeno" id="input_benzeno" name="$Benzeno" value="Sim"></input>
+
+                        <label class="label_inflamaveis" for="input_inflamaveis">Inflamáveis</label>
+                        <input type="checkbox" class="input_inflamaveis" id="input_inflamaveis" name="$Inflamáveis" value="Sim"></input>
+
+                        <label class="label_ruidos" for="input_ruidos">Ruídos</label>
+                        <input type="checkbox" class="input_ruidos" id="input_ruidos" name="$Ruídos" value="Sim"></input>
+
+                        <label class="label_umidade" for="input_umidade">Umidade Excessiva</label>
+                        <input type="checkbox" class="input_umidade" id="input_umidade" name="$Umidade Excessiva" value="Sim"></input>
+
+                        <label class="label_explosivos" for="input_explosivos">Explosivos</label>
+                        <input type="checkbox" class="input_explosivos" id="input_explosivos" name="$Explosivos" value="Sim"></input>
+
+                        <label class="label_calor" for="input_calor">Calor Intenso</label>
+                        <input type="checkbox" class="input_calor" id="input_calor" name="$Calor Intenso" value="Sim"></input>
+
+                        <label class="label_radiacao" for="input_radiacao">Radiação</label>
+                        <input type="checkbox" class="input_radiacao" id="input_radiacao" name="$Radiação" value="Sim"></input>
+
+                        <label class="label_energia_eletrica" for="input_energia_eletrica">Energia Elétrica</label>
+                        <input type="checkbox" class="input_energia_eletrica" id="input_energia_eletrica" name="$Energia Elétrica" value="Sim"></input>
+
+                        <label class="label_roubos" for="input_roubos">Roubos ou outras espécies de violência física nas atividades de segurança pessoal ou patrimonial</label>
+                        <input type="checkbox" class="input_roubos" id="input_roubos" name="$Roubos ou outras espécies de violência física nas atividades de segurança pessoal ou patrimonial" value="Sim"></input>
+
+                        <label class="label_outros_riscos" for="input_outros_riscos">Outros</label>
+                        <input type="text" class="input_outros_riscos" id="input_outros_riscos" name="$Outros"></input>
+
+                        <label class="label_adicional_riscos">Recebia o adicional pela exposição dos itens anteriormente assinalados?</label>
+                        <label class="label_adicional_riscos_sim" for="input_adicional_riscos_sim">Sim</label>
+                        <input type="radio" class="input_adicional_riscos_sim" id="input_adicional_riscos_sim" name="$Recebia o adicional pela exposição dos itens anteriormente assinalados?" value="Sim" onclick="habilitacao25()"></input>
+
+                        <label class="label_adicional_riscos_nao" for="input_adicional_riscos_nao">Não</label>
+                        <input type="radio" class="input_adicional_riscos_nao" id="input_adicional_riscos_nao" name="$Recebia o adicional pela exposição dos itens anteriormente assinalados?" value="Não" onclick="habilitacao25()"></input>
+
+                        <label class="label_sempre_recebeu">Sempre recebeu?</label>
+                        <label class="label_sempre_recebeu_sim" for="input_sempre_recebeu_sim">Sim</label>
+                        <input type="radio" class="input_sempre_recebeu_sim" id="input_sempre_recebeu_sim" name="$Sempre recebeu?" value="Sim" disabled></input>
+
+                        <label class="label_sempre_recebeu_parcialmente" for="input_sempre_recebeu_parcialmente">Parcialmente</label>
+                        <input type="radio" class="input_sempre_recebeu_parcialmente" id="input_sempre_recebeu_parcialmente" name="$Sempre recebeu?" value="Parcialmente" disabled></input>
+
+                        <label class="label_sempre_recebeu_nao" for="input_sempre_recebeu_nao">Não</label>
+                        <input type="radio" class="input_sempre_recebeu_nao" id="input_sempre_recebeu_nao" name="$Sempre recebeu?" value="Não" disabled></input>
+
+                        <label class="label_recebeu_de" for="input_recebeu_de">Recebeu de</label>
+                        <input type="date" class="input_recebeu_de" id="input_recebeu_de" name="$Recebeu desde: " disabled></input>
+
+                        <label class="label_recebeu_a" for="input_recebeu_a">a</label>
+                        <input type="date" class="input_recebeu_a" id="input_recebeu_a" name="$Recebeu até: " disabled></input>
+
+                        <label class="label_insalubridade_adicional" for="input_insalubridade_adicional">Se era insalubridade recebia adicional de 10, 20 ou 40%? Qual?</label>
+                        <input type="text" class="input_insalubridade_adicional" id="input_insalubridade_adicional" name="$Se era insalubridade recebia adicional de 10, 20 ou 40%? Qual?"></input>
+
+                        <label class="label_periculosidade_30">Se era periculosidade recebia 30%?</label>
+                        <label class="label_periculosidade_30_sim" for="input_periculosidade_30_sim">Sim</label>
+                        <input type="radio" class="input_periculosidade_30_sim" id="input_periculosidade_30_sim" name="$Se era periculosidade recebia 30%?" value="Sim" disabled></input>
+
+                        <label class="label_periculosidade_30_nao" for="input_periculosidade_30_nao">Não</label>
+                        <input type="radio" class="input_periculosidade_30_nao" id="input_periculosidade_30_nao" name="$Se era periculosidade recebia 30%?" value="Não" disabled></input>
+
+                        <label class="label_periculosidade_contato">Ainda em caso de periculosidade, o contato era:</label>
+                        <label class="label_periculosidade_contato_inter" for="input_periculosidade_contato_inter">Intermitente (com intervalos)</label>
+                        <input type="radio" class="input_periculosidade_contato_inter" id="input_periculosidade_contato_inter" name="$Ainda em caso de periculosidade, o contato era:" value="Intermitente (com intervalos)" disabled></input>
+
+                        <label class="label_periculosidade_contato_permanente" for="input_periculosidade_contato_permanente">Permanente</label>
+                        <input type="radio" class="input_periculosidade_contato_permanente" id="input_periculosidade_contato_permanente" name="$Ainda em caso de periculosidade, o contato era:" value="Permanente" disabled></input>
+
+                        <div class="barra_lateral13"></div>
+
+                        <label class="label_epi">Usava algum tipo de Equipamento de Proteção Individual?</label>
+                        <label class="label_epi_sim" for="input_epi_sim">Sim</label>
+                        <input type="radio" class="input_epi_sim" id="input_epi_sim" name="$Usava algum tipo de Equipamento de Proteção Individual?" value="Sim" onclick="habilitacao26()"></input>
+
+                        <label class="label_epi_nao" for="input_epi_nao">Não</label>
+                        <input type="radio" class="input_epi_nao" id="input_epi_nao" name="$Usava algum tipo de Equipamento de Proteção Individual?" value="Não" onclick="habilitacao26()"></input>
+
+                        <label class="label_epi_qual" for="input_epi_qual">Quais?</label>
+                        <input type="text" class="input_epi_qual" id="input_epi_qual" name="$Usava quais EPIs?" disabled></input>
+
+                        <label class="label_treinamento" for="input_treinamento">Recebeu treinamento?</label>
+                        <input type="text" class="input_treinamento" id="input_treinamento" name="$Recebeu treinamento?" disabled></input>
+
+                        <label class="label_epi_subs" for="input_epi_subs">Os EPIs eram substituídos? Com qual periodicidade?</label>
+                        <input type="text" class="input_epi_subs" id="input_epi_subs" name="$Os EPIs eram substituídos? Com qual periodicidade?" disabled></input>
+
+
                     </div>
                     <!--<button class="button">Enviar Respostas</button>-->
                 </div>
