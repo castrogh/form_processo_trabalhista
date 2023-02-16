@@ -1,0 +1,121 @@
+.titulo_ambiente_trabalho{
+	position: absolute;
+	width: 1242px;
+	height: 84px;
+	left: 110px;
+	top: 30400px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 50px;
+	line-height: 78px;
+
+	color: #454242;
+}
+
+.titulo_ambiente_trabalho:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.label_ambiente_trabalho{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 110px;
+	top: 30550px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.label_ambiente_insalubre{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 160px;
+	top: 30600px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_ambiente_insalubre{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 110px;
+    top: 30630px;
+
+    background: #F0F0F0;
+}
+
+.label_ambiente_periculoso{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 450px;
+	top: 30600px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_ambiente_periculoso{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 400px;
+    top: 30630px;
+
+    background: #F0F0F0;
+}
+
+.label_ambiente_normal{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 750px;
+	top: 30600px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_ambiente_normal{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 700px;
+    top: 30630px;
+
+    background: #F0F0F0;
+}
