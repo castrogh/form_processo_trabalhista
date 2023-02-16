@@ -1768,3 +1768,73 @@
 	border: 5px solid #BEA469;
 	transform: rotate(90deg);
 }
+
+.label_dano_moral{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 110px;
+	top: 33900px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.textarea_dano_moral{
+	position: absolute;
+	width: 1436px;
+	height: 364px;
+	left: 110px;
+	top: 33950px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	resize: none;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.label_discriminacao{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 110px;
+	top: 34350px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.textarea_discriminacao{
+	position: absolute;
+	width: 1436px;
+	height: 364px;
+	left: 110px;
+	top: 34400px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	resize: none;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+}
