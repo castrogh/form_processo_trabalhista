@@ -557,3 +557,34 @@ function habilitacao(){
       document.getElementById('input_dano_qual').value = '';
     }
   }
+
+    function habilitacao29(){
+    if(document.getElementById('input_guias_habilitacao_sim').checked == true){
+      document.getElementById('input_sacar_fgts_sim').disabled = false;
+      document.getElementById('input_sacar_fgts_nao').disabled = false;
+      document.getElementById('input_seguro_desemprego_sim').disabled = false;
+      document.getElementById('input_seguro_desemprego_nao').disabled = false;
+    }
+    if(document.getElementById('input_guias_habilitacao_nao').checked == true){
+      document.getElementById('input_sacar_fgts_sim').disabled = true;
+      document.getElementById('input_sacar_fgts_sim').checked = false;
+
+      document.getElementById('input_sacar_fgts_nao').disabled = true;
+      document.getElementById('input_sacar_fgts_nao').checked = false;
+
+      document.getElementById('input_seguro_desemprego_sim').disabled = true;
+      document.getElementById('input_seguro_desemprego_sim').checked = false;
+
+      document.getElementById('input_seguro_desemprego_nao').disabled = true;
+      document.getElementById('input_seguro_desemprego_nao').checked = false;
+    }
+  }
+
+ /* function habilitacao30(){
+    if(document.getElementById('input_li_compreendi').checked == true){
+      document.getElementById('btn_enviar').disabled = false;
+    }
+    if(document.getElementById('input_li_compreendi').checked == false){
+      document.getElementById('btn_enviar').disabled = true;
+    }
+  }*/

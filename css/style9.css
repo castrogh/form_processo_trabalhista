@@ -1,0 +1,672 @@
+.titulo_rescisao{
+	position: absolute;
+	width: 1242px;
+	height: 84px;
+	left: 110px;
+	top: 36650px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 50px;
+	line-height: 78px;
+
+	color: #454242;
+}
+
+.titulo_rescisao:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.label_acordo_contrato{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 110px;
+	top: 36750px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.label_acordo_contrato_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 160px;
+	top: 36800px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_acordo_contrato_sim{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 110px;
+    top: 36830px;
+
+    background: #F0F0F0;
+}
+
+.label_acordo_contrato_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 350px;
+	top: 36800px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_acordo_contrato_nao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 300px;
+    top: 36830px;
+
+    background: #F0F0F0;
+}
+
+.label_acordo_extrajudicial{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 110px;
+	top: 36900px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.label_acordo_extrajudicial_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 160px;
+	top: 36950px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_acordo_extrajudicial_sim{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 110px;
+    top: 36980px;
+
+    background: #F0F0F0;
+}
+
+.label_acordo_extrajudicial_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 350px;
+	top: 36950px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_acordo_extrajudicial_nao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 300px;
+    top: 36980px;
+
+    background: #F0F0F0;
+}
+
+.label_homologacao{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 110px;
+	top: 37070px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.label_homologacao_local{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 160px;
+	top: 37100px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_homologacao_local{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 110px;
+    top: 37130px;
+
+    background: #F0F0F0;
+}
+
+.label_homologacao_sindicato{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 600px;
+	top: 37100px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_homologacao_sindicato{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 550px;
+    top: 37130px;
+
+    background: #F0F0F0;
+}
+
+.label_homologacao_mte{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 900px;
+	top: 37100px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_homologacao_mte{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 850px;
+    top: 37130px;
+
+    background: #F0F0F0;
+}
+
+.label_verbas{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 110px;
+	top: 37220px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.label_verbas_rescisorias_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 160px;
+	top: 37250px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_verbas_rescisorias_sim{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 110px;
+    top: 37280px;
+
+    background: #F0F0F0;
+}
+
+.label_verbas_rescisorias_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 850px;
+	top: 37250px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_verbas_rescisorias_nao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 800px;
+    top: 37280px;
+
+    background: #F0F0F0;
+}
+
+.label_desconto_termo{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 37400px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 39px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.input_desconto_termo{
+	position: absolute;
+	width: 1436px;
+	height: 65px;
+	left: 110px;
+	top: 37490px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_vendeu_ferias{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 37600px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 39px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.input_vendeu_ferias{
+	position: absolute;
+	width: 1436px;
+	height: 150px;
+	left: 110px;
+	top: 37690px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_guias_habilitacao{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 110px;
+	top: 37900px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.label_guias_habilitacao_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 160px;
+	top: 37950px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_guias_habilitacao_sim{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 110px;
+    top: 37980px;
+
+    background: #F0F0F0;
+}
+
+.label_guias_habilitacao_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 350px;
+	top: 37950px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_guias_habilitacao_nao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 300px;
+    top: 37980px;
+
+    background: #F0F0F0;
+}
+
+.label_sacar_fgts{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 200px;
+	top: 38000px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_sacar_fgts_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 800px;
+	top: 38000px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_sacar_fgts_sim{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 750px;
+    top: 38030px;
+
+    background: #F0F0F0;
+}
+
+.label_sacar_fgts_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1000px;
+	top: 38000px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_sacar_fgts_nao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 950px;
+    top: 38030px;
+
+    background: #F0F0F0;
+}
+
+.label_seguro_desemprego{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 200px;
+	top: 38070px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.label_seguro_desemprego_sim{
+    position: absolute;
+	width: fit-content;
+	height: 45px;
+	left: 1250px;
+	top: 38070px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_seguro_desemprego_sim{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1200px;
+    top: 38100px;
+
+    background: #F0F0F0;
+}
+
+.label_seguro_desemprego_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 1450px;
+	top: 38070px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_seguro_desemprego_nao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1400px;
+    top: 38100px;
+
+    background: #F0F0F0;
+}
+.li_compreendi{
+    position: absolute;
+    width: 1920px;
+    height: 170px;
+    left: 0px;
+    top: 38200px;
+    
+    background: #BEA469;
+}
+
+.txt_li_compreendi{
+    position: absolute;
+    width: 1434px;
+    height: 150px;
+    left: 80px;
+    top: 55px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-align: center;
+    text-align: left;
+}
+
+.input_li_compreendi{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 20px;
+    top: 50px;
+
+    background: #F0F0F0;
+}
+
+.btn_enviar{
+    position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 600px;
+	top: 38400px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	background: #348a3b;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: white;
+
+    cursor: pointer;
+}

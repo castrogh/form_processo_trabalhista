@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="css/style6.css">
         <link rel="stylesheet" href="css/style7.css">
         <link rel="stylesheet" href="css/style8.css">
+        <link rel="stylesheet" href="css/style9.css">
     </head>
 
     <body class="body">
@@ -30,7 +31,7 @@
             </div>
 
             <form action="https://api.staticforms.xyz/submit" method="POST" id="form_entrevista">
-                <input type="hidden" name="accessKey" value="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX">
+                <input type="hidden" name="accessKey" value="9ac369a4-9f2b-42a1-bcff-613d07ce6157">
                 <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/index.html">
                 <input type="text" name="honeypot" style="display: none;"></input>
                 <script src="js/script_radio.js"></script>
@@ -924,10 +925,10 @@
                         
                         <label class="label_horas_pagas">As horas in itineres eram pagas?</label>
                         <label class="label_horas_pagas_sim" for="input_horas_pagas_sim">Sim</label>
-                        <input type="radio" class="input_horas_pagas_sim" id="input_horas_pagas_sim" name="$As horas in itineres eram pagas?" value="Sim" disabled></input>
+                        <input type="radio" class="input_horas_pagas_sim" id="input_horas_pagas_sim" name="$As horas in itineres eram pagas?" value="Sim"></input>
 
                         <label class="label_horas_pagas_nao" for="input_horas_pagas_nao">Não</label>
-                        <input type="radio" class="input_horas_pagas_nao" id="input_horas_pagas_nao" name="$As horas in itineres eram pagas?" value="Não" disabled></input>
+                        <input type="radio" class="input_horas_pagas_nao" id="input_horas_pagas_nao" name="$As horas in itineres eram pagas?" value="Não" ></input>
 
                         <div class="barra_lateral10"></div>
 
@@ -1207,11 +1208,79 @@
 
                         <label class="label_advertencia" for="input_advertencia">Sofreu aplicação de advertência e suspensões? Relatar.</label>
                         <textarea type="text" class="input_advertencia" id="input_advertencia" wrap="hard" name="$Sofreu aplicação de advertência e suspensões? Relatar."></textarea>
+                    </div>
 
+                    <div class="rescisao">
+                        <h1 class="titulo_rescisao">10. Rescisão</h1>
+
+                        <label class="label_acordo_contrato">Houve algum acordo anual durante o contrato, conforme o art. 507-B da CLT?</label>
+                        <label class="label_acordo_contrato_sim" for="input_acordo_contrato_sim">Sim</label>
+                        <input type="radio" class="input_acordo_contrato_sim" id="input_acordo_contrato_sim" name="$Houve algum acordo anual durante o contrato, conforme o art. 507-B da CLT?" value="Sim"></input>
+
+                        <label class="label_acordo_contrato_nao" for="input_acordo_contrato_nao">Não</label>
+                        <input type="radio" class="input_acordo_contrato_nao" id="input_acordo_contrato_nao" name="$Houve algum acordo anual durante o contrato, conforme o art. 507-B da CLT?" value="Não"></input>
+
+                        <label class="label_acordo_extrajudicial">Houve algum acordo extrajudicial com o empregado, conforme o art. 855-B da CLT?</label>
+                        <label class="label_acordo_extrajudicial_sim" for="input_acordo_extrajudicial_sim">Sim</label>
+                        <input type="radio" class="input_acordo_extrajudicial_sim" id="input_acordo_extrajudicial_sim" name="$Houve algum acordo extrajudicial com o empregado, conforme o art. 855-B da CLT?" value="Sim"></input>
+
+                        <label class="label_acordo_extrajudicial_nao" for="input_acordo_extrajudicial_nao">Não</label>
+                        <input type="radio" class="input_acordo_extrajudicial_nao" id="input_acordo_extrajudicial_nao" name="$Houve algum acordo extrajudicial com o empregado, conforme o art. 855-B da CLT?" value="Não"></input>
+
+                        <label class="label_homologacao">Onde a rescisão foi homologada?</label>
+                        <label class="label_homologacao_local" for="input_homologacao_local">Local de Trabalho</label>
+                        <input type="radio" class="input_homologacao_local" id="input_homologacao_local" name="$Onde a rescisão foi homologada?" value="Local de Trabalho"></input>
+
+                        <label class="label_homologacao_sindicato" for="input_homologacao_sindicato">Sindicato</label>
+                        <input type="radio" class="input_homologacao_sindicato" id="input_homologacao_sindicato" name="$Onde a rescisão foi homologada?" value="Sindicato"></input>
+
+                        <label class="label_homologacao_mte" for="input_homologacao_mte">MTE</label>
+                        <input type="radio" class="input_homologacao_mte" id="input_homologacao_mte" name="$Onde a rescisão foi homologada?" value="MTE"></input>
+
+                        <label class="label_verbas">Foram pagas as verbas rescisórias?</label>
+                        <label class="label_verbas_rescisorias_sim" for="input_verbas_rescisorias_sim">Sim (Solicitar comprovante)</label>
+                        <input type="radio" class="input_verbas_rescisorias_sim" id="input_verbas_rescisorias_sim" name="$Foram pagas as verbas rescisórias?" value="Sim (Solicitar comprovante)"></input>
+                        
+                        <label class="label_verbas_rescisorias_nao" for="input_verbas_rescisorias_nao">Não</label>
+                        <input type="radio" class="input_verbas_rescisorias_nao" id="input_verbas_rescisorias_nao" name="$Foram pagas as verbas rescisórias?" value="Não"></input>
+
+                        <label class="label_desconto_termo" for="input_desconto_termo">Houve algum desconto salarial no termo rescisório indevidamente? Qual?</label>
+                        <input type="text" class="input_desconto_termo" id="input_desconto_termo" name="$Houve algum desconto salarial no termo rescisório indevidamente? Qual?"></input>
+
+                        <label class="label_vendeu_ferias" for="input_vendeu_ferias">Vendeu férias durante o contrato? Em que período? Por vontade própria ou imposição do empregador?</label>
+                        <input type="text" class="input_vendeu_ferias" id="input_vendeu_ferias" name="$Vendeu férias durante o contrato? Em que período? Por vontade própria ou imposição do empregador?"></input>
+
+                        <label class="label_guias_habilitacao">As guias para habilitação junto ao Seguro-Desemprego e FGTS foram entregues?</label>
+                        <label class="label_guias_habilitacao_sim" for="input_guias_habilitacao_sim">Sim</label>
+                        <input type="radio" class="input_guias_habilitacao_sim" id="input_guias_habilitacao_sim" name="$As guias para habilitação junto ao Seguro-Desemprego e FGTS foram entregues?" value="Sim" onclick="habilitacao29()"></input>
+                        
+                        <label class="label_guias_habilitacao_nao" for="input_guias_habilitacao_nao">Não</label>
+                        <input type="radio" class="input_guias_habilitacao_nao" id="input_guias_habilitacao_nao" name="$As guias para habilitação junto ao Seguro-Desemprego e FGTS foram entregues?" value="Não" onclick="habilitacao29()"></input>
+
+                        <label class="label_sacar_fgts">Conseguiu sacar o FGTS?</label>
+                        <label class="label_sacar_fgts_sim" for="input_sacar_fgts_sim">Sim</label>
+                        <input type="radio" class="input_sacar_fgts_sim" id="input_sacar_fgts_sim" name="$Conseguiu sacar o FGTS?" value="Sim" disabled></input>
+                        
+                        <label class="label_sacar_fgts_nao" for="input_sacar_fgts_nao">Não</label>
+                        <input type="radio" class="input_sacar_fgts_nao" id="input_sacar_fgts_nao" name="$Conseguiu sacar o FGTS?" value="Não" disabled></input>
+
+                        <label class="label_seguro_desemprego">Conseguiu dar entrada no seguro-desemprego?</label>
+                        <label class="label_seguro_desemprego_sim" for="input_seguro_desemprego_sim">Sim</label>
+                        <input type="radio" class="input_seguro_desemprego_sim" id="input_seguro_desemprego_sim" name="$Conseguiu dar entrada no seguro-desemprego?" value="Sim" disabled></input>
+                        
+                        <label class="label_seguro_desemprego_nao" for="input_seguro_desemprego_nao">Não</label>
+                        <input type="radio" class="input_seguro_desemprego_nao" id="input_seguro_desemprego_nao" name="$Conseguiu dar entrada no seguro-desemprego?" value="Não" disabled></input>
 
                     </div>
-                    <!--<button class="button">Enviar Respostas</button>-->
+
+                    <div class="li_compreendi">
+                        <h1 class="txt_li_compreendi">Li e compreendi o texto. Cofirmo que todas os dados e informações fornecidas são verdadeiras.</h1>
+                        <input type="checkbox" class="input_li_compreendi" id="input_li_compreendi" name="$Li e compreendi o texto. Cofirmo que todas os dados e informações fornecidas são verdadeiras." value="Sim"></input>
+                    </div>                
                 </div>
+
+                <button class="btn_enviar" id="btn_enviar">Enviar Respostas</button>   
+
             </form>
         </div>
     </body>
