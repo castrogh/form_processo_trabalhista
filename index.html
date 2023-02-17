@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="css/style5.css">
         <link rel="stylesheet" href="css/style6.css">
         <link rel="stylesheet" href="css/style7.css">
+        <link rel="stylesheet" href="css/style8.css">
     </head>
 
     <body class="body">
@@ -1170,9 +1171,43 @@
                         <h1 class="titulo_afastamento_estabilidades">9. Afastamento e Estabilidades</h1>
 
                         <label class="label_estabilidades">Durante o contrato de trabalho teve algumas dessas estabilidades? Indique o período ao lado.</label>
-                        <label class="label_gestante" for="input_gestante">Insalubre</label>
+                        <label class="label_gestante" for="input_gestante">Gestante</label>
                         <input type="checkbox" class="input_gestante" id="input_gestante" name="$Durante o contrato de trabalho teve algumas dessas estabilidades? Indique o período ao lado." value="Gestante"></input>
-                        <input type="text" class="input_gestante_periodo" id="input_gestante_periodo" name="$Período de estabilidade Gestante:"></input>
+                        <input type="text" class="input_gestante_periodo" id="input_gestante_periodo" name="$Período de estabilidade - Gestante:"></input>
+
+                        <label class="label_acidentado" for="input_acidentado">Acidentado (91)</label>
+                        <input type="checkbox" class="input_acidentado" id="input_acidentado" name="$Durante o contrato de trabalho teve algumas dessas estabilidades? Indique o período ao lado." value="Acidentado (91)"></input>
+                        <input type="text" class="input_acidentado_periodo" id="input_acidentado_periodo" name="$Período de estabilidade - Acidentado (91):"></input>
+
+                        <label class="label_cipa" for="input_cipa">Representante da CIPA (Titular ou suplente)</label>
+                        <input type="checkbox" class="input_cipa" id="input_cipa" name="$Durante o contrato de trabalho teve algumas dessas estabilidades? Indique o período ao lado." value="Representante da CIPA (Titular ou suplente)"></input>
+                        <input type="text" class="input_cipa_periodo" id="input_cipa_periodo" name="$Período de estabilidade - Representante da CIPA (Titular ou suplente):"></input>
+                        
+                        <label class="label_representante" for="input_representante">Representante da Comissão de Conciliação Prévia (Titular ou suplente)</label>
+                        <input type="checkbox" class="input_representante" id="input_representante" name="$Durante o contrato de trabalho teve algumas dessas estabilidades? Indique o período ao lado." value="Representante da Comissão de Conciliação Prévia (Titular ou suplente)"></input>
+                        <input type="text" class="input_representante_periodo" id="input_representante_periodo" name="$Período de estabilidade - Representante da Comissão de Conciliação Prévia (Titular ou suplente):"></input>
+
+                        <label class="label_representante_empregados" for="input_representante_empregados">Representante dos Empregados (Empresas com + de 200 empregados)</label>
+                        <input type="checkbox" class="input_representante_empregados" id="input_representante_empregados" name="$Durante o contrato de trabalho teve algumas dessas estabilidades? Indique o período ao lado." value="Representante dos Empregados (Empresas com + de 200 empregados)"></input>
+                        <input type="text" class="input_representante_empregados_periodo" id="input_representante_empregados_periodo" name="$Período de estabilidade - Representante dos Empregados (Empresas com + de 200 empregados):"></input>
+
+                        <label class="label_estabilidade_outros" for="input_estabilidade_outros">Outros</label>
+                        <input type="checkbox" class="input_estabilidade_outros" id="input_estabilidade_outros" name="$Durante o contrato de trabalho teve algumas dessas estabilidades? Indique o período ao lado." value="Outros"></input>
+                        <input type="text" class="input_estabilidade_outros_periodo" id="input_estabilidade_outros_periodo" name="$Período de estabilidade - Outros:"></input>
+
+                        <label class="label_estabilidade_desligamento">No momento do desligamento tinha algum tipo de estabilidade assinalado no item anterior?</label>
+                        <label class="label_estabilidade_desligamento_sim" for="input_estabilidade_desligamento_sim">Sim</label>
+                        <input type="radio" class="input_estabilidade_desligamento_sim" id="input_estabilidade_desligamento_sim" name="$No momento do desligamento tinha algum tipo de estabilidade assinalado no item anterior?" value="Sim"></input>
+                        
+                        <label class="label_estabilidade_desligamento_nao" for="input_estabilidade_desligamento_nao">Não</label>
+                        <input type="radio" class="input_estabilidade_desligamento_nao" id="input_estabilidade_desligamento_nao" name="$No momento do desligamento tinha algum tipo de estabilidade assinalado no item anterior?" value="Não"></input>
+
+                        <label class="label_faltas" for="input_faltas">Durante o contrato teve muitas faltas? Justificadas ou Injustificadas?</label>
+                        <textarea type="text" class="input_faltas" id="input_faltas" wrap="hard" name="$Durante o contrato teve muitas faltas? Justificadas ou Injustificadas?"></textarea>
+
+                        <label class="label_advertencia" for="input_advertencia">Sofreu aplicação de advertência e suspensões? Relatar.</label>
+                        <textarea type="text" class="input_advertencia" id="input_advertencia" wrap="hard" name="$Sofreu aplicação de advertência e suspensões? Relatar."></textarea>
+
 
                     </div>
                     <!--<button class="button">Enviar Respostas</button>-->

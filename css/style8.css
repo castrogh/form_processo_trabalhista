@@ -1,0 +1,465 @@
+.titulo_afastamento_estabilidades{
+	position: absolute;
+	width: 1242px;
+	height: 84px;
+	left: 110px;
+	top: 34800px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 50px;
+	line-height: 78px;
+
+	color: #454242;
+}
+
+.titulo_afastamento_estabilidades:after{
+	content: "";
+	display: block;
+	width: 1630px;
+	height: 3px;
+	background: #BEA469;
+	margin: 8px auto;
+}
+
+.label_estabilidades{
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 110px;
+	top: 34940px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.label_gestante{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 160px;
+	top: 35000px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_gestante{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 110px;
+    top: 35030px;
+
+    background: #F0F0F0;
+}
+
+.input_gestante_periodo{
+	position: absolute;
+	width: 300px;
+	height: 65px;
+	left: 380px;
+	top: 35025px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_acidentado{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 160px;
+	top: 35080px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_acidentado{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 110px;
+    top: 35110px;
+
+    background: #F0F0F0;
+}
+
+.input_acidentado_periodo{
+	position: absolute;
+	width: 300px;
+	height: 65px;
+	left: 500px;
+	top: 35100px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_cipa{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 160px;
+	top: 35160px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_cipa{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 110px;
+    top: 35190px;
+
+    background: #F0F0F0;
+}
+
+.input_cipa_periodo{
+	position: absolute;
+	width: 300px;
+	height: 65px;
+	left: 1070px;
+	top: 35180px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_representante{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 160px;
+	top: 35240px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_representante{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 110px;
+    top: 35270px;
+
+    background: #F0F0F0;
+}
+
+.input_representante_periodo{
+	position: absolute;
+	width: 300px;
+	height: 65px;
+	left: 1450px;
+	top: 35260px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_representante_empregados{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 160px;
+	top: 35320px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_representante_empregados{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 110px;
+    top: 35350px;
+
+    background: #F0F0F0;
+}
+
+.input_representante_empregados_periodo{
+	position: absolute;
+	width: 300px;
+	height: 65px;
+	left: 1450px;
+	top: 35340px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_estabilidade_outros{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 160px;
+	top: 35400px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 109px;
+	
+	color: #454242;
+}
+
+.input_estabilidade_outros{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 110px;
+    top: 35430px;
+
+    background: #F0F0F0;
+}
+
+.input_estabilidade_outros_periodo{
+	position: absolute;
+	width: 1100px;
+	height: 65px;
+	left: 290px;
+	top: 35420px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 109px;
+	color: #000000;
+}
+
+.label_estabilidade_desligamento{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 35550px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.label_estabilidade_desligamento_sim{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 160px;
+	top: 35650px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.input_estabilidade_desligamento_sim{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 110px;
+    top: 35640px;
+
+    background: #F0F0F0;
+}
+
+.label_estabilidade_desligamento_nao{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 350px;
+	top: 35650px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.input_estabilidade_desligamento_nao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 300px;
+    top: 35640px;
+
+    background: #F0F0F0;
+}
+
+.label_faltas{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 35750px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.input_faltas{
+	position: absolute;
+	width: 1436px;
+	height: 364px;
+	left: 110px;
+	top: 35800px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	resize: none;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.label_advertencia{
+    position: absolute;
+	width: fit-content;
+	height: 109px;
+	left: 110px;
+	top: 36200px;
+	
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 35px;
+	
+	color: #454242;
+}
+
+.input_advertencia{
+	position: absolute;
+	width: 1436px;
+	height: 364px;
+	left: 110px;
+	top: 36250px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	resize: none;
+	
+	background: #F0F0F0;
+	border-radius: 40px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+}
