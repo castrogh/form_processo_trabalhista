@@ -1512,17 +1512,17 @@ p {
 }
 
 .item_2 {
-	height: 30px;
+	height: 35px;
 	padding: 0px 5px;
 	box-sizing: border-box;
 	cursor: pointer;
-  }
+}
 
   .item_2:hover{
 	background-color: #f2f1f1;
 	padding-left: 7px;
 	transition: .3s;
-  }
+}
 
 .label_estado_civil_2{
 	position: absolute;
