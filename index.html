@@ -27,7 +27,7 @@
                 <img src="img/img_partes.png" class="titulo_partes_img"></img>
                 <h1 class="titulo_partes_txt">Partes</h1>
 
-                <h1 class="polo_ativo_txt">Polo Ativo</h1>
+                <h1 class="dados_trabalhador_txt">Dados do Trabalhador</h1>
             </div>
 
             <form action="https://api.staticforms.xyz/submit" method="POST" id="form_entrevista">
@@ -103,8 +103,7 @@
                     </div>
 
                     <div class="polo_passivo">
-                        <h1 class="polo_passivo_txt">Polo Passivo</h1>
-                        <div class="ret_1a_pessoa_juridica">1ª Pessoa Jurídica</div>
+                        <h1 class="dados_empresa_txt">Dados da Empresa</h1>
 
                         <label class="label_razao_social" for="input_razao_social">Razão Social Completa</label>
                         <input class="input_razao_social" type="text" id="input_razao_social" name="$Razão Social Completa" required maxlength="90" minlength="5"></input>
@@ -134,8 +133,7 @@
                         <input class="input_empresas_tomadoras_servico_nao" type="radio" id="input_empresas_tomadoras_servico_nao" name="$Empresas tomadoras de serviços?" required value="nao">
                         <label class="label_empresas_tomadoras_servico_nao" for="input_empresas_tomadoras_servico_nao">Não</label>
 
-                        <h1 class="polo_passivo_txt_2">Polo Passivo</h1>
-                        <div class="ret_2a_pessoa_juridica">2ª Pessoa Jurídica</div>
+                        <h1 class="dados_empresa_txt_2">Dados da empresa - Em caso de serviço terceirizado</h1>
 
                         <label class="label_nome_2a_pessoa_fisica" for="input_nome_2a_pessoa_fisica">Nome</label>
                         <input class="input_nome_2a_pessoa_fisica" type="text" id="input_nome_2a_pessoa_fisica" name="$Nome" required maxlength="90" minlength="5"></input>
@@ -183,13 +181,13 @@
                             <h2 class="subtitulo_infos_preliminares_txt">Selecione as opções que forem verdadeiras</h2>
                         </div>
 
-                        <label class="label_checkbox_1" for="input_checkbox_1">O seu cliente já promoveu ou promove ação contra o empregador</label>
-                        <input class="input_checkbox_1" type="checkbox" id="input_checkbox_1" name="$O seu cliente já promoveu ou promove ação contra o empregador" value="sim"></input>
+                        <label class="label_checkbox_1" for="input_checkbox_1">Já promoveu ou promove ação contra o empregador</label>
+                        <input class="input_checkbox_1" type="checkbox" id="input_checkbox_1" name="$Já promoveu ou promove ação contra o empregador" value="sim"></input>
 
-                        <label class="label_checkbox_2" for="input_checkbox_2">O seu cliente já foi ou é testemunha em outros processos envolvendo o empregador</label>
-                        <input class="input_checkbox_2" type="checkbox" id="input_checkbox_2" name="$O seu cliente já foi ou é testemunha em outros processos envolvendo o empregador"value="sim"></input>
+                        <label class="label_checkbox_2" for="input_checkbox_2">Já foi ou é testemunha em outros processos envolvendo o empregador</label>
+                        <input class="input_checkbox_2" type="checkbox" id="input_checkbox_2" name="$Já foi ou é testemunha em outros processos envolvendo o empregador"value="sim"></input>
 
-                        <label class="label_checkbox_3" for="input_checkbox_3">O seu cliente já contratou ou assinou procuração para outro advogado</label>
+                        <label class="label_checkbox_3" for="input_checkbox_3">Já contratou ou assinou procuração para outro advogado</label>
                         <input class="input_checkbox_3" type="checkbox" id="input_checkbox_3" name="$O seu cliente já contratou ou assinou procuração para outro advogado"value="sim"></input>
 
                         

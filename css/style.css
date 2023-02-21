@@ -79,9 +79,9 @@ p {
 	top: 31px;
 }
 
-.polo_ativo_txt{
+.dados_trabalhador_txt{
 	position: absolute;
-	width: 345px;
+	width: fit-content;
 	height: 84px;
 	left: 173px;
 	top: 250px;
@@ -95,7 +95,7 @@ p {
 	color: #454242;
 }
 
-.polo_ativo_txt:after{
+.dados_trabalhador_txt:after{
 	content: "";
 	display: block;
 	width: 1680px;
@@ -118,7 +118,7 @@ p {
 	font-weight: 550;
 	font-size: 40px;
 	line-height: 109px;
-	color: #000000;	
+	color: #454242;	
 }
 
 .label_nome:after{
@@ -893,7 +893,7 @@ p {
 
 /*Estilos - POLO PASSIVO*/
 
-.polo_passivo_txt{
+.dados_empresa_txt{
 	position: absolute;
 	width: fit-content;
 	height: 84px;
@@ -909,34 +909,13 @@ p {
 	color: #454242;
 }
 
-.polo_passivo_txt:after{
+.dados_empresa_txt:after{
 	content: "";
 	display: block;
 	width: 1680px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
-}
-
-.ret_1a_pessoa_juridica{
-	position: absolute;
-	width: 401px;
-	height: 89px;
-	left: 570px;
-	top: 3387px;
-	background: #454242;
-	border-radius: 15px 15px 0px 0px;
-	padding: 23px 0px;
-	box-sizing: border-box;
-
-	font-family: 'Montserrat';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 40px;
-	line-height: 49px;
-	color: #FFFFFF;
-
-	text-align: center;
 }
 
 .label_razao_social{
@@ -1273,7 +1252,7 @@ p {
 	background: #F0F0F0;	
 }
 
-.polo_passivo_txt_2{
+.dados_empresa_txt_2{
 	position: absolute;
 	width: fit-content;
 	height: 84px;
@@ -1283,40 +1262,19 @@ p {
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 600;
-	font-size: 64px;
+	font-size: 60px;
 	line-height: 78px;
 	
 	color: #454242;
 }
 
-.polo_passivo_txt_2:after{
+.dados_empresa_txt_2:after{
 	content: "";
 	display: block;
 	width: 1680px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
-}
-
-.ret_2a_pessoa_juridica{
-	position: absolute;
-	width: 401px;
-	height: 89px;
-	left: 570px;
-	top: 4427px;
-	background: #454242;
-	border-radius: 15px 15px 0px 0px;
-	padding: 23px 0px;
-	box-sizing: border-box;
-
-	font-family: 'Montserrat';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 40px;
-	line-height: 49px;
-	color: #FFFFFF;
-
-	text-align: center;
 }
 
 .label_nome_2a_pessoa_fisica{
@@ -1732,75 +1690,17 @@ p {
 
 /* FINAL - Estilos PARTES */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Media Query */
 @media screen and (max-width: 768px) {
-    body {
-        background-color: blueviolet;
-    }
-
-    .menu ul li a{
-        width: 100%;
-        display: grid;
-        text-align: center;
-    }
-
-    .footer{
-		align-items: center;
-        display: grid;
-    }
-
-	section {
-		width: 100%;
-	}
-
-	.textarea{
-		width: 90%;
-		height: 100%;
-	}
+.img_header{
+	display: none;
+}
+input{
+	width: 100%;
+	left: 0px;
+}
 }
 
 @media screen and (max-width:600px){
-    body {
-        background-color: brown;
-    }
-    
-    .menu ul li a {
-        width: 100%;
-        display: grid;
-    }
 
-    .footer{
-        display: grid;
-    }
-
-    .footer img {
-        display: none;
-    }
 }
