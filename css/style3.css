@@ -2,7 +2,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 130px;
+	left: 30px;
 	top: 9330px;
 	
 	font-family: 'Montserrat';
@@ -18,7 +18,7 @@
     position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 720px;
+	left: 620px;
 	top: 9360px;
 	
 	background: #F0F0F0;
@@ -28,7 +28,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 770px;
+	left: 670px;
 	top: 9330px;
 	
 	font-family: 'Montserrat';
@@ -44,7 +44,7 @@
     position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 880px;
+	left: 780px;
 	top: 9360px;
 	
 	background: #F0F0F0;
@@ -54,7 +54,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 930px;
+	left: 830px;
 	top: 9330px;
 	
 	font-family: 'Montserrat';
@@ -70,7 +70,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 9400px;
 	
 	font-family: 'Montserrat';
@@ -86,7 +86,7 @@
     position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 1210px;
+	left: 1110px;
 	top: 9435px;
 	
 	background: #F0F0F0;
@@ -96,7 +96,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1260px;
+	left: 1160px;
 	top: 9400px;
 	
 	font-family: 'Montserrat';
@@ -112,7 +112,7 @@
     position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 1350px;
+	left: 1250px;
 	top: 9435px;
 	
 	background: #F0F0F0;
@@ -122,7 +122,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1400px;
+	left: 1300px;
 	top: 9400px;
 	
 	font-family: 'Montserrat';
@@ -138,7 +138,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 9470px;
 	
 	font-family: 'Montserrat';
@@ -154,7 +154,7 @@
 	position: absolute;
 	width: 700px;
 	height: 65px;
-	left: 710px;
+	left: 610px;
 	top: 9490px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -173,7 +173,7 @@
 .label_percentual:after{
 	content: "";
 	display: block;
-	width: 1530px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -183,7 +183,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 9620px;
 	
 	font-family: 'Montserrat';
@@ -197,9 +197,9 @@
 
 .input_periodicidade_pagamento{
 	position: absolute;
-	width: 600px;
+	width: 550px;
 	height: 65px;
-	left: 1025px;
+	left: 925px;
 	top: 9645px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -218,7 +218,7 @@
 .label_periodicidade_pagamento:after{
 	content: "";
 	display: block;
-	width: 1530px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -228,7 +228,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 9770px;
 	
 	font-family: 'Montserrat';
@@ -244,7 +244,7 @@
 	position: absolute;
 	width: 600px;
 	height: 65px;
-	left: 935px;
+	left: 835px;
 	top: 9790px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -263,7 +263,7 @@
 .label_valor_comissoes:after{
 	content: "";
 	display: block;
-	width: 1530px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -273,7 +273,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 9920px;
 	
 	font-family: 'Montserrat';
@@ -288,7 +288,7 @@
 .label_piso_salarial:after{
 	content: "";
 	display: block;
-	width: 1530px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -298,7 +298,7 @@
     position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 825px;
+	left: 725px;
 	top: 9955px;
 	
 	background: #F0F0F0;  
@@ -308,7 +308,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 875px;
+	left: 775px;
 	top: 9920px;
 	
 	font-family: 'Montserrat';
@@ -324,7 +324,7 @@
 	position: absolute;
 	width: 200px;
 	height: 65px;
-	left: 1175px;
+	left: 1075px;
 	top: 9938px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -344,7 +344,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 990px;
+	left: 890px;
 	top: 9920px;
 	
 	font-family: 'Montserrat';
@@ -360,7 +360,7 @@
     position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 1400px;
+	left: 1300px;
 	top: 9955px;
 	
 	background: #F0F0F0;  
@@ -370,7 +370,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1450px;
+	left: 1350px;
 	top: 9920px;
 	
 	font-family: 'Montserrat';
@@ -386,7 +386,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 10070px;
 	
 	font-family: 'Montserrat';
@@ -401,7 +401,7 @@
 .label_salario_minimo:after{
 	content: "";
 	display: block;
-	width: 1530px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -411,7 +411,7 @@
     position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 1020px;
+	left: 980px;
 	top: 10210px;
 	
 	background: #F0F0F0;  
@@ -421,7 +421,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1070px;
+	left: 1030px;
 	top: 10180px;
 	
 	font-family: 'Montserrat';
@@ -437,7 +437,7 @@
     position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 1220px;
+	left: 1120px;
 	top: 10210px;
 	
 	background: #F0F0F0;  
@@ -447,7 +447,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1270px;
+	left: 1170px;
 	top: 10180px;
 	
 	font-family: 'Montserrat';
@@ -463,7 +463,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 10300px;
 	
 	font-family: 'Montserrat';
@@ -478,7 +478,7 @@
 .label_dsr:after{
 	content: "";
 	display: block;
-	width: 1530px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -488,7 +488,7 @@
     position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 950px;
+	left: 850px;
 	top: 10330px;
 	
 	background: #F0F0F0;  
@@ -498,7 +498,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1000px;
+	left: 900px;
 	top: 10300px;
 	
 	font-family: 'Montserrat';
@@ -514,7 +514,7 @@
     position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 1120px;
+	left: 1020px;
 	top: 10330px;
 	
 	background: #F0F0F0;  
@@ -524,7 +524,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1170px;
+	left: 1070px;
 	top: 10300px;
 	
 	font-family: 'Montserrat';
@@ -540,7 +540,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 10450px;
 	
 	font-family: 'Montserrat';
@@ -555,7 +555,7 @@
 .label_acordo:after{
 	content: "";
 	display: block;
-	width: 1530px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -565,7 +565,7 @@
     position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 1230px;
+	left: 1130px;
 	top: 10480px;
 	
 	background: #F0F0F0;  
@@ -575,7 +575,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1280px;
+	left: 1180px;
 	top: 10450px;
 	
 	font-family: 'Montserrat';
@@ -591,7 +591,7 @@
     position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 1400px;
+	left: 1300px;
 	top: 10480px;
 	
 	background: #F0F0F0;  
@@ -601,7 +601,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1450px;
+	left: 1350px;
 	top: 10450px;
 	
 	font-family: 'Montserrat';
@@ -617,7 +617,7 @@
 	position: absolute;
 	width: 1100px;
 	height: 0px;
-	left: -370px;
+	left: -470px;
 	top: 9980px;
 	
 	border: 5px solid #BEA469;
@@ -628,7 +628,7 @@
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 10600px;
 	
 	font-family: 'Montserrat';
@@ -643,7 +643,7 @@
 .label_comissionista_misto:after{
 	content: "";
 	display: block;
-	width: 1530px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -653,7 +653,7 @@
     position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 1180px;
+	left: 1080px;
 	top: 10630px;
 	
 	background: #F0F0F0;
@@ -663,7 +663,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1230px;
+	left: 1130px;
 	top: 10600px;
 	
 	font-family: 'Montserrat';
@@ -679,7 +679,7 @@
     position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 1350px;
+	left: 1250px;
 	top: 10630px;
 	
 	background: #F0F0F0;
@@ -689,7 +689,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1400px;
+	left: 1300px;
 	top: 10600px;
 	
 	font-family: 'Montserrat';
@@ -705,7 +705,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 10750px;
 	
 	font-family: 'Montserrat';
@@ -720,7 +720,7 @@
 .label_comissionista_salario_fixo:after{
 	content: "";
 	display: block;
-	width: 1530px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -730,7 +730,7 @@
 	position: absolute;
 	width: 700px;
 	height: 65px;
-	left: 600px;
+	left: 500px;
 	top: 10775px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -750,7 +750,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 10900px;
 	
 	font-family: 'Montserrat';
@@ -765,7 +765,7 @@
 .label_comissionista_misto_salario_minimo:after{
 	content: "";
 	display: block;
-	width: 1530px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -775,7 +775,7 @@
     position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 800px;
+	left: 750px;
 	top: 11040px;
 	
 	background: #F0F0F0;
@@ -785,7 +785,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 850px;
+	left: 800px;
 	top: 11010px;
 	
 	font-family: 'Montserrat';
@@ -801,7 +801,7 @@
     position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 950px;
+	left: 900px;
 	top: 11040px;
 	
 	background: #F0F0F0;
@@ -811,7 +811,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1000px;
+	left: 950px;
 	top: 11010px;
 	
 	font-family: 'Montserrat';
@@ -827,7 +827,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 11150px;
 	
 	font-family: 'Montserrat';
@@ -842,7 +842,7 @@
 .label_comissionista_misto_dsr:after{
 	content: "";
 	display: block;
-	width: 1530px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -852,7 +852,7 @@
     position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 1100px;
+	left: 1000px;
 	top: 11180px;
 	
 	background: #F0F0F0;
@@ -862,7 +862,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1150px;
+	left: 1050px;
 	top: 11150px;
 	
 	font-family: 'Montserrat';
@@ -878,7 +878,7 @@
     position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 1250px;
+	left: 1150px;
 	top: 11180px;
 	
 	background: #F0F0F0;
@@ -888,7 +888,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1300px;
+	left: 1200px;
 	top: 11150px;
 	
 	font-family: 'Montserrat';
@@ -904,7 +904,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 11300px;
 	
 	font-family: 'Montserrat';
@@ -919,7 +919,7 @@
 .label_comissionista_misto_acordo:after{
 	content: "";
 	display: block;
-	width: 1530px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -929,7 +929,7 @@
     position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 980px;
+	left: 880px;
 	top: 11330px;
 	
 	background: #F0F0F0;
@@ -939,7 +939,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1030px;
+	left: 930px;
 	top: 11300px;
 	
 	font-family: 'Montserrat';
@@ -955,7 +955,7 @@
     position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 1150px;
+	left: 1050px;
 	top: 11330px;
 	
 	background: #F0F0F0;
@@ -965,7 +965,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1200px;
+	left: 1100px;
 	top: 11300px;
 	
 	font-family: 'Montserrat';
@@ -981,7 +981,7 @@
 	position: absolute;
 	width: 800px;
 	height: 0px;
-	left: -220px;
+	left: -320px;
 	top: 11000px;
 	
 	border: 5px solid #BEA469;
