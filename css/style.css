@@ -44,10 +44,10 @@ p {
 /* Estilos Títulos */
 .titulo_partes{
 	position: absolute;
-	width: 912px;
-	height: 162px;
+	width: 710px;
+	height: 130px;
 	left: -105px;
-	top: 806px;
+	top: 860px;
 	
 	background: rgba(239, 239, 239, 0.79);
 	
@@ -60,12 +60,12 @@ p {
 	width: 311px;
 	height: 95px;
 	left: 420px;
-	top: 35px;
+	top: 20px;
 
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 80px;
+	font-size: 50px;
 	line-height: 98px;
 
 	color: #454242;
@@ -73,17 +73,17 @@ p {
 
 .titulo_partes_img{
 	position: absolute;
-	width: 186px;
-	height: 108px;
+	width: 170px;
+	height: 90px;
 	left: 173px;
-	top: 31px;
+	top: 20px;
 }
 
 .dados_trabalhador_txt{
 	position: absolute;
 	width: fit-content;
 	height: 84px;
-	left: 173px;
+	left: 120px;
 	top: 250px;
 	
 	font-family: 'Montserrat';
@@ -98,7 +98,7 @@ p {
 .dados_trabalhador_txt:after{
 	content: "";
 	display: block;
-	width: 1680px;
+	width: 1400px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;	
@@ -110,7 +110,7 @@ p {
 	position: absolute;
 	width: 125px;
 	height: 109px;
-	left: 73px;
+	left: 30px;
 	top: 1192px;
 	
 	font-family: 'Montserrat';
@@ -124,7 +124,7 @@ p {
 .label_nome:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -134,7 +134,7 @@ p {
 	position: absolute;
 	width: 1000px;
 	height: 65px;
-	left: 225px;
+	left: 180px;
 	top: 1214px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -154,7 +154,7 @@ p {
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 73px;
+	left: 30px;
 	top: 1303px;
 	
 	font-family: 'Montserrat';
@@ -168,7 +168,7 @@ p {
 .label_data_nasc:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -178,7 +178,7 @@ p {
 	position: absolute;
 	width: 300px;
 	height: 65px;
-	left: 520px;
+	left: 470px;
 	top: 1325px;
 	
 	background: #F0F0F0;
@@ -196,7 +196,7 @@ p {
 	position: absolute;
 	width: 185px;
 	height: 109px;
-	left: 73px;
+	left: 30px;
 	top: 1414px;
 	
 	font-family: 'Montserrat';
@@ -213,7 +213,7 @@ p {
 	position: absolute;
 	width: 78px;
 	height: 109px;
-	left: 350px;
+	left: 300px;
 	top: 1414px;
 
 	font-family: 'Montserrat';
@@ -229,7 +229,7 @@ p {
 	position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 300px;
+	left: 250px;
 	top: 1446px;
 	
 	background: #F0F0F0;	
@@ -239,7 +239,7 @@ p {
 	position: absolute;
 	width: 82px;
 	height: 109px;
-	left: 530px;
+	left: 480px;
 	top: 1414px;
 	
 	font-family: 'Montserrat';
@@ -255,7 +255,7 @@ p {
 	position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 480px;
+	left: 430px;
 	top: 1446px;
 	
 	background: #F0F0F0;	
@@ -265,7 +265,7 @@ p {
 	position: absolute;
 	width: 500px;
 	height: 65px;
-	left: 930px;
+	left: 900px;
 	top: 1440px;
 	
 	background: #F0F0F0;
@@ -286,7 +286,7 @@ p {
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 650px;
+	left: 600px;
 	top: 1414px;
 	
 	font-family: 'Montserrat';
@@ -301,7 +301,7 @@ p {
 .label_nacionalidade:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -357,7 +357,7 @@ p {
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 73px;
+	left: 30px;
 	top: 1550px;
 	
 	font-family: 'Montserrat';
@@ -372,19 +372,18 @@ p {
 .label_estado_civil:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
 }
 /*FINAL - Estilos Dropdown*/
 
-
 .label_profissao{
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 73px;
+	left: 30px;
 	top: 1700px;
 	
 	font-family: 'Montserrat';
@@ -399,7 +398,7 @@ p {
 .label_profissao:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -409,7 +408,7 @@ p {
 	position: absolute;
 	width: 800px;
 	height: 65px;
-	left: 296px;
+	left: 280px;
 	top: 1720px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -429,7 +428,7 @@ p {
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 73px;
+	left: 30px;
 	top: 1855px;
 	
 	font-family: 'Montserrat';
@@ -444,7 +443,7 @@ p {
 .label_cpf:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -454,7 +453,7 @@ p {
 	position: absolute;
 	width: 500px;
 	height: 65px;
-	left: 180px;
+	left: 160px;
 	top: 1875px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -474,7 +473,7 @@ p {
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 73px;
+	left: 30px;
 	top: 2000px;
 	
 	font-family: 'Montserrat';
@@ -489,7 +488,7 @@ p {
 .label_rg:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -499,7 +498,7 @@ p {
 	position: absolute;
 	width: 500px;
 	height: 65px;
-	left: 180px;
+	left: 130px;
 	top: 2018px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -519,7 +518,7 @@ p {
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 73px;
+	left: 30px;
 	top: 2149px;
 	
 	font-family: 'Montserrat';
@@ -534,7 +533,7 @@ p {
 .label_ctps:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -544,7 +543,7 @@ p {
 	position: absolute;
 	width: 500px;
 	height: 65px;
-	left: 200px;
+	left: 150px;
 	top: 2167px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -564,7 +563,7 @@ p {
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 73px;
+	left: 30px;
 	top: 2299px;
 	
 	font-family: 'Montserrat';
@@ -579,7 +578,7 @@ p {
 .label_pis:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -589,7 +588,7 @@ p {
 	position: absolute;
 	width: 500px;
 	height: 65px;
-	left: 315px;
+	left: 290px;
 	top: 2320px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -609,7 +608,7 @@ p {
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 73px;
+	left: 30px;
 	top: 2450px;
 	
 	font-family: 'Montserrat';
@@ -624,7 +623,7 @@ p {
 .label_email:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -634,7 +633,7 @@ p {
 	position: absolute;
 	width: 500px;
 	height: 65px;
-	left: 315px;
+	left: 200px;
 	top: 2470px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -654,7 +653,7 @@ p {
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 73px;
+	left: 30px;
 	top: 2600px;
 	
 	font-family: 'Montserrat';
@@ -669,7 +668,7 @@ p {
 .label_telefone:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -679,7 +678,7 @@ p {
 	position: absolute;
 	width: 500px;
 	height: 65px;
-	left: 315px;
+	left: 240px;
 	top: 2620px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -699,7 +698,7 @@ p {
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 73px;
+	left: 30px;
 	top: 2750px;
 	
 	font-family: 'Montserrat';
@@ -714,7 +713,7 @@ p {
 .label_endereco:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -724,7 +723,7 @@ p {
 	position: absolute;
 	width: 800px;
 	height: 65px;
-	left: 315px;
+	left: 280px;
 	top: 2770px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -744,7 +743,7 @@ p {
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 73px;
+	left: 30px;
 	top: 2900px;
 	
 	font-family: 'Montserrat';
@@ -759,7 +758,7 @@ p {
 .label_nome_mae:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -789,7 +788,7 @@ p {
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 73px;
+	left: 30px;
 	top: 3050px;
 	
 	font-family: 'Montserrat';
@@ -804,7 +803,7 @@ p {
 .label_nome_pai:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -834,7 +833,7 @@ p {
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 73px;
+	left: 30px;
 	top: 3200px;
 	
 	font-family: 'Montserrat';
@@ -850,7 +849,7 @@ p {
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 73px;
+	left: 30px;
 	top: 3244px;
 	
 	font-family: 'Montserrat';
@@ -865,7 +864,7 @@ p {
 .label_nome_filho:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -897,7 +896,7 @@ p {
 	position: absolute;
 	width: fit-content;
 	height: 84px;
-	left: 73px;
+	left: 15px;
 	top: 3390px;
 	
 	font-family: 'Montserrat';
@@ -912,7 +911,7 @@ p {
 .dados_empresa_txt:after{
 	content: "";
 	display: block;
-	width: 1680px;
+	width: 1400px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -922,7 +921,7 @@ p {
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 73px;
+	left: 30px;
 	top: 3500px;
 	
 	font-family: 'Montserrat';
@@ -937,7 +936,7 @@ p {
 .label_razao_social:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -967,7 +966,7 @@ p {
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 73px;
+	left: 30px;
 	top: 3650px;
 	
 	font-family: 'Montserrat';
@@ -982,7 +981,7 @@ p {
 .label_cnpj:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -1012,7 +1011,7 @@ p {
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 73px;
+	left: 30px;
 	top: 3800px;
 	
 	font-family: 'Montserrat';
@@ -1027,7 +1026,7 @@ p {
 .label_nome_fantasia:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -1057,7 +1056,7 @@ p {
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 73px;
+	left: 30px;
 	top: 3950px;
 	
 	font-family: 'Montserrat';
@@ -1072,7 +1071,7 @@ p {
 .label_endereco_razao_social:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -1102,7 +1101,7 @@ p {
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 73px;
+	left: 30px;
 	top: 4100px;
 	
 	font-family: 'Montserrat';
@@ -1133,7 +1132,7 @@ p {
 .label_empresas_mesmo_grupo:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -1179,7 +1178,7 @@ p {
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 73px;
+	left: 30px;
 	top: 4250px;
 	
 	font-family: 'Montserrat';
@@ -1194,7 +1193,7 @@ p {
 .label_empresas_tomadoras_servico:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -1256,13 +1255,13 @@ p {
 	position: absolute;
 	width: fit-content;
 	height: 84px;
-	left: 73px;
+	left: 15px;
 	top: 4430px;
 	
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 600;
-	font-size: 60px;
+	font-size: 55px;
 	line-height: 78px;
 	
 	color: #454242;
@@ -1271,7 +1270,7 @@ p {
 .dados_empresa_txt_2:after{
 	content: "";
 	display: block;
-	width: 1680px;
+	width: 1500px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -1281,7 +1280,7 @@ p {
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 73px;
+	left: 30px;
 	top: 4540px;
 	
 	font-family: 'Montserrat';
@@ -1296,7 +1295,7 @@ p {
 .label_nome_2a_pessoa_fisica:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -1306,7 +1305,7 @@ p {
 	position: absolute;
 	width: 780px;
 	height: 65px;
-	left: 225px;
+	left: 200px;
 	top: 4560px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -1326,7 +1325,7 @@ p {
 	position: absolute;
 	width: 185px;
 	height: 109px;
-	left: 73px;
+	left: 30px;
 	top: 4665px;
 	
 	font-family: 'Montserrat';
@@ -1343,7 +1342,7 @@ p {
 	position: absolute;
 	width: 78px;
 	height: 109px;
-	left: 350px;
+	left: 300px;
 	top: 4665px;
 
 	font-family: 'Montserrat';
@@ -1359,7 +1358,7 @@ p {
 	position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 300px;
+	left: 250px;
 	top: 4695px;
 	
 	background: #F0F0F0;	
@@ -1369,7 +1368,7 @@ p {
 	position: absolute;
 	width: 82px;
 	height: 109px;
-	left: 530px;
+	left: 480px;
 	top: 4665px;
 	
 	font-family: 'Montserrat';
@@ -1385,7 +1384,7 @@ p {
 	position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 480px;
+	left: 430px;
 	top: 4695px;
 	
 	background: #F0F0F0;	
@@ -1395,7 +1394,7 @@ p {
 	position: absolute;
 	width: 500px;
 	height: 65px;
-	left: 930px;
+	left: 890px;
 	top: 4685px;
 	
 	background: #F0F0F0;
@@ -1416,7 +1415,7 @@ p {
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 650px;
+	left: 600px;
 	top: 4665px;
 	
 	font-family: 'Montserrat';
@@ -1431,7 +1430,7 @@ p {
 .label_nacionalidade_2a_pessoa_fisica:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -1486,7 +1485,7 @@ p {
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 73px;
+	left: 30px;
 	top: 4800px;
 	
 	font-family: 'Montserrat';
@@ -1501,7 +1500,7 @@ p {
 .label_estado_civil_2:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -1512,7 +1511,7 @@ p {
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 73px;
+	left: 30px;
 	top: 4950px;
 	
 	font-family: 'Montserrat';
@@ -1527,7 +1526,7 @@ p {
 .label_rg_2:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -1537,7 +1536,7 @@ p {
 	position: absolute;
 	width: 500px;
 	height: 65px;
-	left: 180px;
+	left: 130px;
 	top: 4970px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -1557,7 +1556,7 @@ p {
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 73px;
+	left: 30px;
 	top: 5100px;
 	
 	font-family: 'Montserrat';
@@ -1572,7 +1571,7 @@ p {
 .label_cpf_2:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -1582,7 +1581,7 @@ p {
 	position: absolute;
 	width: 500px;
 	height: 65px;
-	left: 180px;
+	left: 150px;
 	top: 5120px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -1602,7 +1601,7 @@ p {
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 73px;
+	left: 30px;
 	top: 5250px;
 	
 	font-family: 'Montserrat';
@@ -1617,7 +1616,7 @@ p {
 .label_profissao_2:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -1627,7 +1626,7 @@ p {
 	position: absolute;
 	width: 800px;
 	height: 65px;
-	left: 296px;
+	left: 246px;
 	top: 5270px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -1647,7 +1646,7 @@ p {
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 73px;
+	left: 30px;
 	top: 5400px;
 	
 	font-family: 'Montserrat';
@@ -1662,7 +1661,7 @@ p {
 .label_endereco_2:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;

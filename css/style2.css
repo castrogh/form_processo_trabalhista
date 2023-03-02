@@ -2,8 +2,8 @@
 
 .titulo_infos_preliminares{
 	position: absolute;
-	width: 1600px;
-	height: 162px;
+	width: 1400px;
+	height: 155px;
 	left: -105px;
 	top: 5700px;
 	
@@ -18,12 +18,12 @@
 	width: fit-content;
 	height: 95px;
 	left: 420px;
-	top: 25px;
+	top: 10px;
 
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 80px;
+	font-size: 60px;
 	line-height: 98px;
 
 	color: #454242;
@@ -31,8 +31,8 @@
 
 .titulo_infos_preliminares_img{
 	position: absolute;
-	width: 186px;
-	height: 108px;
+	width: 170px;
+	height: 90px;
 	left: 173px;
 	top: 31px;
 }
@@ -41,8 +41,8 @@
 	position: relative;
 	width: fit-content;
 	height: 95px;
-	left: 430px;
-	top: -8px;
+	left: 420px;
+	top: -20px;
 
 	font-family: 'Montserrat';
 	font-style: normal;
@@ -163,8 +163,8 @@
 
 .titulo_entrevista{
 	position: absolute;
-	width: 900px;
-	height: 162px;
+	width: 800px;
+	height: 132px;
 	left: -105px;
 	top: 6400px;
 	
@@ -179,12 +179,12 @@
 	width: fit-content;
 	height: 95px;
 	left: 400px;
-	top: 35px;
+	top: 20px;
 
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 80px;
+	font-size: 60px;
 	line-height: 98px;
 
 	color: #454242;
@@ -192,8 +192,8 @@
 
 .titulo_entrevista_img{
 	position: absolute;
-	width: 186px;
-	height: 108px;
+	width: 166px;
+	height: 80px;
 	left: 173px;
 	top: 33px;
 }
@@ -202,7 +202,7 @@
 	position: absolute;
 	width: 1242px;
 	height: 84px;
-	left: 110px;
+	left: 15px;
 	top: 6600px;
 	
 	font-family: 'Montserrat';
@@ -217,7 +217,7 @@
 .titulo_dados_contratuais:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1400px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -227,7 +227,7 @@
 	position: absolute;
 	width: 361px;
 	height: 109px;
-	left: 123px;
+	left: 30px;
 	top: 6690px;
 	
 	font-family: 'Montserrat';
@@ -243,7 +243,7 @@
 	position: absolute;
 	width: 250px;
 	height: 65px;
-	left: 500px;
+	left: 420px;
 	top: 6710px;
 	
 	background: #F0F0F0;
@@ -254,7 +254,7 @@
 	position: absolute;
 	width: 410px;
 	height: 109px;
-	left: 800px;
+	left: 730px;
 	top: 6690px;
 	
 	font-family: 'Montserrat';
@@ -270,7 +270,7 @@
 	position: absolute;
 	width: 250px;
 	height: 65px;
-	left: 1220px;
+	left: 1150px;
 	top: 6710px;
 	
 	background: #F0F0F0;
@@ -281,7 +281,7 @@
 	position: absolute;
 	width: 361px;
 	height: 109px;
-	left: 123px;
+	left: 30px;
 	top: 6790px;
 	
 	font-family: 'Montserrat';
@@ -296,7 +296,7 @@
 .label_data_demissao:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -306,7 +306,7 @@
 	position: absolute;
 	width: 250px;
 	height: 65px;
-	left: 500px;
+	left: 420px;
 	top: 6810px;
 	
 	background: #F0F0F0;
@@ -317,7 +317,7 @@
 	position: absolute;
 	width: 361px;
 	height: 109px;
-	left: 123px;
+	left: 30px;
 	top: 6930px;
 	
 	font-family: 'Montserrat';
@@ -332,7 +332,7 @@
 .label_aviso_previo:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -342,7 +342,7 @@
 	position: absolute;
 	width: 250px;
 	height: 65px;
-	left: 310px;
+	left: 240px;
 	top: 6950px;
 	
 	background: #F0F0F0;
@@ -353,7 +353,7 @@
 	position: absolute;
 	width: 225px;
 	height: 109px;
-	left: 490px;
+	left: 420px;
 	top: 6930px;
 	
 	font-family: 'Montserrat';
@@ -369,7 +369,7 @@
 	position: absolute;
 	width: 250px;
 	height: 65px;
-	left: 700px;
+	left: 600px;
 	top: 6950px;
 	
 	background: #F0F0F0;
@@ -380,7 +380,7 @@
 	position: absolute;
 	width: 225px;
 	height: 109px;
-	left: 880px;
+	left: 780px;
 	top: 6930px;
 	
 	font-family: 'Montserrat';
@@ -396,7 +396,7 @@
 	position: absolute;
 	width: 361px;
 	height: 109px;
-	left: 123px;
+	left: 30px;
 	top: 7080px;
 	
 	font-family: 'Montserrat';
@@ -411,7 +411,7 @@
 .label_cumpriu_aviso:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -421,7 +421,7 @@
 	position: absolute;
 	width: 250px;
 	height: 65px;
-	left: 405px;
+	left: 330px;
 	top: 7100px;
 	
 	background: #F0F0F0;
@@ -432,7 +432,7 @@
 	position: absolute;
 	width: 225px;
 	height: 109px;
-	left: 580px;
+	left: 500px;
 	top: 7080px;
 	
 	font-family: 'Montserrat';
@@ -448,7 +448,7 @@
 	position: absolute;
 	width: 250px;
 	height: 65px;
-	left: 600px;
+	left: 550px;
 	top: 7100px;
 	
 	background: #F0F0F0;
@@ -459,7 +459,7 @@
 	position: absolute;
 	width: 225px;
 	height: 109px;
-	left: 760px;
+	left: 730px;
 	top: 7080px;
 	
 	font-family: 'Montserrat';
@@ -475,13 +475,13 @@
 	position: absolute;
 	width: 225px;
 	height: 109px;
-	left: 950px;
+	left: 910px;
 	top: 7080px;
 	
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 40px;
+	font-size: 35px;
 	line-height: 109px;
 	
 	color: #000000;	
@@ -491,7 +491,7 @@
 	position: absolute;
 	width: 250px;
 	height: 65px;
-	left: 790px;
+	left: 750px;
 	top: 7100px;
 	
 	background: #F0F0F0;
@@ -502,7 +502,7 @@
 	position: absolute;
 	width: 250px;
 	height: 65px;
-	left: 1240px;
+	left: 1170px;
 	top: 7100px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -522,7 +522,7 @@
 	position: absolute;
 	width: 361px;
 	height: 109px;
-	left: 123px;
+	left: 30px;
 	top: 7230px;
 	
 	font-family: 'Montserrat';
@@ -537,7 +537,7 @@
 .label_ctps_assinada:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -547,7 +547,7 @@
 	position: absolute;
 	width: 361px;
 	height: 109px;
-	left: 570px;
+	left: 460px;
 	top: 7230px;
 	
 	font-family: 'Montserrat';
@@ -563,7 +563,7 @@
 	position: absolute;
 	width: 250px;
 	height: 65px;
-	left: 395px;
+	left: 290px;
 	top: 7250px;
 	
 	background: #F0F0F0;
@@ -574,7 +574,7 @@
 	position: absolute;
 	width: 361px;
 	height: 109px;
-	left: 750px;
+	left: 670px;
 	top: 7230px;
 	
 	font-family: 'Montserrat';
@@ -590,7 +590,7 @@
 	position: absolute;
 	width: 250px;
 	height: 65px;
-	left: 590px;
+	left: 500px;
 	top: 7250px;
 	
 	background: #F0F0F0;
@@ -601,7 +601,7 @@
 	position: absolute;
 	width: 250px;
 	height: 65px;
-	left: 1240px;
+	left: 1130px;
 	top: 7250px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -621,7 +621,7 @@
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 890px;
+	left: 780px;
 	top: 7230px;
 	
 	font-family: 'Montserrat';
@@ -637,7 +637,7 @@
 	position: absolute;
 	width: 361px;
 	height: 109px;
-	left: 123px;
+	left: 30px;
 	top: 7380px;
 	
 	font-family: 'Montserrat';
@@ -652,7 +652,7 @@
 .label_funcao:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -662,7 +662,7 @@
 	position: absolute;
 	width: 700px;
 	height: 65px;
-	left: 285px;
+	left: 195px;
 	top: 7400px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -682,7 +682,7 @@
 	position: absolute;
 	width: 361px;
 	height: 109px;
-	left: 123px;
+	left: 30px;
 	top: 7530px;
 	
 	font-family: 'Montserrat';
@@ -698,7 +698,7 @@
 	position: absolute;
 	width: 302px;
 	height: 109px;
-	left: 640px;
+	left: 450px;
 	top: 7530px;
 	
 	font-family: 'Montserrat';
@@ -714,7 +714,7 @@
 	position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 590px;
+	left: 400px;
 	top: 7560px;
 	
 	background: #F0F0F0;	
@@ -724,13 +724,13 @@
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 640px;
+	left: 450px;
 	top: 7630px;
 	
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 40px;
+	font-size: 35px;
 	line-height: 109px;
 	
 	color: #000000;
@@ -740,7 +740,7 @@
 	position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 590px;
+	left: 400px;
 	top: 7660px;
 	
 	background: #F0F0F0;	
@@ -750,7 +750,7 @@
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 640px;
+	left: 450px;
 	top: 7730px;
 	
 	font-family: 'Montserrat';
@@ -766,7 +766,7 @@
 	position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 590px;
+	left: 400px;
 	top: 7760px;
 	
 	background: #F0F0F0;	
@@ -776,7 +776,7 @@
 	position: absolute;
 	width: 1242px;
 	height: 84px;
-	left: 110px;
+	left: 15px;
 	top: 7900px;
 
 	font-family: 'Montserrat';
@@ -791,7 +791,7 @@
 .titulo_salario_remuneracao:before{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -800,7 +800,7 @@
 .titulo_salario_remuneracao:after{
 	content: "";
 	display: block;
-	width: 1530px;
+	width: 1400px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -808,9 +808,9 @@
 
 .salario{
 	position: absolute;
-	width: 1565px;
+	width: 1300px;
 	height: 94px;
-	left: 110px;
+	left: 30px;
 	top: 8030px;
 
 	
@@ -830,7 +830,7 @@
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 123px;
+	left: 30px;
 	top: 8180px;
 	
 	font-family: 'Montserrat';
@@ -845,7 +845,7 @@
 .label_salario_fixo:after{
 	content: "";
 	display: block;
-	width: 1530px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -855,7 +855,7 @@
 	position: absolute;
 	width: 700px;
 	height: 65px;
-	left: 530px;
+	left: 450px;
 	top: 8200px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -875,7 +875,7 @@
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 123px;
+	left: 30px;
 	top: 8320px;
 	
 	font-family: 'Montserrat';
@@ -891,7 +891,7 @@
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 175px;
+	left: 75px;
 	top: 8385px;
 	
 	font-family: 'Montserrat';
@@ -907,7 +907,7 @@
 	position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 130px;
+	left: 30px;
 	top: 8415px;
 	
 	background: #F0F0F0;
@@ -917,7 +917,7 @@
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 400px;
+	left: 295px;
 	top: 8385px;
 	
 	font-family: 'Montserrat';
@@ -933,7 +933,7 @@
 	position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 350px;
+	left: 250px;
 	top: 8415px;
 	
 	background: #F0F0F0;
@@ -943,7 +943,7 @@
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 660px;
+	left: 545px;
 	top: 8385px;
 	
 	font-family: 'Montserrat';
@@ -959,7 +959,7 @@
 	position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 610px;
+	left: 500px;
 	top: 8415px;
 	
 	background: #F0F0F0;
@@ -969,7 +969,7 @@
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 946px;
+	left: 815px;
 	top: 8385px;
 	
 	font-family: 'Montserrat';
@@ -985,7 +985,7 @@
 	position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 900px;
+	left: 770px;
 	top: 8415px;
 	
 	background: #F0F0F0;
@@ -995,7 +995,7 @@
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1100px;
+	left: 965px;
 	top: 8385px;
 	
 	font-family: 'Montserrat';
@@ -1011,7 +1011,7 @@
 	position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 1050px;
+	left: 920px;
 	top: 8415px;
 	
 	background: #F0F0F0;
@@ -1021,7 +1021,7 @@
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1285px;
+	left: 1145px;
 	top: 8385px;
 	
 	font-family: 'Montserrat';
@@ -1037,7 +1037,7 @@
 	position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 1235px;
+	left: 1100px;
 	top: 8415px;
 	
 	background: #F0F0F0;
@@ -1047,7 +1047,7 @@
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 123px;
+	left: 30px;
 	top: 8490px;
 	
 	font-family: 'Montserrat';
@@ -1062,7 +1062,7 @@
 .label_salario_pago_fora:before{
 	content: "";
 	display: block;
-	width: 1530px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -1071,7 +1071,7 @@
 .label_salario_pago_fora:after{
 	content: "";
 	display: block;
-	width: 1530px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -1081,7 +1081,7 @@
 	position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 590px;
+	left: 500px;
 	top: 8540px;
 	
 	background: #F0F0F0;
@@ -1091,7 +1091,7 @@
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 640px;
+	left: 550px;
 	top: 8510px;
 	
 	font-family: 'Montserrat';
@@ -1107,7 +1107,7 @@
 	position: absolute;
 	width: 350px;
 	height: 65px;
-	left: 870px;
+	left: 820px;
 	top: 8535px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -1127,7 +1127,7 @@
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 750px;
+	left: 700px;
 	top: 8510px;
 	
 	font-family: 'Montserrat';
@@ -1169,7 +1169,7 @@
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 123px;
+	left: 30px;
 	top: 8640px;
 	
 	font-family: 'Montserrat';
@@ -1185,7 +1185,7 @@
 	position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 130px;
+	left: 30px;
 	top: 8740px;
 	
 	background: #F0F0F0;
@@ -1195,7 +1195,7 @@
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 180px;
+	left: 80px;
 	top: 8710px;
 	
 	font-family: 'Montserrat';
@@ -1211,7 +1211,7 @@
 	position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 665px;
+	left: 460px;
 	top: 8740px;
 	
 	background: #F0F0F0;
@@ -1221,7 +1221,7 @@
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 715px;
+	left: 510px;
 	top: 8710px;
 	
 	font-family: 'Montserrat';
@@ -1237,7 +1237,7 @@
 	position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 915px;
+	left: 710px;
 	top: 8740px;
 	
 	background: #F0F0F0;
@@ -1247,7 +1247,7 @@
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 965px;
+	left: 760px;
 	top: 8710px;
 	
 	font-family: 'Montserrat';
@@ -1263,7 +1263,7 @@
 	position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 1150px;
+	left: 950px;
 	top: 8740px;
 	
 	background: #F0F0F0;
@@ -1273,7 +1273,7 @@
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1200px;
+	left: 1000px;
 	top: 8710px;
 	
 	font-family: 'Montserrat';
@@ -1289,7 +1289,7 @@
 	position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 1400px;
+	left: 1200px;
 	top: 8740px;
 	
 	background: #F0F0F0;
@@ -1299,13 +1299,13 @@
 	position: absolute;
 	width: 240px;
 	height: 109px;
-	left: 1450px;
+	left: 1250px;
 	top: 8710px;
 	
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 25px;
+	font-size: 40px;
 	line-height: 109px;
 	
 	color: #454242;
@@ -1315,7 +1315,7 @@
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 123px;
+	left: 30px;
 	top: 8800px;
 	
 	font-family: 'Montserrat';
