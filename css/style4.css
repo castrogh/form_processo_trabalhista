@@ -2,7 +2,7 @@
 	position: absolute;
 	width: 1242px;
 	height: 84px;
-	left: 110px;
+	left: 15px;
 	top: 13100px;
 
 	font-family: 'Montserrat';
@@ -17,7 +17,7 @@
 .titulo_beneficios:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1400px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -27,7 +27,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 13200px;
 	
 
@@ -44,7 +44,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 110px;
+    left: 30px;
     top: 13300px;
 
     background: #F0F0F0;
@@ -53,8 +53,8 @@
 .label_beneficio_alimentacao{
     position: absolute;
 	width: fit-content;
-	height: 109px;
-	left: 160px;
+	height: 8009px;
+	left: 80px;
 	top: 13270px;
 	
 
@@ -71,7 +71,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 800px;
+    left: 700px;
     top: 13300px;
 
     background: #F0F0F0;
@@ -81,7 +81,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 850px;
+	left: 750px;
 	top: 13270px;
 	
 
@@ -98,7 +98,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1100px;
+    left: 1000px;
     top: 13300px;
 
     background: #F0F0F0;
@@ -108,7 +108,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1150px;
+	left: 1050px;
 	top: 13270px;
 	
 
@@ -125,7 +125,7 @@
 	position: absolute;
 	width: 700px;
 	height: 65px;
-	left: 270px;
+	left: 200px;
 	top: 13375px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -145,7 +145,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 13350px;
 	
 
@@ -161,7 +161,7 @@
 .label_beneficio_outros:after{
 	content: "";
 	display: block;
-	width: 1620px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -171,7 +171,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 13500px;
 	
 
@@ -187,7 +187,7 @@
 .label_vale_refeicao:after{
 	content: "";
 	display: block;
-	width: 1620px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -197,7 +197,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 650px;
+	left: 550px;
 	top: 13500px;
 	
 
@@ -214,7 +214,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 600px;
+    left: 500px;
     top: 13530px;
 
     background: #F0F0F0;
@@ -224,7 +224,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 780px;
+	left: 650px;
 	top: 13500px;
 	
 
@@ -241,7 +241,7 @@
 	position: absolute;
 	width: 200px;
 	height: 65px;
-	left: 1040px;
+	left: 920px;
 	top: 13520px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -261,7 +261,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1350px;
+	left: 1200px;
 	top: 13500px;
 	
 
@@ -278,7 +278,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1300px;
+    left: 1150px;
     top: 13530px;
 
     background: #F0F0F0;
@@ -288,7 +288,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 13650px;
 	
 
@@ -304,7 +304,7 @@
 .label_cesta_basica:after{
 	content: "";
 	display: block;
-	width: 1620px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -314,7 +314,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 650px;
+	left: 550px;
 	top: 13650px;
 	
 
@@ -331,7 +331,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 600px;
+    left: 500px;
     top: 13680px;
 
     background: #F0F0F0;
@@ -341,7 +341,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 850px;
+	left: 750px;
 	top: 13650px;
 	
 
@@ -358,7 +358,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 800px;
+    left: 700px;
     top: 13680px;
 
     background: #F0F0F0;
@@ -368,7 +368,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 13800px;
 	
 
@@ -385,7 +385,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1150px;
+	left: 1050px;
 	top: 13800px;
 	
 
@@ -402,7 +402,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1100px;
+    left: 1000px;
     top: 13830px;
 
     background: #F0F0F0;
@@ -412,7 +412,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1350px;
+	left: 1250px;
 	top: 13800px;
 	
 
@@ -429,7 +429,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1300px;
+    left: 1200px;
     top: 13830px;
 
     background: #F0F0F0;
@@ -439,7 +439,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 13900px;
 	
 
@@ -455,7 +455,7 @@
 .label_plr_valor:after{
 	content: "";
 	display: block;
-	width: 1620px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -465,7 +465,7 @@
 	position: absolute;
 	width: 300px;
 	height: 65px;
-	left: 230px;
+	left: 160px;
 	top: 13920px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -485,7 +485,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 650px;
+	left: 550px;
 	top: 13900px;
 	
 
@@ -502,7 +502,7 @@
 	position: absolute;
 	width: 300px;
 	height: 65px;
-	left: 950px;
+	left: 850px;
 	top: 13920px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -522,7 +522,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 14050px;
 	
 
@@ -539,7 +539,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 850px;
+	left: 750px;
 	top: 14050px;
 	
 
@@ -556,7 +556,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 800px;
+    left: 700px;
     top: 14080px;
 
     background: #F0F0F0;
@@ -566,7 +566,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1050px;
+	left: 950px;
 	top: 14050px;
 	
 
@@ -583,7 +583,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1000px;
+    left: 900px;
     top: 14080px;
 
     background: #F0F0F0;
@@ -593,7 +593,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 14150px;
 	
 
@@ -609,7 +609,7 @@
 .label_habitualmente:after{
 	content: "";
 	display: block;
-	width: 1620px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -619,7 +619,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 550px;
+	left: 450px;
 	top: 14150px;
 	
 
@@ -636,7 +636,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 500px;
+    left: 400px;
     top: 14180px;
 
     background: #F0F0F0;
@@ -646,7 +646,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 750px;
+	left: 650px;
 	top: 14150px;
 	
 
@@ -663,7 +663,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 700px;
+    left: 600px;
     top: 14180px;
 
     background: #F0F0F0;
@@ -673,7 +673,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 14300px;
 	
 
@@ -689,7 +689,7 @@
 .label_vale_transporte:after{
 	content: "";
 	display: block;
-	width: 1620px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -699,7 +699,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 720px;
+	left: 350px;
 	top: 14300px;
 	
 
@@ -716,7 +716,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 670px;
+    left: 300px;
     top: 14330px;
 
     background: #F0F0F0;
@@ -726,7 +726,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 850px;
+	left: 450px;
 	top: 14300px;
 	
 
@@ -743,7 +743,7 @@
 	position: absolute;
 	width: 300px;
 	height: 65px;
-	left: 1140px;
+	left: 730px;
 	top: 14320px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -763,7 +763,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1550px;
+	left: 1150px;
 	top: 14300px;
 	
 
@@ -780,7 +780,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1500px;
+    left: 1100px;
     top: 14330px;
 
     background: #F0F0F0;
@@ -790,7 +790,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 14450px;
 	
 
@@ -806,7 +806,7 @@
 .label_plano_saude:after{
 	content: "";
 	display: block;
-	width: 1620px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -816,7 +816,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 720px;
+	left: 620px;
 	top: 14450px;
 	
 
@@ -833,7 +833,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 670px;
+    left: 570px;
     top: 14480px;
 
     background: #F0F0F0;
@@ -843,7 +843,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 910px;
+	left: 810px;
 	top: 14450px;
 	
 
@@ -860,7 +860,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 860px;
+    left: 760px;
     top: 14480px;
 
     background: #F0F0F0;
@@ -870,7 +870,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 14600px;
 	
 
@@ -887,7 +887,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 720px;
+	left: 620px;
 	top: 14600px;
 	
 
@@ -904,7 +904,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 670px;
+    left: 570px;
     top: 14630px;
 
     background: #F0F0F0;
@@ -914,7 +914,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 910px;
+	left: 810px;
 	top: 14600px;
 	
 
@@ -931,7 +931,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 860px;
+    left: 760px;
     top: 14630px;
 
     background: #F0F0F0;
@@ -941,7 +941,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 14700px;
 	
 
@@ -957,7 +957,7 @@
 .label_salario_familia_motivo:after{
 	content: "";
 	display: block;
-	width: 1620px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -967,7 +967,7 @@
 	position: absolute;
 	width: 700px;
 	height: 65px;
-	left: 280px;
+	left: 200px;
 	top: 14720px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -987,8 +987,8 @@
 	position: absolute;
 	width: 1242px;
 	height: 84px;
-	left: 110px;
-	top: 14870px;
+	left: 15px;
+	top: 14900px;
 
 	font-family: 'Montserrat';
 	font-style: normal;
@@ -1002,7 +1002,7 @@
 .titulo_local_de_trabalho:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1400px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -1012,7 +1012,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 15020px;
 	
 
@@ -1029,7 +1029,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1050px;
+	left: 970px;
 	top: 15020px;
 	
 
@@ -1046,7 +1046,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1000px;
+    left: 920px;
     top: 15050px;
 
     background: #F0F0F0;
@@ -1056,7 +1056,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1250px;
+	left: 1150px;
 	top: 15020px;
 	
 
@@ -1073,7 +1073,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1200px;
+    left: 1100px;
     top: 15050px;
 
     background: #F0F0F0;
@@ -1083,7 +1083,7 @@
 	position: absolute;
 	width: 2200px;
 	height: 0px;
-	left: -930px;
+	left: -1016px;
 	top: 16210px;
 	
 	border: 5px solid #BEA469;
@@ -1094,7 +1094,7 @@
 	position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 15100px;
 	
 	font-family: 'Montserrat';
@@ -1108,9 +1108,9 @@
 
 .textarea_contrato_individual{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 141px;
-	left: 200px;
+	left: 100px;
 	top: 15180px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -1128,8 +1128,8 @@
 .label_atividades{
 	position: absolute;
 	width: fit-content;
-	height: 109px;
-	left: 200px;
+	height1 109px;
+	left: 100px;
 	top: 15370px;
 	
 	font-family: 'Montserrat';
@@ -1143,9 +1143,9 @@
 
 .textarea_atividades{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 141px;
-	left: 200px;
+	left: 100px;
 	top: 15450px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -1164,7 +1164,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 100px;
 	top: 15640px;
 	
 	font-family: 'Montserrat';
@@ -1178,9 +1178,9 @@
 
 .textarea_comparecimento{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 141px;
-	left: 200px;
+	left: 100px;
 	top: 15720px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -1199,7 +1199,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 100px;
 	top: 15920px;
 	
 	font-family: 'Montserrat';
@@ -1213,9 +1213,9 @@
 
 .textarea_horarios{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 141px;
-	left: 200px;
+	left: 100px;
 	top: 15990px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -1234,7 +1234,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 100px;
 	top: 16150px;
 	
 	font-family: 'Montserrat';
@@ -1248,9 +1248,9 @@
 
 .textarea_regime{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 141px;
-	left: 200px;
+	left: 100px;
 	top: 16270px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -1269,7 +1269,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 100px;
 	top: 16450px;
 	
 	font-family: 'Montserrat';
@@ -1283,9 +1283,9 @@
 
 .textarea_despesas{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 141px;
-	left: 200px;
+	left: 100px;
 	top: 16530px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -1304,7 +1304,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 100px;
 	top: 16690px;
 	
 	font-family: 'Montserrat';
@@ -1318,9 +1318,9 @@
 
 .textarea_convencao{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 141px;
-	left: 200px;
+	left: 100px;
 	top: 16770px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -1339,7 +1339,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 100px;
 	top: 16940px;
 	
 	font-family: 'Montserrat';
@@ -1353,9 +1353,9 @@
 
 .textarea_local_contratacao{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 141px;
-	left: 200px;
+	left: 100px;
 	top: 16980px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -1374,7 +1374,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 100px;
 	top: 17135px;
 	
 	font-family: 'Montserrat';
@@ -1388,9 +1388,9 @@
 
 .textarea_local_trabalhava{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 141px;
-	left: 200px;
+	left: 100px;
 	top: 17180px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -1409,7 +1409,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 17400px;
 	
 
@@ -1426,7 +1426,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1050px;
+	left: 950px;
 	top: 17400px;
 	
 
@@ -1443,7 +1443,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1000px;
+    left: 900px;
     top: 17430px;
 
     background: #F0F0F0;
@@ -1453,7 +1453,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1250px;
+	left: 1150px;
 	top: 17400px;
 	
 
@@ -1470,7 +1470,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1200px;
+    left: 1100px;
     top: 17430px;
 
     background: #F0F0F0;
@@ -1480,7 +1480,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 100px;
 	top: 17530px;
 	
 	font-family: 'Montserrat';
@@ -1494,9 +1494,9 @@
 
 .textarea_quais_empresas{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 141px;
-	left: 200px;
+	left: 100px;
 	top: 17580px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -1515,7 +1515,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 100px;
 	top: 17750px;
 	
 	font-family: 'Montserrat';
@@ -1529,9 +1529,9 @@
 
 .textarea_atividades_executadas{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 141px;
-	left: 200px;
+	left: 100px;
 	top: 17800px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -1550,7 +1550,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 100px;
 	top: 17950px;
 	
 	font-family: 'Montserrat';
@@ -1564,9 +1564,9 @@
 
 .textarea_empresa_terceira{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 141px;
-	left: 200px;
+	left: 100px;
 	top: 18050px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -1585,7 +1585,7 @@
 	position: absolute;
 	width: 650px;
 	height: 0px;
-	left: -150px;
+	left: -250px;
 	top: 17850px;
 	
 	border: 5px solid #BEA469;
@@ -1596,7 +1596,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 18200px;
 	
 
@@ -1613,7 +1613,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 550px;
+	left: 450px;
 	top: 18200px;
 	
 
@@ -1630,7 +1630,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 500px;
+    left: 400px;
     top: 18230px;
 
     background: #F0F0F0;
@@ -1640,7 +1640,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 650px;
+	left: 550px;
 	top: 18200px;
 	
 
@@ -1657,7 +1657,7 @@
 	position: absolute;
 	width: 209px;
 	height: 65px;
-	left: 950px;
+	left: 850px;
 	top: 18220px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -1675,7 +1675,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1250px;
+	left: 1150px;
 	top: 18200px;
 	
 
@@ -1692,7 +1692,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1200px;
+    left: 1100px;
     top: 18230px;
 
     background: #F0F0F0;
@@ -1702,7 +1702,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 100px;
 	top: 18345px;
 	
 	font-family: 'Montserrat';
@@ -1718,7 +1718,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 700px;
+	left: 600px;
 	top: 18310px;
 	
 
@@ -1735,7 +1735,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 650px;
+    left: 550px;
     top: 18340px;
 
     background: #F0F0F0;
@@ -1745,7 +1745,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1000px;
+	left: 900px;
 	top: 18310px;
 	
 
@@ -1762,7 +1762,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 950px;
+    left: 850px;
     top: 18340px;
 
     background: #F0F0F0;
@@ -1772,7 +1772,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 100px;
 	top: 18450px;
 	
 	font-family: 'Montserrat';
@@ -1786,9 +1786,9 @@
 
 .textarea_qual_local{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 141px;
-	left: 200px;
+	left: 100px;
 	top: 18500px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -1807,7 +1807,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 100px;
 	top: 18700px;
 	
 	font-family: 'Montserrat';
@@ -1821,9 +1821,9 @@
 
 .textarea_mudanca_endereco{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 141px;
-	left: 200px;
+	left: 100px;
 	top: 18750px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -1842,7 +1842,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 18900px;
 	
 
@@ -1859,7 +1859,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1200px;
+	left: 1100px;
 	top: 18900px;
 	
 
@@ -1876,7 +1876,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1150px;
+    left: 1050px;
     top: 18930px;
 
     background: #F0F0F0;
@@ -1886,7 +1886,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1400px;
+	left: 1300px;
 	top: 18900px;
 	
 
@@ -1903,7 +1903,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1350px;
+    left: 1250px;
     top: 18930px;
 
     background: #F0F0F0;
@@ -1912,7 +1912,7 @@
 .label_adicional_transf:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;

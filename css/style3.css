@@ -990,9 +990,9 @@
 
 .remuneracao{
 	position: absolute;
-	width: 1565px;
+	width: 1300px;
 	height: 94px;
-	left: 130px;
+	left: 30px;
 	top: 11450px;
 
 	
@@ -1012,7 +1012,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 130px;
+	left: 30px;
 	top: 11550px;
 	
 
@@ -1029,7 +1029,7 @@
     position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 350px;
+	left: 250px;
 	top: 11585px;
 	
 	background: #F0F0F0;
@@ -1039,7 +1039,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 400px;
+	left: 300px;
 	top: 11555px;
 	
 	font-family: 'Montserrat';
@@ -1055,7 +1055,7 @@
     position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 500px;
+	left: 400px;
 	top: 11585px;
 	
 	background: #F0F0F0;
@@ -1065,7 +1065,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 550px;
+	left: 450px;
 	top: 11555px;
 	
 	font-family: 'Montserrat';
@@ -1081,7 +1081,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 11650px;
 	
 
@@ -1097,7 +1097,7 @@
 .label_supressao:after{
 	content: "";
 	display: block;
-	width: 1530px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -1107,7 +1107,7 @@
     position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 1050px;
+	left: 950px;
 	top: 11680px;
 	
 	background: #F0F0F0;
@@ -1117,7 +1117,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1100px;
+	left: 1000px;
 	top: 11650px;
 	
 	font-family: 'Montserrat';
@@ -1133,7 +1133,7 @@
     position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 1250px;
+	left: 1150px;
 	top: 11680px;
 	
 	background: #F0F0F0;
@@ -1143,7 +1143,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1300px;
+	left: 1200px;
 	top: 11650px;
 	
 	font-family: 'Montserrat';
@@ -1159,7 +1159,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 11800px;
 	
 
@@ -1175,7 +1175,7 @@
 .label_periodo:after{
 	content: "";
 	display: block;
-	width: 1530px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -1185,7 +1185,7 @@
 	position: absolute;
 	width: 700px;
 	height: 65px;
-	left: 550px;
+	left: 450px;
 	top: 11825px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -1205,7 +1205,7 @@
 	position: absolute;
 	width: 1242px;
 	height: 84px;
-	left: 110px;
+	left: 15px;
 	top: 12000px;
 
 	font-family: 'Montserrat';
@@ -1220,7 +1220,7 @@
 .titulo_extincao_contrato:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1400px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -1230,7 +1230,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 12120px;
 	
 
@@ -1247,7 +1247,7 @@
 	position: absolute;
 	width: 700px;
 	height: 65px;
-	left: 330px;
+	left: 250px;
 	top: 12140px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -1267,7 +1267,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 160px;
+	left: 80px;
 	top: 12200px;
 	
 	font-family: 'Montserrat';
@@ -1283,7 +1283,7 @@
     position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 110px;
+	left: 30px;
 	top: 12230px;
 	
 	background: #F0F0F0;
@@ -1293,7 +1293,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 650px;
+	left: 550px;
 	top: 12200px;
 	
 	font-family: 'Montserrat';
@@ -1309,7 +1309,7 @@
     position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 600px;
+	left: 500px;
 	top: 12230px;
 	
 	background: #F0F0F0;
@@ -1319,7 +1319,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1100px;
+	left: 1000px;
 	top: 12200px;
 	
 	font-family: 'Montserrat';
@@ -1335,7 +1335,7 @@
     position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 1050px;
+	left: 950px;
 	top: 12230px;
 	
 	background: #F0F0F0;
@@ -1345,7 +1345,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 160px;
+	left: 80px;
 	top: 12300px;
 	
 	font-family: 'Montserrat';
@@ -1361,7 +1361,7 @@
     position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 110px;
+	left: 30px;
 	top: 12330px;
 	
 	background: #F0F0F0;
@@ -1371,7 +1371,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 740px;
+	left: 640px;
 	top: 12300px;
 	
 	font-family: 'Montserrat';
@@ -1387,7 +1387,7 @@
     position: absolute;
 	width: 45px;
 	height: 45px;
-	left: 690px;
+	left: 590px;
 	top: 12330px;
 	
 	background: #F0F0F0;
@@ -1397,8 +1397,8 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1100px;
-	top: 12300px;
+	left: 30px;
+	top: 12370px;
 	
 	font-family: 'Montserrat';
 	font-style: normal;
@@ -1413,8 +1413,8 @@
 	position: absolute;
 	width: 400px;
 	height: 65px;
-	left: 1250px;
-	top: 12320px;
+	left: 200px;
+	top: 12400px;
 	padding: 0px 20px;
 	box-sizing: border-box;
 	
@@ -1433,8 +1433,8 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
-	top: 12450px;
+	left: 30px;
+	top: 12470px;
 	
 	font-family: 'Montserrat';
 	font-style: normal;
@@ -1448,7 +1448,7 @@
 .label_descreva_motivo:before{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -1456,10 +1456,10 @@
 
 .textarea_descreva_motivo{
 	position: absolute;
-	width: 1631px;
+	width: 1390px;
 	height: 440px;
-	left: 110px;
-	top: 12550px;
+	left: 30px;
+	top: 12570px;
 	padding: 10px 20px;
 	box-sizing: border-box;
 	resize: none;
