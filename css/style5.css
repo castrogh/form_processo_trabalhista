@@ -2,7 +2,7 @@
 	position: absolute;
 	width: 1242px;
 	height: 84px;
-	left: 110px;
+	left: 15px;
 	top: 19100px;
 
 	font-family: 'Montserrat';
@@ -17,7 +17,7 @@
 .titulo_equiparacao:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1400px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -27,7 +27,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 30px;
 	top: 19250px;
 	
 	font-family: 'Montserrat';
@@ -41,9 +41,9 @@
 
 .textarea_tarefas_contrato{
     position: absolute;
-    width: 1630px;
+    width: 1390px;
     height: 440px;
-    left: 174px;
+    left: 30px;
     top: 19300px;
     padding: 10px 20px;
 	box-sizing: border-box;
@@ -62,7 +62,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 30px;
 	top: 19800px;
 	
 	font-family: 'Montserrat';
@@ -76,9 +76,9 @@
 
 .textarea_fora_escopo{
     position: absolute;
-    width: 1630px;
+    width: 1390px;
     height: 440px;
-    left: 174px;
+    left: 30px;
     top: 19880px;
     padding: 10px 20px;
 	box-sizing: border-box;
@@ -97,7 +97,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 20400px;
 	
 
@@ -114,7 +114,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 850px;
+	left: 700px;
 	top: 20400px;
 	
 
@@ -131,7 +131,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 800px;
+    left: 650px;
     top: 20430px;
 
     background: #F0F0F0;
@@ -141,7 +141,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1050px;
+	left: 900px;
 	top: 20400px;
 	
 
@@ -158,7 +158,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1000px;
+    left: 850px;
     top: 20430px;
 
     background: #F0F0F0;
@@ -168,7 +168,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 100px;
 	top: 20550px;
 	
 	font-family: 'Montserrat';
@@ -182,9 +182,9 @@
 
 .textarea_qual_funcao{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 141px;
-	left: 200px;
+	left: 100px;
 	top: 20600px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -203,7 +203,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 100px;
 	top: 20800px;
 	
 	font-family: 'Montserrat';
@@ -217,9 +217,9 @@
 
 .textarea_funcao_exercida{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 141px;
-	left: 200px;
+	left: 100px;
 	top: 20850px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -238,7 +238,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 100px;
 	top: 21050px;
 	
 	font-family: 'Montserrat';
@@ -252,9 +252,9 @@
 
 .textarea_motivo_alteracao{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 141px;
-	left: 200px;
+	left: 100px;
 	top: 21100px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -273,7 +273,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 100px;
 	top: 21300px;
 	
 	font-family: 'Montserrat';
@@ -287,9 +287,9 @@
 
 .textarea_salario_funcao{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 141px;
-	left: 200px;
+	left: 100px;
 	top: 21350px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -308,7 +308,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 100px;
 	top: 21500px;
 	
 	font-family: 'Montserrat';
@@ -322,9 +322,9 @@
 
 .textarea_acumulo_funcao{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 141px;
-	left: 200px;
+	left: 100px;
 	top: 21550px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -343,7 +343,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 21750px;
 	
 
@@ -360,7 +360,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1000px;
+	left: 900px;
 	top: 21750px;
 	
 
@@ -377,7 +377,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 950px;
+    left: 850px;
     top: 21780px;
 
     background: #F0F0F0;
@@ -387,7 +387,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1150px;
+	left: 1050px;
 	top: 21750px;
 	
 
@@ -404,7 +404,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1100px;
+    left: 1000px;
     top: 21780px;
 
     background: #F0F0F0;
@@ -413,7 +413,7 @@
 .label_funcao_alterada:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -423,7 +423,7 @@
 	position: absolute;
 	width: 1300px;
 	height: 0px;
-	left: -480px;
+	left: -580px;
 	top: 21200px;
 	
 	border: 5px solid #BEA469;
@@ -434,7 +434,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 100px;
 	top: 21950px;
 	
 	font-family: 'Montserrat';
@@ -448,9 +448,9 @@
 
 .textarea_prestacao_servicos{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 141px;
-	left: 200px;
+	left: 100px;
 	top: 22090px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -469,7 +469,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 30px;
 	top: 22300px;
 	
 
@@ -477,7 +477,7 @@
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
-	line-height: 109px;
+	line-height: 40px;
 	
 	color: #454242;
 }
@@ -486,7 +486,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 250px;
+	left: 80px;
 	top: 22400px;
 	
 
@@ -503,7 +503,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 200px;
+    left: 30px;
     top: 22430px;
 
     background: #F0F0F0;
@@ -513,7 +513,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 400px;
+	left: 250px;
 	top: 22400px;
 	
 
@@ -530,7 +530,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 350px;
+    left: 200px;
     top: 22430px;
 
     background: #F0F0F0;
@@ -539,7 +539,7 @@
 .label_colega:before{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -549,7 +549,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 250px;
+	left: 100px;
 	top: 22550px;
 	
 	font-family: 'Montserrat';
@@ -563,9 +563,9 @@
 
 .textarea_equiparando{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 80px;
-	left: 250px;
+	left: 100px;
 	top: 22600px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -584,7 +584,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 250px;
+	left: 100px;
 	top: 22730px;
 	
 	font-family: 'Montserrat';
@@ -600,7 +600,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 250px;
+	left: 100px;
 	top: 22770px;
 	
 	font-family: 'Montserrat';
@@ -614,9 +614,9 @@
 
 .textarea_paradigma{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 80px;
-	left: 250px;
+	left: 100px;
 	top: 22810px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -635,7 +635,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 250px;
+	left: 100px;
 	top: 22930px;
 	
 	font-family: 'Montserrat';
@@ -649,9 +649,9 @@
 
 .textarea_valor_paradigma{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 80px;
-	left: 250px;
+	left: 100px;
 	top: 22980px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -670,7 +670,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 250px;
+	left: 100px;
 	top: 23100px;
 	
 
@@ -687,7 +687,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1450px;
+	left: 1300px;
 	top: 23100px;
 	
 
@@ -704,7 +704,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1400px;
+    left: 1250px;
     top: 23130px;
 
     background: #F0F0F0;
@@ -714,7 +714,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1600px;
+	left: 1450px;
 	top: 23100px;
 	
 
@@ -731,7 +731,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1550px;
+    left: 1400px;
     top: 23130px;
 
     background: #F0F0F0;
@@ -741,7 +741,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 250px;
+	left: 100px;
 	top: 23250px;
 	
 	font-family: 'Montserrat';
@@ -755,9 +755,9 @@
 
 .textarea_trabalho_prestado{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 80px;
-	left: 250px;
+	left: 100px;
 	top: 23330px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -776,7 +776,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 250px;
+	left: 100px;
 	top: 23450px;
 	
 	font-family: 'Montserrat';
@@ -790,9 +790,9 @@
 
 .textarea_mesma_funcao{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 150px;
-	left: 250px;
+	left: 100px;
 	top: 23530px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -811,7 +811,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 250px;
+	left: 100px;
 	top: 23700px;
 	
 	font-family: 'Montserrat';
@@ -825,9 +825,9 @@
 
 .textarea_igual_valor{
 	position: absolute;
-	width: 1436px;
-	height: 150px;
-	left: 250px;
+	width: 1390px;
+	height10050px;
+	left: 100px;
 	top: 23750px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -846,7 +846,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 250px;
+	left: 100px;
 	top: 23900px;
 	
 
@@ -863,7 +863,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1150px;
+	left: 1050px;
 	top: 23900px;
 	
 
@@ -880,7 +880,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1100px;
+    left: 1000px;
     top: 23930px;
 
     background: #F0F0F0;
@@ -890,7 +890,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1350px;
+	left: 1250px;
 	top: 23900px;
 	
 
@@ -907,7 +907,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1300px;
+    left: 1200px;
     top: 23930px;
 
     background: #F0F0F0;
@@ -917,7 +917,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 250px;
+	left: 100px;
 	top: 24000px;
 	
 
@@ -934,7 +934,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1150px;
+	left: 1050px;
 	top: 24000px;
 	
 
@@ -951,7 +951,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1100px;
+    left: 1000px;
     top: 24030px;
 
     background: #F0F0F0;
@@ -961,7 +961,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1350px;
+	left: 1250px;
 	top: 24000px;
 	
 
@@ -978,7 +978,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1300px;
+    left: 1200px;
     top: 24030px;
 
     background: #F0F0F0;
@@ -988,7 +988,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 250px;
+	left: 100px;
 	top: 24130px;
 	
 
@@ -1005,7 +1005,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 300px;
+	left: 200px;
 	top: 24200px;
 	
 
@@ -1022,7 +1022,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 250px;
+    left: 150px;
     top: 24230px;
 
     background: #F0F0F0;
@@ -1032,7 +1032,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 500px;
+	left: 400px;
 	top: 24200px;
 	
 
@@ -1049,7 +1049,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 450px;
+    left: 350px;
     top: 24230px;
 
     background: #F0F0F0;
@@ -1059,7 +1059,7 @@
 	position: absolute;
 	width: 1800px;
 	height: 0px;
-	left: -680px;
+	left: -830px;
 	top: 23390px;
 	
 	border: 5px solid #BEA469;
