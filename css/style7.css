@@ -2,7 +2,7 @@
 	position: absolute;
 	width: 1242px;
 	height: 84px;
-	left: 110px;
+	left: 15px;
 	top: 30400px;
 
 	font-family: 'Montserrat';
@@ -17,7 +17,7 @@
 .titulo_ambiente_trabalho:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -27,7 +27,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 110px;
+	left: 30px;
 	top: 30550px;
 	
 	font-family: 'Montserrat';
@@ -43,7 +43,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 160px;
+	left: 80px;
 	top: 30600px;
 	
 
@@ -60,7 +60,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 110px;
+    left: 30px;
     top: 30630px;
 
     background: #F0F0F0;
@@ -70,7 +70,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 450px;
+	left: 350px;
 	top: 30600px;
 	
 
@@ -87,7 +87,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 400px;
+    left: 300px;
     top: 30630px;
 
     background: #F0F0F0;
@@ -97,7 +97,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 750px;
+	left: 650px;
 	top: 30600px;
 	
 
@@ -114,7 +114,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 700px;
+    left: 600px;
     top: 30630px;
 
     background: #F0F0F0;
@@ -124,7 +124,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 30700px;
 	
 
@@ -141,7 +141,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 160px;
+	left: 80px;
 	top: 30780px;
 	
 
@@ -158,7 +158,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 110px;
+    left: 30px;
 	top: 30810px;
 
     background: #F0F0F0;
@@ -168,7 +168,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 160px;
+	left: 80px;
 	top: 30870px;
 	
 
@@ -185,7 +185,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 110px;
+    left: 30px;
 	top: 30900px;
 
     background: #F0F0F0;
@@ -195,7 +195,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 160px;
+	left: 80px;
 	top: 30960px;
 	
 
@@ -212,7 +212,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 110px;
+    left: 30px;
 	top: 30990px;
 
     background: #F0F0F0;
@@ -222,7 +222,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 620px;
+	left: 550px;
 	top: 30780px;
 	
 
@@ -239,7 +239,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 570px;
+    left: 500px;
 	top: 30810px;
 
     background: #F0F0F0;
@@ -249,7 +249,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 620px;
+	left: 550px;
 	top: 30870px;
 	
 
@@ -266,7 +266,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 570px;
+    left: 500px;
 	top: 30900px;
 
     background: #F0F0F0;
@@ -276,7 +276,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 620px;
+	left: 550px;
 	top: 30960px;
 	
 
@@ -293,7 +293,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 570px;
+    left: 500px;
 	top: 30990px;
 
     background: #F0F0F0;
@@ -303,7 +303,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1070px;
+	left: 1000px;
 	top: 30780px;
 	
 
@@ -320,7 +320,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1020px;
+    left: 950px;
 	top: 30810px;
 
     background: #F0F0F0;
@@ -330,7 +330,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 900px;
+	left: 800px;
 	top: 30870px;
 	
 
@@ -347,7 +347,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 850px;
+    left: 750px;
 	top: 30900px;
 
     background: #F0F0F0;
@@ -357,7 +357,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 930px;
+	left: 850px;
 	top: 30960px;
 	
 
@@ -374,7 +374,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 880px;
+    left: 800px;
 	top: 30990px;
 
     background: #F0F0F0;
@@ -384,14 +384,14 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1280px;
+	left: 1220px;
 	top: 30780px;
 	
 
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 35px;
+	font-size: 40px;
 	line-height: 109px;
 	
 	color: #454242;
@@ -401,7 +401,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1230px;
+    left: 1170px;
 	top: 30810px;
 
     background: #F0F0F0;
@@ -411,7 +411,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1370px;
+	left: 1270px;
 	top: 30870px;
 	
 
@@ -428,7 +428,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1320px;
+    left: 1220px;
 	top: 30900px;
 
     background: #F0F0F0;
@@ -438,7 +438,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1220px;
+	left: 1150px;
 	top: 30960px;
 	
 
@@ -455,7 +455,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1170px;
+    left: 1100px;
 	top: 30990px;
 
     background: #F0F0F0;
@@ -465,7 +465,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 160px;
+	left: 80px;
 	top: 31080px;
 	
 
@@ -482,8 +482,8 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 110px;
-	top: 31072px;
+    left: 30px;
+	top: 31080px;
 
     background: #F0F0F0;
 }
@@ -492,7 +492,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 31200px;
 	
 
@@ -508,7 +508,7 @@
 .label_outros_riscos:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 40px auto;
@@ -516,9 +516,9 @@
 
 .input_outros_riscos{
 	position: absolute;
-	width: 1300px;
+	width: 1200px;
 	height: 65px;
-	left: 270px;
+	left: 190px;
 	top: 31185px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -538,7 +538,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 31300px;
 	
 
@@ -555,7 +555,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-    left: 160px;
+    left: 80px;
 	top: 31390px;
 	
 
@@ -572,7 +572,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 110px;
+    left: 30px;
 	top: 31380px;
 
     background: #F0F0F0;
@@ -582,7 +582,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-    left: 350px;
+    left: 250px;
 	top: 31390px;
 	
 
@@ -599,7 +599,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 300px;
+    left: 200px;
 	top: 31380px;
 
     background: #F0F0F0;
@@ -609,7 +609,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 31450px;
 	
 
@@ -626,7 +626,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-    left: 650px;
+    left: 550px;
 	top: 31450px;
 	
 
@@ -643,7 +643,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 600px;
+    left: 500px;
 	top: 31480px;
 
     background: #F0F0F0;
@@ -653,7 +653,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-    left: 850px;
+    left: 750px;
 	top: 31450px;
 	
 
@@ -670,7 +670,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 800px;
+    left: 700px;
 	top: 31480px;
 
     background: #F0F0F0;
@@ -680,7 +680,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-    left: 1250px;
+    left: 1150px;
 	top: 31450px;
 	
 
@@ -697,7 +697,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1200px;
+    left: 1100px;
 	top: 31480px;
 
     background: #F0F0F0;
@@ -707,7 +707,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-    left: 200px;
+    left: 100px;
 	top: 31540px;
 	
 
@@ -724,7 +724,7 @@
 	position: absolute;
 	width: 320px;
 	height: 65px;
-	left: 450px;
+	left: 350px;
 	top: 31560px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -744,7 +744,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-    left: 800px;
+    left: 700px;
 	top: 31540px;
 	
 
@@ -761,7 +761,7 @@
 	position: absolute;
 	width: 320px;
 	height: 65px;
-	left: 850px;
+	left: 750px;
 	top: 31560px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -781,7 +781,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 31660px;
 	
 
@@ -796,9 +796,9 @@
 
 .input_insalubridade_adicional{
 	position: absolute;
-	width: 300px;
+	width: 180px;
 	height: 65px;
-	left: 1450px;
+	left: 1350px;
 	top: 31645px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -818,7 +818,7 @@
     position: absolute;
 	width: fit-content;
 	height: 200px;
-	left: 200px;
+	left: 100px;
 	top: 31710px;
 	
 
@@ -835,7 +835,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-    left: 1000px;
+    left: 900px;
 	top: 31710px;
 
 	font-family: 'Montserrat';
@@ -851,7 +851,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 950px;
+    left: 850px;
 	top: 31740px;
 
     background: #F0F0F0;
@@ -861,7 +861,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-    left: 1200px;
+    left: 1100px;
     top: 31710px;
 
 	font-family: 'Montserrat';
@@ -877,7 +877,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1150px;
+    left: 1050px;
 	top: 31740px;
 
     background: #F0F0F0;
@@ -887,7 +887,7 @@
     position: absolute;
 	width: fit-content;
 	height: 200px;
-	left: 200px;
+	left: 100px;
 	top: 31800px;
 	
 
@@ -904,7 +904,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-    left: 250px;
+    left: 150px;
 	top: 31850px;
 
 	font-family: 'Montserrat';
@@ -920,7 +920,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 200px;
+    left: 100px;
 	top: 31880px;
 
     background: #F0F0F0;
@@ -930,7 +930,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-    left: 1000px;
+    left: 850px;
     top: 31850px;
 
 	font-family: 'Montserrat';
@@ -946,7 +946,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 950px;
+    left: 800px;
 	top: 31880px;
 
     background: #F0F0F0;
@@ -956,7 +956,7 @@
 	position: absolute;
 	width: 500px;
 	height: 0px;
-	left: -94px;
+	left: -194px;
 	top: 31700px;
 	
 	border: 5px solid #BEA469;
@@ -967,7 +967,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 32000px;
 	
 	font-family: 'Montserrat';
@@ -983,7 +983,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-    left: 1400px;
+    left: 1280px;
 	top: 32000px;
 	
 
@@ -1000,7 +1000,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1350px;
+    left: 1230px;
 	top: 32030px;
 
     background: #F0F0F0;
@@ -1010,7 +1010,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-    left: 1600px;
+    left: 1430px;
 	top: 32000px;
 	
 
@@ -1027,7 +1027,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1550px;
+    left: 1380px;
 	top: 32030px;
 
     background: #F0F0F0;
@@ -1037,7 +1037,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 32110px;
 	
 
@@ -1054,7 +1054,7 @@
 	position: absolute;
 	width: 1300px;
 	height: 150px;
-	left: 200px;
+	left: 100px;
 	top: 32150px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -1074,7 +1074,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 32350px;
 	
 
@@ -1089,9 +1089,9 @@
 
 .input_treinamento{
 	position: absolute;
-	width: 1085px;
+	width: 900px;
 	height: 65px;
-	left: 700px;
+	left: 600px;
 	top: 32335px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -1111,7 +1111,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 32450px;
 	
 
@@ -1128,7 +1128,7 @@
 	position: absolute;
 	width: 1085px;
 	height: 65px;
-	left: 200px;
+	left: 100px;
 	top: 32490px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -1148,7 +1148,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 32600px;
 	
 
@@ -1165,7 +1165,7 @@
 	position: absolute;
 	width: 1085px;
 	height: 65px;
-	left: 200px;
+	left: 100px;
 	top: 32650px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -1185,7 +1185,7 @@
 	position: absolute;
 	width: 600px;
 	height: 0px;
-	left: -145px;
+	left: -245px;
 	top: 32400px;
 	
 	border: 5px solid #BEA469;
@@ -1196,7 +1196,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 32750px;
 	
 	font-family: 'Montserrat';
@@ -1212,7 +1212,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-    left: 750px;
+    left: 650px;
 	top: 32750px;
 	
 
@@ -1229,7 +1229,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 700px;
+    left: 600px;
 	top: 32780px;
 
     background: #F0F0F0;
@@ -1239,7 +1239,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-    left: 1080px;
+    left: 980px;
 	top: 32750px;
 	
 
@@ -1256,7 +1256,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1030px;
+    left: 930px;
 	top: 32780px;
 
     background: #F0F0F0;
@@ -1266,7 +1266,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-    left: 1350px;
+    left: 1250px;
 	top: 32750px;
 	
 
@@ -1283,7 +1283,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1300px;
+    left: 1200px;
 	top: 32780px;
 
     background: #F0F0F0;
@@ -1293,7 +1293,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 32850px;
 	
 	font-family: 'Montserrat';
@@ -1309,7 +1309,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-    left: 1300px;
+    left: 1200px;
 	top: 32850px;
 	
 
@@ -1326,7 +1326,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1250px;
+    left: 1150px;
 	top: 32880px;
 
     background: #F0F0F0;
@@ -1336,7 +1336,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-    left: 1450px;
+    left: 1350px;
 	top: 32850px;
 	
 
@@ -1353,7 +1353,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1400px;
+    left: 1300px;
 	top: 32880px;
 
     background: #F0F0F0;
@@ -1363,7 +1363,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 33000px;
 	
 
@@ -1380,7 +1380,7 @@
 	position: absolute;
 	width: 300px;
 	height: 65px;
-	left: 580px;
+	left: 480px;
 	top: 32985px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -1400,7 +1400,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 33100px;
 	
 
@@ -1417,7 +1417,7 @@
 	position: absolute;
 	width: 300px;
 	height: 65px;
-	left: 1150px;
+	left: 1050px;
 	top: 33085px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -1437,7 +1437,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 33200px;
 	
 
@@ -1454,7 +1454,7 @@
 	position: absolute;
 	width: 170px;
 	height: 65px;
-	left: 980px;
+	left: 880px;
 	top: 33185px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -1474,7 +1474,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1180px;
+	left: 1080px;
 	top: 33200px;
 	
 
@@ -1491,7 +1491,7 @@
 	position: absolute;
 	width: 220px;
 	height: 65px;
-	left: 1500px;
+	left: 1400px;
 	top: 33185px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -1511,7 +1511,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 33300px;
 	
 
@@ -1528,7 +1528,7 @@
 	position: absolute;
 	width: 300px;
 	height: 65px;
-	left: 1280px;
+	left: 1180px;
 	top: 33285px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -1548,7 +1548,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 33360px;
 	
 	font-family: 'Montserrat';
@@ -1564,7 +1564,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-    left: 700px;
+    left: 600px;
 	top: 33360px;
 	
 
@@ -1581,7 +1581,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 650px;
+    left: 750px;
 	top: 33390px;
 
     background: #F0F0F0;
@@ -1591,7 +1591,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-    left: 850px;
+    left: 750px;
 	top: 33360px;
 	
 
@@ -1608,7 +1608,7 @@
 	position: absolute;
 	width: 300px;
 	height: 65px;
-	left: 1000px;
+	left: 900px;
 	top: 33385px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -1628,7 +1628,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-    left: 1450px;
+    left: 1350px;
 	top: 33360px;
 	
 
@@ -1645,7 +1645,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1400px;
+    left: 1300px;
 	top: 33390px;
 
     background: #F0F0F0;
@@ -1655,7 +1655,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-    left: 200px;
+    left: 100px;
 	top: 33470px;
 	
 
@@ -1672,7 +1672,7 @@
 	position: absolute;
 	width: 1436px;
 	height: 150px;
-	left: 200px;
+	left: 100px;
 	top: 33550px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -1692,7 +1692,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 33730px;
 	
 	font-family: 'Montserrat';
@@ -1708,7 +1708,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-    left: 250px;
+    left: 150px;
 	top: 33750px;
 	
 
@@ -1725,7 +1725,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 200px;
+    left: 100px;
 	top: 33780px;
 
     background: #F0F0F0;
@@ -1735,7 +1735,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-    left: 450px;
+    left: 350px;
 	top: 33750px;
 	
 
@@ -1752,7 +1752,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 400px;
+    left: 300px;
 	top: 33780px;
 
     background: #F0F0F0;
@@ -1762,7 +1762,7 @@
 	position: absolute;
 	width: 900px;
 	height: 0px;
-	left: -296px;
+	left: -396px;
 	top: 33400px;
 	
 	border: 5px solid #BEA469;
@@ -1773,7 +1773,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 110px;
+	left: 30px;
 	top: 33900px;
 	
 	font-family: 'Montserrat';
@@ -1787,9 +1787,9 @@
 
 .textarea_dano_moral{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 364px;
-	left: 110px;
+	left: 30px;
 	top: 33950px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -1808,7 +1808,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 110px;
+	left: 30px;
 	top: 34350px;
 	
 	font-family: 'Montserrat';
@@ -1822,9 +1822,9 @@
 
 .textarea_discriminacao{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 364px;
-	left: 110px;
+	left: 30px;
 	top: 34400px;
 	padding: 10px 20px;
 	box-sizing: border-box;
