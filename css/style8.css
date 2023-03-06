@@ -2,7 +2,7 @@
 	position: absolute;
 	width: 1242px;
 	height: 84px;
-	left: 110px;
+	left: 15px;
 	top: 34800px;
 
 	font-family: 'Montserrat';
@@ -17,7 +17,7 @@
 .titulo_afastamento_estabilidades:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -27,7 +27,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 110px;
+	left: 30px;
 	top: 34940px;
 	
 	font-family: 'Montserrat';
@@ -43,7 +43,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 160px;
+	left: 80px;
 	top: 35000px;
 	
 
@@ -60,7 +60,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 110px;
+    left: 30px;
     top: 35030px;
 
     background: #F0F0F0;
@@ -68,9 +68,9 @@
 
 .input_gestante_periodo{
 	position: absolute;
-	width: 300px;
+	width: 200px;
 	height: 65px;
-	left: 380px;
+	left: 300px;
 	top: 35025px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -90,7 +90,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 160px;
+	left: 80px;
 	top: 35080px;
 	
 
@@ -107,7 +107,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 110px;
+    left: 30px;
     top: 35110px;
 
     background: #F0F0F0;
@@ -117,7 +117,7 @@
 	position: absolute;
 	width: 300px;
 	height: 65px;
-	left: 500px;
+	left: 450px;
 	top: 35100px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -137,7 +137,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 160px;
+	left: 80px;
 	top: 35160px;
 	
 
@@ -154,7 +154,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 110px;
+    left: 30px;
     top: 35190px;
 
     background: #F0F0F0;
@@ -164,7 +164,7 @@
 	position: absolute;
 	width: 300px;
 	height: 65px;
-	left: 1070px;
+	left: 1000px;
 	top: 35180px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -184,7 +184,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 160px;
+	left: 80px;
 	top: 35240px;
 	
 
@@ -201,7 +201,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 110px;
+    left: 30px;
     top: 35270px;
 
     background: #F0F0F0;
@@ -209,9 +209,9 @@
 
 .input_representante_periodo{
 	position: absolute;
-	width: 300px;
+	width: 150px;
 	height: 65px;
-	left: 1450px;
+	left: 1340px;
 	top: 35260px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -231,7 +231,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 160px;
+	left: 80px;
 	top: 35320px;
 	
 
@@ -248,7 +248,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 110px;
+    left: 30px;
     top: 35350px;
 
     background: #F0F0F0;
@@ -258,7 +258,7 @@
 	position: absolute;
 	width: 300px;
 	height: 65px;
-	left: 1450px;
+	left: 1100px;
 	top: 35340px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -278,7 +278,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 160px;
+	left: 80px;
 	top: 35400px;
 	
 
@@ -295,7 +295,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 110px;
+    left: 30px;
     top: 35430px;
 
     background: #F0F0F0;
@@ -305,7 +305,7 @@
 	position: absolute;
 	width: 1100px;
 	height: 65px;
-	left: 290px;
+	left: 210px;
 	top: 35420px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -325,7 +325,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 35550px;
 	
 
@@ -342,7 +342,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 160px;
+	left: 80px;
 	top: 35650px;
 	
 
@@ -359,7 +359,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 110px;
+    left: 30px;
     top: 35640px;
 
     background: #F0F0F0;
@@ -369,7 +369,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 350px;
+	left: 250px;
 	top: 35650px;
 	
 
@@ -386,7 +386,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 300px;
+    left: 200px;
     top: 35640px;
 
     background: #F0F0F0;
@@ -396,7 +396,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 35750px;
 	
 
@@ -411,9 +411,9 @@
 
 .input_faltas{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 364px;
-	left: 110px;
+	left: 30px;
 	top: 35800px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -432,7 +432,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 36200px;
 	
 
@@ -447,9 +447,9 @@
 
 .input_advertencia{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 364px;
-	left: 110px;
+	left: 30px;
 	top: 36250px;
 	padding: 10px 20px;
 	box-sizing: border-box;

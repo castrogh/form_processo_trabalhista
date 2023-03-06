@@ -1454,7 +1454,7 @@
 	position: absolute;
 	width: 170px;
 	height: 65px;
-	left: 880px;
+	left: 600px;
 	top: 33185px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -1474,7 +1474,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1080px;
+	left: 800px;
 	top: 33200px;
 	
 
@@ -1491,7 +1491,7 @@
 	position: absolute;
 	width: 220px;
 	height: 65px;
-	left: 1400px;
+	left: 1150px;
 	top: 33185px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -1581,7 +1581,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 750px;
+    left: 550px;
 	top: 33390px;
 
     background: #F0F0F0;
@@ -1670,7 +1670,7 @@
 
 .input_despesas_medicas{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 150px;
 	left: 100px;
 	top: 33550px;
