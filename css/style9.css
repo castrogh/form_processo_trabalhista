@@ -2,7 +2,7 @@
 	position: absolute;
 	width: 1242px;
 	height: 84px;
-	left: 110px;
+	left: 15px;
 	top: 36650px;
 
 	font-family: 'Montserrat';
@@ -17,7 +17,7 @@
 .titulo_rescisao:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -27,7 +27,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 110px;
+	left: 30px;
 	top: 36750px;
 	
 	font-family: 'Montserrat';
@@ -43,7 +43,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 160px;
+	left: 80px;
 	top: 36800px;
 	
 
@@ -60,7 +60,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 110px;
+    left: 30px;
     top: 36830px;
 
     background: #F0F0F0;
@@ -70,7 +70,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 350px;
+	left: 250px;
 	top: 36800px;
 	
 
@@ -87,7 +87,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 300px;
+    left: 200px;
     top: 36830px;
 
     background: #F0F0F0;
@@ -97,7 +97,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 110px;
+	left: 30px;
 	top: 36900px;
 	
 	font-family: 'Montserrat';
@@ -113,7 +113,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 160px;
+	left: 80px;
 	top: 36950px;
 	
 
@@ -130,7 +130,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 110px;
+    left: 30px;
     top: 36980px;
 
     background: #F0F0F0;
@@ -140,7 +140,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 350px;
+	left: 250px;
 	top: 36950px;
 	
 
@@ -157,7 +157,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 300px;
+    left: 200px;
     top: 36980px;
 
     background: #F0F0F0;
@@ -167,7 +167,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 110px;
+	left: 30px;
 	top: 37070px;
 	
 	font-family: 'Montserrat';
@@ -183,7 +183,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 160px;
+	left: 80px;
 	top: 37100px;
 	
 
@@ -200,7 +200,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 110px;
+    left: 30px;
     top: 37130px;
 
     background: #F0F0F0;
@@ -210,7 +210,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 600px;
+	left: 500px;
 	top: 37100px;
 	
 
@@ -227,7 +227,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 550px;
+    left: 450px;
     top: 37130px;
 
     background: #F0F0F0;
@@ -237,7 +237,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 900px;
+	left: 800px;
 	top: 37100px;
 	
 
@@ -254,7 +254,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 850px;
+    left: 750px;
     top: 37130px;
 
     background: #F0F0F0;
@@ -264,7 +264,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 110px;
+	left: 30px;
 	top: 37220px;
 	
 	font-family: 'Montserrat';
@@ -280,7 +280,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 160px;
+	left: 80px;
 	top: 37250px;
 	
 
@@ -297,7 +297,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 110px;
+    left: 30px;
     top: 37280px;
 
     background: #F0F0F0;
@@ -307,7 +307,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 850px;
+	left: 750px;
 	top: 37250px;
 	
 
@@ -324,7 +324,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 800px;
+    left: 700px;
     top: 37280px;
 
     background: #F0F0F0;
@@ -334,7 +334,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 37400px;
 	
 
@@ -349,9 +349,9 @@
 
 .input_desconto_termo{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 65px;
-	left: 110px;
+	left: 30px;
 	top: 37490px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -371,7 +371,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 37600px;
 	
 
@@ -386,9 +386,9 @@
 
 .input_vendeu_ferias{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 150px;
-	left: 110px;
+	left: 30px;
 	top: 37690px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -408,7 +408,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 110px;
+	left: 30px;
 	top: 37900px;
 	
 	font-family: 'Montserrat';
@@ -424,7 +424,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 160px;
+	left: 80px;
 	top: 37950px;
 	
 
@@ -441,7 +441,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 110px;
+    left: 30px;
     top: 37980px;
 
     background: #F0F0F0;
@@ -451,7 +451,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 350px;
+	left: 250px;
 	top: 37950px;
 	
 
@@ -468,7 +468,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 300px;
+    left: 200px;
     top: 37980px;
 
     background: #F0F0F0;
@@ -478,7 +478,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 100px;
 	top: 38000px;
 	
 	font-family: 'Montserrat';
@@ -494,7 +494,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 800px;
+	left: 700px;
 	top: 38000px;
 	
 
@@ -511,7 +511,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 750px;
+    left: 650px;
     top: 38030px;
 
     background: #F0F0F0;
@@ -521,7 +521,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1000px;
+	left: 900px;
 	top: 38000px;
 	
 
@@ -538,7 +538,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 950px;
+    left: 850px;
     top: 38030px;
 
     background: #F0F0F0;
@@ -548,7 +548,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 100px;
 	top: 38070px;
 	
 	font-family: 'Montserrat';
@@ -564,7 +564,7 @@
     position: absolute;
 	width: fit-content;
 	height: 45px;
-	left: 1250px;
+	left: 1150px;
 	top: 38070px;
 	
 
@@ -581,7 +581,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1200px;
+    left: 1100px;
     top: 38100px;
 
     background: #F0F0F0;
@@ -591,7 +591,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1450px;
+	left: 1350px;
 	top: 38070px;
 	
 
@@ -608,14 +608,14 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1400px;
+    left: 1300px;
     top: 38100px;
 
     background: #F0F0F0;
 }
 .li_compreendi{
     position: absolute;
-    width: 1920px;
+    width: 1529px;
     height: 170px;
     left: 0px;
     top: 38200px;
