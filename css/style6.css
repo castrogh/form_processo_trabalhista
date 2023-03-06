@@ -2,7 +2,7 @@
 	position: absolute;
 	width: 1242px;
 	height: 84px;
-	left: 110px;
+	left: 15px;
 	top: 24380px;
 
 	font-family: 'Montserrat';
@@ -17,7 +17,7 @@
 .titulo_jornada:after{
 	content: "";
 	display: block;
-	width: 1630px;
+	width: 1400px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -27,7 +27,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 110px;
+	left: 30px;
 	top: 24530px;
 	
 	font-family: 'Montserrat';
@@ -43,7 +43,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 30px;
 	top: 24630px;
 	
 	font-family: 'Montserrat';
@@ -59,7 +59,7 @@
 	position: absolute;
 	width: 1360px;
 	height: 87px;
-	left: 200px;
+	left: 100px;
 	top: 24730px;
 	
 	background: #BEA469;
@@ -78,7 +78,7 @@
 	position: absolute;
 	width: 63px;
 	height: 109px;
-	left: 395px;
+	left: 295px;
 	top: 24790px;
 	
 	font-family: 'Montserrat';
@@ -94,7 +94,7 @@
 	position: absolute;
 	width: 63px;
 	height: 109px;
-	left: 555px;
+	left: 455px;
 	top: 24790px;
 	
 	font-family: 'Montserrat';
@@ -110,7 +110,7 @@
 	position: absolute;
 	width: 63px;
 	height: 109px;
-	left: 715px;
+	left: 615px;
 	top: 24790px;
 	
 	font-family: 'Montserrat';
@@ -126,7 +126,7 @@
 	position: absolute;
 	width: 63px;
 	height: 109px;
-	left: 875px;
+	left: 775px;
 	top: 24790px;
 	
 	font-family: 'Montserrat';
@@ -142,7 +142,7 @@
 	position: absolute;
 	width: 63px;
 	height: 109px;
-	left: 1035px;
+	left: 935px;
 	top: 24790px;
 	
 	font-family: 'Montserrat';
@@ -158,7 +158,7 @@
 	position: absolute;
 	width: 63px;
 	height: 109px;
-	left: 1195px;
+	left: 1095px;
 	top: 24790px;
 	
 	font-family: 'Montserrat';
@@ -174,7 +174,7 @@
 	position: absolute;
 	width: 63px;
 	height: 109px;
-	left: 1345px;
+	left: 1245px;
 	top: 24790px;
 	
 	font-family: 'Montserrat';
@@ -190,7 +190,7 @@
 	position: absolute;
 	width: 63px;
 	height: 109px;
-	left: 220px;
+	left: 120px;
 	top: 24840px;
 	
 	font-family: 'Montserrat';
@@ -206,7 +206,7 @@
 	position: absolute;
 	width: 63px;
 	height: 109px;
-	left: 220px;
+	left: 120px;
 	top: 24950px;
 	
 	font-family: 'Montserrat';
@@ -222,7 +222,7 @@
 	position: absolute;
 	width: 63px;
 	height: 109px;
-	left: 220px;
+	left: 120px;
 	top: 25030px;
 	
 	font-family: 'Montserrat';
@@ -238,7 +238,7 @@
 	position: absolute;
 	width: 63px;
 	height: 109px;
-	left: 220px;
+	left: 120px;
 	top: 25120px;
 	
 	font-family: 'Montserrat';
@@ -254,7 +254,7 @@
     position: absolute;
     width: 130px;
     height: 45px;
-    left: 360px;
+    left: 260px;
     top: 24870px;
 
     background: #F0F0F0;
@@ -266,7 +266,7 @@
     position: absolute;
     width: 130px;
     height: 45px;
-    left: 520px;
+    left: 420px;
     top: 24870px;
 
     background: #F0F0F0;
@@ -278,7 +278,7 @@
     position: absolute;
     width: 130px;
     height: 45px;
-    left: 680px;
+    left: 580px;
     top: 24870px;
 
     background: #F0F0F0;
@@ -290,7 +290,7 @@
     position: absolute;
     width: 130px;
     height: 45px;
-    left: 840px;
+    left: 740px;
     top: 24870px;
 
     background: #F0F0F0;
@@ -302,7 +302,7 @@
     position: absolute;
     width: 130px;
     height: 45px;
-    left: 1000px;
+    left: 900px;
     top: 24870px;
 
     background: #F0F0F0;
@@ -314,7 +314,7 @@
     position: absolute;
     width: 130px;
     height: 45px;
-    left: 1160px;
+    left: 1060px;
     top: 24870px;
 
     background: #F0F0F0;
@@ -326,7 +326,7 @@
     position: absolute;
     width: 130px;
     height: 45px;
-    left: 1320px;
+    left: 1220px;
     top: 24870px;
 
     background: #F0F0F0;
@@ -338,7 +338,7 @@
     position: absolute;
     width: 130px;
     height: 45px;
-    left: 360px;
+    left: 260px;
     top: 24950px;
 
     background: #F0F0F0;
@@ -350,7 +350,7 @@
     position: absolute;
     width: 130px;
     height: 45px;
-    left: 520px;
+    left: 420px;
     top: 24950px;
 
     background: #F0F0F0;
@@ -362,7 +362,7 @@
     position: absolute;
     width: 130px;
     height: 45px;
-    left: 680px;
+    left: 580px;
     top: 24950px;
 
     background: #F0F0F0;
@@ -374,7 +374,7 @@
     position: absolute;
     width: 130px;
     height: 45px;
-    left: 840px;
+    left: 740px;
     top: 24950px;
 
     background: #F0F0F0;
@@ -386,7 +386,7 @@
     position: absolute;
     width: 130px;
     height: 45px;
-    left: 1000px;
+    left: 900px;
     top: 24950px;
 
     background: #F0F0F0;
@@ -398,7 +398,7 @@
     position: absolute;
     width: 130px;
     height: 45px;
-    left: 1160px;
+    left: 1060px;
     top: 24950px;
 
     background: #F0F0F0;
@@ -410,7 +410,7 @@
     position: absolute;
     width: 130px;
     height: 45px;
-    left: 1320px;
+    left: 1220px;
     top: 24950px;
 
     background: #F0F0F0;
@@ -422,7 +422,7 @@
     position: absolute;
     width: 130px;
     height: 45px;
-    left: 360px;
+    left: 260px;
     top: 25030px;
 
     background: #F0F0F0;
@@ -434,7 +434,7 @@
     position: absolute;
     width: 130px;
     height: 45px;
-    left: 520px;
+    left: 420px;
     top: 25030px;
 
     background: #F0F0F0;
@@ -446,7 +446,7 @@
     position: absolute;
     width: 130px;
     height: 45px;
-    left: 680px;
+    left: 580px;
     top: 25030px;
 
     background: #F0F0F0;
@@ -458,7 +458,7 @@
     position: absolute;
     width: 130px;
     height: 45px;
-    left: 840px;
+    left: 740px;
     top: 25030px;
 
     background: #F0F0F0;
@@ -470,7 +470,7 @@
     position: absolute;
     width: 130px;
     height: 45px;
-    left: 1000px;
+    left: 900px;
     top: 25030px;
 
     background: #F0F0F0;
@@ -482,7 +482,7 @@
     position: absolute;
     width: 130px;
     height: 45px;
-    left: 1160px;
+    left: 1060px;
     top: 25030px;
 
     background: #F0F0F0;
@@ -494,7 +494,7 @@
     position: absolute;
     width: 130px;
     height: 45px;
-    left: 1320px;
+    left: 1220px;
     top: 25030px;
 
     background: #F0F0F0;
@@ -506,7 +506,7 @@
     position: absolute;
     width: 130px;
     height: 45px;
-    left: 360px;
+    left: 260px;
     top: 25110px;
 
     background: #F0F0F0;
@@ -518,7 +518,7 @@
     position: absolute;
     width: 130px;
     height: 45px;
-    left: 520px;
+    left: 420px;
     top: 25110px;
 
     background: #F0F0F0;
@@ -530,7 +530,7 @@
     position: absolute;
     width: 130px;
     height: 45px;
-    left: 680px;
+    left: 580px;
     top: 25110px;
 
     background: #F0F0F0;
@@ -542,7 +542,7 @@
     position: absolute;
     width: 130px;
     height: 45px;
-    left: 840px;
+    left: 740px;
     top: 25110px;
 
     background: #F0F0F0;
@@ -554,7 +554,7 @@
     position: absolute;
     width: 130px;
     height: 45px;
-    left: 1000px;
+    left: 900px;
     top: 25110px;
 
     background: #F0F0F0;
@@ -566,7 +566,7 @@
     position: absolute;
     width: 130px;
     height: 45px;
-    left: 1160px;
+    left: 1060px;
     top: 25110px;
 
     background: #F0F0F0;
@@ -578,7 +578,7 @@
     position: absolute;
     width: 130px;
     height: 45px;
-    left: 1320px;
+    left: 1220px;
     top: 25110px;
 
     background: #F0F0F0;
@@ -590,7 +590,7 @@
 	position: absolute;
 	width: 1360px;
 	height: 87px;
-	left: 200px;
+	left: 100px;
 	top: 25170px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -601,7 +601,7 @@
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 40px;
+	font-size: 30px;
 	line-height: 90px;
 	color: #FFFFFF;
 	text-align: left;
@@ -609,14 +609,14 @@
 
 .input_carga_horaria{
 	position: absolute;
-	width: 890px;
+	width: 850px;
 	height: 87px;
 	left: 635px;
 	top: 25170px;
 	padding: 0px 20px;
 	box-sizing: border-box;
 	
-	background: #BEA469;
+	background: #ffffff;
 	border: none;
 	border-radius: 64px;
 
@@ -625,7 +625,7 @@
 	font-weight: 700;
 	font-size: 40px;
 	line-height: 90px;
-	color: #FFFFFF;
+	color: black;
 	text-align: left;
 }
 
@@ -633,7 +633,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 25250px;
 	
 
@@ -648,9 +648,9 @@
 
 .input_horario_determinado{
 	position: absolute;
-	width: 1360px;
+	width: 1390px;
 	height: 65px;
-	left: 200px;
+	left: 100px;
 	top: 25325px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -668,10 +668,10 @@
 
 .barra_lateral7{
 	position: absolute;
-	width: 750px;
+	width: 720px;
 	height: 0px;
-	left: -220px;
-	top: 25000px;
+	left: -300px;
+	top: 25030px;
 	
 	border: 5px solid #BEA469;
 	transform: rotate(90deg);
@@ -681,7 +681,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 25450px;
 	
 
@@ -698,7 +698,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 25510px;
 	
 	font-family: 'Montserrat';
@@ -714,7 +714,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 300px;
+	left: 150px;
 	top: 25530px;
 	
 
@@ -731,7 +731,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 250px;
+    left: 100px;
     top: 25560px;
 
     background: #F0F0F0;
@@ -741,7 +741,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 560px;
+	left: 410px;
 	top: 25530px;
 	
 
@@ -758,7 +758,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 510px;
+    left: 360px;
     top: 25560px;
 
     background: #F0F0F0;
@@ -768,7 +768,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 850px;
+	left: 700px;
 	top: 25530px;
 	
 
@@ -785,7 +785,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 800px;
+    left: 650px;
     top: 25560px;
 
     background: #F0F0F0;
@@ -795,7 +795,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1150px;
+	left: 1000px;
 	top: 25530px;
 	
 
@@ -812,7 +812,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1100px;
+    left: 950px;
     top: 25560px;
 
     background: #F0F0F0;
@@ -822,7 +822,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 25620px;
 	
 	font-family: 'Montserrat';
@@ -837,7 +837,7 @@
 .label_quem_assinava:before{
 	content: "";
 	display: block;
-	width: 1300px;
+	width: 1390px;
 	height: 3px;
 	background: #BEA469;
 	margin: 8px auto;
@@ -847,7 +847,7 @@
 	position: absolute;
 	width: 1300px;
 	height: 65px;
-	left: 200px;
+	left: 100px;
 	top: 25730px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -867,7 +867,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 25850px;
 	
 	font-family: 'Montserrat';
@@ -883,7 +883,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1150px;
+	left: 1050px;
 	top: 25810px;
 	
 
@@ -900,7 +900,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1100px;
+    left: 1000px;
     top: 25840px;
 
     background: #F0F0F0;
@@ -910,7 +910,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1300px;
+	left: 1200px;
 	top: 25810px;
 	
 
@@ -927,7 +927,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1250px;
+    left: 1150px;
     top: 25840px;
 
     background: #F0F0F0;
@@ -937,7 +937,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 25950px;
 	
 	font-family: 'Montserrat';
@@ -953,7 +953,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 950px;
+	left: 850px;
 	top: 25910px;
 	
 
@@ -970,7 +970,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 900px;
+    left: 800px;
     top: 25940px;
 
     background: #F0F0F0;
@@ -980,7 +980,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1100px;
+	left: 1000px;
 	top: 25910px;
 	
 
@@ -997,7 +997,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1050px;
+    left: 950px;
     top: 25940px;
 
     background: #F0F0F0;
@@ -1007,7 +1007,7 @@
 	position: absolute;
 	width: 480px;
 	height: 0px;
-	left: -85px;
+	left: -180px;
 	top: 25750px;
 	
 	border: 5px solid #BEA469;
@@ -1018,7 +1018,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 26100px;
 	
 
@@ -1035,7 +1035,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 26160px;
 	
 	font-family: 'Montserrat';
@@ -1051,7 +1051,7 @@
 	position: absolute;
 	width: 350px;
 	height: 65px;
-	left: 1000px;
+	left: 900px;
 	top: 26140px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -1071,7 +1071,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 26250px;
 	
 	font-family: 'Montserrat';
@@ -1087,7 +1087,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 250px;
+	left: 150px;
 	top: 26270px;
 	
 
@@ -1104,7 +1104,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 200px;
+    left: 100px;
     top: 26300px;
 
     background: #F0F0F0;
@@ -1114,7 +1114,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 600px;
+	left: 500px;
 	top: 26270px;
 	
 
@@ -1131,7 +1131,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 550px;
+    left: 450px;
     top: 26300px;
 
     background: #F0F0F0;
@@ -1141,7 +1141,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 850px;
+	left: 750px;
 	top: 26270px;
 	
 
@@ -1158,7 +1158,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 800px;
+    left: 700px;
     top: 26300px;
 
     background: #F0F0F0;
@@ -1168,7 +1168,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1150px;
+	left: 1050px;
 	top: 26270px;
 	
 
@@ -1185,7 +1185,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1100px;
+    left: 1000px;
     top: 26300px;
 
     background: #F0F0F0;
@@ -1195,8 +1195,8 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
-	top: 26420px;
+	left: 100px;
+	top: 26390px;
 	
 	font-family: 'Montserrat';
 	font-style: normal;
@@ -1211,8 +1211,8 @@
 	position: absolute;
 	width: 1300px;
 	height: 65px;
-	left: 200px;
-	top: 26500px;
+	left: 100px;
+	top: 26470px;
 	padding: 0px 20px;
 	box-sizing: border-box;
 	
@@ -1231,7 +1231,7 @@
 	position: absolute;
 	width: 405px;
 	height: 0px;
-	left: -50px;
+	left: -150px;
 	top: 26350px;
 	
 	border: 5px solid #BEA469;
@@ -1242,7 +1242,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 26600px;
 	
 
@@ -1259,7 +1259,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 26660px;
 	
 	font-family: 'Montserrat';
@@ -1275,7 +1275,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 650px;
+	left: 550px;
 	top: 26625px;
 	
 
@@ -1292,7 +1292,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 600px;
+    left: 500px;
     top: 26655px;
 
     background: #F0F0F0;
@@ -1302,7 +1302,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 800px;
+	left: 700px;
 	top: 26625px;
 	
 
@@ -1319,7 +1319,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 750px;
+    left: 650px;
     top: 26655px;
 
     background: #F0F0F0;
@@ -1329,7 +1329,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 26720px;
 	
 	font-family: 'Montserrat';
@@ -1345,7 +1345,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1050px;
+	left: 950px;
 	top: 26680px;
 	
 
@@ -1362,7 +1362,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1000px;
+    left: 900px;
     top: 26710px;
 
     background: #F0F0F0;
@@ -1372,7 +1372,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1200px;
+	left: 1100px;
 	top: 26680px;
 	
 
@@ -1389,7 +1389,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1150px;
+    left: 1050px;
     top: 26710px;
 
     background: #F0F0F0;
@@ -1399,7 +1399,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 26790px;
 	
 	font-family: 'Montserrat';
@@ -1415,7 +1415,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 650px;
+	left: 550px;
 	top: 26790px;
 	
 
@@ -1432,7 +1432,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 600px;
+    left: 500px;
     top: 26780px;
 
     background: #F0F0F0;
@@ -1442,7 +1442,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 800px;
+	left: 700px;
 	top: 26790px;
 	
 
@@ -1459,7 +1459,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 750px;
+    left: 650px;
     top: 26780px;
 
     background: #F0F0F0;
@@ -1469,7 +1469,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 26860px;
 	
 	font-family: 'Montserrat';
@@ -1485,7 +1485,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1050px;
+	left: 950px;
 	top: 26860px;
 	
 
@@ -1502,7 +1502,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1000px;
+    left: 900px;
     top: 26850px;
 
     background: #F0F0F0;
@@ -1512,7 +1512,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1200px;
+	left: 1100px;
 	top: 26860px;
 	
 
@@ -1529,7 +1529,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1150px;
+    left: 1050px;
     top: 26850px;
 
     background: #F0F0F0;
@@ -1539,7 +1539,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 26940px;
 	
 	font-family: 'Montserrat';
@@ -1555,7 +1555,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1250px;
+	left: 1150px;
 	top: 26940px;
 	
 
@@ -1572,7 +1572,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1200px;
+    left: 1100px;
     top: 26930px;
 
     background: #F0F0F0;
@@ -1582,7 +1582,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1400px;
+	left: 1300px;
 	top: 26940px;
 	
 
@@ -1599,7 +1599,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1350px;
+    left: 1250px;
     top: 26930px;
 
     background: #F0F0F0;
@@ -1609,7 +1609,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 27015px;
 	
 	font-family: 'Montserrat';
@@ -1625,7 +1625,7 @@
 	position: absolute;
 	width: 350px;
 	height: 65px;
-	left: 1100px;
+	left: 1000px;
 	top: 27000px;
 	padding: 0px 20px;
 	box-sizing: border-box;
@@ -1645,7 +1645,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 27090px;
 	
 	font-family: 'Montserrat';
@@ -1661,7 +1661,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1150px;
+	left: 1050px;
 	top: 27090px;
 
 	font-family: 'Montserrat';
@@ -1677,7 +1677,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1100px;
+    left: 1000px;
 	top: 27080px;
 
     background: #F0F0F0;
@@ -1687,7 +1687,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1300px;
+	left: 1200px;
 	top: 27090px;
 	
 	font-family: 'Montserrat';
@@ -1703,7 +1703,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1250px;
+    left: 1150px;
     top: 27080px;
 
     background: #F0F0F0;
@@ -1713,7 +1713,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 27170px;
 	
 	font-family: 'Montserrat';
@@ -1729,7 +1729,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 250px;
+	left: 150px;
 	top: 27230px;
 
 	font-family: 'Montserrat';
@@ -1745,7 +1745,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 200px;
+    left: 100px;
 	top: 27220px;
 
     background: #F0F0F0;
@@ -1755,7 +1755,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 400px;
+	left: 300px;
 	top: 27230px;
 	
 	font-family: 'Montserrat';
@@ -1771,7 +1771,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 350px;
+    left: 250px;
     top: 27220px;
 
     background: #F0F0F0;
@@ -1781,7 +1781,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 27325px;
 	
 	font-family: 'Montserrat';
@@ -1797,7 +1797,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 850px;
+	left: 750px;
 	top: 27325px;
 
 	font-family: 'Montserrat';
@@ -1813,7 +1813,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 800px;
+    left: 700px;
 	top: 27315px;
 
     background: #F0F0F0;
@@ -1823,7 +1823,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 1000px;
+	left: 900px;
 	top: 27325px;
 	
 	font-family: 'Montserrat';
@@ -1839,7 +1839,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 950px;
+    left: 850px;
 	top: 27315px;
 
     background: #F0F0F0;
@@ -1849,7 +1849,7 @@
 	position: absolute;
 	width: 730px;
 	height: 0px;
-	left: -210px;
+	left: -310px;
 	top: 27010px;
 	
 	border: 5px solid #BEA469;
@@ -1860,7 +1860,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 27450px;
 	
 
@@ -1877,7 +1877,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 27510px;
 	
 	font-family: 'Montserrat';
@@ -1893,7 +1893,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 250px;
+	left: 150px;
 	top: 27570px;
 	
 
@@ -1910,7 +1910,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 200px;
+    left: 100px;
     top: 27600px;
 
     background: #F0F0F0;
@@ -1920,7 +1920,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 400px;
+	left: 300px;
 	top: 27570px;
 	
 
@@ -1937,7 +1937,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 350px;
+    left: 250px;
     top: 27600px;
 
     background: #F0F0F0;
@@ -1947,7 +1947,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 100px;
 	top: 27700px;
 	
 	font-family: 'Montserrat';
@@ -1961,9 +1961,9 @@
 
 .textarea_habitualidade{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 150px;
-	left: 200px;
+	left: 100px;
 	top: 27750px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -1982,7 +1982,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 100px;
 	top: 27950px;
 	
 	font-family: 'Montserrat';
@@ -1996,9 +1996,9 @@
 
 .textarea_adicional{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 150px;
-	left: 200px;
+	left: 100px;
 	top: 28000px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -2017,7 +2017,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 100px;
 	top: 28200px;
 	
 	font-family: 'Montserrat';
@@ -2031,9 +2031,9 @@
 
 .textarea_prorrogacao{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 150px;
-	left: 200px;
+	left: 100px;
 	top: 28280px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -2052,7 +2052,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 100px;
 	top: 28460px;
 	
 	font-family: 'Montserrat';
@@ -2066,9 +2066,9 @@
 
 .textarea_compensacao{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 150px;
-	left: 200px;
+	left: 100px;
 	top: 28570px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -2087,7 +2087,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 100px;
 	top: 28750px;
 	
 	font-family: 'Montserrat';
@@ -2101,9 +2101,9 @@
 
 .textarea_banco_horas{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 150px;
-	left: 200px;
+	left: 100px;
 	top: 28830px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -2122,7 +2122,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 100px;
 	top: 29000px;
 	
 	font-family: 'Montserrat';
@@ -2136,9 +2136,9 @@
 
 .textarea_supressao_he{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 150px;
-	left: 200px;
+	left: 100px;
 	top: 29080px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -2157,7 +2157,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 100px;
 	top: 29250px;
 	
 	font-family: 'Montserrat';
@@ -2171,9 +2171,9 @@
 
 .textarea_regime_escala{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 150px;
-	left: 200px;
+	left: 100px;
 	top: 29290px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -2192,7 +2192,7 @@
 	position: absolute;
 	width: 1930px;
 	height: 0px;
-	left: -810px;
+	left: -910px;
 	top: 28460px;
 	
 	border: 5px solid #BEA469;
@@ -2203,7 +2203,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 110px;
+	left: 30px;
 	top: 29490px;
 	
 
@@ -2220,7 +2220,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 200px;
+	left: 100px;
 	top: 29550px;
 	
 	font-family: 'Montserrat';
@@ -2236,7 +2236,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 250px;
+	left: 150px;
 	top: 29600px;
 	
 
@@ -2253,7 +2253,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 200px;
+    left: 100px;
     top: 29630px;
 
     background: #F0F0F0;
@@ -2263,7 +2263,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 250px;
+	left: 150px;
 	top: 29670px;
 	
 
@@ -2280,7 +2280,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 200px;
+    left: 100px;
     top: 29700px;
 
     background: #F0F0F0;
@@ -2290,7 +2290,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 250px;
+	left: 150px;
 	top: 29740px;
 	
 
@@ -2307,7 +2307,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 200px;
+    left: 100px;
     top: 29770px;
 
     background: #F0F0F0;
@@ -2317,7 +2317,7 @@
     position: absolute;
 	width: fit-content;
 	height: 109px;
-	left: 250px;
+	left: 150px;
 	top: 29810px;
 	
 
@@ -2334,7 +2334,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 200px;
+    left: 100px;
     top: 29840px;
 
     background: #F0F0F0;
@@ -2344,7 +2344,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 100px;
 	top: 29950px;
 	
 	font-family: 'Montserrat';
@@ -2358,9 +2358,9 @@
 
 .textarea_horario_prestacao{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 80px;
-	left: 200px;
+	left: 100px;
 	top: 30000px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -2379,7 +2379,7 @@
 	position: absolute;
 	width: fit-content;
 	height: fit-content;
-	left: 200px;
+	left: 100px;
 	top: 30100px;
 	
 	font-family: 'Montserrat';
@@ -2393,9 +2393,9 @@
 
 .textarea_transf_horario{
 	position: absolute;
-	width: 1436px;
+	width: 1390px;
 	height: 150px;
-	left: 200px;
+	left: 100px;
 	top: 30190px;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -2414,7 +2414,7 @@
 	position: absolute;
 	width: 790px;
 	height: 0px;
-	left: -240px;
+	left: -340px;
 	top: 29930px;
 	
 	border: 5px solid #BEA469;
