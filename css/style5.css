@@ -201,7 +201,7 @@
 
 .label_funcao_exercida{
 	position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: fit-content;
 	left: 100px;
 	top: 20800px;
@@ -236,7 +236,7 @@
 
 .label_motivo_alteracao{
 	position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: fit-content;
 	left: 100px;
 	top: 21050px;
@@ -271,7 +271,7 @@
 
 .label_salario_funcao{
 	position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: fit-content;
 	left: 100px;
 	top: 21300px;
@@ -306,7 +306,7 @@
 
 .label_acumulo_funcao{
 	position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: fit-content;
 	left: 100px;
 	top: 21500px;
@@ -826,7 +826,7 @@
 .textarea_igual_valor{
 	position: absolute;
 	width: 1390px;
-	height10050px;
+	height: 150px;
 	left: 100px;
 	top: 23750px;
 	padding: 10px 20px;
