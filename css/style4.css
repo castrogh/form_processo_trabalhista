@@ -366,7 +366,7 @@
 
 .label_plr{
     position: absolute;
-	width: fit-content;
+	width: 900px;
 	height: 109px;
 	left: 30px;
 	top: 13800px;
@@ -376,7 +376,7 @@
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
-	line-height: 109px;
+	line-height: 35px;
 	
 	color: #454242;
 }
@@ -523,7 +523,7 @@
 	width: 900px;
 	height: 109px;
 	left: 30px;
-	top: 14050px;
+	top: 14085px;
 	
 
 	font-family: 'Montserrat';
