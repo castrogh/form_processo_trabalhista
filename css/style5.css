@@ -633,7 +633,7 @@
 
 .label_valor_paradigma{
 	position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: fit-content;
 	left: 100px;
 	top: 22930px;
@@ -668,7 +668,7 @@
 
 .label_requisitos{
     position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: 109px;
 	left: 100px;
 	top: 23100px;
