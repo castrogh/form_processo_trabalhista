@@ -844,17 +844,17 @@
 
 .label_tempo_servico{
     position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: 109px;
 	left: 100px;
-	top: 23900px;
+	top: 23935px;
 	
 
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
-	line-height: 109px;
+	line-height: 35px;
 	
 	color: #454242;
 }
@@ -915,17 +915,17 @@
 
 .label_tempo_funcao{
     position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: 109px;
 	left: 100px;
-	top: 24000px;
+	top: 24035px;
 	
 
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
-	line-height: 109px;
+	line-height: 35px;
 	
 	color: #454242;
 }
@@ -986,7 +986,7 @@
 
 .label_quadro_pessoal{
     position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: 109px;
 	left: 100px;
 	top: 24130px;
