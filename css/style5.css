@@ -432,7 +432,7 @@
 
 .label_prestacao_servicos{
 	position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: fit-content;
 	left: 100px;
 	top: 21950px;
@@ -547,7 +547,7 @@
 
 .label_equiparando{
 	position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: fit-content;
 	left: 100px;
 	top: 22550px;
@@ -582,7 +582,7 @@
 
 .label_paradigma{
 	position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: fit-content;
 	left: 100px;
 	top: 22730px;
@@ -598,7 +598,7 @@
 
 .label_paradigma_obs{
 	position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: fit-content;
 	left: 100px;
 	top: 22770px;
