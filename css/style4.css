@@ -1092,16 +1092,16 @@
 
 .label_contrato_individual{
 	position: absolute;
-	width: fit-content;
+	width: 1000px;
 	height: 109px;
 	left: 100px;
-	top: 15100px;
+	top: 15135px;
 	
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
-	line-height: 109px;
+	line-height: 35px;
 	
 	color: #454242;
 }
