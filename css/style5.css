@@ -25,7 +25,7 @@
 
 .label_tarefas_contrato{
 	position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: fit-content;
 	left: 30px;
 	top: 19250px;
@@ -60,7 +60,7 @@
 
 .label_fora_escopo{
 	position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: fit-content;
 	left: 30px;
 	top: 19800px;
@@ -95,17 +95,17 @@
 
 .label_mudanca_funcao{
     position: absolute;
-	width: fit-content;
+	width: 1000px;
 	height: 109px;
 	left: 30px;
-	top: 20400px;
+	top: 20435px;
 	
 
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
-	line-height: 109px;
+	line-height: 35px;
 	
 	color: #454242;
 }
