@@ -1127,8 +1127,8 @@
 
 .label_atividades{
 	position: absolute;
-	width: fit-content;
-	height: 1109px;
+	width: 1000px;
+	height: fit-content;
 	left: 100px;
 	top: 15370px;
 	
@@ -1162,7 +1162,7 @@
 
 .label_comparecimento{
 	position: absolute;
-	width: fit-content;
+	width: 1100px;
 	height: fit-content;
 	left: 100px;
 	top: 15640px;
@@ -1197,7 +1197,7 @@
 
 .label_horarios{
 	position: absolute;
-	width: fit-content;
+	width: 1000px;
 	height: fit-content;
 	left: 100px;
 	top: 15920px;
@@ -1232,7 +1232,7 @@
 
 .label_regime{
 	position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: fit-content;
 	left: 100px;
 	top: 16150px;
@@ -1267,7 +1267,7 @@
 
 .label_despesas{
 	position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: fit-content;
 	left: 100px;
 	top: 16450px;
@@ -1302,7 +1302,7 @@
 
 .label_convencao{
 	position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: fit-content;
 	left: 100px;
 	top: 16690px;
