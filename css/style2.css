@@ -57,7 +57,7 @@
 	position: absolute;
 	width: 52px;
 	height: 52px;
-	left: 100px;
+	left: 30px;
 	top: 5900px;
 	
 	background: #D9D9D9;	
@@ -65,9 +65,9 @@
 
 .label_checkbox_1{
 	position: absolute;
-	width: 1341px;
+	width: 1390px;
 	height: 109px;
-	left: 160px;
+	left: 90px;
 	top: 5870px;
 
 	font-family: 'Montserrat';
@@ -83,7 +83,7 @@
 	position: absolute;
 	width: 52px;
 	height: 52px;
-	left: 100px;
+	left: 30px;
 	top: 6000px;
 	
 	background: #D9D9D9;	
@@ -91,9 +91,9 @@
 
 .label_checkbox_2{
 	position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: 109px;
-	left: 160px;
+	left: 90px;
 	top: 5970px;
 
 	font-family: 'Montserrat';
@@ -109,7 +109,7 @@
 	position: absolute;
 	width: 52px;
 	height: 52px;
-	left: 100px;
+	left: 30px;
 	top: 6100px;
 	
 	background: #D9D9D9;	
@@ -117,9 +117,9 @@
 
 .label_checkbox_3{
 	position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: 109px;
-	left: 160px;
+	left: 90px;
 	top: 6070px;
 
 	font-family: 'Montserrat';
@@ -135,7 +135,7 @@
 	position: absolute;
 	width: 52px;
 	height: 52px;
-	left: 100px;
+	left: 30px;
 	top: 6200px;
 	
 	background: #D9D9D9;	
@@ -143,9 +143,9 @@
 
 .label_checkbox_4{
 	position: absolute;
-	width: fit-content;
+	width: 1400px;
 	height: 109px;
-	left: 160px;
+	left: 90px;
 	top: 6170px;
 
 	font-family: 'Montserrat';
@@ -722,7 +722,7 @@
 
 .label_radio_contrato_2{
 	position: absolute;
-	width: fit-content;
+	width: 900px;
 	height: 109px;
 	left: 450px;
 	top: 7630px;

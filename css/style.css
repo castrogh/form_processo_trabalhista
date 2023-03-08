@@ -847,16 +847,16 @@ p {
 
 .label_nome_filho_obs{
 	position: absolute;
-	width: fit-content;
+	width: 950px;
 	height: 109px;
 	left: 30px;
-	top: 3244px;
+	top: 3279px;
 	
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 200;
 	font-size: 30px;
-	line-height: 109px;
+	line-height: 35px;
 
 	color: #454242;	
 }
@@ -1691,13 +1691,7 @@ p {
 
 /* Media Query */
 @media screen and (max-width: 768px) {
-.img_header{
-	display: none;
-}
-input{
-	width: 100%;
-	left: 0px;
-}
+
 }
 
 @media screen and (max-width:600px){
