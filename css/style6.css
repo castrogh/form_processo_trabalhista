@@ -41,7 +41,7 @@
 
 .label_preencher_quadro{
 	position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: fit-content;
 	left: 30px;
 	top: 24630px;
@@ -696,7 +696,7 @@
 
 .label_jornada_assinada{
     position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: 109px;
 	left: 100px;
 	top: 25510px;
@@ -865,7 +865,7 @@
 
 .label_horarios_anotados{
     position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: 109px;
 	left: 100px;
 	top: 25850px;
@@ -935,7 +935,7 @@
 
 .label_20_fun{
     position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: 109px;
 	left: 100px;
 	top: 25950px;
@@ -1016,7 +1016,7 @@
 
 .label_int_intrajornada{
     position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: 109px;
 	left: 30px;
 	top: 26100px;
@@ -1033,7 +1033,7 @@
 
 .label_havia_horario{
     position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: 109px;
 	left: 100px;
 	top: 26160px;
@@ -1069,7 +1069,7 @@
 
 .label_anotacao_intervalo{
     position: absolute;
-	width: fit-content;
+	width: 1000px;
 	height: 109px;
 	left: 100px;
 	top: 26250px;
@@ -1193,7 +1193,7 @@
 
 .label_convencao_2{
     position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: 109px;
 	left: 100px;
 	top: 26390px;
