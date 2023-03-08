@@ -1407,17 +1407,17 @@
 
 .label_outra_empresa{
     position: absolute;
-	width: fit-content;
+	width: 1000px;
 	height: 109px;
 	left: 30px;
-	top: 17400px;
+	top: 17435px;
 	
 
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
-	line-height: 109px;
+	line-height: 35px;
 	
 	color: #454242;
 }
@@ -1478,7 +1478,7 @@
 
 .label_quais_empresas{
 	position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: fit-content;
 	left: 100px;
 	top: 17530px;
@@ -1513,7 +1513,7 @@
 
 .label_atividades_executadas{
 	position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: fit-content;
 	left: 100px;
 	top: 17750px;
@@ -1548,7 +1548,7 @@
 
 .label_empresa_terceira{
 	position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: fit-content;
 	left: 100px;
 	top: 17950px;
