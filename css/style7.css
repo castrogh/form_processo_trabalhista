@@ -1398,7 +1398,7 @@
 
 .label_afastamento{
     position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: 109px;
 	left: 100px;
 	top: 33100px;
@@ -1509,7 +1509,7 @@
 
 .label_comunicacao_acidente{
     position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: 109px;
 	left: 100px;
 	top: 33300px;
@@ -1653,17 +1653,17 @@
 
 .label_despesas_medicas{
     position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: 109px;
     left: 100px;
-	top: 33470px;
+	top: 33505px;
 	
 
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
-	line-height: 109px;
+	line-height: 35px;
 	
 	color: #454242;
 }
@@ -1690,7 +1690,7 @@
 
 .label_supressao_plano{
     position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: 109px;
 	left: 100px;
 	top: 33730px;
@@ -1771,7 +1771,7 @@
 
 .label_dano_moral{
 	position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: fit-content;
 	left: 30px;
 	top: 33900px;
@@ -1806,7 +1806,7 @@
 
 .label_discriminacao{
 	position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: fit-content;
 	left: 30px;
 	top: 34350px;
