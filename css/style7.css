@@ -885,7 +885,7 @@
 
 .label_periculosidade_contato{
     position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: 200px;
 	left: 100px;
 	top: 31800px;
@@ -902,7 +902,7 @@
 
 .label_periculosidade_contato_inter{
     position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: 109px;
     left: 150px;
 	top: 31850px;
@@ -965,16 +965,16 @@
 
 .label_epi{
     position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: 109px;
 	left: 30px;
-	top: 32000px;
+	top: 32035px;
 	
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
-	line-height: 109px;
+	line-height: 35px;
 	
 	color: #454242;
 }
