@@ -25,7 +25,7 @@
 
 .label_acordo_contrato{
 	position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: fit-content;
 	left: 30px;
 	top: 36750px;
@@ -95,7 +95,7 @@
 
 .label_acordo_extrajudicial{
 	position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: fit-content;
 	left: 30px;
 	top: 36900px;
@@ -165,7 +165,7 @@
 
 .label_homologacao{
 	position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: fit-content;
 	left: 30px;
 	top: 37070px;
@@ -262,7 +262,7 @@
 
 .label_verbas{
 	position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: fit-content;
 	left: 30px;
 	top: 37220px;
@@ -332,7 +332,7 @@
 
 .label_desconto_termo{
     position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: 109px;
 	left: 30px;
 	top: 37400px;
@@ -369,7 +369,7 @@
 
 .label_vendeu_ferias{
     position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: 109px;
 	left: 30px;
 	top: 37600px;
@@ -406,7 +406,7 @@
 
 .label_guias_habilitacao{
 	position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: fit-content;
 	left: 30px;
 	top: 37900px;
@@ -476,16 +476,16 @@
 
 .label_sacar_fgts{
 	position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: fit-content;
 	left: 100px;
-	top: 38000px;
+	top: 38035px;
 	
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
-	line-height: 109px;
+	line-height: 35px;
 	
 	color: #454242;
 }
@@ -546,16 +546,16 @@
 
 .label_seguro_desemprego{
 	position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: fit-content;
 	left: 100px;
-	top: 38070px;
+	top: 38105px;
 	
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
-	line-height: 109px;
+	line-height: 35px;
 	
 	color: #454242;
 }
