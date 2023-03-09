@@ -1109,7 +1109,7 @@
 
 .label_epi_subs{
     position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: 109px;
 	left: 100px;
 	top: 32450px;
@@ -1146,7 +1146,7 @@
 
 .label_epi_fiscalizacao{
     position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: 109px;
 	left: 100px;
 	top: 32600px;
@@ -1194,16 +1194,16 @@
 
 .label_exames{
     position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: 109px;
 	left: 30px;
-	top: 32750px;
+	top: 32785px;
 	
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
-	line-height: 109px;
+	line-height: 35px;
 	
 	color: #454242;
 }
@@ -1291,16 +1291,16 @@
 
 .label_acidente{
     position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: 109px;
 	left: 30px;
-	top: 32850px;
+	top: 32885px;
 	
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
-	line-height: 109px;
+	line-height: 35px;
 	
 	color: #454242;
 }
