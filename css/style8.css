@@ -135,17 +135,17 @@
 
 .label_cipa{
     position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: 109px;
 	left: 80px;
-	top: 35160px;
+	top: 35195px;
 	
 
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
-	line-height: 109px;
+	line-height: 35px;
 	
 	color: #454242;
 }
