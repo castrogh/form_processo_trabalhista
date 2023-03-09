@@ -2155,7 +2155,7 @@
 
 .label_regime_escala{
 	position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: fit-content;
 	left: 100px;
 	top: 29250px;
@@ -2201,7 +2201,7 @@
 
 .label_trabalho_noturno{
     position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: 109px;
 	left: 30px;
 	top: 29490px;
@@ -2288,7 +2288,7 @@
 
 .label_rural_lav{
     position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: 109px;
 	left: 150px;
 	top: 29740px;
@@ -2315,7 +2315,7 @@
 
 .label_advogado{
     position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: 109px;
 	left: 150px;
 	top: 29810px;
@@ -2342,7 +2342,7 @@
 
 .label_horario_prestacao{
 	position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: fit-content;
 	left: 100px;
 	top: 29950px;
@@ -2377,7 +2377,7 @@
 
 .label_transf_horario{
 	position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: fit-content;
 	left: 100px;
 	top: 30100px;
