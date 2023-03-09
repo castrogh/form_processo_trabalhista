@@ -323,7 +323,7 @@
 
 .label_estabilidade_desligamento{
     position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: 109px;
 	left: 30px;
 	top: 35550px;
@@ -394,7 +394,7 @@
 
 .label_faltas{
     position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: 109px;
 	left: 30px;
 	top: 35750px;
@@ -430,7 +430,7 @@
 
 .label_advertencia{
     position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: 109px;
 	left: 30px;
 	top: 36200px;
