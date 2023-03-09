@@ -278,17 +278,17 @@
 
 .label_verbas_rescisorias_sim{
     position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: 109px;
 	left: 80px;
-	top: 37250px;
+	top: 37285px;
 	
 
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
-	line-height: 109px;
+	line-height: 35px;
 	
 	color: #454242;
 }
