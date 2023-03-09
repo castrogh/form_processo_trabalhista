@@ -25,7 +25,7 @@
 
 .label_estabilidades{
 	position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: fit-content;
 	left: 30px;
 	top: 34940px;
@@ -182,17 +182,17 @@
 
 .label_representante{
     position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: 109px;
 	left: 80px;
-	top: 35240px;
+	top: 35275px;
 	
 
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 35px;
-	line-height: 109px;
+	line-height: 35px;
 	
 	color: #454242;
 }
@@ -229,17 +229,17 @@
 
 .label_representante_empregados{
     position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: 109px;
 	left: 80px;
-	top: 35320px;
+	top: 35355px;
 	
 
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 35px;
-	line-height: 109px;
+	line-height: 35px;
 	
 	color: #454242;
 }
