@@ -25,7 +25,7 @@
 
 .label_ambiente_trabalho{
 	position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: fit-content;
 	left: 30px;
 	top: 30550px;
@@ -122,7 +122,7 @@
 
 .label_exposicao{
     position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: 109px;
 	left: 30px;
 	top: 30700px;
@@ -132,7 +132,7 @@
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
-	line-height: 109px;
+	line-height: 35px;
 	
 	color: #454242;
 }
@@ -463,7 +463,7 @@
 
 .label_roubos{
     position: absolute;
-	width: fit-content;
+	width: 1390px;
 	height: 109px;
 	left: 80px;
 	top: 31080px;
@@ -536,7 +536,7 @@
 
 .label_adicional_riscos{
     position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: 109px;
 	left: 30px;
 	top: 31300px;
@@ -779,7 +779,7 @@
 
 .label_insalubridade_adicional{
     position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: 109px;
 	left: 100px;
 	top: 31660px;
@@ -799,7 +799,7 @@
 	width: 180px;
 	height: 65px;
 	left: 1350px;
-	top: 31645px;
+	top: 31680px;
 	padding: 0px 20px;
 	box-sizing: border-box;
 	
@@ -810,23 +810,23 @@
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
-	line-height: 109px;
+	line-height: 35px;
 	color: #000000;
 }
 
 .label_periculosidade_30{
     position: absolute;
-	width: fit-content;
+	width: 1300px;
 	height: 200px;
 	left: 100px;
-	top: 31710px;
+	top: 31745px;
 	
 
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
-	line-height: 109px;
+	line-height: 35px;
 	
 	color: #454242;
 }
